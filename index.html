@@ -29,7 +29,6 @@
       position: relative;
     }
 
-    /* Абстрактный фон */
     body::before {
       content: '';
       position: absolute;
@@ -61,7 +60,6 @@
       50% { transform: translateY(-8px); }
     }
 
-    /* Header */
     header {
       position: relative;
       z-index: 10;
@@ -115,7 +113,6 @@
       box-shadow: 0 8px 20px rgba(59, 130, 246, 0.5);
     }
 
-    /* Hero */
     .hero {
       padding: 4rem 2rem;
       text-align: center;
@@ -143,16 +140,14 @@
       margin-bottom: 2rem;
     }
 
-    /* Инструкция */
     .instructions {
       max-width: 600px;
-      margin: 0 auto;
+      margin: 0 auto 2.5rem;
       background: rgba(30, 41, 59, 0.5);
       backdrop-filter: blur(10px);
       border: 1px solid rgba(255, 255, 255, 0.1);
       border-radius: 12px;
       padding: 2rem;
-      margin-bottom: 2.5rem;
     }
 
     .instructions h2 {
@@ -175,7 +170,6 @@
       text-decoration: underline;
     }
 
-    /* Пример KPI */
     .example-kpi {
       margin: 2.5rem 0;
     }
@@ -218,10 +212,9 @@
       font-size: 0.95rem;
     }
 
-    /* Безопасность */
     .security-note {
       max-width: 800px;
-      margin: 0 auto;
+      margin: 0 auto 2rem;
       padding: 1.5rem;
       background: rgba(20, 25, 35, 0.5);
       border-radius: 12px;
@@ -230,7 +223,6 @@
       color: #cbd5e1;
     }
 
-    /* Футер */
     footer {
       padding: 2rem;
       text-align: center;
@@ -330,7 +322,6 @@
 </footer>
 
 <script>
-  // Подсветка активной ссылки
   document.addEventListener('DOMContentLoaded', () => {
     const links = document.querySelectorAll('nav a');
     const current = window.location.pathname.split('/').pop();
