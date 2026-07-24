@@ -3,90 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Аналитика Табачного Магазина</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Аналитика | Табачный Магазин</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<div class="container">
-    <header>
-        <h1>Аналитика Табачного Магазина</h1>
+<div class="app">
+    <header class="header">
+        <div class="logo">
+            <div class="logo-icon">📊</div>
+            <h1>Аналитика продаж</h1>
+        </div>
+        <div class="subtitle">Табачный магазин • Отчёт за период</div>
     </header>
 
-    <section class="date-selector">
-        <div class="date-inputs">
-            <div class="input-group">
-                <label for="start-date">Дата начала:</label>
-                <input type="date" id="start-date" name="start-date">
+    <main class="main">
+        <section class="controls">
+            <div class="date-range">
+                <label class="label">Период:</label>
+                <div class="date-inputs">
+                    <input type="date" id="start-date" class="date-input">
+                    <span class="divider">—</span>
+                    <input type="date" id="end-date" class="date-input">
+                </div>
             </div>
-            <div class="input-group">
-                <label for="end-date">Дата окончания:</label>
-                <input type="date" id="end-date" name="end-date">
-            </div>
-            <button id="fetch-data-btn">Получить данные</button>
-        </div>
-    </section>
+            <button id="apply-btn" class="btn btn-primary">
+                Применить
+            </button>
+        </section>
 
-    <section class="metrics-section">
-        <h2>Показатели за период</h2>
-        <div class="metrics-grid">
-            <div class="metric-card">
-                <div class="metric-icon icon-revenue"></div>
-                <div class="metric-title">Выручка</div>
-                <div class="metric-value" id="revenue-value">--</div>
+        <section class="metrics-grid">
+            <div class="metric-card animate-in" data-delay="0.1s">
+                <div class="metric-header">
+                    <div class="metric-icon">💰</div>
+                    <div class="metric-title">Выручка</div>
+                </div>
+                <div class="metric-value" id="revenue">—</div>
+                <div class="metric-change positive">+12% к прошлому периоду</div>
             </div>
-            <div class="metric-card">
-                <div class="metric-icon icon-profit"></div>
-                <div class="metric-title">Прибыль</div>
-                <div class="metric-value" id="profit-value">--</div>
+
+            <div class="metric-card animate-in" data-delay="0.2s">
+                <div class="metric-header">
+                    <div class="metric-icon">📈</div>
+                    <div class="metric-title">Прибыль</div>
+                </div>
+                <div class="metric-value" id="profit">—</div>
+                <div class="metric-change positive">+8%</div>
             </div>
-            <div class="metric-card">
-                <div class="metric-icon icon-checks"></div>
-                <div class="metric-title">Количество чеков</div>
-                <div class="metric-value" id="checks-count-value">--</div>
+
+            <div class="metric-card animate-in" data-delay="0.3s">
+                <div class="metric-header">
+                    <div class="metric-icon">🧾</div>
+                    <div class="metric-title">Чеки</div>
+                </div>
+                <div class="metric-value" id="checks">—</div>
+                <div class="metric-change neutral">±0%</div>
             </div>
-            <div class="metric-card">
-                <div class="metric-icon icon-margin"></div>
-                <div class="metric-title">Маржа (%)</div>
-                <div class="metric-value" id="margin-value">--</div>
+
+            <div class="metric-card animate-in" data-delay="0.4s">
+                <div class="metric-header">
+                    <div class="metric-icon">⚖️</div>
+                    <div class="metric-title">Маржа</div>
+                </div>
+                <div class="metric-value" id="margin">—</div>
+                <div class="metric-change positive">+2.1 п.п.</div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <section class="chart-placeholder">
+            <div class="chart-title">Динамика выручки по дням</div>
+            <div class="chart-bg">
+                <svg viewBox="0 0 800 200" preserveAspectRatio="none">
+                    <path d="M0,150 Q100,50 200,100 T400,80 T600,120 T800,100" 
+                          fill="none" stroke="var(--border-color)" stroke-width="2"/>
+                    <circle cx="100" cy="50" r="4" fill="var(--primary-color)"/>
+                    <circle cx="200" cy="100" r="4" fill="var(--primary-color)"/>
+                    <circle cx="300" cy="90" r="4" fill="var(--primary-color)"/>
+                    <circle cx="400" cy="80" r="4" fill="var(--primary-color)"/>
+                    <circle cx="500" cy="110" r="4" fill="var(--primary-color)"/>
+                    <circle cx="600" cy="120" r="4" fill="var(--primary-color)"/>
+                    <circle cx="700" cy="110" r="4" fill="var(--primary-color)"/>
+                    <circle cx="800" cy="100" r="4" fill="var(--primary-color)"/>
+                </svg>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Табачный магазин. Данные обновляются автоматически из МойСклад.</p>
+    </footer>
 </div>
 
 <script>
-    // Заглушка для получения данных из API (пока не реализовано)
-    document.getElementById('fetch-data-btn').addEventListener('click', function() {
+    // Заглушка: имитация загрузки данных
+    document.getElementById('apply-btn').addEventListener('click', function () {
         const startDate = document.getElementById('start-date').value;
         const endDate = document.getElementById('end-date').value;
 
         if (!startDate || !endDate) {
-            alert('Пожалуйста, выберите обе даты.');
+            alert('Выберите период');
             return;
         }
 
-        // Здесь будет вызов API МойСклад
-        console.log(`Запрос данных с ${startDate} по ${endDate}`);
+        // Анимация "загрузки"
+        const btn = this;
+        btn.textContent = 'Загрузка...';
+        btn.disabled = true;
 
-        // Пока просто обновим значения заглушками
-        document.getElementById('revenue-value').textContent = '150 000 ₽';
-        document.getElementById('profit-value').textContent = '45 000 ₽';
-        document.getElementById('checks-count-value').textContent = '120';
-        document.getElementById('margin-value').textContent = '30%';
+        setTimeout(() => {
+            // Обновляем значения
+            document.getElementById('revenue').textContent = '152 450 ₽';
+            document.getElementById('profit').textContent = '48 780 ₽';
+            document.getElementById('checks').textContent = '127';
+            document.getElementById('margin').textContent = '32.0%';
 
-        // В будущем здесь будет логика обработки ответа от API
+            btn.textContent = 'Готово';
+            btn.classList.add('btn-success');
+            setTimeout(() => {
+                btn.textContent = 'Применить';
+                btn.classList.remove('btn-success');
+                btn.disabled = false;
+            }, 2000);
+        }, 1200);
     });
 
-    // Установим сегодняшнюю дату как конечную по умолчанию
-    const today = new Date().toISOString().split('T')[0];
-    document.getElementById('end-date').value = today;
+    // Установка дат по умолчанию: начало недели — сегодня
+    const today = new Date();
+    const startOfWeek = new Date(today);
+    startOfWeek.setDate(today.getDate() - today.getDay() + 1); // Понедельник
 
-    // Установим начало недели как начальную дату по умолчанию
-    const startOfWeek = new Date();
-    startOfWeek.setDate(startOfWeek.getDate() - startOfWeek.getDay() + 1); // Понедельник
     document.getElementById('start-date').value = startOfWeek.toISOString().split('T')[0];
-</script>
+    document.getElementById('end-date').value = today.toISOString().split('T')[0];
 
+    // Анимация появления карточек при прокрутке
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        },
+        { threshold: 0.1 }
+    );
+
+    document.querySelectorAll('.metric-card').forEach(card => {
+        observer.observe(card);
+    });
+</script>
 </body>
 </html>
