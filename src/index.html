@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Аналитика | Табачный Магазин</title>
+  <link rel="stylesheet" href="/src/css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body class="min-h-screen">
+
+<div class="hero-bg"></div>
+
+<header class="relative z-10 py-6 px-6 max-w-7xl mx-auto flex justify-between items-center">
+  <div class="flex items-center gap-3">
+    <div class="w-10 h-10 rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 flex items-center justify-center">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="w-5 h-5">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+      </svg>
+    </div>
+    <span class="font-bold text-xl">Аналитика</span>
+  </div>
+
+  <nav class="nav-links flex gap-2 md:gap-6">
+    <a href="#home" class="nav-link active" data-target="home">Главная</a>
+    <a href="#sales" class="nav-link" data-target="sales">Аналитика продаж</a>
+    <a href="#products" class="nav-link" data-target="products">Аналитика товара</a>
+    <a href="#settings" class="nav-link" data-target="settings">Настройки</a>
+  </nav>
+
+  <button class="btn-primary hidden md:block">
+    Написать нам
+  </button>
+</header>
+
+<main class="relative z-10 py-16 px-6 max-w-7xl mx-auto">
+  <div id="home" class="page active">
+    <section class="text-center mb-20">
+      <h1 class="section-title mb-6">Запускаем продукты,<br>которые продают</h1>
+      <p class="text-gray-300 max-w-3xl mx-auto text-lg mb-10">
+        Комплексные IT-решения для бизнеса: сайт, бренд и аналитика, которые повышают эффективность
+      </p>
+      <button id="apply-btn" class="btn-primary">
+        Обсудить проект
+      </button>
+    </section>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="metric-card">
+        <div class="text-4xl font-bold mb-2">152 450 ₽</div>
+        <div class="text-gray-400">Выручка за период</div>
+      </div>
+      <div class="metric-card">
+        <div class="text-4xl font-bold mb-2">48 780 ₽</div>
+        <div class="text-gray-400">Прибыль</div>
+      </div>
+      <div class="metric-card">
+        <div class="text-4xl font-bold mb-2">127</div>
+        <div class="text-gray-400">Чеков</div>
+      </div>
+      <div class="metric-card">
+        <div class="text-4xl font-bold mb-2">32.0%</div>
+        <div class="text-gray-400">Маржа</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="sales" class="page">
+    <h2 class="section-title mb-8">Аналитика продаж</h2>
+    <p class="text-gray-300 mb-8">Детальный анализ выручки, прибыли и динамики по дням.</p>
+    <div class="metric-card p-6">
+      <h3 class="font-semibold text-lg mb-3">Выручка по дням</h3>
+      <div class="h-48 bg-gray-900 rounded-lg flex items-center justify-center text-gray-500">
+        График будет подключен из МойСклад
+      </div>
+    </div>
+  </div>
+
+  <div id="products" class="page">
+    <h2 class="section-title mb-8">Аналитика товара</h2>
+    <p class="text-gray-300 mb-8">Оценка спроса, рентабельности и оборачиваемости товаров.</p>
+    <div class="metric-card p-6">
+      <h3 class="font-semibold text-lg mb-3">Топ-5 товаров по выручке</h3>
+      <ul class="space-y-3">
+        <li class="flex justify-between">
+          <span>Сигареты «Марлboro»</span>
+          <span>42 500 ₽</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="settings" class="page">
+    <h2 class="section-title mb-8">Настройки</h2>
+    <p class="text-gray-300 mb-8">Управление подключением, периодами и отображением.</p>
+    <div class="metric-card p-6">
+      <h3 class="font-semibold text-lg mb-4">Подключение к МойСклад</h3>
+      <input type="password" id="token-input" placeholder="••••••••••••" class="w-full p-2 bg-gray-900 border border-gray-800 rounded">
+    </div>
+  </div>
+</main>
+
+<footer class="relative z-10 py-10 px-6 border-t border-gray-800 max-w-7xl mx-auto text-center text-gray-500 text-sm">
+  <p>© 2026 Табачный магазин. Все права защищены.</p>
+</footer>
+
+<script type="module" src="/src/js/app.js"></script>
+</body>
+</html>
