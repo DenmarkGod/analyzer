@@ -113,6 +113,14 @@
       border-color: #00ffff;
       box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
     }
+
+    .icon-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
   </style>
 </head>
 <body class="min-h-screen flex flex-col">
@@ -122,7 +130,15 @@
   <div class="max-w-7xl mx-auto">
     <div class="flex items-center gap-4">
       <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-[#0f3460] to-[#16213e] flex items-center justify-center border border-[#0f3460] shadow-lg">
-        <span class="text-2xl cyber-font text-[#00ffff]">📊</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="url(#headerGradient)" stroke-width="2" class="w-8 h-8">
+          <defs>
+            <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#00ffff"/>
+              <stop offset="100%" stop-color="#bf00ff"/>
+            </linearGradient>
+          </defs>
+          <path d="M3 3v18h18M18 14V9M12 14V5M6 14v-3"/>
+        </svg>
       </div>
       <div>
         <h1 class="text-3xl font-bold cyber-font text-transparent bg-clip-text bg-gradient-to-r from-[#00ffff] to-[#bf00ff]">
@@ -159,7 +175,9 @@
     <div class="card-glow bg-gradient-to-br from-[#0f3460] to-[#16213e] rounded-2xl p-6 border border-[#0f3460] shadow-lg animate-float-card">
       <div class="flex items-center gap-4 mb-4">
         <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-[#00ffff] to-[#0f3460] flex items-center justify-center text-2xl border border-[#00ffff]/30">
-          💰
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#00ffff" stroke-width="2" class="w-8 h-8">
+            <path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"/>
+          </svg>
         </div>
         <div class="font-medium text-cyan-200 cyber-font text-lg">ВЫРУЧКА</div>
       </div>
@@ -175,7 +193,9 @@
     <div class="card-glow bg-gradient-to-br from-[#16213e] to-[#0f3460] rounded-2xl p-6 border border-[#0f3460] shadow-lg animate-float-card">
       <div class="flex items-center gap-4 mb-4">
         <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-[#bf00ff] to-[#0f3460] flex items-center justify-center text-2xl border border-[#bf00ff]/30">
-          📈
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#bf00ff" stroke-width="2" class="w-8 h-8">
+            <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+          </svg>
         </div>
         <div class="font-medium text-purple-200 cyber-font text-lg">ПРИБЫЛЬ</div>
       </div>
@@ -191,7 +211,9 @@
     <div class="card-glow bg-gradient-to-br from-[#0f0f23] to-[#16213e] rounded-2xl p-6 border border-[#0f3460] shadow-lg animate-float-card">
       <div class="flex items-center gap-4 mb-4">
         <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-[#ff00ff] to-[#0f3460] flex items-center justify-center text-2xl border border-[#ff00ff]/30">
-          🧾
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ff00ff" stroke-width="2" class="w-8 h-8">
+            <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+          </svg>
         </div>
         <div class="font-medium text-pink-200 cyber-font text-lg">ЧЕКИ</div>
       </div>
@@ -207,7 +229,9 @@
     <div class="card-glow bg-gradient-to-br from-[#1a1a2e] to-[#0f0f23] rounded-2xl p-6 border border-[#0f3460] shadow-lg animate-float-card">
       <div class="flex items-center gap-4 mb-4">
         <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-[#00ffff] to-[#16213e] flex items-center justify-center text-2xl border border-[#00ffff]/30">
-          ⚖️
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#00ffff" stroke-width="2" class="w-8 h-8">
+            <path d="M7 20l10 0M7 4l10 0M14 20v-6m0 0l-3-3m3 3l3-3M14 4v6m0 0l-3 3m3-3l3 3"/>
+          </svg>
         </div>
         <div class="font-medium text-cyan-200 cyber-font text-lg">МАРЖА</div>
       </div>
