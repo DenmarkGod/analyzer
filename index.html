@@ -5,54 +5,111 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Аналитика | Табачный Магазин</title>
 
-  <!-- Tailwind CSS via CDN -->
+  <!-- TailwindCSS через CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            primary: '#2563eb',
-            success: '#10b981',
+            'brand-primary': '#6366f1', // indigo
+            'brand-secondary': '#8b5cf6', // violet
+            'brand-accent': '#ec4899', // pink
+            'card-gradient-start': '#f0f9ff',
+            'card-gradient-end': '#e0f2fe',
+            'dark-card-start': '#1e293b',
+            'dark-card-end': '#334155',
+          },
+          animation: {
+            'pulse-slow': 'pulse 4s infinite',
+            'float': 'float 6s ease-in-out infinite',
+            'gradient': 'gradient 8s ease infinite',
+          },
+          keyframes: {
+            float: {
+              '0%, 100%': { transform: 'translateY(0)' },
+              '50%': { transform: 'translateY(-10px)' },
+            },
+            gradient: {
+              '0%, 100%': { backgroundPosition: '0% 50%' },
+              '50%': { backgroundPosition: '100% 50%' },
+            }
           }
         }
       }
     }
   </script>
 
-  <!-- Framer Motion via CDN -->
-  <script src="https://unpkg.com/framer-motion@10.16.4/dist/motion.min.js"></script>
-
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
     body { font-family: 'Inter', sans-serif; }
+    
+    .glass {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    .dark .glass {
+      background: rgba(30, 41, 59, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .metric-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .metric-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+
+    .btn-animated {
+      background: linear-gradient(90deg, #6366f1, #8b5cf6);
+      transition: all 0.4s ease;
+    }
+
+    .btn-animated:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px -5px rgba(99, 102, 241, 0.4);
+    }
   </style>
 </head>
-<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors">
+<body class="bg-gradient-to-br from-indigo-50 via-violet-50 to-pink-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 text-gray-900 dark:text-gray-100 transition-all duration-500">
 
 <div class="min-h-screen flex flex-col">
   <!-- Header -->
-  <header class="p-6 bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700">
+  <header class="p-6 glass shadow-lg">
     <div class="max-w-7xl mx-auto">
-      <h1 class="text-2xl font-bold">Аналитика продаж</h1>
-      <p class="text-gray-600 dark:text-gray-400 mt-1">Табачный магазин • Отчёт за период</p>
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-gradient-to-r from-indigo-500 to-violet-500 flex items-center justify-center text-white font-bold">
+          📊
+        </div>
+        <h1 class="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">
+          Аналитика продаж
+        </h1>
+      </div>
+      <p class="text-gray-600 dark:text-gray-400 mt-1 ml-13">
+        Табачный магазин • Отчёт за период
+      </p>
     </div>
   </header>
 
   <!-- Main -->
-  <main class="flex-1 p-6 max-w-7xl mx-auto">
+  <main class="flex-1 p-6 max-w-7xl mx-auto w-full">
     <!-- Controls -->
-    <section class="mb-8 bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+    <section class="mb-8 glass p-6 rounded-2xl shadow-lg animate-fade-in">
       <div class="flex flex-wrap items-center gap-4">
         <div class="flex items-center gap-3">
           <label class="text-gray-600 dark:text-gray-400 font-medium">Период:</label>
           <div class="flex items-center gap-2">
-            <input type="date" id="start-date" class="p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600" />
-            <span class="text-gray-500">—</span>
-            <input type="date" id="end-date" class="p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600" />
+            <input type="date" id="start-date" class="p-3 bg-white/30 dark:bg-slate-800/50 border border-gray-300 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:outline-none transition" />
+            <span class="text-gray-500 font-bold">—</span>
+            <input type="date" id="end-date" class="p-3 bg-white/30 dark:bg-slate-800/50 border border-gray-300 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:outline-none transition" />
           </div>
         </div>
-        <button id="apply-btn" class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition-colors shadow-sm">
+        <button id="apply-btn" class="btn-animated text-white px-6 py-3 rounded-xl font-medium shadow-lg">
           Применить
         </button>
       </div>
@@ -60,74 +117,85 @@
 
     <!-- Metrics Grid -->
     <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-      <motion-div
-        class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow"
-        initial="{ y: 50, opacity: 0 }"
-        animate="{ y: 0, opacity: 1 }"
-        transition="{ type: 'spring', bounce: 0.2, duration: 0.8 }"
-      >
-        <div class="flex items-center gap-3 mb-3">
-          <div class="text-2xl">💰</div>
+      <div class="metric-card bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-slate-800 dark:to-slate-700 rounded-2xl p-6 shadow-lg border border-white/30 dark:border-slate-700/50">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-r from-blue-500 to-indigo-500 flex items-center justify-center text-white text-xl">
+            💰
+          </div>
           <div class="font-medium text-gray-600 dark:text-gray-300">Выручка</div>
         </div>
-        <div class="text-2xl font-bold text-gray-900 dark:text-white" id="revenue">—</div>
-        <div class="mt-1 text-sm text-green-500">+12% к прошлому периоду</div>
-      </motion-div>
+        <div class="text-3xl font-bold text-gray-900 dark:text-white" id="revenue">—</div>
+        <div class="mt-2 text-sm font-medium text-green-600 dark:text-green-400 flex items-center gap-1">
+          <span>+12%</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M5.293 9.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 7.414V15a1 1 0 11-2 0V7.414L6.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+          </svg>
+        </div>
+      </div>
 
-      <motion-div
-        class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow"
-        initial="{ y: 50, opacity: 0 }"
-        animate="{ y: 0, opacity: 1 }"
-        transition="{ type: 'spring', bounce: 0.2, duration: 0.8, delay: 0.1 }"
-      >
-        <div class="flex items-center gap-3 mb-3">
-          <div class="text-2xl">📈</div>
+      <div class="metric-card bg-gradient-to-br from-emerald-50 to-teal-50 dark:from-slate-800 dark:to-slate-700 rounded-2xl p-6 shadow-lg border border-white/30 dark:border-slate-700/50">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 flex items-center justify-center text-white text-xl">
+            📈
+          </div>
           <div class="font-medium text-gray-600 dark:text-gray-300">Прибыль</div>
         </div>
-        <div class="text-2xl font-bold text-gray-900 dark:text-white" id="profit">—</div>
-        <div class="mt-1 text-sm text-green-500">+8%</div>
-      </motion-div>
+        <div class="text-3xl font-bold text-gray-900 dark:text-white" id="profit">—</div>
+        <div class="mt-2 text-sm font-medium text-green-600 dark:text-green-400 flex items-center gap-1">
+          <span>+8%</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M5.293 9.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 7.414V15a1 1 0 11-2 0V7.414L6.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+          </svg>
+        </div>
+      </div>
 
-      <motion-div
-        class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow"
-        initial="{ y: 50, opacity: 0 }"
-        animate="{ y: 0, opacity: 1 }"
-        transition="{ type: 'spring', bounce: 0.2, duration: 0.8, delay: 0.2 }"
-      >
-        <div class="flex items-center gap-3 mb-3">
-          <div class="text-2xl">🧾</div>
+      <div class="metric-card bg-gradient-to-br from-amber-50 to-orange-50 dark:from-slate-800 dark:to-slate-700 rounded-2xl p-6 shadow-lg border border-white/30 dark:border-slate-700/50">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 flex items-center justify-center text-white text-xl">
+            🧾
+          </div>
           <div class="font-medium text-gray-600 dark:text-gray-300">Чеки</div>
         </div>
-        <div class="text-2xl font-bold text-gray-900 dark:text-white" id="checks">—</div>
-        <div class="mt-1 text-sm text-gray-500">±0%</div>
-      </motion-div>
+        <div class="text-3xl font-bold text-gray-900 dark:text-white" id="checks">—</div>
+        <div class="mt-2 text-sm font-medium text-gray-500 dark:text-gray-400 flex items-center gap-1">
+          <span>±0%</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clip-rule="evenodd" />
+          </svg>
+        </div>
+      </div>
 
-      <motion-div
-        class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow"
-        initial="{ y: 50, opacity: 0 }"
-        animate="{ y: 0, opacity: 1 }"
-        transition="{ type: 'spring', bounce: 0.2, duration: 0.8, delay: 0.3 }"
-      >
-        <div class="flex items-center gap-3 mb-3">
-          <div class="text-2xl">⚖️</div>
+      <div class="metric-card bg-gradient-to-br from-purple-50 to-fuchsia-50 dark:from-slate-800 dark:to-slate-700 rounded-2xl p-6 shadow-lg border border-white/30 dark:border-slate-700/50">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-r from-purple-500 to-fuchsia-500 flex items-center justify-center text-white text-xl">
+            ⚖️
+          </div>
           <div class="font-medium text-gray-600 dark:text-gray-300">Маржа</div>
         </div>
-        <div class="text-2xl font-bold text-gray-900 dark:text-white" id="margin">—</div>
-        <div class="mt-1 text-sm text-green-500">+2.1 п.п.</div>
-      </motion-div>
+        <div class="text-3xl font-bold text-gray-900 dark:text-white" id="margin">—</div>
+        <div class="mt-2 text-sm font-medium text-green-600 dark:text-green-400 flex items-center gap-1">
+          <span>+2.1 п.п.</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M5.293 9.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 7.414V15a1 1 0 11-2 0V7.414L6.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+          </svg>
+        </div>
+      </div>
     </section>
 
     <!-- Chart Placeholder -->
-    <section class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
-      <h2 class="text-lg font-semibold mb-4">Динамика выручки по дням</h2>
-      <div class="h-64 bg-gray-100 dark:bg-gray-700 rounded-lg flex items-center justify-center">
-        <p class="text-gray-500 dark:text-gray-400">График будет подключен позже</p>
+    <section class="glass p-6 rounded-2xl shadow-lg">
+      <h2 class="text-lg font-semibold mb-4 text-gray-800 dark:text-gray-200">Динамика выручки по дням</h2>
+      <div class="h-64 bg-gradient-to-br from-white/20 to-gray-100/20 dark:from-slate-800/30 dark:to-slate-700/30 rounded-xl flex items-center justify-center border border-dashed border-gray-300 dark:border-slate-600">
+        <p class="text-gray-500 dark:text-gray-400 text-center">
+          График будет подключен<br />
+          <span class="text-xs text-gray-400 dark:text-gray-500">(интеграция с МойСклад)</span>
+        </p>
       </div>
     </section>
   </main>
 
   <!-- Footer -->
-  <footer class="py-4 text-center text-gray-600 dark:text-gray-400 text-sm border-t border-gray-200 dark:border-gray-700">
+  <footer class="py-4 text-center text-gray-600 dark:text-gray-400 text-sm border-t border-gray-200 dark:border-slate-700 bg-white/10 dark:bg-slate-800/10">
     © 2026 Табачный магазин. Данные обновляются автоматически из МойСклад.
   </footer>
 </div>
@@ -156,10 +224,14 @@
     document.getElementById('margin').textContent = '32.0%';
 
     this.textContent = 'Готово';
-    this.classList.add('bg-green-600');
+    this.classList.add('bg-gradient-to-r', 'from-green-500', 'to-emerald-500');
+    this.classList.remove('btn-animated');
     setTimeout(() => {
       this.textContent = 'Применить';
-      this.classList.remove('bg-green-600');
+      this.classList.remove('from-green-500', 'to-emerald-500');
+      this.classList.add('btn-animated');
     }, 2000);
   });
 </script>
+</body>
+</html>
