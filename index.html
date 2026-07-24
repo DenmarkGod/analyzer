@@ -1,156 +1,165 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Аналитика | Табачный Магазин</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Аналитика | Табачный Магазин</title>
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#2563eb',
+            success: '#10b981',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Framer Motion via CDN -->
+  <script src="https://unpkg.com/framer-motion@10.16.4/dist/motion.min.js"></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+  </style>
 </head>
-<body>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors">
 
-<div class="app">
-    <header class="header">
-        <div class="logo">
-            <div class="logo-icon">📊</div>
-            <h1>Аналитика продаж</h1>
+<div class="min-h-screen flex flex-col">
+  <!-- Header -->
+  <header class="p-6 bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700">
+    <div class="max-w-7xl mx-auto">
+      <h1 class="text-2xl font-bold">Аналитика продаж</h1>
+      <p class="text-gray-600 dark:text-gray-400 mt-1">Табачный магазин • Отчёт за период</p>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="flex-1 p-6 max-w-7xl mx-auto">
+    <!-- Controls -->
+    <section class="mb-8 bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+      <div class="flex flex-wrap items-center gap-4">
+        <div class="flex items-center gap-3">
+          <label class="text-gray-600 dark:text-gray-400 font-medium">Период:</label>
+          <div class="flex items-center gap-2">
+            <input type="date" id="start-date" class="p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600" />
+            <span class="text-gray-500">—</span>
+            <input type="date" id="end-date" class="p-2 border rounded-lg dark:bg-gray-700 dark:border-gray-600" />
+          </div>
         </div>
-        <div class="subtitle">Табачный магазин • Отчёт за период</div>
-    </header>
+        <button id="apply-btn" class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition-colors shadow-sm">
+          Применить
+        </button>
+      </div>
+    </section>
 
-    <main class="main">
-        <section class="controls">
-            <div class="date-range">
-                <label class="label">Период:</label>
-                <div class="date-inputs">
-                    <input type="date" id="start-date" class="date-input">
-                    <span class="divider">—</span>
-                    <input type="date" id="end-date" class="date-input">
-                </div>
-            </div>
-            <button id="apply-btn" class="btn btn-primary">
-                Применить
-            </button>
-        </section>
+    <!-- Metrics Grid -->
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+      <motion-div
+        class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow"
+        initial="{ y: 50, opacity: 0 }"
+        animate="{ y: 0, opacity: 1 }"
+        transition="{ type: 'spring', bounce: 0.2, duration: 0.8 }"
+      >
+        <div class="flex items-center gap-3 mb-3">
+          <div class="text-2xl">💰</div>
+          <div class="font-medium text-gray-600 dark:text-gray-300">Выручка</div>
+        </div>
+        <div class="text-2xl font-bold text-gray-900 dark:text-white" id="revenue">—</div>
+        <div class="mt-1 text-sm text-green-500">+12% к прошлому периоду</div>
+      </motion-div>
 
-        <section class="metrics-grid">
-            <div class="metric-card animate-in" data-delay="0.1s">
-                <div class="metric-header">
-                    <div class="metric-icon">💰</div>
-                    <div class="metric-title">Выручка</div>
-                </div>
-                <div class="metric-value" id="revenue">—</div>
-                <div class="metric-change positive">+12% к прошлому периоду</div>
-            </div>
+      <motion-div
+        class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow"
+        initial="{ y: 50, opacity: 0 }"
+        animate="{ y: 0, opacity: 1 }"
+        transition="{ type: 'spring', bounce: 0.2, duration: 0.8, delay: 0.1 }"
+      >
+        <div class="flex items-center gap-3 mb-3">
+          <div class="text-2xl">📈</div>
+          <div class="font-medium text-gray-600 dark:text-gray-300">Прибыль</div>
+        </div>
+        <div class="text-2xl font-bold text-gray-900 dark:text-white" id="profit">—</div>
+        <div class="mt-1 text-sm text-green-500">+8%</div>
+      </motion-div>
 
-            <div class="metric-card animate-in" data-delay="0.2s">
-                <div class="metric-header">
-                    <div class="metric-icon">📈</div>
-                    <div class="metric-title">Прибыль</div>
-                </div>
-                <div class="metric-value" id="profit">—</div>
-                <div class="metric-change positive">+8%</div>
-            </div>
+      <motion-div
+        class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow"
+        initial="{ y: 50, opacity: 0 }"
+        animate="{ y: 0, opacity: 1 }"
+        transition="{ type: 'spring', bounce: 0.2, duration: 0.8, delay: 0.2 }"
+      >
+        <div class="flex items-center gap-3 mb-3">
+          <div class="text-2xl">🧾</div>
+          <div class="font-medium text-gray-600 dark:text-gray-300">Чеки</div>
+        </div>
+        <div class="text-2xl font-bold text-gray-900 dark:text-white" id="checks">—</div>
+        <div class="mt-1 text-sm text-gray-500">±0%</div>
+      </motion-div>
 
-            <div class="metric-card animate-in" data-delay="0.3s">
-                <div class="metric-header">
-                    <div class="metric-icon">🧾</div>
-                    <div class="metric-title">Чеки</div>
-                </div>
-                <div class="metric-value" id="checks">—</div>
-                <div class="metric-change neutral">±0%</div>
-            </div>
+      <motion-div
+        class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow"
+        initial="{ y: 50, opacity: 0 }"
+        animate="{ y: 0, opacity: 1 }"
+        transition="{ type: 'spring', bounce: 0.2, duration: 0.8, delay: 0.3 }"
+      >
+        <div class="flex items-center gap-3 mb-3">
+          <div class="text-2xl">⚖️</div>
+          <div class="font-medium text-gray-600 dark:text-gray-300">Маржа</div>
+        </div>
+        <div class="text-2xl font-bold text-gray-900 dark:text-white" id="margin">—</div>
+        <div class="mt-1 text-sm text-green-500">+2.1 п.п.</div>
+      </motion-div>
+    </section>
 
-            <div class="metric-card animate-in" data-delay="0.4s">
-                <div class="metric-header">
-                    <div class="metric-icon">⚖️</div>
-                    <div class="metric-title">Маржа</div>
-                </div>
-                <div class="metric-value" id="margin">—</div>
-                <div class="metric-change positive">+2.1 п.п.</div>
-            </div>
-        </section>
+    <!-- Chart Placeholder -->
+    <section class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-200 dark:border-gray-700">
+      <h2 class="text-lg font-semibold mb-4">Динамика выручки по дням</h2>
+      <div class="h-64 bg-gray-100 dark:bg-gray-700 rounded-lg flex items-center justify-center">
+        <p class="text-gray-500 dark:text-gray-400">График будет подключен позже</p>
+      </div>
+    </section>
+  </main>
 
-        <section class="chart-placeholder">
-            <div class="chart-title">Динамика выручки по дням</div>
-            <div class="chart-bg">
-                <svg viewBox="0 0 800 200" preserveAspectRatio="none">
-                    <path d="M0,150 Q100,50 200,100 T400,80 T600,120 T800,100" 
-                          fill="none" stroke="var(--border-color)" stroke-width="2"/>
-                    <circle cx="100" cy="50" r="4" fill="var(--primary-color)"/>
-                    <circle cx="200" cy="100" r="4" fill="var(--primary-color)"/>
-                    <circle cx="300" cy="90" r="4" fill="var(--primary-color)"/>
-                    <circle cx="400" cy="80" r="4" fill="var(--primary-color)"/>
-                    <circle cx="500" cy="110" r="4" fill="var(--primary-color)"/>
-                    <circle cx="600" cy="120" r="4" fill="var(--primary-color)"/>
-                    <circle cx="700" cy="110" r="4" fill="var(--primary-color)"/>
-                    <circle cx="800" cy="100" r="4" fill="var(--primary-color)"/>
-                </svg>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <p>© 2026 Табачный магазин. Данные обновляются автоматически из МойСклад.</p>
-    </footer>
+  <!-- Footer -->
+  <footer class="py-4 text-center text-gray-600 dark:text-gray-400 text-sm border-t border-gray-200 dark:border-gray-700">
+    © 2026 Табачный магазин. Данные обновляются автоматически из МойСклад.
+  </footer>
 </div>
 
 <script>
-    // Заглушка: имитация загрузки данных
-    document.getElementById('apply-btn').addEventListener('click', function () {
-        const startDate = document.getElementById('start-date').value;
-        const endDate = document.getElementById('end-date').value;
+  // Установка дат по умолчанию
+  const today = new Date().toISOString().split('T')[0];
+  const startOfWeek = new Date();
+  startOfWeek.setDate(startOfWeek.getDate() - startOfWeek.getDay() + 1);
+  document.getElementById('start-date').value = startOfWeek.toISOString().split('T')[0];
+  document.getElementById('end-date').value = today;
 
-        if (!startDate || !endDate) {
-            alert('Выберите период');
-            return;
-        }
+  // Обработчик кнопки
+  document.getElementById('apply-btn').addEventListener('click', function () {
+    const start = document.getElementById('start-date').value;
+    const end = document.getElementById('end-date').value;
+    if (!start || !end) {
+      alert('Выберите период');
+      return;
+    }
 
-        // Анимация "загрузки"
-        const btn = this;
-        btn.textContent = 'Загрузка...';
-        btn.disabled = true;
+    // Заглушка данных
+    document.getElementById('revenue').textContent = '152 450 ₽';
+    document.getElementById('profit').textContent = '48 780 ₽';
+    document.getElementById('checks').textContent = '127';
+    document.getElementById('margin').textContent = '32.0%';
 
-        setTimeout(() => {
-            // Обновляем значения
-            document.getElementById('revenue').textContent = '152 450 ₽';
-            document.getElementById('profit').textContent = '48 780 ₽';
-            document.getElementById('checks').textContent = '127';
-            document.getElementById('margin').textContent = '32.0%';
-
-            btn.textContent = 'Готово';
-            btn.classList.add('btn-success');
-            setTimeout(() => {
-                btn.textContent = 'Применить';
-                btn.classList.remove('btn-success');
-                btn.disabled = false;
-            }, 2000);
-        }, 1200);
-    });
-
-    // Установка дат по умолчанию: начало недели — сегодня
-    const today = new Date();
-    const startOfWeek = new Date(today);
-    startOfWeek.setDate(today.getDate() - today.getDay() + 1); // Понедельник
-
-    document.getElementById('start-date').value = startOfWeek.toISOString().split('T')[0];
-    document.getElementById('end-date').value = today.toISOString().split('T')[0];
-
-    // Анимация появления карточек при прокрутке
-    const observer = new IntersectionObserver(
-        (entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        },
-        { threshold: 0.1 }
-    );
-
-    document.querySelectorAll('.metric-card').forEach(card => {
-        observer.observe(card);
-    });
+    this.textContent = 'Готово';
+    this.classList.add('bg-green-600');
+    setTimeout(() => {
+      this.textContent = 'Применить';
+      this.classList.remove('bg-green-600');
+    }, 2000);
+  });
 </script>
-</body>
-</html>
