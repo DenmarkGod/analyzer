@@ -1,4 +1,4 @@
-// Общая навигация для всех страниц
+// script.js
 document.addEventListener('DOMContentLoaded', () => {
   const links = document.querySelectorAll('nav a');
   links.forEach(link => {
@@ -11,10 +11,11 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Подсветка активной ссылки по URL (опционально, но полезно)
-  const currentPath = window.location.pathname;
-  const activeLink = Array.from(links).find(a => {
-    const href = a.getAttribute('href').replace('#', '');
-    return href === currentPath || href === 'index.html' && currentPath === '/';
-  });
-  if (activeLink) activeLink.classList.add('active');
+  const currentPath = window.location.pathname.split('/').pop();
+  if (!currentPath || currentPath === 'index.html') {
+    document.querySelector('nav a[href="index.html"]').classList.add('active');
+  } else {
+    const activeLink = document.querySelector(`nav a[href="${currentPath}"]`);
+    if (activeLink) activeLink.classList.add('active');
+  }
 });
