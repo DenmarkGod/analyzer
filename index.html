@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Аналитика | Табачный Магазин</title>
 
-  <!-- Подключаем Poppins и Inter -->
+  <!-- Подключаем Inter и Poppins -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
   
   <!-- Tailwind через CDN -->
@@ -15,19 +15,21 @@
       theme: {
         extend: {
           colors: {
-            'dark-bg': '#0f0f23',
-            'dark-panel': '#1a1a2e',
-            'dark-card': '#16213e',
-            'dark-accent': '#0f3460',
-            'neon-blue': '#00ffff',
-            'neon-purple': '#bf00ff',
-            'neon-pink': '#ff00ff',
-            'text-main': '#e0e0e0',
-            'text-secondary': '#a0aec0',
+            'dark-bg': '#0f172a',
+            'dark-panel': '#1e293b',
+            'dark-card': '#334155',
+            'dark-accent': '#475569',
+            'law-blue': '#1e3a8a',
+            'law-blue-light': '#3b82f6',
+            'gold': '#d4af37',
+            'bronze': '#cd7f32',
+            'silver': '#c0c0c0',
+            'text-main': '#f1f5f9',
+            'text-secondary': '#cbd5e1',
           },
           boxShadow: {
-            'glow-md': '0 0 15px rgba(0, 255, 255, 0.1)',
-            'glow-lg': '0 0 25px rgba(191, 0, 255, 0.2)',
+            'glow-md': '0 0 15px rgba(59, 130, 246, 0.2)',
+            'glow-lg': '0 0 25px rgba(30, 58, 138, 0.3)',
             'inset-dark': 'inset 0 2px 4px rgba(0, 0, 0, 0.5)'
           },
           animation: {
@@ -42,8 +44,8 @@
               '50%': { transform: 'translateY(-10px)' },
             },
             glowPulse: {
-              '0%, 100%': { boxShadow: '0 0 15px rgba(0, 255, 255, 0.1)' },
-              '50%': { boxShadow: '0 0 30px rgba(191, 0, 255, 0.2)' },
+              '0%, 100%': { boxShadow: '0 0 15px rgba(59, 130, 246, 0.2)' },
+              '50%': { boxShadow: '0 0 30px rgba(30, 58, 138, 0.4)' },
             },
             shine: {
               '0%': { backgroundPosition: '-100%' },
@@ -58,8 +60,8 @@
   <style>
     body { 
       font-family: 'Inter', sans-serif; 
-      background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 100%);
-      color: #e0e0e0;
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #f1f5f9;
       overflow-x: hidden;
     }
 
@@ -68,54 +70,54 @@
     }
 
     .card-glow {
-      box-shadow: 0 0 15px rgba(0, 255, 255, 0.1), inset 0 2px 4px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 15px rgba(30, 58, 138, 0.2), inset 0 2px 4px rgba(0, 0, 0, 0.5);
       transition: all 0.4s ease;
     }
 
     .card-glow:hover {
-      box-shadow: 0 0 25px rgba(191, 0, 255, 0.3), inset 0 2px 4px rgba(0, 0, 0, 0.7);
+      box-shadow: 0 0 25px rgba(59, 130, 246, 0.4), inset 0 2px 4px rgba(0, 0, 0, 0.7);
       transform: translateY(-5px);
     }
 
-    .btn-cyber {
-      background: linear-gradient(90deg, #0f3460, #16213e, #0f3460);
-      border: 1px solid #0f3460;
-      box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+    .btn-law {
+      background: linear-gradient(90deg, #1e3a8a, #334155, #1e3a8a);
+      border: 1px solid #475569;
+      box-shadow: 0 0 10px rgba(30, 58, 138, 0.3);
       transition: all 0.3s ease;
       position: relative;
       overflow: hidden;
     }
 
-    .btn-cyber::before {
+    .btn-law::before {
       content: '';
       position: absolute;
       top: -2px;
       left: -2px;
       right: -2px;
       bottom: -2px;
-      background: linear-gradient(45deg, #00ffff, #bf00ff, #ff00ff, #00ffff);
+      background: linear-gradient(45deg, #3b82f6, #1e3a8a, #d4af37, #3b82f6);
       z-index: -1;
       border-radius: 12px;
       animation: shine 3s infinite;
       background-size: 400%;
     }
 
-    .btn-cyber:hover {
-      box-shadow: 0 0 20px rgba(191, 0, 255, 0.4);
+    .btn-law:hover {
+      box-shadow: 0 0 20px rgba(30, 58, 138, 0.6);
       transform: scale(1.03);
     }
 
     .input-dark {
-      background: linear-gradient(to bottom, #16213e, #0f0f23);
-      border: 1px solid #0f3460;
-      color: #e0e0e0;
+      background: linear-gradient(to bottom, #334155, #1e293b);
+      border: 1px solid #475569;
+      color: #f1f5f9;
       box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
     }
 
     .input-dark:focus {
       outline: none;
-      border-color: #00ffff;
-      box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+      border-color: #3b82f6;
+      box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
     }
 
     .icon-wrapper {
@@ -130,25 +132,25 @@
 <body class="min-h-screen flex flex-col">
 
 <!-- Header -->
-<header class="p-6 bg-gradient-to-r from-[#0f0f23] to-[#1a1a2e] border-b border-[#0f3460] shadow-lg">
+<header class="p-6 bg-gradient-to-r from-[#0f172a] to-[#1e293b] border-b border-[#475569] shadow-lg">
   <div class="max-w-7xl mx-auto">
     <div class="flex items-center gap-4">
-      <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-[#0f3460] to-[#16213e] flex items-center justify-center border border-[#0f3460] shadow-lg">
+      <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-[#1e3a8a] to-[#334155] flex items-center justify-center border border-[#475569] shadow-lg">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="url(#headerGradient)" stroke-width="2" class="w-8 h-8">
           <defs>
             <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stop-color="#00ffff"/>
-              <stop offset="100%" stop-color="#bf00ff"/>
+              <stop offset="0%" stop-color="#3b82f6"/>
+              <stop offset="100%" stop-color="#d4af37"/>
             </linearGradient>
           </defs>
           <path d="M3 3v18h18M18 14V9M12 14V5M6 14v-3"/>
         </svg>
       </div>
       <div>
-        <h1 class="text-3xl font-semibold title-font text-transparent bg-clip-text bg-gradient-to-r from-[#00ffff] to-[#bf00ff]">
+        <h1 class="text-3xl font-semibold title-font text-transparent bg-clip-text bg-gradient-to-r from-[#3b82f6] to-[#d4af37]">
           Аналитика продаж
         </h1>
-        <p class="text-cyan-300 mt-1 text-sm">
+        <p class="text-sky-300 mt-1 text-sm">
           Табачный магазин • Корпоративная статистика
         </p>
       </div>
@@ -158,17 +160,17 @@
 
 <main class="flex-1 p-6 max-w-7xl mx-auto w-full">
   <!-- Controls -->
-  <section class="mb-8 bg-gradient-to-br from-[#16213e] to-[#0f0f23] p-6 rounded-2xl border border-[#0f3460] shadow-lg card-glow">
+  <section class="mb-8 bg-gradient-to-br from-[#334155] to-[#1e293b] p-6 rounded-2xl border border-[#475569] shadow-lg card-glow">
     <div class="flex flex-wrap items-center gap-6">
       <div class="flex items-center gap-4">
-        <label class="text-cyan-300 font-medium title-font">Период:</label>
+        <label class="text-sky-300 font-medium title-font">Период:</label>
         <div class="flex items-center gap-3">
           <input type="date" id="start-date" class="input-dark p-3 rounded-xl w-48" />
-          <span class="text-purple-400 font-bold">—</span>
+          <span class="text-amber-400 font-bold">—</span>
           <input type="date" id="end-date" class="input-dark p-3 rounded-xl w-48" />
         </div>
       </div>
-      <button id="apply-btn" class="btn-cyber text-white px-8 py-3 rounded-xl font-medium title-font relative z-10 overflow-hidden">
+      <button id="apply-btn" class="btn-law text-white px-8 py-3 rounded-xl font-medium title-font relative z-10 overflow-hidden">
         Применить
       </button>
     </div>
@@ -176,14 +178,14 @@
 
   <!-- Metrics Grid -->
   <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-    <div class="card-glow bg-gradient-to-br from-[#0f3460] to-[#16213e] rounded-2xl p-6 border border-[#0f3460] shadow-lg animate-float-card">
+    <div class="card-glow bg-gradient-to-br from-[#1e3a8a] to-[#334155] rounded-2xl p-6 border border-[#475569] shadow-lg animate-float-card">
       <div class="flex items-center gap-4 mb-4">
-        <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-[#00ffff] to-[#0f3460] flex items-center justify-center text-2xl border border-[#00ffff]/30">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#00ffff" stroke-width="2" class="w-8 h-8">
+        <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-[#3b82f6] to-[#1e3a8a] flex items-center justify-center text-2xl border border-[#3b82f6]/30">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" class="w-8 h-8">
             <path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"/>
           </svg>
         </div>
-        <div class="font-medium text-cyan-200 title-font">Выручка</div>
+        <div class="font-medium text-sky-200 title-font">Выручка</div>
       </div>
       <div class="text-3xl font-bold text-white" id="revenue">—</div>
       <div class="mt-3 text-sm font-medium text-green-400 flex items-center gap-2">
@@ -194,14 +196,14 @@
       </div>
     </div>
 
-    <div class="card-glow bg-gradient-to-br from-[#16213e] to-[#0f3460] rounded-2xl p-6 border border-[#0f3460] shadow-lg animate-float-card">
+    <div class="card-glow bg-gradient-to-br from-[#334155] to-[#1e3a8a] rounded-2xl p-6 border border-[#475569] shadow-lg animate-float-card">
       <div class="flex items-center gap-4 mb-4">
-        <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-[#bf00ff] to-[#0f3460] flex items-center justify-center text-2xl border border-[#bf00ff]/30">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#bf00ff" stroke-width="2" class="w-8 h-8">
+        <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-[#d4af37] to-[#1e3a8a] flex items-center justify-center text-2xl border border-[#d4af37]/30">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#d4af37" stroke-width="2" class="w-8 h-8">
             <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
           </svg>
         </div>
-        <div class="font-medium text-purple-200 title-font">Прибыль</div>
+        <div class="font-medium text-amber-200 title-font">Прибыль</div>
       </div>
       <div class="text-3xl font-bold text-white" id="profit">—</div>
       <div class="mt-3 text-sm font-medium text-green-400 flex items-center gap-2">
@@ -212,14 +214,14 @@
       </div>
     </div>
 
-    <div class="card-glow bg-gradient-to-br from-[#0f0f23] to-[#16213e] rounded-2xl p-6 border border-[#0f3460] shadow-lg animate-float-card">
+    <div class="card-glow bg-gradient-to-br from-[#0f172a] to-[#334155] rounded-2xl p-6 border border-[#475569] shadow-lg animate-float-card">
       <div class="flex items-center gap-4 mb-4">
-        <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-[#ff00ff] to-[#0f3460] flex items-center justify-center text-2xl border border-[#ff00ff]/30">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ff00ff" stroke-width="2" class="w-8 h-8">
+        <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-[#cd7f32] to-[#1e3a8a] flex items-center justify-center text-2xl border border-[#cd7f32]/30">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#cd7f32" stroke-width="2" class="w-8 h-8">
             <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
           </svg>
         </div>
-        <div class="font-medium text-pink-200 title-font">Чеки</div>
+        <div class="font-medium text-amber-300 title-font">Чеки</div>
       </div>
       <div class="text-3xl font-bold text-white" id="checks">—</div>
       <div class="mt-3 text-sm font-medium text-gray-400 flex items-center gap-2">
@@ -230,14 +232,14 @@
       </div>
     </div>
 
-    <div class="card-glow bg-gradient-to-br from-[#1a1a2e] to-[#0f0f23] rounded-2xl p-6 border border-[#0f3460] shadow-lg animate-float-card">
+    <div class="card-glow bg-gradient-to-br from-[#1e293b] to-[#0f172a] rounded-2xl p-6 border border-[#475569] shadow-lg animate-float-card">
       <div class="flex items-center gap-4 mb-4">
-        <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-[#00ffff] to-[#16213e] flex items-center justify-center text-2xl border border-[#00ffff]/30">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#00ffff" stroke-width="2" class="w-8 h-8">
+        <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-[#3b82f6] to-[#1e3a8a] flex items-center justify-center text-2xl border border-[#3b82f6]/30">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" class="w-8 h-8">
             <path d="M7 20l10 0M7 4l10 0M14 20v-6m0 0l-3-3m3 3l3-3M14 4v6m0 0l-3 3m3-3l3 3"/>
           </svg>
         </div>
-        <div class="font-medium text-cyan-200 title-font">Маржа</div>
+        <div class="font-medium text-sky-200 title-font">Маржа</div>
       </div>
       <div class="text-3xl font-bold text-white" id="margin">—</div>
       <div class="mt-3 text-sm font-medium text-green-400 flex items-center gap-2">
@@ -250,10 +252,10 @@
   </section>
 
   <!-- Chart Placeholder -->
-  <section class="bg-gradient-to-br from-[#16213e] to-[#0f0f23] p-6 rounded-2xl border border-[#0f3460] shadow-lg card-glow">
-    <h2 class="text-xl font-semibold title-font text-cyan-300 mb-4">Динамика выручки по дням</h2>
-    <div class="h-72 bg-gradient-to-br from-[#0f0f23] to-[#1a1a2e] rounded-xl flex items-center justify-center border border-dashed border-[#0f3460]">
-      <p class="text-center text-cyan-200 text-lg">
+  <section class="bg-gradient-to-br from-[#334155] to-[#1e293b] p-6 rounded-2xl border border-[#475569] shadow-lg card-glow">
+    <h2 class="text-xl font-semibold title-font text-sky-300 mb-4">Динамика выручки по дням</h2>
+    <div class="h-72 bg-gradient-to-br from-[#0f172a] to-[#1e293b] rounded-xl flex items-center justify-center border border-dashed border-[#475569]">
+      <p class="text-center text-sky-200 text-lg">
         График будет подключен<br />
         <span class="text-sm text-gray-500">(интеграция с МойСклад)</span>
       </p>
@@ -261,7 +263,7 @@
   </section>
 </main>
 
-<footer class="py-5 text-center text-gray-500 text-sm border-t border-[#0f3460] bg-gradient-to-r from-[#0f0f23] to-[#1a1a2e]">
+<footer class="py-5 text-center text-gray-500 text-sm border-t border-[#475569] bg-gradient-to-r from-[#0f172a] to-[#1e293b]">
   <p>© 2026 Табачный магазин. Данные обновляются автоматически из МойСклад.</p>
 </footer>
 
@@ -290,11 +292,11 @@
 
     this.textContent = 'Готово';
     this.classList.add('bg-gradient-to-r', 'from-green-600', 'to-emerald-600');
-    this.classList.remove('btn-cyber');
+    this.classList.remove('btn-law');
     setTimeout(() => {
       this.textContent = 'Применить';
       this.classList.remove('from-green-600', 'to-emerald-600');
-      this.classList.add('btn-cyber');
+      this.classList.add('btn-law');
     }, 2000);
   });
 </script>
