@@ -86,9 +86,12 @@
       font-weight: 500;
       color: #cbd5e1;
       transition: color 0.3s;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
     }
-    .nav-link:hover {
+    .nav-link:hover, .nav-link.active {
       color: #fff;
+      background: rgba(59, 130, 246, 0.1);
     }
 
     .btn-primary {
@@ -112,6 +115,7 @@
       border: 1px solid rgba(255, 255, 255, 0.1);
       border-radius: 12px;
       transition: transform 0.3s, box-shadow 0.3s;
+      padding: 1.5rem;
     }
     .metric-card:hover {
       transform: translateY(-6px);
@@ -131,9 +135,21 @@
       text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
     }
 
+    /* Скрытие всех страниц кроме активной */
+    .page {
+      display: none;
+    }
+    .page.active {
+      display: block;
+    }
+
     @media (max-width: 768px) {
       .section-title {
         font-size: 1.8rem;
+      }
+      .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
       }
     }
   </style>
@@ -154,84 +170,250 @@
     <span class="font-bold text-xl">Аналитика</span>
   </div>
 
-  <nav class="hidden md:flex gap-8">
-    <a href="#" class="nav-link">Услуги</a>
-    <a href="#" class="nav-link">Кейсы</a>
-    <a href="#" class="nav-link">Преимущества</a>
-    <a href="#" class="nav-link">Отзывы</a>
-    <a href="#" class="nav-link">Контакты</a>
+  <!-- Навигация -->
+  <nav class="nav-links flex gap-2 md:gap-6">
+    <a href="#home" class="nav-link active" data-target="home">Главная</a>
+    <a href="#sales" class="nav-link" data-target="sales">Аналитика продаж</a>
+    <a href="#products" class="nav-link" data-target="products">Аналитика товара</a>
+    <a href="#settings" class="nav-link" data-target="settings">Настройки</a>
   </nav>
 
+  <!-- Кнопка "Написать нам" — остаётся справа -->
   <button class="btn-primary hidden md:block">
     Написать нам
   </button>
-
-  <!-- Мобильная кнопка -->
-  <button class="btn-primary md:hidden w-10 h-10 flex items-center justify-center">
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-      <path fill-rule="evenodd" d="M3 5a2 2 0 012-2h10a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V5zm11 1H6v8h8V6z" clip-rule="evenodd" />
-    </svg>
-  </button>
 </header>
 
-<!-- Hero Section -->
-<section class="relative z-10 py-20 px-6 max-w-7xl mx-auto text-center">
-  <h1 class="section-title mb-6 animate-fade-in">
-    Запускаем продукты,<br>которые продают
-  </h1>
-  <p class="text-gray-300 max-w-3xl mx-auto text-lg mb-10 animate-fade-in" style="animation-delay: 0.2s">
-    Комплексные IT-решения для бизнеса: сайт, бренд и аналитика, которые повышают эффективность
-  </p>
-  <button class="btn-primary animate-fade-in" style="animation-delay: 0.4s">
-    Обсудить проект
-    <svg xmlns="http://www.w3.org/2000/svg" class="inline ml-2 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-      <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-    </svg>
-  </button>
-</section>
+<!-- Страницы -->
+<main class="relative z-10 py-16 px-6 max-w-7xl mx-auto">
 
-<!-- Metrics Section -->
-<section class="relative z-10 py-20 px-6 max-w-7xl mx-auto">
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-    <div class="metric-card p-8 animate-fade-in" style="animation-delay: 0.1s">
-      <div class="text-4xl font-bold mb-2">152 450 ₽</div>
-      <div class="text-gray-400">Выручка за период</div>
-    </div>
-    <div class="metric-card p-8 animate-fade-in" style="animation-delay: 0.2s">
-      <div class="text-4xl font-bold mb-2">48 780 ₽</div>
-      <div class="text-gray-400">Прибыль</div>
-    </div>
-    <div class="metric-card p-8 animate-fade-in" style="animation-delay: 0.3s">
-      <div class="text-4xl font-bold mb-2">127</div>
-      <div class="text-gray-400">Чеков</div>
-    </div>
-    <div class="metric-card p-8 animate-fade-in" style="animation-delay: 0.4s">
-      <div class="text-4xl font-bold mb-2">32.0%</div>
-      <div class="text-gray-400">Маржа</div>
+  <!-- Главная -->
+  <div id="home" class="page active">
+    <section class="text-center mb-20">
+      <h1 class="section-title mb-6 animate-fade-in">
+        Запускаем продукты,<br>которые продают
+      </h1>
+      <p class="text-gray-300 max-w-3xl mx-auto text-lg mb-10 animate-fade-in" style="animation-delay: 0.2s">
+        Комплексные IT-решения для бизнеса: сайт, бренд и аналитика, которые повышают эффективность
+      </p>
+      <button class="btn-primary animate-fade-in" style="animation-delay: 0.4s">
+        Обсудить проект
+        <svg xmlns="http://www.w3.org/2000/svg" class="inline ml-2 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+        </svg>
+      </button>
+    </section>
+
+    <!-- KPI карточки -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="metric-card p-6 animate-fade-in" style="animation-delay: 0.1s">
+        <div class="text-4xl font-bold mb-2">152 450 ₽</div>
+        <div class="text-gray-400">Выручка за период</div>
+      </div>
+      <div class="metric-card p-6 animate-fade-in" style="animation-delay: 0.2s">
+        <div class="text-4xl font-bold mb-2">48 780 ₽</div>
+        <div class="text-gray-400">Прибыль</div>
+      </div>
+      <div class="metric-card p-6 animate-fade-in" style="animation-delay: 0.3s">
+        <div class="text-4xl font-bold mb-2">127</div>
+        <div class="text-gray-400">Чеков</div>
+      </div>
+      <div class="metric-card p-6 animate-fade-in" style="animation-delay: 0.4s">
+        <div class="text-4xl font-bold mb-2">32.0%</div>
+        <div class="text-gray-400">Маржа</div>
+      </div>
     </div>
   </div>
-</section>
+
+  <!-- Аналитика продаж -->
+  <div id="sales" class="page">
+    <h2 class="section-title mb-8">Аналитика продаж</h2>
+    <p class="text-gray-300 mb-8">Детальный анализ выручки, прибыли и динамики по дням.</p>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-10">
+      <div class="metric-card p-6">
+        <h3 class="font-semibold text-lg mb-3">Выручка по дням</h3>
+        <div class="h-48 bg-gray-900 rounded-lg flex items-center justify-center text-gray-500">
+          График будет подключен из МойСклад
+        </div>
+      </div>
+      <div class="metric-card p-6">
+        <h3 class="font-semibold text-lg mb-3">Средний чек</h3>
+        <div class="text-3xl font-bold mb-2">1 200 ₽</div>
+        <div class="text-green-400 flex items-center">
+          <span>+5.2%</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M5.293 9.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 7.414V15a1 1 0 11-2 0V7.414L6.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="metric-card p-6">
+      <h3 class="font-semibold text-lg mb-3">Топ-5 товаров по выручке</h3>
+      <ul class="space-y-3">
+        <li class="flex justify-between"><span>Сигареты «Марлboro»</span> <span>42 500 ₽</span></li>
+        <li class="flex justify-between"><span>Сигары «Davidoff»</span> <span>28 300 ₽</span></li>
+        <li class="flex justify-between"><span>Электронные сигареты</span> <span>21 100 ₽</span></li>
+        <li class="flex justify-between"><span>Жевательный табак</span> <span>15 800 ₽</span></li>
+        <li class="flex justify-between"><span>Сигареты «Philip Morris»</span> <span>12 400 ₽</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Аналитика товара -->
+  <div id="products" class="page">
+    <h2 class="section-title mb-8">Аналитика товара</h2>
+    <p class="text-gray-300 mb-8">Оценка спроса, рентабельности и оборачиваемости товаров.</p>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-10">
+      <div class="metric-card p-6">
+        <h3 class="font-semibold text-lg mb-3">Товары с высокой маржой</h3>
+        <ul class="space-y-2 text-sm">
+          <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-green-500"></span> Сигары «Davidoff» — 42%</li>
+          <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-green-500"></span> Электронные сигареты — 38%</li>
+          <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-yellow-500"></span> Жевательный табак — 29%</li>
+        </ul>
+      </div>
+      <div class="metric-card p-6">
+        <h3 class="font-semibold text-lg mb-3">Товары с низким спросом</h3>
+        <ul class="space-y-2 text-sm">
+          <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-red-500"></span> Сигареты «Local Brand» — 2 шт/день</li>
+          <li class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-red-500"></span> Табак для кальяна (новая партия) — 0 шт/день</li>
+        </ul>
+      </div>
+      <div class="metric-card p-6">
+        <h3 class="font-semibold text-lg mb-3">Оборачиваемость</h3>
+        <div class="text-2xl font-bold mb-2">14 дней</div>
+        <div class="text-gray-400 text-sm">Среднее время продажи товара</div>
+      </div>
+    </div>
+
+    <div class="metric-card p-6">
+      <h3 class="font-semibold text-lg mb-3">Категории по выручке</h3>
+      <div class="space-y-3">
+        <div class="flex items-center">
+          <div class="w-24 text-gray-400">Сигареты</div>
+          <div class="flex-1 h-2 bg-gray-800 rounded-full overflow-hidden">
+            <div class="h-full bg-blue-600" style="width: 65%"></div>
+          </div>
+          <div class="w-12 text-right">65%</div>
+        </div>
+        <div class="flex items-center">
+          <div class="w-24 text-gray-400">Сигары</div>
+          <div class="flex-1 h-2 bg-gray-800 rounded-full overflow-hidden">
+            <div class="h-full bg-purple-600" style="width: 22%"></div>
+          </div>
+          <div class="w-12 text-right">22%</div>
+        </div>
+        <div class="flex items-center">
+          <div class="w-24 text-gray-400">Электроника</div>
+          <div class="flex-1 h-2 bg-gray-800 rounded-full overflow-hidden">
+            <div class="h-full bg-green-600" style="width: 10%"></div>
+          </div>
+          <div class="w-12 text-right">10%</div>
+        </div>
+        <div class="flex items-center">
+          <div class="w-24 text-gray-400">Аксессуары</div>
+          <div class="flex-1 h-2 bg-gray-800 rounded-full overflow-hidden">
+            <div class="h-full bg-amber-600" style="width: 3%"></div>
+          </div>
+          <div class="w-12 text-right">3%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Настройки -->
+  <div id="settings" class="page">
+    <h2 class="section-title mb-8">Настройки</h2>
+    <p class="text-gray-300 mb-8">Управление подключением, периодами и отображением.</p>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div class="metric-card p-6">
+        <h3 class="font-semibold text-lg mb-4">Подключение к МойСклад</h3>
+        <div class="space-y-4">
+          <div>
+            <label class="block text-gray-400 text-sm mb-1">Токен доступа</label>
+            <input type="password" placeholder="••••••••••••" class="w-full p-2 bg-gray-900 border border-gray-800 rounded focus:outline-none focus:ring-1 focus:ring-blue-500">
+          </div>
+          <button class="btn-primary w-full">Проверить подключение</button>
+        </div>
+      </div>
+
+      <div class="metric-card p-6">
+        <h3 class="font-semibold text-lg mb-4">Период по умолчанию</h3>
+        <div class="space-y-3">
+          <label class="flex items-center">
+            <input type="radio" name="period" value="week" checked class="mr-2">
+            <span>Неделя</span>
+          </label>
+          <label class="flex items-center">
+            <input type="radio" name="period" value="month" class="mr-2">
+            <span>Месяц</span>
+          </label>
+          <label class="flex items-center">
+            <input type="radio" name="period" value="quarter" class="mr-2">
+            <span>Квартал</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="metric-card p-6">
+        <h3 class="font-semibold text-lg mb-4">Формат отчетов</h3>
+        <div class="space-y-3">
+          <label class="flex items-center">
+            <input type="checkbox" checked class="mr-2">
+            <span>Показывать рубли с копейками</span>
+          </label>
+          <label class="flex items-center">
+            <input type="checkbox" class="mr-2">
+            <span>Автоматически округлять до целых</span>
+          </label>
+          <label class="flex items-center">
+            <input type="checkbox" class="mr-2">
+            <span>Показывать % изменения относительно прошлого периода</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="metric-card p-6">
+        <h3 class="font-semibold text-lg mb-4">Тема</h3>
+        <div class="flex gap-4">
+          <button class="flex-1 py-2 bg-gray-800 rounded hover:bg-gray-700">Тёмная</button>
+          <button class="flex-1 py-2 bg-gray-200 text-gray-800 rounded hover:bg-gray-300">Светлая</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
 
 <!-- Footer -->
 <footer class="relative z-10 py-10 px-6 border-t border-gray-800 max-w-7xl mx-auto text-center text-gray-500 text-sm">
-  <p>© 2026 Табачный магазин. Все права защищены.</p>
+  <p>© 2026 Табачный магазин. Все права защищены. Данные обновляются автоматически из МойСклад.</p>
 </footer>
 
 <script>
-  // Простая анимация появления при прокрутке (без библиотек)
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('animate-fade-in');
-        }
-      });
-    },
-    { threshold: 0.1 }
-  );
+  // Переключение вкладок
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      // Обновляем активную вкладку
+      document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+      this.classList.add('active');
 
-  document.querySelectorAll('.metric-card').forEach(card => {
-    observer.observe(card);
+      // Показываем нужную страницу
+      const target = this.getAttribute('data-target');
+      document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
+      document.getElementById(target).classList.add('active');
+    });
+  });
+
+  // Анимация появления при загрузке
+  document.querySelectorAll('.metric-card, .section-title').forEach(el => {
+    el.classList.add('animate-fade-in');
   });
 </script>
 </body>
