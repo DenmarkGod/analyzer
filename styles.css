@@ -17,9 +17,10 @@ body {
   background: linear-gradient(135deg, var(--dark) 0%, #0f172a 100%);
   color: #fff;
   overflow-x: hidden;
+  position: relative;
 }
 
-/* Абстрактный фон — добавим через :before/:after в каждом HTML, чтобы не дублировать */
+/* Абстрактный фон */
 body::before {
   content: '';
   position: absolute;
