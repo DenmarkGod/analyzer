@@ -1,0 +1,9 @@
+{
+  "name": "moysklad-dashboard",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "sync": "node scripts/sync.mjs"
+  }
+}

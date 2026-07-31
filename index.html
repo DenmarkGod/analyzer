@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Склад · Аналитика</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">Склад</span>
+        <span class="brand-sub">аналитика</span>
+      </div>
+      <div id="syncStamp" class="stamp stamp--unknown">
+        <span class="stamp-dot"></span>
+        <span class="stamp-text">нет данных</span>
+      </div>
+    </header>
+
+    <main id="app">
+      <p class="loading">Загрузка…</p>
+    </main>
+
+    <footer class="footer">
+      <p>
+        Данные приходят из МоегоСклада по расписанию через GitHub Actions.
+        Токен доступа хранится в секретах репозитория и никогда не передаётся в браузер.
+        Сайт опубликован через GitHub Pages и доступен по прямой ссылке кому угодно —
+        не размещайте здесь ничего, что не готовы показать посторонним.
+      </p>
+    </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
