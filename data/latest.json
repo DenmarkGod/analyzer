@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T10:10:06.247Z",
+  "updatedAt": "2026-07-31T10:21:57.230Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 8,
-        "amount": 10741,
-        "movementAmount": -49616
+        "count": 11,
+        "amount": 12430,
+        "movementAmount": -47927
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 253,
-        "amount": 277623,
-        "movementAmount": -257607
+        "count": 256,
+        "amount": 279312,
+        "movementAmount": -255918
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1925,
-        "amount": 2130771,
-        "movementAmount": 314242
+        "count": 1928,
+        "amount": 2132460,
+        "movementAmount": 315931
       },
       "orders": {
         "count": 0,
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-07-31",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 1,
+      "sum": 2860
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4718,
-    "totalValueRub": 1810333,
+    "totalValueRub": 1809414,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2124395,
-      "profit": 1113405,
+      "sum": 2127255,
+      "profit": 1114785,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 15970,
-      "sum": 16950105,
-      "profit": 8844434,
-      "lastDemandDate": "2026-07-31 12:19:00.000"
+      "demandsCount": 15973,
+      "sum": 16951794,
+      "profit": 8845204,
+      "lastDemandDate": "2026-07-31 13:19:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
