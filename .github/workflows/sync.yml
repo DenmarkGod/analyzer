@@ -1,1 +1,41 @@
+name: Sync MoySklad data
+
+on:
+  schedule:
+    # каждые 6 часов; формат — стандартный cron (UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: {}
+  # позволяет запустить синхронизацию вручную: вкладка Actions → Sync MoySklad data → Run workflow
+
+permissions:
+  contents: write
+
+concurrency:
+  group: moysklad-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch data from MoySklad
+        env:
+          MOYSKLAD_TOKEN: ${{ secrets.MOYSKLAD_TOKEN }}
+        run: node scripts/sync.mjs
+
+      - name: Commit updated data
+        run: |
+          git config user.name "moysklad-sync-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/latest.json
+          git diff --staged --quiet || git commit -m "chore: sync data from MoySklad"
+          git push
 
