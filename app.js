@@ -124,8 +124,8 @@ function chartsSection(salesTrend, moneyTrend, days) {
 }
 
 function drawCharts(data) {
-  const muted = '#8b92a0';
-  const grid = '#eceef1';
+  const muted = '#7a8290';
+  const grid = 'rgba(255,255,255,0.06)';
 
   if (data.salesTrend && document.getElementById('salesChart')) {
     new Chart(document.getElementById('salesChart'), {
@@ -135,8 +135,8 @@ function drawCharts(data) {
         datasets: [{
           label: 'Оборот',
           data: data.salesTrend.map((p) => p.sum),
-          borderColor: '#c2790a',
-          backgroundColor: 'rgba(194,121,10,0.1)',
+          borderColor: '#ffb13c',
+          backgroundColor: 'rgba(255,177,60,0.14)',
           fill: true,
           borderWidth: 2,
           pointRadius: 0,
@@ -161,8 +161,8 @@ function drawCharts(data) {
       data: {
         labels: data.moneyTrend.series.map((p) => p.date.slice(5)),
         datasets: [
-          { label: 'Доход', data: data.moneyTrend.series.map((p) => p.credit), borderColor: '#1f8a5f', borderWidth: 2, pointRadius: 0, tension: 0.25 },
-          { label: 'Расход', data: data.moneyTrend.series.map((p) => p.debit), borderColor: '#c23b2e', borderWidth: 2, pointRadius: 0, tension: 0.25 },
+          { label: 'Доход', data: data.moneyTrend.series.map((p) => p.credit), borderColor: '#2dd4a7', borderWidth: 2, pointRadius: 0, tension: 0.25 },
+          { label: 'Расход', data: data.moneyTrend.series.map((p) => p.debit), borderColor: '#ff6b5b', borderWidth: 2, pointRadius: 0, tension: 0.25 },
         ],
       },
       options: {
