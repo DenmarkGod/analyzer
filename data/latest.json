@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T08:16:11.349Z",
+  "updatedAt": "2026-08-01T13:14:19.777Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 3,
-        "amount": 4287,
-        "movementAmount": -85475
+        "count": 30,
+        "amount": 42039,
+        "movementAmount": -47723
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 339,
-        "amount": 360932,
-        "movementAmount": -174298
+        "count": 366,
+        "amount": 398684,
+        "movementAmount": -136546
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 3,
-        "amount": 4287,
-        "movementAmount": -2205506
+        "count": 30,
+        "amount": 42039,
+        "movementAmount": -2167754
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-03",
-      "quantity": 51,
-      "sum": 49118
+      "quantity": 42,
+      "sum": 37048
     },
     {
       "date": "2026-05-04",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-01",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 14,
+      "sum": 16531
     }
   ],
   "ordersTrend": [
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 4718,
-    "totalValueRub": 1770000,
+    "totalSkuCount": 4756,
+    "totalValueRub": 1973493,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1813,6 +1813,11 @@
         "stock": 0
       },
       {
+        "name": "Набор Geekvape Aegis Hero 5 Frost Mint - Мятный",
+        "code": "05149",
+        "stock": 0
+      },
+      {
         "name": "Набор Geekvape Aegis Hero 5 Iron Black - Черный",
         "code": "05395",
         "stock": 0
@@ -1931,11 +1936,6 @@
         "name": "POD Система SMOANT PASITO Mini Blue Twill",
         "code": "02773",
         "stock": 0
-      },
-      {
-        "name": "POD Система SMOANT PASITO Mini Brown",
-        "code": "02774",
-        "stock": 0
       }
     ]
   },
@@ -1945,23 +1945,23 @@
       "code": "03136",
       "quantity": 115,
       "sum": 39846,
-      "profit": 23906,
+      "profit": 23901,
       "margin": 60
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл (Corex 3.0-B)",
       "code": "04897",
-      "quantity": 92,
-      "sum": 32165,
-      "profit": 24773,
+      "quantity": 91,
+      "sum": 31815,
+      "profit": 24555,
       "margin": 77
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 67,
-      "sum": 23450,
-      "profit": 14606,
+      "quantity": 68,
+      "sum": 23800,
+      "profit": 14824,
       "margin": 62
     },
     {
@@ -1973,20 +1973,20 @@
       "margin": 48
     },
     {
-      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
-      "code": "01473",
-      "quantity": 41,
-      "sum": 14350,
-      "profit": 9061,
-      "margin": 63
-    },
-    {
       "name": "БПК Электронная Сигарета LOST MARY BM16000 Перечная Мята",
       "code": "02381",
       "quantity": 9,
       "sum": 14220,
       "profit": 7490,
       "margin": 53
+    },
+    {
+      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
+      "code": "01473",
+      "quantity": 40,
+      "sum": 14000,
+      "profit": 8840,
+      "margin": 63
     },
     {
       "name": "ОС PAFOS 20.000 Вишня Лимон / Cherry lemon",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2152063,
-      "profit": 1126234,
+      "sum": 2163266,
+      "profit": 1131316,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16056,
-      "sum": 17033413,
-      "profit": 8887411,
-      "lastDemandDate": "2026-08-01 11:08:00.000"
+      "demandsCount": 16083,
+      "sum": 17071165,
+      "profit": 8906812,
+      "lastDemandDate": "2026-08-01 15:47:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
