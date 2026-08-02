@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T13:15:06.847Z",
+  "updatedAt": "2026-08-02T19:05:41.871Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 21,
-        "amount": 22664,
-        "movementAmount": -52557
+        "count": 60,
+        "amount": 63426,
+        "movementAmount": -11795
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 427,
-        "amount": 454530,
-        "movementAmount": -80700
+        "count": 466,
+        "amount": 495292,
+        "movementAmount": -39938
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 91,
-        "amount": 97885,
-        "movementAmount": -2111908
+        "count": 130,
+        "amount": 138647,
+        "movementAmount": -2071146
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-04",
-      "quantity": 33,
-      "sum": 31242
+      "quantity": 18,
+      "sum": 17335
     },
     {
       "date": "2026-05-05",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-02",
-      "quantity": 6,
-      "sum": 3254
+      "quantity": 39,
+      "sum": 48582
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4756,
-    "totalValueRub": 1946708,
+    "totalValueRub": 1927041,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1632,7 +1632,7 @@
       {
         "name": "(МТ) Black Burn 25гр Cranberry Shock - Кислая клюква",
         "code": "01850",
-        "stock": 1,
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1943,25 +1943,25 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 114,
-      "sum": 39496,
-      "profit": 23701,
+      "quantity": 110,
+      "sum": 38096,
+      "profit": 22896,
       "margin": 60
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл (Corex 3.0-B)",
       "code": "04897",
-      "quantity": 88,
-      "sum": 30765,
-      "profit": 23901,
+      "quantity": 86,
+      "sum": 30065,
+      "profit": 23465,
       "margin": 78
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 64,
-      "sum": 22400,
-      "profit": 13952,
+      "quantity": 62,
+      "sum": 21700,
+      "profit": 13516,
       "margin": 62
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2178070,
-      "profit": 1138730,
+      "sum": 2172576,
+      "profit": 1133923,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16144,
-      "sum": 17127011,
-      "profit": 8935872,
-      "lastDemandDate": "2026-08-02 16:05:00.000"
+      "demandsCount": 16183,
+      "sum": 17167773,
+      "profit": 8956967,
+      "lastDemandDate": "2026-08-02 21:46:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
