@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T02:32:21.345Z",
+  "updatedAt": "2026-08-02T08:20:16.961Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -1720,70 +1720,70 @@
         "code": "00002",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 456
+        "stockDays": 457
       },
       {
         "name": "Трубка Шар \"Есть че?\" 15 см Тёмно-зеленая",
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 456
+        "stockDays": 457
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 451
+        "stockDays": 452
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 451
+        "stockDays": 452
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 451
+        "stockDays": 452
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 451
+        "stockDays": 452
       },
       {
         "name": "Набор уплотнителей д/кальяна HA-31",
         "code": "00490",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 451
+        "stockDays": 452
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 451
+        "stockDays": 452
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 446
+        "stockDays": 447
       },
       {
         "name": "Табак DARKSIDE SHOT Азовский 30g",
         "code": "01086",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 446
+        "stockDays": 447
       }
     ],
     "outOfStock": [
