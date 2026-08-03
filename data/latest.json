@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T09:39:07.497Z",
+  "updatedAt": "2026-08-03T14:33:04.791Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 7,
-        "amount": 11822,
-        "movementAmount": -53691
+        "count": 31,
+        "amount": 59634,
+        "movementAmount": -5879
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 7,
-        "amount": 11822,
-        "movementAmount": -485557
+        "count": 31,
+        "amount": 59634,
+        "movementAmount": -437745
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 142,
-        "amount": 152556,
-        "movementAmount": -2057237
+        "count": 166,
+        "amount": 200368,
+        "movementAmount": -2009425
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-05",
-      "quantity": 49,
-      "sum": 53008
+      "quantity": 39,
+      "sum": 38374
     },
     {
       "date": "2026-05-06",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-03",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 15,
+      "sum": 23270
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4756,
-    "totalValueRub": 1920169,
+    "totalValueRub": 1896766,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1779,8 +1779,8 @@
         "stockDays": 448
       },
       {
-        "name": "Табак DARKSIDE SHOT Азовский 30g",
-        "code": "01086",
+        "name": "Табак DARKSIDE SHOT Альпийский 30g",
+        "code": "01088",
         "stock": 1,
         "uom": "шт",
         "stockDays": 448
@@ -1795,6 +1795,11 @@
       {
         "name": "Набор Geekvape Aegis Boost 3 Silver - Серый",
         "code": "04332",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape H45 Classic (Aegis Hero 3) Black - Черный",
+        "code": "04220",
         "stock": 0
       },
       {
@@ -1931,11 +1936,6 @@
         "name": "Набор Smoant Pasito Kit Gunmetal - Металлический",
         "code": "05513",
         "stock": 0
-      },
-      {
-        "name": "POD Система SMOANT PASITO Mini Blue Twill",
-        "code": "02773",
-        "stock": 0
       }
     ]
   },
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 109,
-      "sum": 37746,
-      "profit": 22696,
+      "quantity": 108,
+      "sum": 37396,
+      "profit": 22496,
       "margin": 60
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2161889,
-      "profit": 1128705,
+      "sum": 2167358,
+      "profit": 1132131,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16195,
-      "sum": 17181682,
-      "profit": 8964004,
-      "lastDemandDate": "2026-08-03 12:32:00.000"
+      "demandsCount": 16219,
+      "sum": 17229495,
+      "profit": 8988413,
+      "lastDemandDate": "2026-08-03 17:31:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
