@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T14:04:40.159Z",
+  "updatedAt": "2026-08-04T19:28:07.104Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 19,
-        "amount": 22999,
-        "movementAmount": -61983
+        "count": 62,
+        "amount": 61941,
+        "movementAmount": -23041
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 78,
-        "amount": 107981,
-        "movementAmount": -389398
+        "count": 121,
+        "amount": 146923,
+        "movementAmount": -350456
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 213,
-        "amount": 248715,
-        "movementAmount": -1961078
+        "count": 256,
+        "amount": 287657,
+        "movementAmount": -1922136
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-06",
-      "quantity": 33,
-      "sum": 36573
+      "quantity": 14,
+      "sum": 16834
     },
     {
       "date": "2026-05-07",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-04",
-      "quantity": 9,
-      "sum": 12083
+      "quantity": 38,
+      "sum": 46175
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4756,
-    "totalValueRub": 1863497,
+    "totalValueRub": 1844747,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1908,6 +1908,11 @@
         "stock": 0
       },
       {
+        "name": "Набор Smoant Pasito 3 Blue Azur - Голубой",
+        "code": "05150",
+        "stock": 0
+      },
+      {
         "name": "Набор Smoant Pasito 3 Blue Nuit - Синяя ночь",
         "code": "04331",
         "stock": 0
@@ -1931,11 +1936,6 @@
         "name": "Набор Smoant Pasito Kit Carbon Black - Черный карбон",
         "code": "05512",
         "stock": 0
-      },
-      {
-        "name": "Набор Smoant Pasito Kit Gunmetal - Металлический",
-        "code": "05513",
-        "stock": 0
       }
     ]
   },
@@ -1943,18 +1943,18 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 107,
-      "sum": 37196,
-      "profit": 22405,
+      "quantity": 105,
+      "sum": 36496,
+      "profit": 21923,
       "margin": 60
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл (Corex 3.0-B)",
       "code": "04897",
-      "quantity": 83,
-      "sum": 29015,
-      "profit": 22811,
-      "margin": 79
+      "quantity": 84,
+      "sum": 29365,
+      "profit": 23029,
+      "margin": 78
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
@@ -1967,9 +1967,9 @@
     {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
       "code": "01473",
-      "quantity": 42,
-      "sum": 14700,
-      "profit": 9282,
+      "quantity": 40,
+      "sum": 14000,
+      "profit": 8840,
       "margin": 63
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2157615,
-      "profit": 1126605,
+      "sum": 2161146,
+      "profit": 1127619,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16266,
-      "sum": 17277842,
-      "profit": 9013917,
-      "lastDemandDate": "2026-08-04 17:00:00.000"
+      "demandsCount": 16309,
+      "sum": 17316784,
+      "profit": 9034109,
+      "lastDemandDate": "2026-08-04 21:35:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
