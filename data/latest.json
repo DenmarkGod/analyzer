@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T08:32:18.487Z",
+  "updatedAt": "2026-08-04T14:04:40.159Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 3,
-        "amount": 3892,
-        "movementAmount": -81090
+        "count": 19,
+        "amount": 22999,
+        "movementAmount": -61983
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 62,
-        "amount": 88874,
-        "movementAmount": -408505
+        "count": 78,
+        "amount": 107981,
+        "movementAmount": -389398
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 197,
-        "amount": 229608,
-        "movementAmount": -1980185
+        "count": 213,
+        "amount": 248715,
+        "movementAmount": -1961078
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-06",
-      "quantity": 40,
-      "sum": 45672
+      "quantity": 33,
+      "sum": 36573
     },
     {
       "date": "2026-05-07",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-04",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 9,
+      "sum": 12083
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4756,
-    "totalValueRub": 1872657,
+    "totalValueRub": 1863497,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 106,
-      "sum": 36846,
-      "profit": 22210,
+      "quantity": 107,
+      "sum": 37196,
+      "profit": 22405,
       "margin": 60
     },
     {
@@ -1959,9 +1959,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 61,
-      "sum": 21350,
-      "profit": 13298,
+      "quantity": 62,
+      "sum": 21700,
+      "profit": 13516,
       "margin": 62
     },
     {
@@ -1973,20 +1973,20 @@
       "margin": 63
     },
     {
-      "name": "БПК Электронная Сигарета LOST MARY BM16000 Перечная Мята",
-      "code": "02381",
-      "quantity": 9,
-      "sum": 14220,
-      "profit": 7490,
-      "margin": 53
-    },
-    {
       "name": "Кальян M-4 NanoBox, 25см",
       "code": "00565",
       "quantity": 2,
       "sum": 13360,
       "profit": 6360,
       "margin": 48
+    },
+    {
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Перечная Мята",
+      "code": "02381",
+      "quantity": 8,
+      "sum": 12640,
+      "profit": 6660,
+      "margin": 53
     },
     {
       "name": "Кальян AM-571, 64см  (Yellow желтый)",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2161578,
-      "profit": 1128824,
+      "sum": 2157615,
+      "profit": 1126605,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16250,
-      "sum": 17258735,
-      "profit": 9003969,
-      "lastDemandDate": "2026-08-04 11:28:00.000"
+      "demandsCount": 16266,
+      "sum": 17277842,
+      "profit": 9013917,
+      "lastDemandDate": "2026-08-04 17:00:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
