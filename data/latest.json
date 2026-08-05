@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T19:28:07.104Z",
+  "updatedAt": "2026-08-05T02:12:49.972Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 62,
-        "amount": 61941,
-        "movementAmount": -23041
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -65261
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1900837,
+        "income": 1896633,
         "outcome": 6591216,
-        "balance": 2029010,
-        "todayMovement": -4690379,
-        "movement": -4690379
+        "balance": 2080966,
+        "todayMovement": -4694583,
+        "movement": -4694583
       }
     },
     "week": {
       "sales": {
-        "count": 121,
-        "amount": 146923,
-        "movementAmount": -350456
+        "count": 123,
+        "amount": 150243,
+        "movementAmount": -347136
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1900837,
+        "income": 1896633,
         "outcome": 6591216,
-        "balance": 2029010,
-        "todayMovement": -4690379,
-        "movement": -4690379
+        "balance": 2080966,
+        "todayMovement": -4694583,
+        "movement": -4694583
       }
     },
     "month": {
       "sales": {
-        "count": 256,
-        "amount": 287657,
-        "movementAmount": -1922136
+        "count": 258,
+        "amount": 290977,
+        "movementAmount": -1918816
       },
       "orders": {
         "count": 0,
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1900837,
+        "income": 1896633,
         "outcome": 6591216,
-        "balance": 2029010,
-        "todayMovement": -4690379,
-        "movement": -4690379
+        "balance": 2080966,
+        "todayMovement": -4694583,
+        "movement": -4694583
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-05-06",
-      "quantity": 14,
-      "sum": 16834
-    },
     {
       "date": "2026-05-07",
       "quantity": 45,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-08-04",
-      "quantity": 38,
-      "sum": 46175
+      "quantity": 64,
+      "sum": 65261
+    },
+    {
+      "date": "2026-08-05",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-05-06",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-05-07",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-08-04",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-08-05",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 11450643,
+    "creditTotal": 11502599,
     "debitTotal": 9421633,
     "series": [
-      {
-        "date": "2026-05-06",
-        "credit": 32408,
-        "debit": 0,
-        "balance": 32408
-      },
       {
         "date": "2026-05-07",
         "credit": 0,
@@ -1523,15 +1517,21 @@
       },
       {
         "date": "2026-08-04",
-        "credit": 78222,
+        "credit": 130178,
         "debit": 0,
-        "balance": 78222
+        "balance": 130178
+      },
+      {
+        "date": "2026-08-05",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
       }
     ]
   },
   "stock": {
     "totalSkuCount": 4756,
-    "totalValueRub": 1844747,
+    "totalValueRub": 1843197,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1951,10 +1951,10 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл (Corex 3.0-B)",
       "code": "04897",
-      "quantity": 84,
-      "sum": 29365,
-      "profit": 23029,
-      "margin": 78
+      "quantity": 82,
+      "sum": 28665,
+      "profit": 22593,
+      "margin": 79
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
@@ -1967,9 +1967,9 @@
     {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
       "code": "01473",
-      "quantity": 40,
-      "sum": 14000,
-      "profit": 8840,
+      "quantity": 41,
+      "sum": 14350,
+      "profit": 9061,
       "margin": 63
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2161146,
-      "profit": 1127619,
+      "sum": 2154306,
+      "profit": 1124102,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16309,
-      "sum": 17316784,
-      "profit": 9034109,
-      "lastDemandDate": "2026-08-04 21:35:00.000"
+      "demandsCount": 16311,
+      "sum": 17320104,
+      "profit": 9035879,
+      "lastDemandDate": "2026-08-04 22:52:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
