@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T08:31:24.924Z",
+  "updatedAt": "2026-08-06T14:01:42.592Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 7,
-        "amount": 4219,
-        "movementAmount": -74244
+        "count": 28,
+        "amount": 36407,
+        "movementAmount": -42056
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 201,
-        "amount": 232924,
-        "movementAmount": -264455
+        "count": 222,
+        "amount": 265112,
+        "movementAmount": -232267
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 336,
-        "amount": 373658,
-        "movementAmount": -1836135
+        "count": 357,
+        "amount": 405846,
+        "movementAmount": -1803947
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-08",
-      "quantity": 47,
-      "sum": 61148
+      "quantity": 39,
+      "sum": 46588
     },
     {
       "date": "2026-05-09",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-06",
-      "quantity": 2,
-      "sum": 496
+      "quantity": 15,
+      "sum": 12550
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4761,
-    "totalValueRub": 1842811,
+    "totalValueRub": 1828720,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1928,13 +1928,13 @@
         "stock": 0
       },
       {
-        "name": "Набор Smoant Pasito 3 Rococo Purple - Пурпурный",
-        "code": "05151",
+        "name": "Набор Smoant Pasito 3 Pepper White - Белый",
+        "code": "05644",
         "stock": 0
       },
       {
-        "name": "Набор Smoant Pasito Kit Carbon Black - Черный карбон",
-        "code": "05512",
+        "name": "Набор Smoant Pasito 3 Rococo Purple - Пурпурный",
+        "code": "05151",
         "stock": 0
       }
     ]
@@ -1943,17 +1943,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 106,
-      "sum": 36846,
-      "profit": 22003,
+      "quantity": 104,
+      "sum": 36146,
+      "profit": 21567,
       "margin": 60
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл (Corex 3.0-B)",
       "code": "04897",
-      "quantity": 83,
-      "sum": 28980,
-      "profit": 22776,
+      "quantity": 82,
+      "sum": 28630,
+      "profit": 22690,
       "margin": 79
     },
     {
@@ -1985,8 +1985,8 @@
       "code": "02381",
       "quantity": 8,
       "sum": 12640,
-      "profit": 6660,
-      "margin": 53
+      "profit": 7410,
+      "margin": 59
     },
     {
       "name": "Кальян AM-571, 64см  (Yellow желтый)",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2170849,
-      "profit": 1132803,
+      "sum": 2164828,
+      "profit": 1128938,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16389,
-      "sum": 17402784,
-      "profit": 9080602,
-      "lastDemandDate": "2026-08-06 11:19:00.000"
+      "demandsCount": 16411,
+      "sum": 17436082,
+      "profit": 9099259,
+      "lastDemandDate": "2026-08-06 17:01:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
