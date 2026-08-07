@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T23:55:55.661Z",
+  "updatedAt": "2026-08-07T02:37:43.728Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -64,11 +64,6 @@
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-05-08",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-05-09",
       "quantity": 57,
@@ -518,14 +513,14 @@
       "date": "2026-08-06",
       "quantity": 71,
       "sum": 101692
+    },
+    {
+      "date": "2026-08-07",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-05-08",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-05-09",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-08-06",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-08-07",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
     "creditTotal": 11690283,
     "debitTotal": 9437504,
     "series": [
-      {
-        "date": "2026-05-08",
-        "credit": 0,
-        "debit": 0,
-        "balance": 0
-      },
       {
         "date": "2026-05-09",
         "credit": 50985,
@@ -1526,6 +1520,12 @@
         "credit": 128076,
         "debit": 0,
         "balance": 128076
+      },
+      {
+        "date": "2026-08-07",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
       }
     ]
   },
