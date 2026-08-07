@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T12:56:54.567Z",
+  "updatedAt": "2026-08-07T18:52:26.304Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 15,
-        "amount": 19500,
-        "movementAmount": -82192
+        "count": 40,
+        "amount": 52132,
+        "movementAmount": -49560
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 280,
-        "amount": 349897,
-        "movementAmount": -147482
+        "count": 305,
+        "amount": 382529,
+        "movementAmount": -114850
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 415,
-        "amount": 490631,
-        "movementAmount": -1719162
+        "count": 440,
+        "amount": 523263,
+        "movementAmount": -1686530
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-09",
-      "quantity": 48,
-      "sum": 54835
+      "quantity": 25,
+      "sum": 27164
     },
     {
       "date": "2026-05-10",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-07",
-      "quantity": 6,
-      "sum": 8360
+      "quantity": 28,
+      "sum": 35671
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4761,
-    "totalValueRub": 1785439,
+    "totalValueRub": 1763252,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1945,7 +1945,7 @@
       "code": "03136",
       "quantity": 102,
       "sum": 35446,
-      "profit": 21016,
+      "profit": 20993,
       "margin": 59
     },
     {
@@ -1997,14 +1997,6 @@
       "margin": 54
     },
     {
-      "name": "ОС PAFOS 20.000 Вишня Лимон / Cherry lemon",
-      "code": "02668",
-      "quantity": 4,
-      "sum": 11240,
-      "profit": 5480,
-      "margin": 49
-    },
-    {
       "name": "ОС PAFOS 20.000 Клюква Содовая/Cranberry Soda",
       "code": "02672",
       "quantity": 4,
@@ -2019,23 +2011,31 @@
       "sum": 10959,
       "profit": 5199,
       "margin": 47
+    },
+    {
+      "name": "Кальян TH-32-2 SANSARA CYBER 76см (составной, полный комплект) (Black чёрный)",
+      "code": "05864",
+      "quantity": 1,
+      "sum": 10649,
+      "profit": 6549,
+      "margin": 61
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2202028,
-      "profit": 1148549,
+      "sum": 2207820,
+      "profit": 1151931,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16468,
-      "sum": 17519757,
-      "profit": 9142363,
-      "lastDemandDate": "2026-08-07 15:44:00.000"
+      "demandsCount": 16493,
+      "sum": 17552389,
+      "profit": 9159254,
+      "lastDemandDate": "2026-08-07 21:39:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
