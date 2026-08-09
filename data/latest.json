@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T12:43:11.504Z",
+  "updatedAt": "2026-08-09T18:36:19.370Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 16,
-        "amount": 15644,
-        "movementAmount": -31368
+        "count": 47,
+        "amount": 58932,
+        "movementAmount": 11920
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 377,
-        "amount": 445185,
-        "movementAmount": -52194
+        "count": 408,
+        "amount": 488473,
+        "movementAmount": -8906
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 512,
-        "amount": 585919,
-        "movementAmount": -1623874
+        "count": 543,
+        "amount": 629207,
+        "movementAmount": -1580586
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-11",
-      "quantity": 34,
-      "sum": 32707
+      "quantity": 19,
+      "sum": 12984
     },
     {
       "date": "2026-05-12",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-09",
-      "quantity": 3,
-      "sum": 3195
+      "quantity": 36,
+      "sum": 47373
     }
   ],
   "ordersTrend": [
@@ -1524,14 +1524,14 @@
       {
         "date": "2026-08-09",
         "credit": 45807,
-        "debit": 0,
-        "balance": 45807
+        "debit": 77090,
+        "balance": -31283
       }
     ]
   },
   "stock": {
     "totalSkuCount": 4761,
-    "totalValueRub": 1721423,
+    "totalValueRub": 1696189,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1863,6 +1863,11 @@
         "stock": 0
       },
       {
+        "name": "ЭДО POD Система PLONQ Meta Lite Черный",
+        "code": "05803",
+        "stock": 0
+      },
+      {
         "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
         "code": "05804",
         "stock": 0
@@ -1931,11 +1936,6 @@
         "name": "Набор Smoant Pasito 3 Pepper White - Белый",
         "code": "05644",
         "stock": 0
-      },
-      {
-        "name": "Набор Smoant Pasito 3 Rococo Purple - Пурпурный",
-        "code": "05151",
-        "stock": 0
       }
     ]
   },
@@ -1945,32 +1945,24 @@
       "code": "03136",
       "quantity": 98,
       "sum": 34046,
-      "profit": 20075,
+      "profit": 20052,
       "margin": 59
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл (Corex 3.0-B)",
       "code": "04897",
-      "quantity": 75,
-      "sum": 26215,
-      "profit": 20539,
-      "margin": 78
+      "quantity": 76,
+      "sum": 26565,
+      "profit": 20889,
+      "margin": 79
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 64,
-      "sum": 22400,
-      "profit": 13952,
+      "quantity": 65,
+      "sum": 22750,
+      "profit": 14170,
       "margin": 62
-    },
-    {
-      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
-      "code": "01473",
-      "quantity": 39,
-      "sum": 13650,
-      "profit": 8619,
-      "margin": 63
     },
     {
       "name": "Кальян M-4 NanoBox, 25см",
@@ -1987,6 +1979,14 @@
       "sum": 12640,
       "profit": 7410,
       "margin": 59
+    },
+    {
+      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
+      "code": "01473",
+      "quantity": 35,
+      "sum": 12250,
+      "profit": 7735,
+      "margin": 63
     },
     {
       "name": "Кальян AM-571, 64см  (Yellow желтый)",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2184365,
-      "profit": 1140360,
+      "sum": 2183514,
+      "profit": 1140517,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16565,
-      "sum": 17615045,
-      "profit": 9193374,
-      "lastDemandDate": "2026-08-09 15:42:00.000"
+      "demandsCount": 16596,
+      "sum": 17658333,
+      "profit": 9216908,
+      "lastDemandDate": "2026-08-09 21:16:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
