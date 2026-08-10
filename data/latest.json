@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T13:01:25.635Z",
+  "updatedAt": "2026-08-10T18:53:29.449Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 35,
-        "amount": 58684,
-        "movementAmount": -1986
+        "count": 97,
+        "amount": 148040,
+        "movementAmount": 87370
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 35,
-        "amount": 58684,
-        "movementAmount": -431527
+        "count": 97,
+        "amount": 148040,
+        "movementAmount": -342171
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 582,
-        "amount": 689629,
-        "movementAmount": -1520164
+        "count": 644,
+        "amount": 778985,
+        "movementAmount": -1430808
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-12",
-      "quantity": 52,
-      "sum": 61270
+      "quantity": 26,
+      "sum": 31932
     },
     {
       "date": "2026-05-13",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-10",
-      "quantity": 18,
-      "sum": 26846
+      "quantity": 69,
+      "sum": 106811
     }
   ],
   "ordersTrend": [
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 4761,
-    "totalValueRub": 1666840,
+    "totalSkuCount": 4762,
+    "totalValueRub": 1644600,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1943,25 +1943,25 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 99,
-      "sum": 34396,
-      "profit": 20224,
+      "quantity": 94,
+      "sum": 32646,
+      "profit": 19134,
       "margin": 59
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл (Corex 3.0-B)",
       "code": "04897",
-      "quantity": 73,
-      "sum": 25515,
-      "profit": 19839,
-      "margin": 78
+      "quantity": 77,
+      "sum": 26915,
+      "profit": 21239,
+      "margin": 79
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 66,
-      "sum": 23100,
-      "profit": 14388,
+      "quantity": 68,
+      "sum": 23800,
+      "profit": 14824,
       "margin": 62
     },
     {
@@ -1971,6 +1971,14 @@
       "sum": 13360,
       "profit": 6360,
       "margin": 48
+    },
+    {
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
+      "code": "02695",
+      "quantity": 8,
+      "sum": 12640,
+      "profit": 6640,
+      "margin": 53
     },
     {
       "name": "БПК Электронная Сигарета LOST MARY BM16000 Перечная Мята",
@@ -1983,10 +1991,18 @@
     {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
       "code": "01473",
-      "quantity": 35,
-      "sum": 12250,
-      "profit": 7735,
+      "quantity": 36,
+      "sum": 12600,
+      "profit": 7956,
       "margin": 63
+    },
+    {
+      "name": "ОС PAFOS 20.000 Вишня Лимон / Cherry lemon",
+      "code": "02668",
+      "quantity": 4,
+      "sum": 11240,
+      "profit": 5620,
+      "margin": 50
     },
     {
       "name": "ОС PAFOS 20.000 Клюква Содовая/Cranberry Soda",
@@ -1997,45 +2013,29 @@
       "margin": 49
     },
     {
-      "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
-      "code": "02695",
-      "quantity": 7,
-      "sum": 11060,
-      "profit": 5810,
-      "margin": 53
-    },
-    {
       "name": "ОС PAFOS 20.000 Лимончелло / Limoncello",
       "code": "02306",
       "quantity": 4,
       "sum": 10959,
       "profit": 5199,
       "margin": 47
-    },
-    {
-      "name": "Кальян TH-32-2 SANSARA CYBER 76см (составной, полный комплект) (Black чёрный)",
-      "code": "05864",
-      "quantity": 1,
-      "sum": 10649,
-      "profit": 6549,
-      "margin": 61
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2164594,
-      "profit": 1130311,
+      "sum": 2204956,
+      "profit": 1151534,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16635,
-      "sum": 17718755,
-      "profit": 9249260,
-      "lastDemandDate": "2026-08-10 15:58:00.000"
+      "demandsCount": 16697,
+      "sum": 17808111,
+      "profit": 9296517,
+      "lastDemandDate": "2026-08-10 21:46:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
