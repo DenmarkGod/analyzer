@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T18:36:19.370Z",
+  "updatedAt": "2026-08-10T01:28:04.313Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 47,
-        "amount": 58932,
-        "movementAmount": 11920
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -60670
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1951336,
-        "outcome": 6653642,
-        "balance": 2272325,
-        "todayMovement": -4702307,
-        "movement": -4702307
+        "income": 1964012,
+        "outcome": 6595200,
+        "balance": 2330249,
+        "todayMovement": -4631188,
+        "movement": -4631188
       }
     },
     "week": {
       "sales": {
-        "count": 408,
-        "amount": 488473,
-        "movementAmount": -8906
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -490211
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1951336,
-        "outcome": 6653642,
-        "balance": 2272325,
-        "todayMovement": -4702307,
-        "movement": -4702307
+        "income": 1964012,
+        "outcome": 6595200,
+        "balance": 2330249,
+        "todayMovement": -4631188,
+        "movement": -4631188
       }
     },
     "month": {
       "sales": {
-        "count": 543,
-        "amount": 629207,
-        "movementAmount": -1580586
+        "count": 547,
+        "amount": 630945,
+        "movementAmount": -1578848
       },
       "orders": {
         "count": 0,
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1951336,
-        "outcome": 6653642,
-        "balance": 2272325,
-        "todayMovement": -4702307,
-        "movement": -4702307
+        "income": 1964012,
+        "outcome": 6595200,
+        "balance": 2330249,
+        "todayMovement": -4631188,
+        "movement": -4631188
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-05-11",
-      "quantity": 19,
-      "sum": 12984
-    },
     {
       "date": "2026-05-12",
       "quantity": 58,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-08-09",
-      "quantity": 36,
-      "sum": 47373
+      "quantity": 51,
+      "sum": 60670
+    },
+    {
+      "date": "2026-08-10",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-05-11",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-05-12",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-08-09",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-08-10",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 11786919,
+    "creditTotal": 11844843,
     "debitTotal": 9514594,
     "series": [
-      {
-        "date": "2026-05-11",
-        "credit": 32406,
-        "debit": 0,
-        "balance": 32406
-      },
       {
         "date": "2026-05-12",
         "credit": 0,
@@ -1526,12 +1520,18 @@
         "credit": 45807,
         "debit": 77090,
         "balance": -31283
+      },
+      {
+        "date": "2026-08-10",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
       }
     ]
   },
   "stock": {
     "totalSkuCount": 4761,
-    "totalValueRub": 1696189,
+    "totalValueRub": 1694332,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1943,18 +1943,18 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 98,
-      "sum": 34046,
-      "profit": 20052,
+      "quantity": 97,
+      "sum": 33696,
+      "profit": 19834,
       "margin": 59
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл (Corex 3.0-B)",
       "code": "04897",
-      "quantity": 76,
-      "sum": 26565,
-      "profit": 20889,
-      "margin": 79
+      "quantity": 74,
+      "sum": 25865,
+      "profit": 20189,
+      "margin": 78
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
@@ -1989,14 +1989,6 @@
       "margin": 63
     },
     {
-      "name": "Кальян AM-571, 64см  (Yellow желтый)",
-      "code": "02551",
-      "quantity": 2,
-      "sum": 11900,
-      "profit": 6400,
-      "margin": 54
-    },
-    {
       "name": "ОС PAFOS 20.000 Клюква Содовая/Cranberry Soda",
       "code": "02672",
       "quantity": 4,
@@ -2019,23 +2011,31 @@
       "sum": 10649,
       "profit": 6549,
       "margin": 61
+    },
+    {
+      "name": "Кальян BATR БАМБУК темное дерево",
+      "code": "03206",
+      "quantity": 1,
+      "sum": 9980,
+      "profit": 4490,
+      "margin": 45
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2183514,
-      "profit": 1140517,
+      "sum": 2155578,
+      "profit": 1125487,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16596,
-      "sum": 17658333,
-      "profit": 9216908,
-      "lastDemandDate": "2026-08-09 21:16:00.000"
+      "demandsCount": 16600,
+      "sum": 17660071,
+      "profit": 9218068,
+      "lastDemandDate": "2026-08-09 23:12:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
