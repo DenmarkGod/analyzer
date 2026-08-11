@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T07:02:15.712Z",
+  "updatedAt": "2026-08-11T12:57:43.229Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -152314
+        "count": 33,
+        "amount": 29866,
+        "movementAmount": -122448
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 103,
-        "amount": 152314,
-        "movementAmount": -337897
+        "count": 136,
+        "amount": 182180,
+        "movementAmount": -308031
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 650,
-        "amount": 783259,
-        "movementAmount": -1426534
+        "count": 683,
+        "amount": 813124,
+        "movementAmount": -1396669
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-13",
-      "quantity": 48,
-      "sum": 61122
+      "quantity": 44,
+      "sum": 56445
     },
     {
       "date": "2026-05-14",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-11",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 16,
+      "sum": 14079
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4762,
-    "totalValueRub": 1642575,
+    "totalValueRub": 1629621,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1776,14 +1776,14 @@
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 455
+        "stockDays": 456
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 455
+        "stockDays": 456
       }
     ],
     "outOfStock": [
@@ -1959,10 +1959,18 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 69,
-      "sum": 24150,
-      "profit": 15042,
+      "quantity": 72,
+      "sum": 25200,
+      "profit": 15696,
       "margin": 62
+    },
+    {
+      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
+      "code": "01473",
+      "quantity": 39,
+      "sum": 13650,
+      "profit": 8619,
+      "margin": 63
     },
     {
       "name": "Кальян M-4 NanoBox, 25см",
@@ -1971,14 +1979,6 @@
       "sum": 13360,
       "profit": 6360,
       "margin": 48
-    },
-    {
-      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
-      "code": "01473",
-      "quantity": 37,
-      "sum": 12950,
-      "profit": 8177,
-      "margin": 63
     },
     {
       "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
@@ -2013,29 +2013,29 @@
       "margin": 49
     },
     {
-      "name": "ОС PAFOS 20.000 Лимончелло / Limoncello",
-      "code": "02306",
-      "quantity": 4,
-      "sum": 10959,
-      "profit": 5199,
-      "margin": 47
+      "name": "БПК Картридж LOST MARY X-Nic Клубничное Молоко",
+      "code": "04209",
+      "quantity": 10,
+      "sum": 11100,
+      "profit": 5600,
+      "margin": 50
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2223488,
-      "profit": 1160388,
+      "sum": 2227740,
+      "profit": 1161387,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16703,
-      "sum": 17812385,
-      "profit": 9298767,
-      "lastDemandDate": "2026-08-10 23:01:00.000"
+      "demandsCount": 16736,
+      "sum": 17842251,
+      "profit": 9315678,
+      "lastDemandDate": "2026-08-11 15:53:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
