@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T12:57:43.229Z",
+  "updatedAt": "2026-08-11T18:58:17.231Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 33,
-        "amount": 29866,
-        "movementAmount": -122448
+        "count": 75,
+        "amount": 67830,
+        "movementAmount": -84484
       },
       "orders": {
         "count": 0,
@@ -18,17 +18,17 @@
       },
       "money": {
         "income": 2109720,
-        "outcome": 6595200,
-        "balance": 2475958,
-        "todayMovement": -4485479,
-        "movement": -4485479
+        "outcome": 6687397,
+        "balance": 2383761,
+        "todayMovement": -4577676,
+        "movement": -4577676
       }
     },
     "week": {
       "sales": {
-        "count": 136,
-        "amount": 182180,
-        "movementAmount": -308031
+        "count": 178,
+        "amount": 220144,
+        "movementAmount": -270067
       },
       "orders": {
         "count": 0,
@@ -37,17 +37,17 @@
       },
       "money": {
         "income": 2109720,
-        "outcome": 6595200,
-        "balance": 2475958,
-        "todayMovement": -4485479,
-        "movement": -4485479
+        "outcome": 6687397,
+        "balance": 2383761,
+        "todayMovement": -4577676,
+        "movement": -4577676
       }
     },
     "month": {
       "sales": {
-        "count": 683,
-        "amount": 813124,
-        "movementAmount": -1396669
+        "count": 725,
+        "amount": 851088,
+        "movementAmount": -1358705
       },
       "orders": {
         "count": 0,
@@ -56,18 +56,18 @@
       },
       "money": {
         "income": 2109720,
-        "outcome": 6595200,
-        "balance": 2475958,
-        "todayMovement": -4485479,
-        "movement": -4485479
+        "outcome": 6687397,
+        "balance": 2383761,
+        "todayMovement": -4577676,
+        "movement": -4577676
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-05-13",
-      "quantity": 44,
-      "sum": 56445
+      "quantity": 20,
+      "sum": 25641
     },
     {
       "date": "2026-05-14",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-11",
-      "quantity": 16,
-      "sum": 14079
+      "quantity": 56,
+      "sum": 51060
     }
   ],
   "ordersTrend": [
@@ -979,7 +979,7 @@
   ],
   "moneyTrend": {
     "creditTotal": 11990552,
-    "debitTotal": 9514594,
+    "debitTotal": 9606791,
     "series": [
       {
         "date": "2026-05-13",
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 4762,
-    "totalValueRub": 1629621,
+    "totalSkuCount": 4802,
+    "totalValueRub": 1732494,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1818,11 +1818,6 @@
         "stock": 0
       },
       {
-        "name": "Набор Geekvape Aegis Hero 5 Frost Mint - Мятный",
-        "code": "05149",
-        "stock": 0
-      },
-      {
         "name": "Набор Geekvape Aegis Hero 5 Iron Black - Черный",
         "code": "05395",
         "stock": 0
@@ -1830,11 +1825,6 @@
       {
         "name": "Набор Geekvape Aegis Hero 5 Racing Green - Зеленый",
         "code": "04660",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape Aegis Hero 5 Steel Silver - Стальной",
-        "code": "04883",
         "stock": 0
       },
       {
@@ -1923,18 +1913,28 @@
         "stock": 0
       },
       {
-        "name": "Набор Smoant Pasito 3 Camouflage Green - Зеленый камуфляж",
-        "code": "05117",
-        "stock": 0
-      },
-      {
-        "name": "Набор Smoant Pasito 3 Classical Red - Красный",
-        "code": "04463",
-        "stock": 0
-      },
-      {
         "name": "Набор Smoant Pasito 3 Matte Black - Черный",
         "code": "04810",
+        "stock": 0
+      },
+      {
+        "name": "Набор Smoant Pasito 3 Pepper White - Белый",
+        "code": "05644",
+        "stock": 0
+      },
+      {
+        "name": "Набор Smoant Pasito Kit Carbon Black - Черный карбон",
+        "code": "05512",
+        "stock": 0
+      },
+      {
+        "name": "Набор Smoant Pasito Kit Gunmetal - Металлический",
+        "code": "05513",
+        "stock": 0
+      },
+      {
+        "name": "POD Система SMOANT PASITO Mini Blue Twill",
+        "code": "02773",
         "stock": 0
       }
     ]
@@ -1943,33 +1943,33 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 92,
-      "sum": 31946,
-      "profit": 18698,
-      "margin": 59
+      "quantity": 89,
+      "sum": 30896,
+      "profit": 18044,
+      "margin": 58
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл (Corex 3.0-B)",
       "code": "04897",
-      "quantity": 79,
-      "sum": 27615,
-      "profit": 21939,
-      "margin": 79
+      "quantity": 86,
+      "sum": 30065,
+      "profit": 24389,
+      "margin": 81
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 72,
-      "sum": 25200,
-      "profit": 15696,
+      "quantity": 75,
+      "sum": 26250,
+      "profit": 16350,
       "margin": 62
     },
     {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
       "code": "01473",
-      "quantity": 39,
-      "sum": 13650,
-      "profit": 8619,
+      "quantity": 43,
+      "sum": 15050,
+      "profit": 9503,
       "margin": 63
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2227740,
-      "profit": 1161387,
+      "sum": 2229780,
+      "profit": 1163960,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16736,
-      "sum": 17842251,
-      "profit": 9315678,
-      "lastDemandDate": "2026-08-11 15:53:00.000"
+      "demandsCount": 16778,
+      "sum": 17880215,
+      "profit": 9336315,
+      "lastDemandDate": "2026-08-11 21:42:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
