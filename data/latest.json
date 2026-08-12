@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T13:01:58.404Z",
+  "updatedAt": "2026-08-12T18:58:05.887Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 33,
-        "amount": 31426,
-        "movementAmount": -39252
+        "count": 81,
+        "amount": 78467,
+        "movementAmount": 7789
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 213,
-        "amount": 254417,
-        "movementAmount": -235794
+        "count": 261,
+        "amount": 301458,
+        "movementAmount": -188753
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 760,
-        "amount": 885362,
-        "movementAmount": -1324431
+        "count": 808,
+        "amount": 932403,
+        "movementAmount": -1277390
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-14",
-      "quantity": 49,
-      "sum": 43376
+      "quantity": 22,
+      "sum": 19910
     },
     {
       "date": "2026-05-15",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-12",
-      "quantity": 12,
-      "sum": 12730
+      "quantity": 58,
+      "sum": 68248
     }
   ],
   "ordersTrend": [
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 4803,
-    "totalValueRub": 1716909,
+    "totalSkuCount": 4804,
+    "totalValueRub": 1680698,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1913,6 +1913,11 @@
         "stock": 0
       },
       {
+        "name": "Набор Smoant Pasito 3 Classical Red - Красный",
+        "code": "04463",
+        "stock": 0
+      },
+      {
         "name": "Набор Smoant Pasito 3 Matte Black - Черный",
         "code": "04810",
         "stock": 0
@@ -1931,11 +1936,6 @@
         "name": "Набор Smoant Pasito Kit Carbon Black - Черный карбон",
         "code": "05512",
         "stock": 0
-      },
-      {
-        "name": "Набор Smoant Pasito Kit Gunmetal - Металлический",
-        "code": "05513",
-        "stock": 0
       }
     ]
   },
@@ -1943,17 +1943,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл (Corex 3.0-B)",
       "code": "04897",
-      "quantity": 87,
-      "sum": 30415,
-      "profit": 24739,
-      "margin": 81
+      "quantity": 88,
+      "sum": 30765,
+      "profit": 25089,
+      "margin": 82
     },
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 86,
-      "sum": 29846,
-      "profit": 17390,
+      "quantity": 82,
+      "sum": 28446,
+      "profit": 16518,
       "margin": 58
     },
     {
@@ -1973,6 +1973,14 @@
       "margin": 63
     },
     {
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
+      "code": "02695",
+      "quantity": 9,
+      "sum": 14220,
+      "profit": 7470,
+      "margin": 53
+    },
+    {
       "name": "Кальян M-4 NanoBox, 25см",
       "code": "00565",
       "quantity": 2,
@@ -1981,28 +1989,12 @@
       "margin": 48
     },
     {
-      "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
-      "code": "02695",
-      "quantity": 8,
-      "sum": 12640,
-      "profit": 6640,
-      "margin": 53
-    },
-    {
       "name": "БПК Электронная Сигарета LOST MARY BM16000 Перечная Мята",
       "code": "02381",
       "quantity": 8,
       "sum": 12640,
       "profit": 7410,
       "margin": 59
-    },
-    {
-      "name": "ОС PAFOS 20.000 Вишня Лимон / Cherry lemon",
-      "code": "02668",
-      "quantity": 4,
-      "sum": 11240,
-      "profit": 5620,
-      "margin": 50
     },
     {
       "name": "ОС PAFOS 20.000 Клюква Содовая/Cranberry Soda",
@@ -2019,23 +2011,31 @@
       "sum": 11100,
       "profit": 5600,
       "margin": 50
+    },
+    {
+      "name": "БПК Картридж LOST MARY X-Nic Лимонад Ежевика Малина",
+      "code": "04216",
+      "quantity": 10,
+      "sum": 11100,
+      "profit": 5840,
+      "margin": 53
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2226677,
-      "profit": 1163102,
+      "sum": 2252928,
+      "profit": 1178440,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16813,
-      "sum": 17914489,
-      "profit": 9355004,
-      "lastDemandDate": "2026-08-12 16:01:00.000"
+      "demandsCount": 16861,
+      "sum": 17961529,
+      "profit": 9381604,
+      "lastDemandDate": "2026-08-12 21:52:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
