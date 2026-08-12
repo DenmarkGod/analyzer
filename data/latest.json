@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T07:20:46.806Z",
+  "updatedAt": "2026-08-12T13:01:58.404Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 1,
-        "amount": 419,
-        "movementAmount": -70258
+        "count": 33,
+        "amount": 31426,
+        "movementAmount": -39252
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 181,
-        "amount": 223411,
-        "movementAmount": -266800
+        "count": 213,
+        "amount": 254417,
+        "movementAmount": -235794
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 728,
-        "amount": 854355,
-        "movementAmount": -1355438
+        "count": 760,
+        "amount": 885362,
+        "movementAmount": -1324431
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-14",
-      "quantity": 55,
-      "sum": 46676
+      "quantity": 49,
+      "sum": 43376
     },
     {
       "date": "2026-05-15",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-12",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 12,
+      "sum": 12730
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4803,
-    "totalValueRub": 1730691,
+    "totalValueRub": 1716909,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1776,14 +1776,14 @@
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 456
+        "stockDays": 457
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 456
+        "stockDays": 457
       }
     ],
     "outOfStock": [
@@ -1923,6 +1923,11 @@
         "stock": 0
       },
       {
+        "name": "Набор Smoant Pasito 3 Rococo Purple - Пурпурный",
+        "code": "05151",
+        "stock": 0
+      },
+      {
         "name": "Набор Smoant Pasito Kit Carbon Black - Черный карбон",
         "code": "05512",
         "stock": 0
@@ -1931,11 +1936,6 @@
         "name": "Набор Smoant Pasito Kit Gunmetal - Металлический",
         "code": "05513",
         "stock": 0
-      },
-      {
-        "name": "POD Система SMOANT PASITO Mini Blue Twill",
-        "code": "02773",
-        "stock": 0
       }
     ]
   },
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл (Corex 3.0-B)",
       "code": "04897",
-      "quantity": 86,
-      "sum": 30065,
-      "profit": 24389,
+      "quantity": 87,
+      "sum": 30415,
+      "profit": 24739,
       "margin": 81
     },
     {
@@ -1959,9 +1959,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 74,
-      "sum": 25900,
-      "profit": 16132,
+      "quantity": 75,
+      "sum": 26250,
+      "profit": 16350,
       "margin": 62
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2221244,
-      "profit": 1159975,
+      "sum": 2226677,
+      "profit": 1163102,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16781,
-      "sum": 17883482,
-      "profit": 9337779,
-      "lastDemandDate": "2026-08-12 10:20:00.000"
+      "demandsCount": 16813,
+      "sum": 17914489,
+      "profit": 9355004,
+      "lastDemandDate": "2026-08-12 16:01:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
