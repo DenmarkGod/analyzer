@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T13:03:36.817Z",
+  "updatedAt": "2026-08-13T18:59:24.970Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 16,
-        "amount": 17471,
-        "movementAmount": -62066
+        "count": 44,
+        "amount": 51595,
+        "movementAmount": -27942
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 278,
-        "amount": 319999,
-        "movementAmount": -170212
+        "count": 306,
+        "amount": 354123,
+        "movementAmount": -136088
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 825,
-        "amount": 950944,
-        "movementAmount": -1258849
+        "count": 853,
+        "amount": 985068,
+        "movementAmount": -1224725
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-15",
-      "quantity": 54,
-      "sum": 59766
+      "quantity": 23,
+      "sum": 19525
     },
     {
       "date": "2026-05-16",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-13",
-      "quantity": 8,
-      "sum": 8662
+      "quantity": 29,
+      "sum": 34461
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4804,
-    "totalValueRub": 1669449,
+    "totalValueRub": 1650118,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1943,10 +1943,10 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл (Corex 3.0-B)",
       "code": "04897",
-      "quantity": 88,
-      "sum": 30765,
-      "profit": 25089,
-      "margin": 82
+      "quantity": 85,
+      "sum": 29715,
+      "profit": 24039,
+      "margin": 81
     },
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
@@ -1959,9 +1959,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 72,
-      "sum": 25200,
-      "profit": 15696,
+      "quantity": 77,
+      "sum": 26950,
+      "profit": 16786,
       "margin": 62
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2231274,
-      "profit": 1166495,
+      "sum": 2216673,
+      "profit": 1158095,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16878,
-      "sum": 17980070,
-      "profit": 9391458,
-      "lastDemandDate": "2026-08-13 15:33:00.000"
+      "demandsCount": 16906,
+      "sum": 18014194,
+      "profit": 9409735,
+      "lastDemandDate": "2026-08-13 21:34:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
