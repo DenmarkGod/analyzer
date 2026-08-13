@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T07:22:29.541Z",
+  "updatedAt": "2026-08-13T13:03:36.817Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -79537
+        "count": 16,
+        "amount": 17471,
+        "movementAmount": -62066
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 262,
-        "amount": 302528,
-        "movementAmount": -187683
+        "count": 278,
+        "amount": 319999,
+        "movementAmount": -170212
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 809,
-        "amount": 933473,
-        "movementAmount": -1276320
+        "count": 825,
+        "amount": 950944,
+        "movementAmount": -1258849
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-15",
-      "quantity": 59,
-      "sum": 68244
+      "quantity": 54,
+      "sum": 59766
     },
     {
       "date": "2026-05-16",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-13",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 8,
+      "sum": 8662
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4804,
-    "totalValueRub": 1680248,
+    "totalValueRub": 1669449,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1776,14 +1776,14 @@
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 457
+        "stockDays": 458
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 457
+        "stockDays": 458
       }
     ],
     "outOfStock": [
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл (Corex 3.0-B)",
       "code": "04897",
-      "quantity": 89,
-      "sum": 31115,
-      "profit": 25439,
+      "quantity": 88,
+      "sum": 30765,
+      "profit": 25089,
       "margin": 82
     },
     {
@@ -1959,9 +1959,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 73,
-      "sum": 25550,
-      "profit": 15914,
+      "quantity": 72,
+      "sum": 25200,
+      "profit": 15696,
       "margin": 62
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2229836,
-      "profit": 1166247,
+      "sum": 2231274,
+      "profit": 1166495,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16862,
-      "sum": 17962599,
-      "profit": 9382224,
-      "lastDemandDate": "2026-08-12 22:09:00.000"
+      "demandsCount": 16878,
+      "sum": 17980070,
+      "profit": 9391458,
+      "lastDemandDate": "2026-08-13 15:33:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
