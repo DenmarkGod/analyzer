@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T06:32:41.338Z",
+  "updatedAt": "2026-08-15T12:32:04.940Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -58060
+        "count": 5,
+        "amount": 5803,
+        "movementAmount": -52257
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 356,
-        "amount": 413649,
-        "movementAmount": -76562
+        "count": 361,
+        "amount": 419452,
+        "movementAmount": -70759
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 903,
-        "amount": 1044594,
-        "movementAmount": -1165199
+        "count": 908,
+        "amount": 1050397,
+        "movementAmount": -1159396
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-17",
-      "quantity": 43,
-      "sum": 50535
+      "quantity": 36,
+      "sum": 42511
     },
     {
       "date": "2026-05-18",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-15",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 2,
+      "sum": 1243
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4841,
-    "totalValueRub": 1811334,
+    "totalValueRub": 1805059,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1776,14 +1776,14 @@
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 459
+        "stockDays": 460
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 459
+        "stockDays": 460
       }
     ],
     "outOfStock": [
@@ -1967,9 +1967,9 @@
     {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
       "code": "01473",
-      "quantity": 45,
-      "sum": 15750,
-      "profit": 9945,
+      "quantity": 44,
+      "sum": 15400,
+      "profit": 9724,
       "margin": 63
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2190854,
-      "profit": 1142787,
+      "sum": 2185277,
+      "profit": 1139804,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16956,
-      "sum": 18073720,
-      "profit": 9441647,
-      "lastDemandDate": "2026-08-14 22:15:00.000"
+      "demandsCount": 16961,
+      "sum": 18079523,
+      "profit": 9444577,
+      "lastDemandDate": "2026-08-15 15:04:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
