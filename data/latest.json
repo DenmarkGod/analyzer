@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T12:32:04.940Z",
+  "updatedAt": "2026-08-15T18:23:57.136Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 5,
-        "amount": 5803,
-        "movementAmount": -52257
+        "count": 29,
+        "amount": 26607,
+        "movementAmount": -31453
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 361,
-        "amount": 419452,
-        "movementAmount": -70759
+        "count": 385,
+        "amount": 440256,
+        "movementAmount": -49955
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 908,
-        "amount": 1050397,
-        "movementAmount": -1159396
+        "count": 932,
+        "amount": 1071201,
+        "movementAmount": -1138592
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-17",
-      "quantity": 36,
-      "sum": 42511
+      "quantity": 15,
+      "sum": 18278
     },
     {
       "date": "2026-05-18",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-15",
-      "quantity": 2,
-      "sum": 1243
+      "quantity": 11,
+      "sum": 9968
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4841,
-    "totalValueRub": 1805059,
+    "totalValueRub": 1786604,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 81,
-      "sum": 28315,
-      "profit": 22639,
+      "quantity": 80,
+      "sum": 27965,
+      "profit": 22289,
       "margin": 80
     },
     {
@@ -1965,11 +1965,19 @@
       "margin": 58
     },
     {
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
+      "code": "02695",
+      "quantity": 10,
+      "sum": 15800,
+      "profit": 8305,
+      "margin": 53
+    },
+    {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
       "code": "01473",
-      "quantity": 44,
-      "sum": 15400,
-      "profit": 9724,
+      "quantity": 42,
+      "sum": 14700,
+      "profit": 9282,
       "margin": 63
     },
     {
@@ -1979,14 +1987,6 @@
       "sum": 13360,
       "profit": 6360,
       "margin": 48
-    },
-    {
-      "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
-      "code": "02695",
-      "quantity": 8,
-      "sum": 12640,
-      "profit": 6640,
-      "margin": 53
     },
     {
       "name": "ОС PAFOS 20.000 Ежевика Содовая 1 шт",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2185277,
-      "profit": 1139804,
+      "sum": 2172217,
+      "profit": 1133229,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 16961,
-      "sum": 18079523,
-      "profit": 9444577,
-      "lastDemandDate": "2026-08-15 15:04:00.000"
+      "demandsCount": 16985,
+      "sum": 18100327,
+      "profit": 9455269,
+      "lastDemandDate": "2026-08-15 21:22:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
