@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T12:39:49.954Z",
+  "updatedAt": "2026-08-18T18:33:44.852Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 17,
-        "amount": 14812,
-        "movementAmount": -49717
+        "count": 39,
+        "amount": 36869,
+        "movementAmount": -27660
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 77,
-        "amount": 79341,
-        "movementAmount": -431344
+        "count": 99,
+        "amount": 101398,
+        "movementAmount": -409287
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1077,
-        "amount": 1220971,
-        "movementAmount": -988822
+        "count": 1099,
+        "amount": 1243028,
+        "movementAmount": -966765
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-20",
-      "quantity": 46,
-      "sum": 51955
+      "quantity": 22,
+      "sum": 24676
     },
     {
       "date": "2026-05-21",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-18",
-      "quantity": 5,
-      "sum": 5268
+      "quantity": 25,
+      "sum": 23262
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4841,
-    "totalValueRub": 1764822,
+    "totalValueRub": 1751523,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1951,17 +1951,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 79,
-      "sum": 27546,
-      "profit": 16014,
+      "quantity": 80,
+      "sum": 27896,
+      "profit": 16232,
       "margin": 58
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 75,
-      "sum": 26180,
-      "profit": 20990,
+      "quantity": 74,
+      "sum": 25830,
+      "profit": 20640,
       "margin": 80
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2164158,
-      "profit": 1130555,
+      "sum": 2146864,
+      "profit": 1122888,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17130,
-      "sum": 18250098,
-      "profit": 9535789,
-      "lastDemandDate": "2026-08-18 15:34:00.000"
+      "demandsCount": 17152,
+      "sum": 18272155,
+      "profit": 9546787,
+      "lastDemandDate": "2026-08-18 21:18:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
