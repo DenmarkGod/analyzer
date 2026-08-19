@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T12:40:03.484Z",
+  "updatedAt": "2026-08-19T18:30:46.867Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 14,
-        "amount": 13478,
-        "movementAmount": -23998
+        "count": 44,
+        "amount": 44453,
+        "movementAmount": 6977
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 114,
-        "amount": 115483,
-        "movementAmount": -395202
+        "count": 144,
+        "amount": 146458,
+        "movementAmount": -364227
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1114,
-        "amount": 1257113,
-        "movementAmount": -952680
+        "count": 1144,
+        "amount": 1288088,
+        "movementAmount": -921705
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-21",
-      "quantity": 47,
-      "sum": 58143
+      "quantity": 25,
+      "sum": 32928
     },
     {
       "date": "2026-05-22",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-19",
-      "quantity": 9,
-      "sum": 8579
+      "quantity": 22,
+      "sum": 24121
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4841,
-    "totalValueRub": 1815088,
+    "totalValueRub": 1799682,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1959,10 +1959,10 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 75,
-      "sum": 26180,
-      "profit": 20712,
-      "margin": 79
+      "quantity": 76,
+      "sum": 26530,
+      "profit": 20784,
+      "margin": 78
     },
     {
       "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
@@ -1975,9 +1975,9 @@
     {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
       "code": "01473",
-      "quantity": 38,
-      "sum": 13300,
-      "profit": 8398,
+      "quantity": 37,
+      "sum": 12950,
+      "profit": 8177,
       "margin": 63
     },
     {
@@ -2005,37 +2005,37 @@
       "margin": 50
     },
     {
-      "name": "ОС PAFOS 20.000 Лимончелло / Limoncello",
-      "code": "02306",
-      "quantity": 4,
-      "sum": 10959,
-      "profit": 5199,
-      "margin": 47
-    },
-    {
       "name": "Кальян TH-32-2 SANSARA CYBER 76см (составной, полный комплект) (Black чёрный)",
       "code": "05864",
       "quantity": 1,
       "sum": 10649,
       "profit": 6549,
       "margin": 61
+    },
+    {
+      "name": "БПК Картридж LOST MARY X-Link Classic Перечная Мята",
+      "code": "02277",
+      "quantity": 9,
+      "sum": 9990,
+      "profit": 5040,
+      "margin": 50
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2127768,
-      "profit": 1113121,
+      "sum": 2112470,
+      "profit": 1103770,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17167,
-      "sum": 18286240,
-      "profit": 9554391,
-      "lastDemandDate": "2026-08-19 14:03:00.000"
+      "demandsCount": 17197,
+      "sum": 18317215,
+      "profit": 9570937,
+      "lastDemandDate": "2026-08-19 21:29:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
