@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T06:38:31.856Z",
+  "updatedAt": "2026-08-19T12:40:03.484Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -37476
+        "count": 14,
+        "amount": 13478,
+        "movementAmount": -23998
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 100,
-        "amount": 102005,
-        "movementAmount": -408680
+        "count": 114,
+        "amount": 115483,
+        "movementAmount": -395202
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1100,
-        "amount": 1243635,
-        "movementAmount": -966158
+        "count": 1114,
+        "amount": 1257113,
+        "movementAmount": -952680
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-21",
-      "quantity": 54,
-      "sum": 72968
+      "quantity": 47,
+      "sum": 58143
     },
     {
       "date": "2026-05-22",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-19",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 9,
+      "sum": 8579
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4841,
-    "totalValueRub": 1825183,
+    "totalValueRub": 1815088,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1776,14 +1776,14 @@
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 463
+        "stockDays": 464
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 463
+        "stockDays": 464
       }
     ],
     "outOfStock": [
@@ -1951,9 +1951,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 80,
-      "sum": 27896,
-      "profit": 16232,
+      "quantity": 78,
+      "sum": 27196,
+      "profit": 15796,
       "margin": 58
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2141989,
-      "profit": 1120390,
+      "sum": 2127768,
+      "profit": 1113121,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17153,
-      "sum": 18272762,
-      "profit": 9547074,
-      "lastDemandDate": "2026-08-18 22:04:00.000"
+      "demandsCount": 17167,
+      "sum": 18286240,
+      "profit": 9554391,
+      "lastDemandDate": "2026-08-19 14:03:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
