@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T12:42:21.358Z",
+  "updatedAt": "2026-08-20T18:34:41.916Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 11,
-        "amount": 8016,
-        "movementAmount": -38582
+        "count": 38,
+        "amount": 32599,
+        "movementAmount": -13999
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 157,
-        "amount": 156619,
-        "movementAmount": -354066
+        "count": 184,
+        "amount": 181202,
+        "movementAmount": -329483
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1157,
-        "amount": 1298249,
-        "movementAmount": -911544
+        "count": 1184,
+        "amount": 1322832,
+        "movementAmount": -886961
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-22",
-      "quantity": 57,
-      "sum": 63791
+      "quantity": 31,
+      "sum": 29907
     },
     {
       "date": "2026-05-23",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-20",
-      "quantity": 4,
-      "sum": 886
+      "quantity": 23,
+      "sum": 19172
     }
   ],
   "ordersTrend": [
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 4841,
-    "totalValueRub": 1792057,
+    "totalSkuCount": 4848,
+    "totalValueRub": 1770305,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1803,6 +1803,11 @@
         "stock": 0
       },
       {
+        "name": "Набор Geekvape H45 Classic (Aegis Hero 3) Blue - Синий внести штрих",
+        "code": "06024",
+        "stock": 0
+      },
+      {
         "name": "Набор Geekvape H45 Classic (Aegis Hero 3) World Edition Aurora Purple - Фиолетовый",
         "code": "05760",
         "stock": 0
@@ -1931,11 +1936,6 @@
         "name": "POD Система SMOANT PASITO Mini Brown",
         "code": "02774",
         "stock": 0
-      },
-      {
-        "name": "POD Система SMOANT PASITO Pro Aquamarine",
-        "code": "02775",
-        "stock": 0
       }
     ]
   },
@@ -1951,17 +1951,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 77,
-      "sum": 26846,
-      "profit": 15578,
+      "quantity": 79,
+      "sum": 27546,
+      "profit": 16014,
       "margin": 58
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 76,
-      "sum": 26530,
-      "profit": 20784,
+      "quantity": 77,
+      "sum": 26880,
+      "profit": 20995,
       "margin": 78
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2069689,
-      "profit": 1083279,
-      "margin": 53
+      "sum": 2055158,
+      "profit": 1074871,
+      "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17210,
-      "sum": 18327376,
-      "profit": 9575966,
-      "lastDemandDate": "2026-08-20 15:34:00.000"
+      "demandsCount": 17237,
+      "sum": 18351959,
+      "profit": 9588744,
+      "lastDemandDate": "2026-08-20 21:32:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
