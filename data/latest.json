@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T12:33:11.342Z",
+  "updatedAt": "2026-08-22T18:25:33.450Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 20,
-        "amount": 22461,
-        "movementAmount": -26890
+        "count": 46,
+        "amount": 54026,
+        "movementAmount": 4675
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 261,
-        "amount": 257894,
-        "movementAmount": -252791
+        "count": 287,
+        "amount": 289459,
+        "movementAmount": -221226
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1261,
-        "amount": 1399524,
-        "movementAmount": -810269
+        "count": 1287,
+        "amount": 1431089,
+        "movementAmount": -778704
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-24",
-      "quantity": 54,
-      "sum": 64677
+      "quantity": 22,
+      "sum": 27901
     },
     {
       "date": "2026-05-25",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-22",
-      "quantity": 12,
-      "sum": 8619
+      "quantity": 27,
+      "sum": 31204
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4891,
-    "totalValueRub": 1873825,
+    "totalValueRub": 1844472,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1941,28 +1941,28 @@
   },
   "topProducts": [
     {
+      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
+      "code": "04897",
+      "quantity": 82,
+      "sum": 28630,
+      "profit": 21626,
+      "margin": 76
+    },
+    {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 84,
-      "sum": 29296,
-      "profit": 17104,
+      "quantity": 82,
+      "sum": 28596,
+      "profit": 16668,
       "margin": 58
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 80,
-      "sum": 28000,
-      "profit": 17440,
+      "quantity": 76,
+      "sum": 26600,
+      "profit": 16568,
       "margin": 62
-    },
-    {
-      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
-      "code": "04897",
-      "quantity": 80,
-      "sum": 27930,
-      "profit": 21204,
-      "margin": 76
     },
     {
       "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2000514,
-      "profit": 1047273,
+      "sum": 1990019,
+      "profit": 1040527,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17314,
-      "sum": 18428651,
-      "profit": 9627349,
-      "lastDemandDate": "2026-08-22 14:49:00.000"
+      "demandsCount": 17340,
+      "sum": 18460216,
+      "profit": 9643037,
+      "lastDemandDate": "2026-08-22 21:16:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
