@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T06:34:40.946Z",
+  "updatedAt": "2026-08-22T12:33:11.342Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -49351
+        "count": 20,
+        "amount": 22461,
+        "movementAmount": -26890
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 241,
-        "amount": 235433,
-        "movementAmount": -275252
+        "count": 261,
+        "amount": 257894,
+        "movementAmount": -252791
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1241,
-        "amount": 1377063,
-        "movementAmount": -832730
+        "count": 1261,
+        "amount": 1399524,
+        "movementAmount": -810269
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-24",
-      "quantity": 60,
-      "sum": 66746
+      "quantity": 54,
+      "sum": 64677
     },
     {
       "date": "2026-05-25",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-22",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 12,
+      "sum": 8619
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4891,
-    "totalValueRub": 1723934,
+    "totalValueRub": 1873825,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1542,54 +1542,6 @@
       {
         "name": "(МТ) Black Burn 25гр Almond Icecream - Миндальное мороженое",
         "code": "01853",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Ananas Shock - Кислый ананас",
-        "code": "01474",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Apple Shock - Кислое зелёное яблоко",
-        "code": "04200",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Asian Lychee - Личи",
-        "code": "01475",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Bananini - Банан",
-        "code": "04199",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Barberry Shock - Кислый барбарис",
-        "code": "04202",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Berry Lemonade - Ягодный лимонад",
-        "code": "01476",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр BlackBerry Lemonade - Ежевичный лимонад",
-        "code": "01477",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Blackcola - Кола",
-        "code": "01478",
         "stock": 0,
         "uom": "шт"
       },
@@ -1626,13 +1578,7 @@
       {
         "name": "(МТ) Black Burn 25гр Cherry Garden - Вишнёво-черешневый сок",
         "code": "01822",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Cranberry Shock - Кислая клюква",
-        "code": "01850",
-        "stock": 0,
+        "stock": 1,
         "uom": "шт"
       },
       {
@@ -1642,33 +1588,15 @@
         "uom": "шт"
       },
       {
-        "name": "(МТ) Black Burn 25гр Elka - Ёлка",
-        "code": "01483",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
         "name": "(МТ) Black Burn 25гр Epic Yogurt - Черничный йогурт",
         "code": "01484",
         "stock": 0,
         "uom": "шт"
       },
       {
-        "name": "(МТ) Black Burn 25гр Famous Apple - Зелёное яблоко со льдом",
-        "code": "01486",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
         "name": "(МТ) Black Burn 25гр Garnet - Гранат",
         "code": "01487",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Grapefruit - Грейпфрут",
-        "code": "01488",
-        "stock": 0,
+        "stock": 1,
         "uom": "шт"
       },
       {
@@ -1690,27 +1618,99 @@
         "uom": "шт"
       },
       {
-        "name": "(МТ) Black Burn 25гр JuicySmoothie - Тропический смузи",
-        "code": "01491",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Kiwi Stoner - Смузи из киви",
-        "code": "01492",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
         "name": "(МТ) Black Burn 25гр Lemon Shock - Кислый лимон",
         "code": "01493",
         "stock": 1,
         "uom": "шт"
       },
       {
-        "name": "(МТ) Black Burn 25гр Lime Shock - Кислый лайм",
-        "code": "03663",
+        "name": "(МТ) Black Burn 25гр Lulo - Луло",
+        "code": "01845",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Malibu - Леденец малибу",
+        "code": "01856",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Melon Halls - Дынный Холс",
+        "code": "01494",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Muesli - Мюсли",
+        "code": "01821",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Overdose - Лимон-лайм",
+        "code": "01496",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Peach Yogurt - Персиковый йогур",
+        "code": "01851",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Pina Colada - Пина Колада",
+        "code": "01498",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Pineapple Yogurt - Ананасовый йогурт",
+        "code": "01500",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Pudding - Пудинг",
+        "code": "01501",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Real P.F. - Маракуйя",
+        "code": "01502",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Rising Star - Манго-маракуйя",
+        "code": "01504",
         "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Shock? Currant Shock - Кислая чёрная смородина",
+        "code": "03664",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Shock Elderberry - Кислая бузина",
+        "code": "01824",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Skittles - Скитлз",
+        "code": "01506",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Something Berry - Что-то ягодное",
+        "code": "01507",
+        "stock": 1,
         "uom": "шт"
       }
     ],
@@ -1776,14 +1776,14 @@
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 466
+        "stockDays": 467
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 466
+        "stockDays": 467
       }
     ],
     "outOfStock": [
@@ -1800,11 +1800,6 @@
       {
         "name": "Набор Geekvape H45 Classic (Aegis Hero 3) Black - Черный",
         "code": "04220",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape H45 Classic (Aegis Hero 3) Blue - Синий внести штрих",
-        "code": "06024",
         "stock": 0
       },
       {
@@ -1936,6 +1931,11 @@
         "name": "POD Система SMOANT PASITO Mini Brown",
         "code": "02774",
         "stock": 0
+      },
+      {
+        "name": "POD Система SMOANT PASITO Pro Aquamarine",
+        "code": "02775",
+        "stock": 0
       }
     ]
   },
@@ -1949,20 +1949,20 @@
       "margin": 58
     },
     {
-      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
-      "code": "04897",
-      "quantity": 81,
-      "sum": 28280,
-      "profit": 21422,
-      "margin": 76
-    },
-    {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 78,
-      "sum": 27300,
-      "profit": 17004,
+      "quantity": 80,
+      "sum": 28000,
+      "profit": 17440,
       "margin": 62
+    },
+    {
+      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
+      "code": "04897",
+      "quantity": 80,
+      "sum": 27930,
+      "profit": 21204,
+      "margin": 76
     },
     {
       "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
@@ -1975,9 +1975,9 @@
     {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
       "code": "01473",
-      "quantity": 35,
-      "sum": 12250,
-      "profit": 7735,
+      "quantity": 34,
+      "sum": 11900,
+      "profit": 7514,
       "margin": 63
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 2002348,
-      "profit": 1048806,
+      "sum": 2000514,
+      "profit": 1047273,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17294,
-      "sum": 18406190,
-      "profit": 9616766,
-      "lastDemandDate": "2026-08-21 22:58:00.000"
+      "demandsCount": 17314,
+      "sum": 18428651,
+      "profit": 9627349,
+      "lastDemandDate": "2026-08-22 14:49:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
