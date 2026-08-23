@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T12:33:54.157Z",
+  "updatedAt": "2026-08-23T18:24:45.941Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 12,
-        "amount": 20009,
-        "movementAmount": -36226
+        "count": 32,
+        "amount": 39446,
+        "movementAmount": -16789
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 303,
-        "amount": 311677,
-        "movementAmount": -199008
+        "count": 323,
+        "amount": 331114,
+        "movementAmount": -179571
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1303,
-        "amount": 1453307,
-        "movementAmount": -756486
+        "count": 1323,
+        "amount": 1472744,
+        "movementAmount": -737049
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-25",
-      "quantity": 52,
-      "sum": 54809
+      "quantity": 25,
+      "sum": 30232
     },
     {
       "date": "2026-05-26",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-23",
-      "quantity": 4,
-      "sum": 5994
+      "quantity": 19,
+      "sum": 31656
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4891,
-    "totalValueRub": 1832622,
+    "totalValueRub": 1822717,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1615,6 +1615,12 @@
         "name": "(МТ) Black Burn 25гр Irish Cream - Ирландский крем",
         "code": "01846",
         "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Kiwi Stoner - Смузи из киви",
+        "code": "01492",
+        "stock": 1,
         "uom": "шт"
       },
       {
@@ -1705,12 +1711,6 @@
         "name": "(МТ) Black Burn 25гр Skittles - Скитлз",
         "code": "01506",
         "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Something Berry - Что-то ягодное",
-        "code": "01507",
-        "stock": 1,
         "uom": "шт"
       }
     ],
@@ -1941,27 +1941,27 @@
   },
   "topProducts": [
     {
-      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
-      "code": "04897",
-      "quantity": 82,
-      "sum": 28630,
-      "profit": 21619,
-      "margin": 76
-    },
-    {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 80,
-      "sum": 27896,
-      "profit": 16255,
+      "quantity": 79,
+      "sum": 27546,
+      "profit": 16083,
       "margin": 58
+    },
+    {
+      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
+      "code": "04897",
+      "quantity": 78,
+      "sum": 27230,
+      "profit": 20740,
+      "margin": 76
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 76,
-      "sum": 26600,
-      "profit": 16568,
+      "quantity": 75,
+      "sum": 26250,
+      "profit": 16350,
       "margin": 62
     },
     {
@@ -1971,14 +1971,6 @@
       "sum": 14220,
       "profit": 7475,
       "margin": 53
-    },
-    {
-      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
-      "code": "01473",
-      "quantity": 33,
-      "sum": 11550,
-      "profit": 7293,
-      "margin": 63
     },
     {
       "name": "ОС PAFOS 20.000 Ежевика Содовая 1 шт",
@@ -1995,6 +1987,14 @@
       "sum": 11100,
       "profit": 5600,
       "margin": 50
+    },
+    {
+      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
+      "code": "01473",
+      "quantity": 31,
+      "sum": 10850,
+      "profit": 6851,
+      "margin": 63
     },
     {
       "name": "Кальян TH-32-2 SANSARA CYBER 76см (составной, полный комплект) (Black чёрный)",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1981836,
-      "profit": 1035511,
+      "sum": 1988929,
+      "profit": 1039923,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17356,
-      "sum": 18482434,
-      "profit": 9655047,
-      "lastDemandDate": "2026-08-23 15:17:00.000"
+      "demandsCount": 17376,
+      "sum": 18501871,
+      "profit": 9664579,
+      "lastDemandDate": "2026-08-23 21:00:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
