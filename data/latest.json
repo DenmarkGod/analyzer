@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T06:40:59.883Z",
+  "updatedAt": "2026-08-25T12:41:30.307Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -59112
+        "count": 8,
+        "amount": 7544,
+        "movementAmount": -51568
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 51,
-        "amount": 59112,
-        "movementAmount": -275309
+        "count": 59,
+        "amount": 66656,
+        "movementAmount": -267765
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1379,
-        "amount": 1535163,
-        "movementAmount": -674630
+        "count": 1387,
+        "amount": 1542707,
+        "movementAmount": -667086
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-27",
-      "quantity": 57,
-      "sum": 71281
+      "quantity": 49,
+      "sum": 60609
     },
     {
       "date": "2026-05-28",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-25",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 2,
+      "sum": 4170
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4891,
-    "totalValueRub": 1766743,
+    "totalValueRub": 1760152,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1776,14 +1776,14 @@
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 469
+        "stockDays": 470
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 469
+        "stockDays": 470
       }
     ],
     "outOfStock": [
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1956585,
-      "profit": 1026584,
+      "sum": 1957191,
+      "profit": 1027461,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17432,
-      "sum": 18564290,
-      "profit": 9695835,
-      "lastDemandDate": "2026-08-24 22:34:00.000"
+      "demandsCount": 17440,
+      "sum": 18571834,
+      "profit": 9699414,
+      "lastDemandDate": "2026-08-25 15:09:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
