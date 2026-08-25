@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T12:41:30.307Z",
+  "updatedAt": "2026-08-25T18:35:41.900Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 8,
-        "amount": 7544,
-        "movementAmount": -51568
+        "count": 25,
+        "amount": 28556,
+        "movementAmount": -30556
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 59,
-        "amount": 66656,
-        "movementAmount": -267765
+        "count": 76,
+        "amount": 87668,
+        "movementAmount": -246753
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1387,
-        "amount": 1542707,
-        "movementAmount": -667086
+        "count": 1404,
+        "amount": 1563719,
+        "movementAmount": -646074
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-27",
-      "quantity": 49,
-      "sum": 60609
+      "quantity": 29,
+      "sum": 39210
     },
     {
       "date": "2026-05-28",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-25",
-      "quantity": 2,
-      "sum": 4170
+      "quantity": 18,
+      "sum": 21254
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4891,
-    "totalValueRub": 1760152,
+    "totalValueRub": 1738221,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1578,7 +1578,7 @@
       {
         "name": "(МТ) Black Burn 25гр Cherry Garden - Вишнёво-черешневый сок",
         "code": "01822",
-        "stock": 1,
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 78,
-      "sum": 27196,
-      "profit": 15980,
+      "quantity": 77,
+      "sum": 26846,
+      "profit": 15785,
       "margin": 59
     },
     {
@@ -1959,17 +1959,17 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 73,
-      "sum": 25550,
-      "profit": 15914,
+      "quantity": 72,
+      "sum": 25200,
+      "profit": 15696,
       "margin": 62
     },
     {
       "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
       "code": "02695",
-      "quantity": 9,
-      "sum": 14220,
-      "profit": 7475,
+      "quantity": 8,
+      "sum": 12640,
+      "profit": 6645,
       "margin": 53
     },
     {
@@ -2013,8 +2013,8 @@
       "margin": 50
     },
     {
-      "name": "ОС PAFOS 20.000 Черника Малина Лимон / Bblueberries raspberries lemon",
-      "code": "02673",
+      "name": "ОС PAFOS 20.000 Клюква Виноград / Cranberries grapes",
+      "code": "02671",
       "quantity": 3,
       "sum": 8430,
       "profit": 4530,
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1957191,
-      "profit": 1027461,
+      "sum": 1942422,
+      "profit": 1018805,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17440,
-      "sum": 18571834,
-      "profit": 9699414,
-      "lastDemandDate": "2026-08-25 15:09:00.000"
+      "demandsCount": 17457,
+      "sum": 18592846,
+      "profit": 9710071,
+      "lastDemandDate": "2026-08-25 21:30:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
