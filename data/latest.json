@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T06:42:41.420Z",
+  "updatedAt": "2026-08-26T12:45:52.680Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -30243
+        "count": 11,
+        "amount": 14389,
+        "movementAmount": -15854
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 78,
-        "amount": 89355,
-        "movementAmount": -245066
+        "count": 89,
+        "amount": 103744,
+        "movementAmount": -230677
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1406,
-        "amount": 1565406,
-        "movementAmount": -644387
+        "count": 1417,
+        "amount": 1579795,
+        "movementAmount": -629998
       },
       "orders": {
         "count": 0,
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-26",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 5,
+      "sum": 7980
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4891,
-    "totalValueRub": 1736189,
+    "totalValueRub": 1770600,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1672,6 +1672,12 @@
         "uom": "шт"
       },
       {
+        "name": "(МТ) Black Burn 25гр Pear Lemonade (Something Fresh) - Грушевый лимонад",
+        "code": "01497",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
         "name": "(МТ) Black Burn 25гр Pina Colada - Пина Колада",
         "code": "01498",
         "stock": 1,
@@ -1705,12 +1711,6 @@
         "name": "(МТ) Black Burn 25гр Shock? Currant Shock - Кислая чёрная смородина",
         "code": "03664",
         "stock": -1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Shock Elderberry - Кислая бузина",
-        "code": "01824",
-        "stock": 1,
         "uom": "шт"
       }
     ],
@@ -1776,14 +1776,14 @@
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 470
+        "stockDays": 471
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 470
+        "stockDays": 471
       }
     ],
     "outOfStock": [
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1925429,
-      "profit": 1008478,
-      "margin": 52
+      "sum": 1927440,
+      "profit": 1009636,
+      "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17459,
-      "sum": 18594533,
-      "profit": 9710723,
-      "lastDemandDate": "2026-08-25 22:29:00.000"
+      "demandsCount": 17470,
+      "sum": 18608922,
+      "profit": 9718098,
+      "lastDemandDate": "2026-08-26 15:41:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
