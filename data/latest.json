@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T12:45:52.680Z",
+  "updatedAt": "2026-08-26T19:44:26.203Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 11,
-        "amount": 14389,
-        "movementAmount": -15854
+        "count": 32,
+        "amount": 34639,
+        "movementAmount": 4396
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 89,
-        "amount": 103744,
-        "movementAmount": -230677
+        "count": 110,
+        "amount": 123994,
+        "movementAmount": -210427
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1417,
-        "amount": 1579795,
-        "movementAmount": -629998
+        "count": 1438,
+        "amount": 1600045,
+        "movementAmount": -609748
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-28",
-      "quantity": 45,
-      "sum": 58691
+      "quantity": 15,
+      "sum": 17067
     },
     {
       "date": "2026-05-29",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-26",
-      "quantity": 5,
-      "sum": 7980
+      "quantity": 25,
+      "sum": 25763
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4891,
-    "totalValueRub": 1770600,
+    "totalValueRub": 1750159,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1591,6 +1591,12 @@
         "name": "(МТ) Black Burn 25гр Epic Yogurt - Черничный йогурт",
         "code": "01484",
         "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Etalon Melon - Медовая дыня",
+        "code": "01485",
+        "stock": 1,
         "uom": "шт"
       },
       {
@@ -1705,12 +1711,6 @@
         "name": "(МТ) Black Burn 25гр Rising Star - Манго-маракуйя",
         "code": "01504",
         "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Shock? Currant Shock - Кислая чёрная смородина",
-        "code": "03664",
-        "stock": -1,
         "uom": "шт"
       }
     ],
@@ -1943,25 +1943,25 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 76,
-      "sum": 26496,
-      "profit": 15590,
+      "quantity": 78,
+      "sum": 27300,
+      "profit": 16153,
       "margin": 59
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 74,
-      "sum": 25830,
-      "profit": 19861,
+      "quantity": 72,
+      "sum": 25130,
+      "profit": 19418,
       "margin": 77
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 71,
-      "sum": 24850,
-      "profit": 15478,
+      "quantity": 67,
+      "sum": 23450,
+      "profit": 14606,
       "margin": 62
     },
     {
@@ -1991,18 +1991,10 @@
     {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
       "code": "01473",
-      "quantity": 29,
-      "sum": 10150,
-      "profit": 6409,
+      "quantity": 27,
+      "sum": 9450,
+      "profit": 5967,
       "margin": 63
-    },
-    {
-      "name": "БПК Картридж LOST MARY X-Link Classic Перечная Мята",
-      "code": "02277",
-      "quantity": 8,
-      "sum": 8880,
-      "profit": 4480,
-      "margin": 50
     },
     {
       "name": "БПК Картридж LOST MARY X-Nic Клубничное Молоко",
@@ -2019,23 +2011,31 @@
       "sum": 8430,
       "profit": 4530,
       "margin": 54
+    },
+    {
+      "name": "ОС PAFOS 20.000 Черника Малина Лимон / Bblueberries raspberries lemon",
+      "code": "02673",
+      "quantity": 3,
+      "sum": 8430,
+      "profit": 4530,
+      "margin": 54
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1927440,
-      "profit": 1009636,
-      "margin": 53
+      "sum": 1908860,
+      "profit": 999387,
+      "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17470,
-      "sum": 18608922,
-      "profit": 9718098,
-      "lastDemandDate": "2026-08-26 15:41:00.000"
+      "demandsCount": 17491,
+      "sum": 18629172,
+      "profit": 9728863,
+      "lastDemandDate": "2026-08-26 20:44:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
