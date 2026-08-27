@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T07:14:27.377Z",
+  "updatedAt": "2026-08-27T21:43:25.011Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -9,7 +9,7 @@
       "sales": {
         "count": 0,
         "amount": 0,
-        "movementAmount": -34639
+        "movementAmount": -31676
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1874987,
+        "income": 1853453,
         "outcome": 6278601,
-        "balance": 3148006,
-        "todayMovement": -4403615,
-        "movement": -4403615
+        "balance": 3178891,
+        "todayMovement": -4425148,
+        "movement": -4425148
       }
     },
     "week": {
       "sales": {
-        "count": 110,
-        "amount": 123994,
-        "movementAmount": -210427
+        "count": 151,
+        "amount": 155670,
+        "movementAmount": -178751
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1874987,
+        "income": 1853453,
         "outcome": 6278601,
-        "balance": 3148006,
-        "todayMovement": -4403615,
-        "movement": -4403615
+        "balance": 3178891,
+        "todayMovement": -4425148,
+        "movement": -4425148
       }
     },
     "month": {
       "sales": {
-        "count": 1438,
-        "amount": 1600045,
-        "movementAmount": -609748
+        "count": 1479,
+        "amount": 1631721,
+        "movementAmount": -578072
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1874987,
+        "income": 1853453,
         "outcome": 6278601,
-        "balance": 3148006,
-        "todayMovement": -4403615,
-        "movement": -4403615
+        "balance": 3178891,
+        "todayMovement": -4425148,
+        "movement": -4425148
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-05-29",
-      "quantity": 61,
-      "sum": 73201
+      "quantity": 8,
+      "sum": 9253
     },
     {
       "date": "2026-05-30",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-27",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 41,
+      "sum": 31676
     }
   ],
   "ordersTrend": [
@@ -978,7 +978,7 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 12754798,
+    "creditTotal": 12785682,
     "debitTotal": 9606791,
     "series": [
       {
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 4891,
-    "totalValueRub": 1750159,
+    "totalSkuCount": 4922,
+    "totalValueRub": 1818952,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1776,14 +1776,14 @@
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 471
+        "stockDays": 472
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 471
+        "stockDays": 472
       }
     ],
     "outOfStock": [
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 77,
-      "sum": 26950,
-      "profit": 15958,
+      "quantity": 76,
+      "sum": 26495,
+      "profit": 15750,
       "margin": 59
     },
     {
@@ -1953,7 +1953,7 @@
       "code": "04897",
       "quantity": 72,
       "sum": 25130,
-      "profit": 19418,
+      "profit": 19397,
       "margin": 77
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1887855,
-      "profit": 989372,
+      "sum": 1870490,
+      "profit": 980636,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17491,
-      "sum": 18629172,
-      "profit": 9728863,
-      "lastDemandDate": "2026-08-26 20:44:00.000"
+      "demandsCount": 17532,
+      "sum": 18660848,
+      "profit": 9745199,
+      "lastDemandDate": "2026-08-27 21:34:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
