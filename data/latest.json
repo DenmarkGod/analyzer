@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T19:44:26.203Z",
+  "updatedAt": "2026-08-27T07:14:27.377Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 32,
-        "amount": 34639,
-        "movementAmount": 4396
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -34639
       },
       "orders": {
         "count": 0,
@@ -17,11 +17,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1841214,
+        "income": 1874987,
         "outcome": 6278601,
-        "balance": 3114233,
-        "todayMovement": -4437388,
-        "movement": -4437388
+        "balance": 3148006,
+        "todayMovement": -4403615,
+        "movement": -4403615
       }
     },
     "week": {
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1841214,
+        "income": 1874987,
         "outcome": 6278601,
-        "balance": 3114233,
-        "todayMovement": -4437388,
-        "movement": -4437388
+        "balance": 3148006,
+        "todayMovement": -4403615,
+        "movement": -4403615
       }
     },
     "month": {
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1841214,
+        "income": 1874987,
         "outcome": 6278601,
-        "balance": 3114233,
-        "todayMovement": -4437388,
-        "movement": -4437388
+        "balance": 3148006,
+        "todayMovement": -4403615,
+        "movement": -4403615
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-05-28",
-      "quantity": 15,
-      "sum": 17067
-    },
     {
       "date": "2026-05-29",
       "quantity": 61,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-08-26",
-      "quantity": 25,
-      "sum": 25763
+      "quantity": 32,
+      "sum": 34639
+    },
+    {
+      "date": "2026-08-27",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-05-28",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-05-29",
       "quantity": 0,
@@ -975,23 +970,22 @@
       "date": "2026-08-26",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-08-27",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 12721025,
+    "creditTotal": 12754798,
     "debitTotal": 9606791,
     "series": [
       {
-        "date": "2026-05-28",
-        "credit": 0,
-        "debit": 0,
-        "balance": 0
-      },
-      {
         "date": "2026-05-29",
-        "credit": 118047,
+        "credit": 65359,
         "debit": 0,
-        "balance": 118047
+        "balance": 65359
       },
       {
         "date": "2026-05-30",
@@ -1526,6 +1520,12 @@
         "credit": 29487,
         "debit": 0,
         "balance": 29487
+      },
+      {
+        "date": "2026-08-27",
+        "credit": 33773,
+        "debit": 0,
+        "balance": 33773
       }
     ]
   },
@@ -1720,56 +1720,56 @@
         "code": "00002",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 481
+        "stockDays": 482
       },
       {
         "name": "Трубка Шар \"Есть че?\" 15 см Тёмно-зеленая",
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 481
+        "stockDays": 482
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 476
+        "stockDays": 477
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 476
+        "stockDays": 477
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 476
+        "stockDays": 477
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 476
+        "stockDays": 477
       },
       {
         "name": "Набор уплотнителей д/кальяна HA-31",
         "code": "00490",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 476
+        "stockDays": 477
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 476
+        "stockDays": 477
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 78,
-      "sum": 27300,
-      "profit": 16153,
+      "quantity": 77,
+      "sum": 26950,
+      "profit": 15958,
       "margin": 59
     },
     {
@@ -1959,9 +1959,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 67,
-      "sum": 23450,
-      "profit": 14606,
+      "quantity": 68,
+      "sum": 23800,
+      "profit": 14824,
       "margin": 62
     },
     {
@@ -2024,9 +2024,9 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1908860,
-      "profit": 999387,
-      "margin": 52
+      "sum": 1887855,
+      "profit": 989372,
+      "margin": 53
     }
   ],
   "topCounterparties": [
