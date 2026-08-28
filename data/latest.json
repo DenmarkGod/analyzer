@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T09:27:32.425Z",
+  "updatedAt": "2026-08-28T21:42:46.293Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 6,
-        "amount": 10763,
-        "movementAmount": -20913
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -56304
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1853453,
+        "income": 1791514,
         "outcome": 6278601,
         "balance": 3178891,
-        "todayMovement": -4425148,
-        "movement": -4425148
+        "todayMovement": -4487087,
+        "movement": -4487087
       }
     },
     "week": {
       "sales": {
-        "count": 157,
-        "amount": 166433,
-        "movementAmount": -167988
+        "count": 194,
+        "amount": 211974,
+        "movementAmount": -122447
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1853453,
+        "income": 1791514,
         "outcome": 6278601,
         "balance": 3178891,
-        "todayMovement": -4425148,
-        "movement": -4425148
+        "todayMovement": -4487087,
+        "movement": -4487087
       }
     },
     "month": {
       "sales": {
-        "count": 1485,
-        "amount": 1642484,
-        "movementAmount": -567309
+        "count": 1522,
+        "amount": 1688025,
+        "movementAmount": -521768
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1853453,
+        "income": 1791514,
         "outcome": 6278601,
         "balance": 3178891,
-        "todayMovement": -4425148,
-        "movement": -4425148
+        "todayMovement": -4487087,
+        "movement": -4487087
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-05-30",
-      "quantity": 58,
-      "sum": 58637
+      "quantity": 8,
+      "sum": 10196
     },
     {
       "date": "2026-05-31",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-28",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 38,
+      "sum": 51234
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4922,
-    "totalValueRub": 1813863,
+    "totalValueRub": 1779425,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1943,17 +1943,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 75,
-      "sum": 26145,
-      "profit": 15555,
-      "margin": 59
+      "quantity": 77,
+      "sum": 26845,
+      "profit": 16060,
+      "margin": 60
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 70,
-      "sum": 24430,
-      "profit": 18961,
+      "quantity": 69,
+      "sum": 24080,
+      "profit": 18736,
       "margin": 78
     },
     {
@@ -1965,20 +1965,20 @@
       "margin": 62
     },
     {
-      "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
-      "code": "02695",
-      "quantity": 8,
-      "sum": 12640,
-      "profit": 6645,
-      "margin": 53
-    },
-    {
       "name": "ОС PAFOS 20.000 Ежевика Содовая 1 шт",
       "code": "04622",
       "quantity": 4,
       "sum": 11240,
       "profit": 6040,
       "margin": 54
+    },
+    {
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
+      "code": "02695",
+      "quantity": 7,
+      "sum": 11060,
+      "profit": 5815,
+      "margin": 53
     },
     {
       "name": "Кальян TH-32-2 SANSARA CYBER 76см (составной, полный комплект) (Black чёрный)",
@@ -1991,9 +1991,9 @@
     {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
       "code": "01473",
-      "quantity": 27,
-      "sum": 9450,
-      "profit": 5967,
+      "quantity": 26,
+      "sum": 9100,
+      "profit": 5746,
       "margin": 63
     },
     {
@@ -2005,16 +2005,16 @@
       "margin": 50
     },
     {
-      "name": "ОС PAFOS 20.000 Клюква Виноград / Cranberries grapes",
-      "code": "02671",
+      "name": "ОС PAFOS 20.000 Двойное Яблоко / Double apple",
+      "code": "02307",
       "quantity": 3,
       "sum": 8430,
-      "profit": 4530,
-      "margin": 54
+      "profit": 4250,
+      "margin": 50
     },
     {
-      "name": "ОС PAFOS 20.000 Черника Малина Лимон / Bblueberries raspberries lemon",
-      "code": "02673",
+      "name": "ОС PAFOS 20.000 Клюква Виноград / Cranberries grapes",
+      "code": "02671",
       "quantity": 3,
       "sum": 8430,
       "profit": 4530,
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1852987,
-      "profit": 973249,
+      "sum": 1840468,
+      "profit": 967935,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17538,
-      "sum": 18671611,
-      "profit": 9750874,
-      "lastDemandDate": "2026-08-28 12:12:00.000"
+      "demandsCount": 17575,
+      "sum": 18717152,
+      "profit": 9775547,
+      "lastDemandDate": "2026-08-28 22:31:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
