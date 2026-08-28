@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T21:43:25.011Z",
+  "updatedAt": "2026-08-28T09:27:32.425Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -31676
+        "count": 6,
+        "amount": 10763,
+        "movementAmount": -20913
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 151,
-        "amount": 155670,
-        "movementAmount": -178751
+        "count": 157,
+        "amount": 166433,
+        "movementAmount": -167988
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1479,
-        "amount": 1631721,
-        "movementAmount": -578072
+        "count": 1485,
+        "amount": 1642484,
+        "movementAmount": -567309
       },
       "orders": {
         "count": 0,
@@ -64,11 +64,6 @@
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-05-29",
-      "quantity": 8,
-      "sum": 9253
-    },
     {
       "date": "2026-05-30",
       "quantity": 58,
@@ -518,14 +513,14 @@
       "date": "2026-08-27",
       "quantity": 41,
       "sum": 31676
+    },
+    {
+      "date": "2026-08-28",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-05-29",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-05-30",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-08-27",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-08-28",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
     "creditTotal": 12785682,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-05-29",
-        "credit": 65359,
-        "debit": 0,
-        "balance": 65359
-      },
       {
         "date": "2026-05-30",
         "credit": 45207,
@@ -1523,15 +1517,21 @@
       },
       {
         "date": "2026-08-27",
-        "credit": 33773,
+        "credit": 64657,
         "debit": 0,
-        "balance": 33773
+        "balance": 64657
+      },
+      {
+        "date": "2026-08-28",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
       }
     ]
   },
   "stock": {
     "totalSkuCount": 4922,
-    "totalValueRub": 1818952,
+    "totalValueRub": 1813863,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1720,70 +1720,70 @@
         "code": "00002",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 482
+        "stockDays": 483
       },
       {
         "name": "Трубка Шар \"Есть че?\" 15 см Тёмно-зеленая",
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 482
+        "stockDays": 483
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 477
+        "stockDays": 478
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 477
+        "stockDays": 478
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 477
+        "stockDays": 478
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 477
+        "stockDays": 478
       },
       {
         "name": "Набор уплотнителей д/кальяна HA-31",
         "code": "00490",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 477
+        "stockDays": 478
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 477
+        "stockDays": 478
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 472
+        "stockDays": 473
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 472
+        "stockDays": 473
       }
     ],
     "outOfStock": [
@@ -1878,6 +1878,11 @@
         "stock": 0
       },
       {
+        "name": "Набор Smoant Pasito 2 Malachite - Малахит",
+        "code": "05761",
+        "stock": 0
+      },
+      {
         "name": "Набор Smoant Pasito 2 Neon Purple - Неоново-фиолетовый",
         "code": "04895",
         "stock": 0
@@ -1931,11 +1936,6 @@
         "name": "POD Система SMOANT PASITO Mini Brown",
         "code": "02774",
         "stock": 0
-      },
-      {
-        "name": "POD Система SMOANT PASITO Pro Aquamarine",
-        "code": "02775",
-        "stock": 0
       }
     ]
   },
@@ -1943,18 +1943,18 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 76,
-      "sum": 26495,
-      "profit": 15750,
+      "quantity": 75,
+      "sum": 26145,
+      "profit": 15555,
       "margin": 59
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 72,
-      "sum": 25130,
-      "profit": 19397,
-      "margin": 77
+      "quantity": 70,
+      "sum": 24430,
+      "profit": 18961,
+      "margin": 78
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1870490,
-      "profit": 980636,
+      "sum": 1852987,
+      "profit": 973249,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17532,
-      "sum": 18660848,
-      "profit": 9745199,
-      "lastDemandDate": "2026-08-27 21:34:00.000"
+      "demandsCount": 17538,
+      "sum": 18671611,
+      "profit": 9750874,
+      "lastDemandDate": "2026-08-28 12:12:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
