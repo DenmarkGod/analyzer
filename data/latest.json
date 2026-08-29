@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T05:35:20.257Z",
+  "updatedAt": "2026-08-29T12:16:13.878Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -56304
+        "count": 17,
+        "amount": 17676,
+        "movementAmount": -38628
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 194,
-        "amount": 211974,
-        "movementAmount": -122447
+        "count": 211,
+        "amount": 229650,
+        "movementAmount": -104771
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1522,
-        "amount": 1688025,
-        "movementAmount": -521768
+        "count": 1539,
+        "amount": 1705701,
+        "movementAmount": -504092
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-05-31",
-      "quantity": 46,
-      "sum": 57992
+      "quantity": 38,
+      "sum": 46032
     },
     {
       "date": "2026-06-01",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-29",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 5,
+      "sum": 7362
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4922,
-    "totalValueRub": 1779425,
+    "totalValueRub": 1771021,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1776,14 +1776,14 @@
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 473
+        "stockDays": 474
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 473
+        "stockDays": 474
       }
     ],
     "outOfStock": [
@@ -1945,16 +1945,8 @@
       "code": "03136",
       "quantity": 79,
       "sum": 27545,
-      "profit": 16496,
+      "profit": 16519,
       "margin": 60
-    },
-    {
-      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
-      "code": "04897",
-      "quantity": 69,
-      "sum": 24080,
-      "profit": 18736,
-      "margin": 78
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
@@ -1963,6 +1955,14 @@
       "sum": 23800,
       "profit": 14824,
       "margin": 62
+    },
+    {
+      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
+      "code": "04897",
+      "quantity": 68,
+      "sum": 23730,
+      "profit": 18518,
+      "margin": 78
     },
     {
       "name": "ОС PAFOS 20.000 Ежевика Содовая 1 шт",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1842578,
-      "profit": 969083,
+      "sum": 1846756,
+      "profit": 971377,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17575,
-      "sum": 18717152,
-      "profit": 9775547,
-      "lastDemandDate": "2026-08-28 22:31:00.000"
+      "demandsCount": 17592,
+      "sum": 18734828,
+      "profit": 9784819,
+      "lastDemandDate": "2026-08-29 15:07:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
