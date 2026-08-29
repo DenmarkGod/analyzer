@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T21:42:46.293Z",
+  "updatedAt": "2026-08-29T05:35:20.257Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -17,11 +17,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1791514,
+        "income": 1846411,
         "outcome": 6278601,
-        "balance": 3178891,
-        "todayMovement": -4487087,
-        "movement": -4487087
+        "balance": 3233787,
+        "todayMovement": -4432190,
+        "movement": -4432190
       }
     },
     "week": {
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1791514,
+        "income": 1846411,
         "outcome": 6278601,
-        "balance": 3178891,
-        "todayMovement": -4487087,
-        "movement": -4487087
+        "balance": 3233787,
+        "todayMovement": -4432190,
+        "movement": -4432190
       }
     },
     "month": {
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1791514,
+        "income": 1846411,
         "outcome": 6278601,
-        "balance": 3178891,
-        "todayMovement": -4487087,
-        "movement": -4487087
+        "balance": 3233787,
+        "todayMovement": -4432190,
+        "movement": -4432190
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-05-30",
-      "quantity": 8,
-      "sum": 10196
-    },
     {
       "date": "2026-05-31",
       "quantity": 46,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-08-28",
-      "quantity": 38,
-      "sum": 51234
+      "quantity": 43,
+      "sum": 56304
+    },
+    {
+      "date": "2026-08-29",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-05-30",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-05-31",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-08-28",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-08-29",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 12785682,
+    "creditTotal": 12840578,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-05-30",
-        "credit": 45207,
-        "debit": 0,
-        "balance": 45207
-      },
       {
         "date": "2026-05-31",
         "credit": 44465,
@@ -1526,6 +1520,12 @@
         "credit": 0,
         "debit": 0,
         "balance": 0
+      },
+      {
+        "date": "2026-08-29",
+        "credit": 54896,
+        "debit": 0,
+        "balance": 54896
       }
     ]
   },
@@ -1720,56 +1720,56 @@
         "code": "00002",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 483
+        "stockDays": 484
       },
       {
         "name": "Трубка Шар \"Есть че?\" 15 см Тёмно-зеленая",
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 483
+        "stockDays": 484
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 478
+        "stockDays": 479
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 478
+        "stockDays": 479
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 478
+        "stockDays": 479
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 478
+        "stockDays": 479
       },
       {
         "name": "Набор уплотнителей д/кальяна HA-31",
         "code": "00490",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 478
+        "stockDays": 479
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 478
+        "stockDays": 479
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 77,
-      "sum": 26845,
-      "profit": 16060,
+      "quantity": 79,
+      "sum": 27545,
+      "profit": 16496,
       "margin": 60
     },
     {
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1840468,
-      "profit": 967935,
+      "sum": 1842578,
+      "profit": 969083,
       "margin": 53
     }
   ],
