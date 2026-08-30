@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T11:14:03.299Z",
+  "updatedAt": "2026-08-30T16:00:47.310Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 7,
-        "amount": 8545,
-        "movementAmount": -32018
+        "count": 27,
+        "amount": 28955,
+        "movementAmount": -11608
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 239,
-        "amount": 261082,
-        "movementAmount": -73339
+        "count": 259,
+        "amount": 281492,
+        "movementAmount": -52929
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1567,
-        "amount": 1737133,
-        "movementAmount": -472660
+        "count": 1587,
+        "amount": 1757543,
+        "movementAmount": -452250
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-01",
-      "quantity": 43,
-      "sum": 47077
+      "quantity": 34,
+      "sum": 36735
     },
     {
       "date": "2026-06-02",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-30",
-      "quantity": 1,
-      "sum": 540
+      "quantity": 15,
+      "sum": 17865
     }
   ],
   "ordersTrend": [
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 4922,
-    "totalValueRub": 1732836,
+    "totalSkuCount": 4934,
+    "totalValueRub": 1807078,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 81,
-      "sum": 28245,
-      "profit": 17024,
+      "quantity": 82,
+      "sum": 28595,
+      "profit": 17265,
       "margin": 60
     },
     {
@@ -2005,16 +2005,16 @@
       "margin": 50
     },
     {
-      "name": "ОС PAFOS 20.000 Двойное Яблоко / Double apple",
-      "code": "02307",
-      "quantity": 3,
-      "sum": 8430,
-      "profit": 4250,
-      "margin": 50
-    },
-    {
       "name": "ОС PAFOS 20.000 Клюква Виноград / Cranberries grapes",
       "code": "02671",
+      "quantity": 3,
+      "sum": 8430,
+      "profit": 4530,
+      "margin": 54
+    },
+    {
+      "name": "ОС PAFOS 20.000 Черника Малина Лимон / Bblueberries raspberries lemon",
+      "code": "02673",
       "quantity": 3,
       "sum": 8430,
       "profit": 4530,
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1816424,
-      "profit": 956510,
+      "sum": 1812845,
+      "profit": 955174,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17620,
-      "sum": 18766260,
-      "profit": 9802031,
-      "lastDemandDate": "2026-08-30 13:56:00.000"
+      "demandsCount": 17641,
+      "sum": 18788940,
+      "profit": 9813931,
+      "lastDemandDate": "2026-08-30 19:00:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
