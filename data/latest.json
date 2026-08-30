@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T16:00:47.310Z",
+  "updatedAt": "2026-08-30T20:32:00.680Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 27,
-        "amount": 28955,
-        "movementAmount": -11608
+        "count": 36,
+        "amount": 39660,
+        "movementAmount": -903
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 259,
-        "amount": 281492,
-        "movementAmount": -52929
+        "count": 268,
+        "amount": 292197,
+        "movementAmount": -42224
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1587,
-        "amount": 1757543,
-        "movementAmount": -452250
+        "count": 1596,
+        "amount": 1768248,
+        "movementAmount": -441545
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-01",
-      "quantity": 34,
-      "sum": 36735
+      "quantity": 7,
+      "sum": 10004
     },
     {
       "date": "2026-06-02",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-08-30",
-      "quantity": 15,
-      "sum": 17865
+      "quantity": 31,
+      "sum": 35794
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4934,
-    "totalValueRub": 1807078,
+    "totalValueRub": 1800986,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1696,6 +1696,12 @@
         "uom": "шт"
       },
       {
+        "name": "(МТ) Black Burn 25гр Pomelo - Помело",
+        "code": "01847",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
         "name": "(МТ) Black Burn 25гр Pudding - Пудинг",
         "code": "01501",
         "stock": 1,
@@ -1705,12 +1711,6 @@
         "name": "(МТ) Black Burn 25гр Real P.F. - Маракуйя",
         "code": "01502",
         "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Rising Star - Манго-маракуйя",
-        "code": "01504",
-        "stock": 0,
         "uom": "шт"
       }
     ],
@@ -1943,25 +1943,25 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 82,
-      "sum": 28595,
-      "profit": 17265,
+      "quantity": 83,
+      "sum": 28945,
+      "profit": 17483,
       "margin": 60
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 67,
-      "sum": 23380,
-      "profit": 18300,
-      "margin": 78
+      "quantity": 65,
+      "sum": 22680,
+      "profit": 17864,
+      "margin": 79
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 65,
-      "sum": 22750,
-      "profit": 14170,
+      "quantity": 64,
+      "sum": 22400,
+      "profit": 13952,
       "margin": 62
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1812845,
-      "profit": 955174,
+      "sum": 1786782,
+      "profit": 940890,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17641,
-      "sum": 18788940,
-      "profit": 9813931,
-      "lastDemandDate": "2026-08-30 19:00:00.000"
+      "demandsCount": 17649,
+      "sum": 18797375,
+      "profit": 9818063,
+      "lastDemandDate": "2026-08-30 22:59:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
