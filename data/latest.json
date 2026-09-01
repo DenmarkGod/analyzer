@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T11:04:34.113Z",
+  "updatedAt": "2026-09-01T16:02:21.925Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 14,
-        "amount": 10672,
-        "movementAmount": -11092
+        "count": 36,
+        "amount": 37244,
+        "movementAmount": 15480
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 37,
-        "amount": 32436,
-        "movementAmount": -259761
+        "count": 59,
+        "amount": 59008,
+        "movementAmount": -233189
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 14,
-        "amount": 10672,
-        "movementAmount": -1779340
+        "count": 36,
+        "amount": 37244,
+        "movementAmount": -1752768
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-03",
-      "quantity": 47,
-      "sum": 44085
+      "quantity": 29,
+      "sum": 27593
     },
     {
       "date": "2026-06-04",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-01",
-      "quantity": 3,
-      "sum": 1284
+      "quantity": 21,
+      "sum": 15929
     }
   ],
   "ordersTrend": [
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 4939,
-    "totalValueRub": 1763913,
+    "totalSkuCount": 4942,
+    "totalValueRub": 1752601,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 84,
-      "sum": 29295,
-      "profit": 17724,
+      "quantity": 85,
+      "sum": 29645,
+      "profit": 17965,
       "margin": 61
     },
     {
@@ -1989,14 +1989,6 @@
       "margin": 61
     },
     {
-      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
-      "code": "01473",
-      "quantity": 27,
-      "sum": 9450,
-      "profit": 5967,
-      "margin": 63
-    },
-    {
       "name": "БПК Картридж LOST MARY X-Nic Клубничное Молоко",
       "code": "04209",
       "quantity": 8,
@@ -2005,16 +1997,24 @@
       "margin": 51
     },
     {
-      "name": "ОС PAFOS 20.000 Клюква Виноград / Cranberries grapes",
-      "code": "02671",
+      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
+      "code": "01473",
+      "quantity": 25,
+      "sum": 8750,
+      "profit": 5525,
+      "margin": 63
+    },
+    {
+      "name": "ОС PAFOS 20.000 new Черная Смородина содовая / Blackcurrant soda",
+      "code": "03329",
       "quantity": 3,
       "sum": 8430,
-      "profit": 4530,
+      "profit": 4580,
       "margin": 54
     },
     {
-      "name": "ОС PAFOS 20.000 Черника Малина Лимон / Bblueberries raspberries lemon",
-      "code": "02673",
+      "name": "ОС PAFOS 20.000 Клюква Виноград / Cranberries grapes",
+      "code": "02671",
       "quantity": 3,
       "sum": 8430,
       "profit": 4530,
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1718978,
-      "profit": 905334,
+      "sum": 1712457,
+      "profit": 901964,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17686,
-      "sum": 18829811,
-      "profit": 9834435,
-      "lastDemandDate": "2026-09-01 13:57:00.000"
+      "demandsCount": 17708,
+      "sum": 18856383,
+      "profit": 9849695,
+      "lastDemandDate": "2026-09-01 18:53:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
