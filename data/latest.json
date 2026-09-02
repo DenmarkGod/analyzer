@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T10:36:31.639Z",
+  "updatedAt": "2026-09-02T15:56:37.166Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 7,
-        "amount": 10925,
-        "movementAmount": -48610
+        "count": 22,
+        "amount": 28949,
+        "movementAmount": -30586
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 87,
-        "amount": 92224,
-        "movementAmount": -199973
+        "count": 102,
+        "amount": 110248,
+        "movementAmount": -181949
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 64,
-        "amount": 70460,
-        "movementAmount": -1719552
+        "count": 79,
+        "amount": 88484,
+        "movementAmount": -1701528
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-04",
-      "quantity": 45,
-      "sum": 42699
+      "quantity": 33,
+      "sum": 28274
     },
     {
       "date": "2026-06-05",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-02",
-      "quantity": 1,
-      "sum": 360
+      "quantity": 14,
+      "sum": 18659
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4962,
-    "totalValueRub": 2139836,
+    "totalValueRub": 2131830,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1712076,
-      "profit": 903348,
+      "sum": 1676043,
+      "profit": 885634,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17736,
-      "sum": 18889599,
-      "profit": 9867210,
-      "lastDemandDate": "2026-09-02 12:59:00.000"
+      "demandsCount": 17751,
+      "sum": 18907623,
+      "profit": 9877228,
+      "lastDemandDate": "2026-09-02 18:56:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
