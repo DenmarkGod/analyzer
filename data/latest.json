@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T02:49:14.367Z",
+  "updatedAt": "2026-09-02T10:36:31.639Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -59535
+        "count": 7,
+        "amount": 10925,
+        "movementAmount": -48610
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 80,
-        "amount": 81299,
-        "movementAmount": -210898
+        "count": 87,
+        "amount": 92224,
+        "movementAmount": -199973
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 57,
-        "amount": 59535,
-        "movementAmount": -1730477
+        "count": 64,
+        "amount": 70460,
+        "movementAmount": -1719552
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-04",
-      "quantity": 46,
-      "sum": 44569
+      "quantity": 45,
+      "sum": 42699
     },
     {
       "date": "2026-06-05",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-02",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 1,
+      "sum": 360
     }
   ],
   "ordersTrend": [
@@ -1523,15 +1523,15 @@
       },
       {
         "date": "2026-09-02",
-        "credit": 0,
+        "credit": 57800,
         "debit": 0,
-        "balance": 0
+        "balance": 57800
       }
     ]
   },
   "stock": {
     "totalSkuCount": 4962,
-    "totalValueRub": 2144826,
+    "totalValueRub": 2139836,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1720,70 +1720,70 @@
         "code": "00002",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 487
+        "stockDays": 488
       },
       {
         "name": "Трубка Шар \"Есть че?\" 15 см Тёмно-зеленая",
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 487
+        "stockDays": 488
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 482
+        "stockDays": 483
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 482
+        "stockDays": 483
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 482
+        "stockDays": 483
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 482
+        "stockDays": 483
       },
       {
         "name": "Набор уплотнителей д/кальяна HA-31",
         "code": "00490",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 482
+        "stockDays": 483
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 482
+        "stockDays": 483
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 477
+        "stockDays": 478
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 477
+        "stockDays": 478
       }
     ],
     "outOfStock": [
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1711716,
-      "profit": 903238,
+      "sum": 1712076,
+      "profit": 903348,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17729,
-      "sum": 18878674,
-      "profit": 9861275,
-      "lastDemandDate": "2026-09-01 23:09:00.000"
+      "demandsCount": 17736,
+      "sum": 18889599,
+      "profit": 9867210,
+      "lastDemandDate": "2026-09-02 12:59:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
