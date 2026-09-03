@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T02:53:17.734Z",
+  "updatedAt": "2026-09-03T10:39:19.298Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -39886
+        "count": 5,
+        "amount": 3803,
+        "movementAmount": -36083
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 114,
-        "amount": 121185,
-        "movementAmount": -171012
+        "count": 119,
+        "amount": 124988,
+        "movementAmount": -167209
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 91,
-        "amount": 99421,
-        "movementAmount": -1690591
+        "count": 96,
+        "amount": 103224,
+        "movementAmount": -1686788
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-05",
-      "quantity": 53,
-      "sum": 53709
+      "quantity": 52,
+      "sum": 53359
     },
     {
       "date": "2026-06-06",
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4962,
-    "totalValueRub": 2116148,
+    "totalValueRub": 2114424,
     "lowStock": [
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
@@ -1720,70 +1720,70 @@
         "code": "00002",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 488
+        "stockDays": 489
       },
       {
         "name": "Трубка Шар \"Есть че?\" 15 см Тёмно-зеленая",
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 488
+        "stockDays": 489
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 483
+        "stockDays": 484
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 483
+        "stockDays": 484
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 483
+        "stockDays": 484
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 483
+        "stockDays": 484
       },
       {
         "name": "Набор уплотнителей д/кальяна HA-31",
         "code": "00490",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 483
+        "stockDays": 484
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 483
+        "stockDays": 484
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 478
+        "stockDays": 479
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 478
+        "stockDays": 479
       }
     ],
     "outOfStock": [
@@ -2032,10 +2032,10 @@
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17763,
-      "sum": 18918560,
-      "profit": 9883784,
-      "lastDemandDate": "2026-09-02 22:50:00.000"
+      "demandsCount": 17768,
+      "sum": 18922363,
+      "profit": 9885863,
+      "lastDemandDate": "2026-09-03 12:58:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
