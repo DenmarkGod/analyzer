@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T15:45:29.019Z",
+  "updatedAt": "2026-09-03T20:28:53.089Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 19,
-        "amount": 18451,
-        "movementAmount": -21435
+        "count": 31,
+        "amount": 29521,
+        "movementAmount": -10365
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 133,
-        "amount": 139636,
-        "movementAmount": -152561
+        "count": 145,
+        "amount": 150706,
+        "movementAmount": -141491
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 110,
-        "amount": 117872,
-        "movementAmount": -1672140
+        "count": 122,
+        "amount": 128942,
+        "movementAmount": -1661070
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-05",
-      "quantity": 39,
-      "sum": 42777
+      "quantity": 14,
+      "sum": 15917
     },
     {
       "date": "2026-06-06",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-03",
-      "quantity": 10,
-      "sum": 9420
+      "quantity": 26,
+      "sum": 26062
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4962,
-    "totalValueRub": 2107593,
+    "totalValueRub": 2079194,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -1798,6 +1798,16 @@
         "stock": 0
       },
       {
+        "name": "Набор Geekvape Aegis Boost 3 Sunset Red - Красный закат",
+        "code": "05816",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape Aegis Boost 3 Teal Blue - Синий",
+        "code": "05393",
+        "stock": 0
+      },
+      {
         "name": "Набор Geekvape H45 Classic (Aegis Hero 3) Black - Черный",
         "code": "04220",
         "stock": 0
@@ -1926,16 +1936,6 @@
         "name": "POD Система SMOANT PASITO Mini Blue Twill",
         "code": "02773",
         "stock": 0
-      },
-      {
-        "name": "POD Система SMOANT PASITO Mini Brown",
-        "code": "02774",
-        "stock": 0
-      },
-      {
-        "name": "POD Система SMOANT PASITO Pro Aquamarine",
-        "code": "02775",
-        "stock": 0
       }
     ]
   },
@@ -1945,7 +1945,7 @@
       "code": "03136",
       "quantity": 86,
       "sum": 29995,
-      "profit": 18206,
+      "profit": 18252,
       "margin": 61
     },
     {
@@ -1953,7 +1953,7 @@
       "code": "04897",
       "quantity": 62,
       "sum": 21630,
-      "profit": 17210,
+      "profit": 17203,
       "margin": 80
     },
     {
@@ -1997,14 +1997,6 @@
       "margin": 51
     },
     {
-      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
-      "code": "01473",
-      "quantity": 25,
-      "sum": 8750,
-      "profit": 5525,
-      "margin": 63
-    },
-    {
       "name": "ОС PAFOS 20.000 new Ананас Личи / Pineapple Litchi",
       "code": "03325",
       "quantity": 3,
@@ -2019,23 +2011,31 @@
       "sum": 8430,
       "profit": 4530,
       "margin": 54
+    },
+    {
+      "name": "ОС PAFOS 20.000 Клюква Виноград / Cranberries grapes",
+      "code": "02671",
+      "quantity": 3,
+      "sum": 8430,
+      "profit": 4530,
+      "margin": 54
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1661011,
-      "profit": 878987,
+      "sum": 1641283,
+      "profit": 869394,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17782,
-      "sum": 18937011,
-      "profit": 9893680,
-      "lastDemandDate": "2026-09-03 18:39:00.000"
+      "demandsCount": 17794,
+      "sum": 18948081,
+      "profit": 9899628,
+      "lastDemandDate": "2026-09-03 22:21:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
