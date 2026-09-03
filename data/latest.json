@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T10:39:19.298Z",
+  "updatedAt": "2026-09-03T15:45:29.019Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 5,
-        "amount": 3803,
-        "movementAmount": -36083
+        "count": 19,
+        "amount": 18451,
+        "movementAmount": -21435
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 119,
-        "amount": 124988,
-        "movementAmount": -167209
+        "count": 133,
+        "amount": 139636,
+        "movementAmount": -152561
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 96,
-        "amount": 103224,
-        "movementAmount": -1686788
+        "count": 110,
+        "amount": 117872,
+        "movementAmount": -1672140
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-05",
-      "quantity": 52,
-      "sum": 53359
+      "quantity": 39,
+      "sum": 42777
     },
     {
       "date": "2026-06-06",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-03",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 10,
+      "sum": 9420
     }
   ],
   "ordersTrend": [
@@ -1531,8 +1531,26 @@
   },
   "stock": {
     "totalSkuCount": 4962,
-    "totalValueRub": 2114424,
+    "totalValueRub": 2107593,
     "lowStock": [
+      {
+        "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
+        "code": "04335",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой PickMe со вкусом Арбузный Рондо",
+        "code": "03810",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой PickMe со вкусом Скитлс",
+        "code": "03831",
+        "stock": 0,
+        "uom": "шт"
+      },
       {
         "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
         "code": "01852",
@@ -1692,24 +1710,6 @@
       {
         "name": "(МТ) Black Burn 25гр Pina Colada - Пина Колада",
         "code": "01498",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Pineapple Yogurt - Ананасовый йогурт",
-        "code": "01500",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Pomelo - Помело",
-        "code": "01847",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Pudding - Пудинг",
-        "code": "01501",
         "stock": 1,
         "uom": "шт"
       }
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 87,
-      "sum": 30345,
-      "profit": 18401,
+      "quantity": 86,
+      "sum": 29995,
+      "profit": 18206,
       "margin": 61
     },
     {
@@ -1959,9 +1959,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 57,
-      "sum": 19950,
-      "profit": 12426,
+      "quantity": 56,
+      "sum": 19600,
+      "profit": 12208,
       "margin": 62
     },
     {
@@ -1997,6 +1997,14 @@
       "margin": 51
     },
     {
+      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
+      "code": "01473",
+      "quantity": 25,
+      "sum": 8750,
+      "profit": 5525,
+      "margin": 63
+    },
+    {
       "name": "ОС PAFOS 20.000 new Ананас Личи / Pineapple Litchi",
       "code": "03325",
       "quantity": 3,
@@ -2011,31 +2019,23 @@
       "sum": 8430,
       "profit": 4530,
       "margin": 54
-    },
-    {
-      "name": "ОС PAFOS 20.000 Клюква Виноград / Cranberries grapes",
-      "code": "02671",
-      "quantity": 3,
-      "sum": 8430,
-      "profit": 4530,
-      "margin": 54
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1666620,
-      "profit": 881967,
+      "sum": 1661011,
+      "profit": 878987,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17768,
-      "sum": 18922363,
-      "profit": 9885863,
-      "lastDemandDate": "2026-09-03 12:58:00.000"
+      "demandsCount": 17782,
+      "sum": 18937011,
+      "profit": 9893680,
+      "lastDemandDate": "2026-09-03 18:39:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
