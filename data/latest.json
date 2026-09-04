@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T10:34:08.782Z",
+  "updatedAt": "2026-09-04T15:44:27.161Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 5,
-        "amount": 4320,
-        "movementAmount": -25201
+        "count": 22,
+        "amount": 23617,
+        "movementAmount": -5904
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 150,
-        "amount": 155026,
-        "movementAmount": -137171
+        "count": 167,
+        "amount": 174323,
+        "movementAmount": -117874
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 127,
-        "amount": 133262,
-        "movementAmount": -1656750
+        "count": 144,
+        "amount": 152559,
+        "movementAmount": -1637453
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-06",
-      "quantity": 57,
-      "sum": 68100
+      "quantity": 37,
+      "sum": 37708
     },
     {
       "date": "2026-06-07",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-04",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 9,
+      "sum": 8747
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4962,
-    "totalValueRub": 2077305,
+    "totalValueRub": 2068581,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -1943,25 +1943,25 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 89,
-      "sum": 31045,
-      "profit": 18884,
+      "quantity": 88,
+      "sum": 30695,
+      "profit": 18689,
       "margin": 61
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
       "quantity": 62,
-      "sum": 21630,
-      "profit": 17203,
+      "sum": 21665,
+      "profit": 17231,
       "margin": 80
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 57,
-      "sum": 19950,
-      "profit": 12426,
+      "quantity": 54,
+      "sum": 18900,
+      "profit": 11772,
       "margin": 62
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1630582,
-      "profit": 863555,
+      "sum": 1624944,
+      "profit": 860600,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17799,
-      "sum": 18952401,
-      "profit": 9902059,
-      "lastDemandDate": "2026-09-04 13:28:00.000"
+      "demandsCount": 17816,
+      "sum": 18971698,
+      "profit": 9912632,
+      "lastDemandDate": "2026-09-04 18:26:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
