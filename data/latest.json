@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T09:56:20.290Z",
+  "updatedAt": "2026-09-05T14:33:28.075Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 2,
-        "amount": 4270,
-        "movementAmount": -35222
+        "count": 13,
+        "amount": 13628,
+        "movementAmount": -25864
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 184,
-        "amount": 194468,
-        "movementAmount": -97729
+        "count": 195,
+        "amount": 203826,
+        "movementAmount": -88371
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 161,
-        "amount": 172704,
-        "movementAmount": -1617308
+        "count": 172,
+        "amount": 182062,
+        "movementAmount": -1607950
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-07",
-      "quantity": 49,
-      "sum": 47167
+      "quantity": 31,
+      "sum": 27761
     },
     {
       "date": "2026-06-08",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-05",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 5,
+      "sum": 8310
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4962,
-    "totalValueRub": 2045613,
+    "totalValueRub": 2037747,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -1951,9 +1951,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 61,
-      "sum": 21315,
-      "profit": 17013,
+      "quantity": 59,
+      "sum": 20615,
+      "profit": 16445,
       "margin": 80
     },
     {
@@ -1965,20 +1965,20 @@
       "margin": 62
     },
     {
-      "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
-      "code": "02695",
-      "quantity": 8,
-      "sum": 12640,
-      "profit": 6625,
-      "margin": 52
-    },
-    {
       "name": "ОС PAFOS 20.000 new Черная Смородина содовая / Blackcurrant soda",
       "code": "03329",
       "quantity": 4,
       "sum": 11240,
       "profit": 6140,
       "margin": 55
+    },
+    {
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
+      "code": "02695",
+      "quantity": 7,
+      "sum": 11060,
+      "profit": 5795,
+      "margin": 52
     },
     {
       "name": "ОС PAFOS 20.000 new Ананас Личи / Pineapple Litchi",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1591414,
-      "profit": 841707,
+      "sum": 1584554,
+      "profit": 837608,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17833,
-      "sum": 18991843,
-      "profit": 9922842,
-      "lastDemandDate": "2026-09-05 11:48:00.000"
+      "demandsCount": 17844,
+      "sum": 19001201,
+      "profit": 9927594,
+      "lastDemandDate": "2026-09-05 17:15:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
