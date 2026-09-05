@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T14:33:28.075Z",
+  "updatedAt": "2026-09-05T19:54:57.141Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 13,
-        "amount": 13628,
-        "movementAmount": -25864
+        "count": 30,
+        "amount": 28589,
+        "movementAmount": -10903
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 195,
-        "amount": 203826,
-        "movementAmount": -88371
+        "count": 212,
+        "amount": 218787,
+        "movementAmount": -73410
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 172,
-        "amount": 182062,
-        "movementAmount": -1607950
+        "count": 189,
+        "amount": 197023,
+        "movementAmount": -1592989
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-07",
-      "quantity": 31,
-      "sum": 27761
+      "quantity": 7,
+      "sum": 5530
     },
     {
       "date": "2026-06-08",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-05",
-      "quantity": 5,
-      "sum": 8310
+      "quantity": 21,
+      "sum": 21378
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4962,
-    "totalValueRub": 2037747,
+    "totalValueRub": 2025617,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -1868,6 +1868,11 @@
         "stock": 0
       },
       {
+        "name": "ЭДО POD Система PLONQ Meta Lite Серебристый",
+        "code": "05237",
+        "stock": 0
+      },
+      {
         "name": "ЭДО POD Система PLONQ Meta Lite Черный",
         "code": "05803",
         "stock": 0
@@ -1931,11 +1936,6 @@
         "name": "Набор Smoant Pasito 3 Pepper White - Белый",
         "code": "05644",
         "stock": 0
-      },
-      {
-        "name": "Набор Smoant Pasito Kit Carbon Black - Черный карбон",
-        "code": "05512",
-        "stock": 0
       }
     ]
   },
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 85,
-      "sum": 29645,
-      "profit": 18128,
+      "quantity": 82,
+      "sum": 28595,
+      "profit": 17555,
       "margin": 61
     },
     {
@@ -1959,9 +1959,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 57,
-      "sum": 19950,
-      "profit": 12426,
+      "quantity": 55,
+      "sum": 19250,
+      "profit": 11990,
       "margin": 62
     },
     {
@@ -2013,29 +2013,29 @@
       "margin": 53
     },
     {
-      "name": "БПК Картридж LOST MARY X-Nic Клубничное Молоко",
-      "code": "04209",
-      "quantity": 7,
-      "sum": 7770,
-      "profit": 3970,
-      "margin": 51
+      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
+      "code": "01473",
+      "quantity": 20,
+      "sum": 7000,
+      "profit": 4420,
+      "margin": 63
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1584554,
-      "profit": 837608,
+      "sum": 1538784,
+      "profit": 813592,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17844,
-      "sum": 19001201,
-      "profit": 9927594,
-      "lastDemandDate": "2026-09-05 17:15:00.000"
+      "demandsCount": 17861,
+      "sum": 19016162,
+      "profit": 9935533,
+      "lastDemandDate": "2026-09-05 22:50:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
