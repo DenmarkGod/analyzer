@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T20:15:17.591Z",
+  "updatedAt": "2026-09-05T02:54:26.741Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 37,
-        "amount": 39492,
-        "movementAmount": 9971
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -39492
       },
       "orders": {
         "count": 0,
@@ -17,11 +17,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1689327,
+        "income": 1596147,
         "outcome": 185158,
-        "balance": 3454957,
-        "todayMovement": 1504169,
-        "movement": 1504169
+        "balance": 3491955,
+        "todayMovement": 1410989,
+        "movement": 1410989
       }
     },
     "week": {
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1689327,
+        "income": 1596147,
         "outcome": 185158,
-        "balance": 3454957,
-        "todayMovement": 1504169,
-        "movement": 1504169
+        "balance": 3491955,
+        "todayMovement": 1410989,
+        "movement": 1410989
       }
     },
     "month": {
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1689327,
+        "income": 1596147,
         "outcome": 185158,
-        "balance": 3454957,
-        "todayMovement": 1504169,
-        "movement": 1504169
+        "balance": 3491955,
+        "todayMovement": 1410989,
+        "movement": 1410989
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-06-06",
-      "quantity": 14,
-      "sum": 17386
-    },
     {
       "date": "2026-06-07",
       "quantity": 49,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-09-04",
-      "quantity": 29,
-      "sum": 32004
+      "quantity": 37,
+      "sum": 39492
+    },
+    {
+      "date": "2026-09-05",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-06-06",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-06-07",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-09-04",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-09-05",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13061748,
+    "creditTotal": 13098746,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-06-06",
-        "credit": 47528,
-        "debit": 0,
-        "balance": 47528
-      },
       {
         "date": "2026-06-07",
         "credit": 37327,
@@ -1523,15 +1517,21 @@
       },
       {
         "date": "2026-09-04",
-        "credit": 28442,
+        "credit": 65440,
         "debit": 0,
-        "balance": 28442
+        "balance": 65440
+      },
+      {
+        "date": "2026-09-05",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
       }
     ]
   },
   "stock": {
     "totalSkuCount": 4962,
-    "totalValueRub": 2049243,
+    "totalValueRub": 2048723,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -1951,9 +1951,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 62,
-      "sum": 21665,
-      "profit": 17231,
+      "quantity": 61,
+      "sum": 21315,
+      "profit": 17013,
       "margin": 80
     },
     {
@@ -1981,22 +1981,6 @@
       "margin": 55
     },
     {
-      "name": "Кальян TH-32-2 SANSARA CYBER 76см (составной, полный комплект) (Black чёрный)",
-      "code": "05864",
-      "quantity": 1,
-      "sum": 10649,
-      "profit": 6549,
-      "margin": 61
-    },
-    {
-      "name": "БПК Картридж LOST MARY X-Nic Клубничное Молоко",
-      "code": "04209",
-      "quantity": 8,
-      "sum": 8880,
-      "profit": 4530,
-      "margin": 51
-    },
-    {
       "name": "ОС PAFOS 20.000 new Ананас Личи / Pineapple Litchi",
       "code": "03325",
       "quantity": 3,
@@ -2019,13 +2003,29 @@
       "sum": 8430,
       "profit": 4530,
       "margin": 54
+    },
+    {
+      "name": "БПК Картридж LOST MARY X-Link Classic Кислое Яблоко Виноград",
+      "code": "02051",
+      "quantity": 7,
+      "sum": 7770,
+      "profit": 4095,
+      "margin": 53
+    },
+    {
+      "name": "БПК Картридж LOST MARY X-Nic Клубничное Молоко",
+      "code": "04209",
+      "quantity": 7,
+      "sum": 7770,
+      "profit": 3970,
+      "margin": 51
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1615184,
-      "profit": 856516,
+      "sum": 1591414,
+      "profit": 841707,
       "margin": 53
     }
   ],
