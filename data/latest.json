@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T10:14:24.431Z",
+  "updatedAt": "2026-09-06T14:54:34.967Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 11,
-        "amount": 7156,
-        "movementAmount": -21433
+        "count": 25,
+        "amount": 24794,
+        "movementAmount": -3795
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 223,
-        "amount": 225943,
-        "movementAmount": -66254
+        "count": 237,
+        "amount": 243581,
+        "movementAmount": -48616
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 200,
-        "amount": 204179,
-        "movementAmount": -1585833
+        "count": 214,
+        "amount": 221817,
+        "movementAmount": -1568195
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-08",
-      "quantity": 55,
-      "sum": 69071
+      "quantity": 40,
+      "sum": 49593
     },
     {
       "date": "2026-06-09",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-06",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 14,
+      "sum": 9049
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4962,
-    "totalValueRub": 2021791,
+    "totalValueRub": 2010184,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -1684,6 +1684,12 @@
         "uom": "шт"
       },
       {
+        "name": "(МТ) Black Burn 25гр Mirinda - Миринда",
+        "code": "01495",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
         "name": "(МТ) Black Burn 25гр Muesli - Мюсли",
         "code": "01821",
         "stock": 1,
@@ -1704,12 +1710,6 @@
       {
         "name": "(МТ) Black Burn 25гр Pear Lemonade (Something Fresh) - Грушевый лимонад",
         "code": "01497",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Pina Colada - Пина Колада",
-        "code": "01498",
         "stock": 1,
         "uom": "шт"
       }
@@ -1943,18 +1943,18 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 82,
-      "sum": 28595,
-      "profit": 17567,
-      "margin": 61
+      "quantity": 81,
+      "sum": 28245,
+      "profit": 17372,
+      "margin": 62
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
       "quantity": 59,
       "sum": 20615,
-      "profit": 16445,
-      "margin": 80
+      "profit": 16306,
+      "margin": 79
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
@@ -1979,14 +1979,6 @@
       "sum": 11060,
       "profit": 5795,
       "margin": 52
-    },
-    {
-      "name": "ОС PAFOS 20.000 new Ананас Личи / Pineapple Litchi",
-      "code": "03325",
-      "quantity": 3,
-      "sum": 8430,
-      "profit": 4580,
-      "margin": 54
     },
     {
       "name": "ОС PAFOS 20.000 Ягодный йогурт/ Berry Yogurt",
@@ -2019,23 +2011,31 @@
       "sum": 6960,
       "profit": 3870,
       "margin": 56
+    },
+    {
+      "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
+      "code": "02057",
+      "quantity": 6,
+      "sum": 6660,
+      "profit": 3560,
+      "margin": 53
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1517593,
-      "profit": 803465,
+      "sum": 1507790,
+      "profit": 798463,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17872,
-      "sum": 19023318,
-      "profit": 9939481,
-      "lastDemandDate": "2026-09-06 12:48:00.000"
+      "demandsCount": 17886,
+      "sum": 19040956,
+      "profit": 9949203,
+      "lastDemandDate": "2026-09-06 17:45:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
