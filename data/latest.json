@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T19:54:57.141Z",
+  "updatedAt": "2026-09-06T02:52:44.665Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 30,
-        "amount": 28589,
-        "movementAmount": -10903
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -28589
       },
       "orders": {
         "count": 0,
@@ -17,11 +17,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1596147,
-        "outcome": 185158,
-        "balance": 3491955,
-        "todayMovement": 1410989,
-        "movement": 1410989
+        "income": 1562191,
+        "outcome": 169287,
+        "balance": 3517607,
+        "todayMovement": 1392904,
+        "movement": 1392904
       }
     },
     "week": {
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1596147,
-        "outcome": 185158,
-        "balance": 3491955,
-        "todayMovement": 1410989,
-        "movement": 1410989
+        "income": 1562191,
+        "outcome": 169287,
+        "balance": 3517607,
+        "todayMovement": 1392904,
+        "movement": 1392904
       }
     },
     "month": {
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1596147,
-        "outcome": 185158,
-        "balance": 3491955,
-        "todayMovement": 1410989,
-        "movement": 1410989
+        "income": 1562191,
+        "outcome": 169287,
+        "balance": 3517607,
+        "todayMovement": 1392904,
+        "movement": 1392904
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-06-07",
-      "quantity": 7,
-      "sum": 5530
-    },
     {
       "date": "2026-06-08",
       "quantity": 55,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-09-05",
-      "quantity": 21,
-      "sum": 21378
+      "quantity": 30,
+      "sum": 28589
+    },
+    {
+      "date": "2026-09-06",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-06-07",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-06-08",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-09-05",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-09-06",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13098746,
+    "creditTotal": 13124398,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-06-07",
-        "credit": 37327,
-        "debit": 0,
-        "balance": 37327
-      },
       {
         "date": "2026-06-08",
         "credit": 43239,
@@ -1523,6 +1517,12 @@
       },
       {
         "date": "2026-09-05",
+        "credit": 25651,
+        "debit": 0,
+        "balance": 25651
+      },
+      {
+        "date": "2026-09-06",
         "credit": 0,
         "debit": 0,
         "balance": 0
@@ -1945,7 +1945,7 @@
       "code": "03136",
       "quantity": 82,
       "sum": 28595,
-      "profit": 17555,
+      "profit": 17567,
       "margin": 61
     },
     {
@@ -1959,9 +1959,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 55,
-      "sum": 19250,
-      "profit": 11990,
+      "quantity": 54,
+      "sum": 18900,
+      "profit": 11772,
       "margin": 62
     },
     {
@@ -1989,14 +1989,6 @@
       "margin": 54
     },
     {
-      "name": "ОС PAFOS 20.000 Клюква Виноград / Cranberries grapes",
-      "code": "02671",
-      "quantity": 3,
-      "sum": 8430,
-      "profit": 4530,
-      "margin": 54
-    },
-    {
       "name": "ОС PAFOS 20.000 Ягодный йогурт/ Berry Yogurt",
       "code": "02314",
       "quantity": 3,
@@ -2019,13 +2011,21 @@
       "sum": 7000,
       "profit": 4420,
       "margin": 63
+    },
+    {
+      "name": "LOST MARY AIR 22000 MOUNTAIN MINT",
+      "code": "05852",
+      "quantity": 4,
+      "sum": 6960,
+      "profit": 3870,
+      "margin": 56
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1538784,
-      "profit": 813592,
+      "sum": 1517593,
+      "profit": 803465,
       "margin": 53
     }
   ],
