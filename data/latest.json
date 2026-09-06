@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T14:54:34.967Z",
+  "updatedAt": "2026-09-06T19:58:36.419Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 25,
-        "amount": 24794,
-        "movementAmount": -3795
+        "count": 37,
+        "amount": 41197,
+        "movementAmount": 12608
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 237,
-        "amount": 243581,
-        "movementAmount": -48616
+        "count": 249,
+        "amount": 259984,
+        "movementAmount": -32213
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 214,
-        "amount": 221817,
-        "movementAmount": -1568195
+        "count": 226,
+        "amount": 238220,
+        "movementAmount": -1551792
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-08",
-      "quantity": 40,
-      "sum": 49593
+      "quantity": 16,
+      "sum": 32394
     },
     {
       "date": "2026-06-09",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-06",
-      "quantity": 14,
-      "sum": 9049
+      "quantity": 28,
+      "sum": 30904
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4962,
-    "totalValueRub": 2010184,
+    "totalValueRub": 2000275,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1507790,
-      "profit": 798463,
+      "sum": 1506110,
+      "profit": 798314,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17886,
-      "sum": 19040956,
-      "profit": 9949203,
-      "lastDemandDate": "2026-09-06 17:45:00.000"
+      "demandsCount": 17898,
+      "sum": 19057359,
+      "profit": 9957286,
+      "lastDemandDate": "2026-09-06 22:23:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
