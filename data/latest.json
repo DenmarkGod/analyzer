@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T19:58:36.419Z",
+  "updatedAt": "2026-09-07T02:50:24.747Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 37,
-        "amount": 41197,
-        "movementAmount": 12608
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -41197
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1562191,
+        "income": 1474282,
         "outcome": 169287,
-        "balance": 3517607,
-        "todayMovement": 1392904,
-        "movement": 1392904
+        "balance": 3557774,
+        "todayMovement": 1304995,
+        "movement": 1304995
       }
     },
     "week": {
       "sales": {
-        "count": 249,
-        "amount": 259984,
-        "movementAmount": -32213
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -259984
       },
       "orders": {
         "count": 0,
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1562191,
+        "income": 1474282,
         "outcome": 169287,
-        "balance": 3517607,
-        "todayMovement": 1392904,
-        "movement": 1392904
+        "balance": 3557774,
+        "todayMovement": 1304995,
+        "movement": 1304995
       }
     },
     "month": {
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1562191,
+        "income": 1474282,
         "outcome": 169287,
-        "balance": 3517607,
-        "todayMovement": 1392904,
-        "movement": 1392904
+        "balance": 3557774,
+        "todayMovement": 1304995,
+        "movement": 1304995
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-06-08",
-      "quantity": 16,
-      "sum": 32394
-    },
     {
       "date": "2026-06-09",
       "quantity": 51,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-09-06",
-      "quantity": 28,
-      "sum": 30904
+      "quantity": 37,
+      "sum": 41197
+    },
+    {
+      "date": "2026-09-07",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-06-08",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-06-09",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-09-06",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-09-07",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13124398,
+    "creditTotal": 13164565,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-06-08",
-        "credit": 43239,
-        "debit": 0,
-        "balance": 43239
-      },
       {
         "date": "2026-06-09",
         "credit": 40082,
@@ -1526,12 +1520,18 @@
         "credit": 0,
         "debit": 0,
         "balance": 0
+      },
+      {
+        "date": "2026-09-07",
+        "credit": 40167,
+        "debit": 0,
+        "balance": 40167
       }
     ]
   },
   "stock": {
     "totalSkuCount": 4962,
-    "totalValueRub": 2000275,
+    "totalValueRub": 1993280,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1506110,
-      "profit": 798314,
+      "sum": 1506658,
+      "profit": 798033,
       "margin": 53
     }
   ],
