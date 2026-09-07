@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T11:33:13.325Z",
+  "updatedAt": "2026-09-07T17:13:07.637Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 4,
-        "amount": 5533,
-        "movementAmount": -35664
+        "count": 17,
+        "amount": 18321,
+        "movementAmount": -22876
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 4,
-        "amount": 5533,
-        "movementAmount": -254451
+        "count": 17,
+        "amount": 18321,
+        "movementAmount": -241663
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 230,
-        "amount": 243753,
-        "movementAmount": -1546259
+        "count": 243,
+        "amount": 256541,
+        "movementAmount": -1533471
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-09",
-      "quantity": 46,
-      "sum": 44831
+      "quantity": 35,
+      "sum": 31145
     },
     {
       "date": "2026-06-10",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-07",
-      "quantity": 1,
-      "sum": 1110
+      "quantity": 6,
+      "sum": 6152
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4962,
-    "totalValueRub": 1989971,
+    "totalValueRub": 1983805,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -1945,15 +1945,15 @@
       "code": "03136",
       "quantity": 81,
       "sum": 28245,
-      "profit": 17372,
+      "profit": 17396,
       "margin": 62
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 59,
-      "sum": 20615,
-      "profit": 16306,
+      "quantity": 58,
+      "sum": 20265,
+      "profit": 15956,
       "margin": 79
     },
     {
@@ -1975,9 +1975,9 @@
     {
       "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
       "code": "02695",
-      "quantity": 7,
-      "sum": 11060,
-      "profit": 5795,
+      "quantity": 6,
+      "sum": 9480,
+      "profit": 4965,
       "margin": 52
     },
     {
@@ -1997,6 +1997,14 @@
       "margin": 53
     },
     {
+      "name": "БПК Картридж LOST MARY X-Link Sweet Арбуз Мята",
+      "code": "02054",
+      "quantity": 7,
+      "sum": 7770,
+      "profit": 3460,
+      "margin": 52
+    },
+    {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
       "code": "01473",
       "quantity": 20,
@@ -2011,31 +2019,23 @@
       "sum": 6960,
       "profit": 3870,
       "margin": 56
-    },
-    {
-      "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
-      "code": "02057",
-      "quantity": 6,
-      "sum": 6660,
-      "profit": 3560,
-      "margin": 53
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1504164,
-      "profit": 796603,
+      "sum": 1495022,
+      "profit": 791938,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17902,
-      "sum": 19062892,
-      "profit": 9960290,
-      "lastDemandDate": "2026-09-07 14:21:00.000"
+      "demandsCount": 17915,
+      "sum": 19075680,
+      "profit": 9966913,
+      "lastDemandDate": "2026-09-07 19:51:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
