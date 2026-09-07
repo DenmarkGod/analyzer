@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T17:13:07.637Z",
+  "updatedAt": "2026-09-07T21:05:44.305Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 17,
-        "amount": 18321,
-        "movementAmount": -22876
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -21029
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1474282,
+        "income": 1494662,
         "outcome": 169287,
-        "balance": 3557774,
-        "todayMovement": 1304995,
-        "movement": 1304995
+        "balance": 3578154,
+        "todayMovement": 1325375,
+        "movement": 1325375
       }
     },
     "week": {
       "sales": {
-        "count": 17,
-        "amount": 18321,
-        "movementAmount": -241663
+        "count": 23,
+        "amount": 21029,
+        "movementAmount": -238955
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1474282,
+        "income": 1494662,
         "outcome": 169287,
-        "balance": 3557774,
-        "todayMovement": 1304995,
-        "movement": 1304995
+        "balance": 3578154,
+        "todayMovement": 1325375,
+        "movement": 1325375
       }
     },
     "month": {
       "sales": {
-        "count": 243,
-        "amount": 256541,
-        "movementAmount": -1533471
+        "count": 249,
+        "amount": 259249,
+        "movementAmount": -1530763
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1474282,
+        "income": 1494662,
         "outcome": 169287,
-        "balance": 3557774,
-        "todayMovement": 1304995,
-        "movement": 1304995
+        "balance": 3578154,
+        "todayMovement": 1325375,
+        "movement": 1325375
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-06-09",
-      "quantity": 35,
-      "sum": 31145
+      "quantity": 14,
+      "sum": 10450
     },
     {
       "date": "2026-06-10",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-07",
-      "quantity": 6,
-      "sum": 6152
+      "quantity": 21,
+      "sum": 19974
     }
   ],
   "ordersTrend": [
@@ -978,7 +978,7 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13164565,
+    "creditTotal": 13184945,
     "debitTotal": 9606791,
     "series": [
       {
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4962,
-    "totalValueRub": 1983805,
+    "totalValueRub": 1962383,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -1543,6 +1543,12 @@
         "name": "Ароматизатор пищевой PickMe со вкусом Арбузный Рондо",
         "code": "03810",
         "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой PickMe со вкусом Скандик — Лесные ягоды",
+        "code": "03830",
+        "stock": 1,
         "uom": "шт"
       },
       {
@@ -1706,12 +1712,6 @@
         "code": "01851",
         "stock": 1,
         "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Pear Lemonade (Something Fresh) - Грушевый лимонад",
-        "code": "01497",
-        "stock": 1,
-        "uom": "шт"
       }
     ],
     "staleStock": [
@@ -1810,6 +1810,11 @@
       {
         "name": "Набор Geekvape H45 Classic (Aegis Hero 3) Black - Черный",
         "code": "04220",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape H45 Classic (Aegis Hero 3) Grey - Серый",
+        "code": "05394",
         "stock": 0
       },
       {
@@ -1931,11 +1936,6 @@
         "name": "Набор Smoant Pasito 3 Matte Black - Черный",
         "code": "04810",
         "stock": 0
-      },
-      {
-        "name": "Набор Smoant Pasito 3 Pepper White - Белый",
-        "code": "05644",
-        "stock": 0
       }
     ]
   },
@@ -1943,18 +1943,18 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 81,
-      "sum": 28245,
-      "profit": 17396,
-      "margin": 62
+      "quantity": 87,
+      "sum": 30345,
+      "profit": 18638,
+      "margin": 61
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 58,
-      "sum": 20265,
-      "profit": 15956,
-      "margin": 79
+      "quantity": 57,
+      "sum": 19915,
+      "profit": 15606,
+      "margin": 78
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
@@ -1965,20 +1965,20 @@
       "margin": 62
     },
     {
-      "name": "ОС PAFOS 20.000 new Черная Смородина содовая / Blackcurrant soda",
-      "code": "03329",
-      "quantity": 4,
-      "sum": 11240,
-      "profit": 6140,
-      "margin": 55
-    },
-    {
       "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
       "code": "02695",
       "quantity": 6,
       "sum": 9480,
       "profit": 4965,
       "margin": 52
+    },
+    {
+      "name": "ОС PAFOS 20.000 new Черная Смородина содовая / Blackcurrant soda",
+      "code": "03329",
+      "quantity": 3,
+      "sum": 8430,
+      "profit": 4630,
+      "margin": 55
     },
     {
       "name": "ОС PAFOS 20.000 Ягодный йогурт/ Berry Yogurt",
@@ -2007,9 +2007,9 @@
     {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
       "code": "01473",
-      "quantity": 20,
-      "sum": 7000,
-      "profit": 4420,
+      "quantity": 21,
+      "sum": 7350,
+      "profit": 4641,
       "margin": 63
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1495022,
-      "profit": 791938,
+      "sum": 1489758,
+      "profit": 788992,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17915,
-      "sum": 19075680,
-      "profit": 9966913,
-      "lastDemandDate": "2026-09-07 19:51:00.000"
+      "demandsCount": 17921,
+      "sum": 19078388,
+      "profit": 9968369,
+      "lastDemandDate": "2026-09-07 22:04:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
