@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T03:00:27.099Z",
+  "updatedAt": "2026-09-08T10:33:18.763Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -21029
+        "count": 5,
+        "amount": 4506,
+        "movementAmount": -16523
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 23,
-        "amount": 21029,
-        "movementAmount": -238955
+        "count": 28,
+        "amount": 25535,
+        "movementAmount": -234449
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 249,
-        "amount": 259249,
-        "movementAmount": -1530763
+        "count": 254,
+        "amount": 263755,
+        "movementAmount": -1526257
       },
       "orders": {
         "count": 0,
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-08",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 1,
+      "sum": 350
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4962,
-    "totalValueRub": 1962383,
+    "totalValueRub": 1960106,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -1720,70 +1720,70 @@
         "code": "00002",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 493
+        "stockDays": 494
       },
       {
         "name": "Трубка Шар \"Есть че?\" 15 см Тёмно-зеленая",
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 493
+        "stockDays": 494
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 488
+        "stockDays": 489
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 488
+        "stockDays": 489
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 488
+        "stockDays": 489
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 488
+        "stockDays": 489
       },
       {
         "name": "Набор уплотнителей д/кальяна HA-31",
         "code": "00490",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 488
+        "stockDays": 489
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 488
+        "stockDays": 489
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 483
+        "stockDays": 484
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 483
+        "stockDays": 484
       }
     ],
     "outOfStock": [
@@ -2007,9 +2007,9 @@
     {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
       "code": "01473",
-      "quantity": 21,
-      "sum": 7350,
-      "profit": 4641,
+      "quantity": 22,
+      "sum": 7700,
+      "profit": 4862,
       "margin": 63
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1480676,
-      "profit": 783788,
+      "sum": 1481026,
+      "profit": 784009,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17921,
-      "sum": 19078388,
-      "profit": 9968369,
-      "lastDemandDate": "2026-09-07 22:04:00.000"
+      "demandsCount": 17926,
+      "sum": 19082894,
+      "profit": 9970598,
+      "lastDemandDate": "2026-09-08 12:07:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
