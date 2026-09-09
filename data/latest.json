@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T15:54:03.216Z",
+  "updatedAt": "2026-09-09T20:23:19.381Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 12,
-        "amount": 10982,
-        "movementAmount": -10516
+        "count": 27,
+        "amount": 20481,
+        "movementAmount": -1017
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1464794,
+        "income": 1484763,
         "outcome": 169287,
-        "balance": 3599115,
-        "todayMovement": 1295507,
-        "movement": 1295507
+        "balance": 3619084,
+        "todayMovement": 1315476,
+        "movement": 1315476
       }
     },
     "week": {
       "sales": {
-        "count": 60,
-        "amount": 53509,
-        "movementAmount": -206475
+        "count": 75,
+        "amount": 63008,
+        "movementAmount": -196976
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1464794,
+        "income": 1484763,
         "outcome": 169287,
-        "balance": 3599115,
-        "todayMovement": 1295507,
-        "movement": 1295507
+        "balance": 3619084,
+        "todayMovement": 1315476,
+        "movement": 1315476
       }
     },
     "month": {
       "sales": {
-        "count": 286,
-        "amount": 291729,
-        "movementAmount": -1498283
+        "count": 301,
+        "amount": 301228,
+        "movementAmount": -1488784
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1464794,
+        "income": 1484763,
         "outcome": 169287,
-        "balance": 3599115,
-        "todayMovement": 1295507,
-        "movement": 1295507
+        "balance": 3619084,
+        "todayMovement": 1315476,
+        "movement": 1315476
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-06-11",
-      "quantity": 66,
-      "sum": 74383
+      "quantity": 21,
+      "sum": 23014
     },
     {
       "date": "2026-06-12",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-09",
-      "quantity": 9,
-      "sum": 8619
+      "quantity": 23,
+      "sum": 16549
     }
   ],
   "ordersTrend": [
@@ -978,7 +978,7 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13205906,
+    "creditTotal": 13225875,
     "debitTotal": 9606791,
     "series": [
       {
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 4966,
-    "totalValueRub": 1961831,
+    "totalSkuCount": 4972,
+    "totalValueRub": 1972856,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -1949,20 +1949,20 @@
       "margin": 62
     },
     {
-      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
-      "code": "04897",
-      "quantity": 54,
-      "sum": 18865,
-      "profit": 14278,
-      "margin": 76
-    },
-    {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
       "quantity": 51,
       "sum": 17850,
       "profit": 11118,
       "margin": 62
+    },
+    {
+      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
+      "code": "04897",
+      "quantity": 47,
+      "sum": 16415,
+      "profit": 11828,
+      "margin": 72
     },
     {
       "name": "LOST MARY AIR 22000 MOUNTAIN MINT",
@@ -1989,22 +1989,6 @@
       "margin": 52
     },
     {
-      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
-      "code": "01473",
-      "quantity": 20,
-      "sum": 7000,
-      "profit": 4420,
-      "margin": 63
-    },
-    {
-      "name": "БПК Картридж LOST MARY X-Link Classic Кислое Яблоко Виноград",
-      "code": "02051",
-      "quantity": 6,
-      "sum": 6660,
-      "profit": 3535,
-      "margin": 53
-    },
-    {
       "name": "БПК Картридж LOST MARY X-Link Classic Перечная Мята",
       "code": "02277",
       "quantity": 6,
@@ -2013,29 +1997,45 @@
       "margin": 52
     },
     {
-      "name": "Шахта DON Urban",
-      "code": "05941",
-      "quantity": 1,
-      "sum": 6500,
-      "profit": 2000,
-      "margin": 31
+      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
+      "code": "01473",
+      "quantity": 19,
+      "sum": 6650,
+      "profit": 4199,
+      "margin": 63
+    },
+    {
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Ананас Драгонфрут Грейпфрут",
+      "code": "01182",
+      "quantity": 4,
+      "sum": 6320,
+      "profit": 3300,
+      "margin": 52
+    },
+    {
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
+      "code": "02695",
+      "quantity": 4,
+      "sum": 6320,
+      "profit": 3305,
+      "margin": 52
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1391579,
-      "profit": 735202,
+      "sum": 1319465,
+      "profit": 697090,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17958,
-      "sum": 19110868,
-      "profit": 9985783,
-      "lastDemandDate": "2026-09-09 18:41:00.000"
+      "demandsCount": 17973,
+      "sum": 19120367,
+      "profit": 9990227,
+      "lastDemandDate": "2026-09-09 22:13:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
