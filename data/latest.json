@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T15:48:39.559Z",
+  "updatedAt": "2026-09-10T20:24:20.780Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 24,
-        "amount": 28990,
-        "movementAmount": 8509
+        "count": 35,
+        "amount": 44506,
+        "movementAmount": 24025
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 99,
-        "amount": 91998,
-        "movementAmount": -167986
+        "count": 110,
+        "amount": 107514,
+        "movementAmount": -152470
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 325,
-        "amount": 330218,
-        "movementAmount": -1459794
+        "count": 336,
+        "amount": 345734,
+        "movementAmount": -1444278
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-12",
-      "quantity": 44,
-      "sum": 45709
+      "quantity": 14,
+      "sum": 12377
     },
     {
       "date": "2026-06-13",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-10",
-      "quantity": 13,
-      "sum": 20209
+      "quantity": 31,
+      "sum": 39487
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4972,
-    "totalValueRub": 1959603,
+    "totalValueRub": 1929842,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -1572,7 +1572,7 @@
       {
         "name": "(МТ) Black Burn 25гр Bananini - Банан",
         "code": "04199",
-        "stock": 1,
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1618,6 +1618,12 @@
         "uom": "шт"
       },
       {
+        "name": "(МТ) Black Burn 25гр Elka - Ёлка",
+        "code": "01483",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
         "name": "(МТ) Black Burn 25гр Epic Yogurt - Черничный йогурт",
         "code": "01484",
         "stock": 0,
@@ -1644,7 +1650,7 @@
       {
         "name": "(МТ) Black Burn 25гр Green Tea - Зелёный чай",
         "code": "01489",
-        "stock": 1,
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1704,12 +1710,6 @@
       {
         "name": "(МТ) Black Burn 25гр Overdose - Лимон-лайм",
         "code": "01496",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Peach Yogurt - Персиковый йогур",
-        "code": "01851",
         "stock": 1,
         "uom": "шт"
       }
@@ -1898,6 +1898,11 @@
         "stock": 0
       },
       {
+        "name": "Набор Smoant Pasito 2 Dreamy Pink - Розовый",
+        "code": "04923",
+        "stock": 0
+      },
+      {
         "name": "Набор Smoant Pasito 2 Malachite - Малахит",
         "code": "05761",
         "stock": 0
@@ -1931,11 +1936,6 @@
         "name": "Набор Smoant Pasito 3 Blue Nuit - Синяя ночь",
         "code": "04331",
         "stock": 0
-      },
-      {
-        "name": "Набор Smoant Pasito 3 Matte Black - Черный",
-        "code": "04810",
-        "stock": 0
       }
     ]
   },
@@ -1943,17 +1943,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 86,
-      "sum": 29995,
-      "profit": 18467,
+      "quantity": 88,
+      "sum": 30695,
+      "profit": 18881,
       "margin": 62
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 46,
-      "sum": 16100,
-      "profit": 10028,
+      "quantity": 44,
+      "sum": 15400,
+      "profit": 9592,
       "margin": 62
     },
     {
@@ -1961,8 +1961,8 @@
       "code": "04897",
       "quantity": 41,
       "sum": 14315,
-      "profit": 9728,
-      "margin": 68
+      "profit": 9307,
+      "margin": 65
     },
     {
       "name": "LOST MARY AIR 22000 MOUNTAIN MINT",
@@ -2005,16 +2005,16 @@
       "margin": 52
     },
     {
-      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
-      "code": "01473",
-      "quantity": 17,
-      "sum": 5950,
-      "profit": 3757,
-      "margin": 63
-    },
-    {
       "name": "БПК POD-Система QWERTY Split 20000 Ананас Питахайя",
       "code": "05909",
+      "quantity": 3,
+      "sum": 5850,
+      "profit": 3510,
+      "margin": 60
+    },
+    {
+      "name": "БПК POD-Система QWERTY Split 20000 Арбуз Лайм",
+      "code": "05910",
       "quantity": 3,
       "sum": 5850,
       "profit": 3510,
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1300492,
-      "profit": 685971,
+      "sum": 1287627,
+      "profit": 679195,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 17997,
-      "sum": 19149357,
-      "profit": 10005964,
-      "lastDemandDate": "2026-09-10 18:47:00.000"
+      "demandsCount": 18008,
+      "sum": 19164873,
+      "profit": 10014719,
+      "lastDemandDate": "2026-09-10 22:51:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
