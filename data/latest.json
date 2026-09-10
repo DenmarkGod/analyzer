@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T20:23:19.381Z",
+  "updatedAt": "2026-09-10T03:01:56.051Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 27,
-        "amount": 20481,
-        "movementAmount": -1017
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -20481
       },
       "orders": {
         "count": 0,
@@ -17,11 +17,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1484763,
-        "outcome": 169287,
+        "income": 1438956,
+        "outcome": 92197,
         "balance": 3619084,
-        "todayMovement": 1315476,
-        "movement": 1315476
+        "todayMovement": 1346759,
+        "movement": 1346759
       }
     },
     "week": {
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1484763,
-        "outcome": 169287,
+        "income": 1438956,
+        "outcome": 92197,
         "balance": 3619084,
-        "todayMovement": 1315476,
-        "movement": 1315476
+        "todayMovement": 1346759,
+        "movement": 1346759
       }
     },
     "month": {
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1484763,
-        "outcome": 169287,
+        "income": 1438956,
+        "outcome": 92197,
         "balance": 3619084,
-        "todayMovement": 1315476,
-        "movement": 1315476
+        "todayMovement": 1346759,
+        "movement": 1346759
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-06-11",
-      "quantity": 21,
-      "sum": 23014
-    },
     {
       "date": "2026-06-12",
       "quantity": 68,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-09-09",
-      "quantity": 23,
-      "sum": 16549
+      "quantity": 27,
+      "sum": 20481
+    },
+    {
+      "date": "2026-09-10",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-06-11",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-06-12",
       "quantity": 0,
@@ -975,6 +970,11 @@
       "date": "2026-09-09",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-09-10",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
@@ -982,16 +982,10 @@
     "debitTotal": 9606791,
     "series": [
       {
-        "date": "2026-06-11",
+        "date": "2026-06-12",
         "credit": 0,
         "debit": 0,
         "balance": 0
-      },
-      {
-        "date": "2026-06-12",
-        "credit": 83449,
-        "debit": 0,
-        "balance": 83449
       },
       {
         "date": "2026-06-13",
@@ -1523,9 +1517,15 @@
       },
       {
         "date": "2026-09-09",
-        "credit": 20961,
+        "credit": 40930,
         "debit": 0,
-        "balance": 20961
+        "balance": 40930
+      },
+      {
+        "date": "2026-09-10",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
       }
     ]
   },
@@ -1951,18 +1951,18 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 51,
-      "sum": 17850,
-      "profit": 11118,
+      "quantity": 50,
+      "sum": 17500,
+      "profit": 10900,
       "margin": 62
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 47,
-      "sum": 16415,
-      "profit": 11828,
-      "margin": 72
+      "quantity": 46,
+      "sum": 16065,
+      "profit": 11478,
+      "margin": 71
     },
     {
       "name": "LOST MARY AIR 22000 MOUNTAIN MINT",
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1319465,
-      "profit": 697090,
+      "sum": 1309671,
+      "profit": 691460,
       "margin": 53
     }
   ],
