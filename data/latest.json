@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T20:24:20.780Z",
+  "updatedAt": "2026-09-11T02:57:33.400Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 35,
-        "amount": 44506,
-        "movementAmount": 24025
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -44506
       },
       "orders": {
         "count": 0,
@@ -17,11 +17,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1438956,
+        "income": 1278716,
         "outcome": 92197,
-        "balance": 3619084,
-        "todayMovement": 1346759,
-        "movement": 1346759
+        "balance": 3662477,
+        "todayMovement": 1186519,
+        "movement": 1186519
       }
     },
     "week": {
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1438956,
+        "income": 1278716,
         "outcome": 92197,
-        "balance": 3619084,
-        "todayMovement": 1346759,
-        "movement": 1346759
+        "balance": 3662477,
+        "todayMovement": 1186519,
+        "movement": 1186519
       }
     },
     "month": {
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1438956,
+        "income": 1278716,
         "outcome": 92197,
-        "balance": 3619084,
-        "todayMovement": 1346759,
-        "movement": 1346759
+        "balance": 3662477,
+        "todayMovement": 1186519,
+        "movement": 1186519
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-06-12",
-      "quantity": 14,
-      "sum": 12377
-    },
     {
       "date": "2026-06-13",
       "quantity": 49,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-09-10",
-      "quantity": 31,
-      "sum": 39487
+      "quantity": 35,
+      "sum": 44506
+    },
+    {
+      "date": "2026-09-11",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-06-12",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-06-13",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-09-10",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-09-11",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13225875,
+    "creditTotal": 13269268,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-06-12",
-        "credit": 0,
-        "debit": 0,
-        "balance": 0
-      },
       {
         "date": "2026-06-13",
         "credit": 96647,
@@ -1526,12 +1520,18 @@
         "credit": 0,
         "debit": 0,
         "balance": 0
+      },
+      {
+        "date": "2026-09-11",
+        "credit": 43393,
+        "debit": 0,
+        "balance": 43393
       }
     ]
   },
   "stock": {
     "totalSkuCount": 4972,
-    "totalValueRub": 1929842,
+    "totalValueRub": 1912546,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -1808,6 +1808,11 @@
         "stock": 0
       },
       {
+        "name": "Набор Geekvape Aegis Boost 3 Teal Blue - Синий",
+        "code": "05392",
+        "stock": 0
+      },
+      {
         "name": "Набор Geekvape H45 Classic (Aegis Hero 3) Black - Черный",
         "code": "04220",
         "stock": 0
@@ -1931,11 +1936,6 @@
         "name": "Набор Smoant Pasito 3 Blue Azur - Голубой",
         "code": "05150",
         "stock": 0
-      },
-      {
-        "name": "Набор Smoant Pasito 3 Blue Nuit - Синяя ночь",
-        "code": "04331",
-        "stock": 0
       }
     ]
   },
@@ -1965,14 +1965,6 @@
       "margin": 65
     },
     {
-      "name": "LOST MARY AIR 22000 MOUNTAIN MINT",
-      "code": "05852",
-      "quantity": 5,
-      "sum": 8700,
-      "profit": 4860,
-      "margin": 56
-    },
-    {
       "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
       "code": "02057",
       "quantity": 7,
@@ -1987,6 +1979,14 @@
       "sum": 7770,
       "profit": 3460,
       "margin": 52
+    },
+    {
+      "name": "LOST MARY AIR 22000 MOUNTAIN MINT",
+      "code": "05852",
+      "quantity": 4,
+      "sum": 6960,
+      "profit": 3920,
+      "margin": 56
     },
     {
       "name": "БПК Картридж LOST MARY X-Link Classic Перечная Мята",
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1287627,
-      "profit": 679195,
+      "sum": 1282920,
+      "profit": 677031,
       "margin": 53
     }
   ],
