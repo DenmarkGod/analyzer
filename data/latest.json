@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T15:50:50.701Z",
+  "updatedAt": "2026-09-11T20:25:14.641Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 21,
-        "amount": 18595,
-        "movementAmount": -25911
+        "count": 31,
+        "amount": 27616,
+        "movementAmount": -16890
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 131,
-        "amount": 126109,
-        "movementAmount": -133875
+        "count": 141,
+        "amount": 135130,
+        "movementAmount": -124854
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 357,
-        "amount": 364329,
-        "movementAmount": -1425683
+        "count": 367,
+        "amount": 373350,
+        "movementAmount": -1416662
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-13",
-      "quantity": 33,
-      "sum": 33950
+      "quantity": 12,
+      "sum": 11091
     },
     {
       "date": "2026-06-14",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-11",
-      "quantity": 14,
-      "sum": 13054
+      "quantity": 27,
+      "sum": 26370
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4972,
-    "totalValueRub": 1894717,
+    "totalValueRub": 1884556,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -1810,7 +1810,7 @@
       {
         "name": "Набор Geekvape Aegis Boost 3 Teal Blue - Синий",
         "code": "05392",
-        "stock": 0
+        "stock": -1
       },
       {
         "name": "Набор Geekvape H45 Classic (Aegis Hero 3) Black - Черный",
@@ -1959,10 +1959,10 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 40,
-      "sum": 13965,
-      "profit": 8814,
-      "margin": 63
+      "quantity": 38,
+      "sum": 13265,
+      "profit": 8114,
+      "margin": 61
     },
     {
       "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
@@ -1997,14 +1997,6 @@
       "margin": 52
     },
     {
-      "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
-      "code": "02695",
-      "quantity": 4,
-      "sum": 6320,
-      "profit": 3305,
-      "margin": 52
-    },
-    {
       "name": "БПК POD-Система QWERTY Split 20000 Ананас Питахайя",
       "code": "05909",
       "quantity": 3,
@@ -2019,23 +2011,31 @@
       "sum": 5850,
       "profit": 3510,
       "margin": 60
+    },
+    {
+      "name": "ОС PAFOS 20.000 new Черная Смородина содовая / Blackcurrant soda",
+      "code": "03329",
+      "quantity": 2,
+      "sum": 5620,
+      "profit": 3120,
+      "margin": 56
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1264964,
-      "profit": 666007,
+      "sum": 1237922,
+      "profit": 652265,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18029,
-      "sum": 19183468,
-      "profit": 10024033,
-      "lastDemandDate": "2026-09-11 17:53:00.000"
+      "demandsCount": 18039,
+      "sum": 19192489,
+      "profit": 10030732,
+      "lastDemandDate": "2026-09-11 22:36:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
