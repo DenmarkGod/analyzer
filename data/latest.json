@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T20:25:14.641Z",
+  "updatedAt": "2026-09-12T03:04:42.403Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 31,
-        "amount": 27616,
-        "movementAmount": -16890
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -27616
       },
       "orders": {
         "count": 0,
@@ -17,11 +17,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1278716,
-        "outcome": 92197,
-        "balance": 3662477,
-        "todayMovement": 1186519,
-        "movement": 1186519
+        "income": 1300703,
+        "outcome": 0,
+        "balance": 3741821,
+        "todayMovement": 1300703,
+        "movement": 1300703
       }
     },
     "week": {
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1278716,
-        "outcome": 92197,
-        "balance": 3662477,
-        "todayMovement": 1186519,
-        "movement": 1186519
+        "income": 1300703,
+        "outcome": 0,
+        "balance": 3741821,
+        "todayMovement": 1300703,
+        "movement": 1300703
       }
     },
     "month": {
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1278716,
-        "outcome": 92197,
-        "balance": 3662477,
-        "todayMovement": 1186519,
-        "movement": 1186519
+        "income": 1300703,
+        "outcome": 0,
+        "balance": 3741821,
+        "todayMovement": 1300703,
+        "movement": 1300703
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-06-13",
-      "quantity": 12,
-      "sum": 11091
-    },
     {
       "date": "2026-06-14",
       "quantity": 50,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-09-11",
-      "quantity": 27,
-      "sum": 26370
+      "quantity": 31,
+      "sum": 27616
+    },
+    {
+      "date": "2026-09-12",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-06-13",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-06-14",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-09-11",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-09-12",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13269268,
+    "creditTotal": 13348612,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-06-13",
-        "credit": 43342,
-        "debit": 0,
-        "balance": 43342
-      },
       {
         "date": "2026-06-14",
         "credit": 38887,
@@ -1526,6 +1520,12 @@
         "credit": 43393,
         "debit": 0,
         "balance": 43393
+      },
+      {
+        "date": "2026-09-12",
+        "credit": 79344,
+        "debit": 0,
+        "balance": 79344
       }
     ]
   },
@@ -1810,7 +1810,7 @@
       {
         "name": "Набор Geekvape Aegis Boost 3 Teal Blue - Синий",
         "code": "05392",
-        "stock": -1
+        "stock": 0
       },
       {
         "name": "Набор Geekvape H45 Classic (Aegis Hero 3) Black - Черный",
@@ -1951,9 +1951,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 43,
-      "sum": 15050,
-      "profit": 9374,
+      "quantity": 42,
+      "sum": 14700,
+      "profit": 9156,
       "margin": 62
     },
     {
@@ -1961,8 +1961,8 @@
       "code": "04897",
       "quantity": 38,
       "sum": 13265,
-      "profit": 8114,
-      "margin": 61
+      "profit": 7971,
+      "margin": 60
     },
     {
       "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1237922,
-      "profit": 652265,
+      "sum": 1230999,
+      "profit": 646084,
       "margin": 53
     }
   ],
@@ -2034,7 +2034,7 @@
       "name": "Розничный покупатель",
       "demandsCount": 18039,
       "sum": 19192489,
-      "profit": 10030732,
+      "profit": 10028560,
       "lastDemandDate": "2026-09-11 22:36:00.000"
     },
     {
