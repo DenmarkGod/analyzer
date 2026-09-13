@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T20:10:15.012Z",
+  "updatedAt": "2026-09-13T03:05:43.562Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 38,
-        "amount": 32974,
-        "movementAmount": 5358
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -33100
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1300703,
+        "income": 1262308,
         "outcome": 0,
-        "balance": 3741821,
-        "todayMovement": 1300703,
-        "movement": 1300703
+        "balance": 3773970,
+        "todayMovement": 1262308,
+        "movement": 1262308
       }
     },
     "week": {
       "sales": {
-        "count": 179,
-        "amount": 168104,
-        "movementAmount": -91880
+        "count": 180,
+        "amount": 168230,
+        "movementAmount": -91754
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1300703,
+        "income": 1262308,
         "outcome": 0,
-        "balance": 3741821,
-        "todayMovement": 1300703,
-        "movement": 1300703
+        "balance": 3773970,
+        "todayMovement": 1262308,
+        "movement": 1262308
       }
     },
     "month": {
       "sales": {
-        "count": 405,
-        "amount": 406324,
-        "movementAmount": -1383688
+        "count": 406,
+        "amount": 406450,
+        "movementAmount": -1383562
       },
       "orders": {
         "count": 0,
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1300703,
+        "income": 1262308,
         "outcome": 0,
-        "balance": 3741821,
-        "todayMovement": 1300703,
-        "movement": 1300703
+        "balance": 3773970,
+        "todayMovement": 1262308,
+        "movement": 1262308
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-06-14",
-      "quantity": 14,
-      "sum": 13488
-    },
     {
       "date": "2026-06-15",
       "quantity": 49,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-09-12",
-      "quantity": 34,
-      "sum": 31087
+      "quantity": 39,
+      "sum": 33100
+    },
+    {
+      "date": "2026-09-13",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-06-14",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-06-15",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-09-12",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-09-13",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13348612,
+    "creditTotal": 13380762,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-06-14",
-        "credit": 38887,
-        "debit": 0,
-        "balance": 38887
-      },
       {
         "date": "2026-06-15",
         "credit": 58513,
@@ -1526,12 +1520,18 @@
         "credit": 79344,
         "debit": 0,
         "balance": 79344
+      },
+      {
+        "date": "2026-09-13",
+        "credit": 32150,
+        "debit": 0,
+        "balance": 32150
       }
     ]
   },
   "stock": {
-    "totalSkuCount": 4972,
-    "totalValueRub": 1847799,
+    "totalSkuCount": 4974,
+    "totalValueRub": 1856796,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1218259,
-      "profit": 638909,
+      "sum": 1211038,
+      "profit": 634723,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18077,
-      "sum": 19225463,
-      "profit": 10045562,
-      "lastDemandDate": "2026-09-12 22:39:00.000"
+      "demandsCount": 18078,
+      "sum": 19225589,
+      "profit": 10045588,
+      "lastDemandDate": "2026-09-12 23:14:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
