@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T15:35:39.710Z",
+  "updatedAt": "2026-09-13T20:17:59.018Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 29,
-        "amount": 31487,
-        "movementAmount": -1613
+        "count": 40,
+        "amount": 40346,
+        "movementAmount": 7246
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 209,
-        "amount": 199717,
-        "movementAmount": -60267
+        "count": 220,
+        "amount": 208576,
+        "movementAmount": -51408
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 435,
-        "amount": 437937,
-        "movementAmount": -1352075
+        "count": 446,
+        "amount": 446796,
+        "movementAmount": -1343216
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-15",
-      "quantity": 31,
-      "sum": 40054
+      "quantity": 14,
+      "sum": 13070
     },
     {
       "date": "2026-06-16",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-13",
-      "quantity": 16,
-      "sum": 17963
+      "quantity": 34,
+      "sum": 35783
     }
   ],
   "ordersTrend": [
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 4984,
-    "totalValueRub": 1855875,
+    "totalSkuCount": 5008,
+    "totalValueRub": 1907678,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -1943,25 +1943,25 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 99,
-      "sum": 34510,
-      "profit": 21123,
+      "quantity": 103,
+      "sum": 35910,
+      "profit": 21951,
       "margin": 61
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 38,
-      "sum": 13265,
-      "profit": 7971,
+      "quantity": 39,
+      "sum": 13615,
+      "profit": 8178,
       "margin": 60
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 37,
-      "sum": 12950,
-      "profit": 8051,
+      "quantity": 36,
+      "sum": 12600,
+      "profit": 7833,
       "margin": 62
     },
     {
@@ -1971,14 +1971,6 @@
       "sum": 7770,
       "profit": 4170,
       "margin": 54
-    },
-    {
-      "name": "БПК Картридж LOST MARY X-Link Sweet Арбуз Мята",
-      "code": "02054",
-      "quantity": 7,
-      "sum": 7770,
-      "profit": 3485,
-      "margin": 52
     },
     {
       "name": "LOST MARY AIR 22000 MOUNTAIN MINT",
@@ -1997,12 +1989,12 @@
       "margin": 54
     },
     {
-      "name": "БПК Картридж LOST MARY X-Link Classic Перечная Мята",
-      "code": "02277",
+      "name": "БПК Картридж LOST MARY X-Link Sweet Арбуз Мята",
+      "code": "02054",
       "quantity": 6,
       "sum": 6660,
-      "profit": 3460,
-      "margin": 52
+      "profit": 2925,
+      "margin": 53
     },
     {
       "name": "БПК POD-Система QWERTY Split 20000 Ананас Питахайя",
@@ -2019,23 +2011,31 @@
       "sum": 5620,
       "profit": 3120,
       "margin": 56
+    },
+    {
+      "name": "ОС PAFOS 20.000 Голубика Облепиха Клюква 1 шт",
+      "code": "04619",
+      "quantity": 2,
+      "sum": 5620,
+      "profit": 3070,
+      "margin": 55
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1215881,
-      "profit": 636879,
+      "sum": 1194333,
+      "profit": 625657,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18107,
-      "sum": 19257076,
-      "profit": 10061734,
-      "lastDemandDate": "2026-09-13 18:26:00.000"
+      "demandsCount": 18118,
+      "sum": 19265935,
+      "profit": 10066994,
+      "lastDemandDate": "2026-09-13 22:31:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
