@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T20:17:59.018Z",
+  "updatedAt": "2026-09-14T03:19:24.674Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 40,
-        "amount": 40346,
-        "movementAmount": 7246
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -40346
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1262308,
+        "income": 1254327,
         "outcome": 0,
-        "balance": 3773970,
-        "todayMovement": 1262308,
-        "movement": 1262308
+        "balance": 3813308,
+        "todayMovement": 1254327,
+        "movement": 1254327
       }
     },
     "week": {
       "sales": {
-        "count": 220,
-        "amount": 208576,
-        "movementAmount": -51408
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -208576
       },
       "orders": {
         "count": 0,
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1262308,
+        "income": 1254327,
         "outcome": 0,
-        "balance": 3773970,
-        "todayMovement": 1262308,
-        "movement": 1262308
+        "balance": 3813308,
+        "todayMovement": 1254327,
+        "movement": 1254327
       }
     },
     "month": {
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1262308,
+        "income": 1254327,
         "outcome": 0,
-        "balance": 3773970,
-        "todayMovement": 1262308,
-        "movement": 1262308
+        "balance": 3813308,
+        "todayMovement": 1254327,
+        "movement": 1254327
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-06-15",
-      "quantity": 14,
-      "sum": 13070
-    },
     {
       "date": "2026-06-16",
       "quantity": 49,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-09-13",
-      "quantity": 34,
-      "sum": 35783
+      "quantity": 40,
+      "sum": 40346
+    },
+    {
+      "date": "2026-09-14",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-06-15",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-06-16",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-09-13",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-09-14",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13380762,
+    "creditTotal": 13420099,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-06-15",
-        "credit": 58513,
-        "debit": 0,
-        "balance": 58513
-      },
       {
         "date": "2026-06-16",
         "credit": 0,
@@ -1526,12 +1520,18 @@
         "credit": 32150,
         "debit": 0,
         "balance": 32150
+      },
+      {
+        "date": "2026-09-14",
+        "credit": 39337,
+        "debit": 0,
+        "balance": 39337
       }
     ]
   },
   "stock": {
-    "totalSkuCount": 5008,
-    "totalValueRub": 1907678,
+    "totalSkuCount": 5035,
+    "totalValueRub": 1920178,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -1959,9 +1959,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 36,
-      "sum": 12600,
-      "profit": 7833,
+      "quantity": 35,
+      "sum": 12250,
+      "profit": 7615,
       "margin": 62
     },
     {
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1194333,
-      "profit": 625657,
+      "sum": 1193324,
+      "profit": 625347,
       "margin": 52
     }
   ],
