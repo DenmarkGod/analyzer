@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T11:46:13.592Z",
+  "updatedAt": "2026-09-14T17:39:50.986Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 6,
-        "amount": 6999,
-        "movementAmount": -33347
+        "count": 22,
+        "amount": 18823,
+        "movementAmount": -21523
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 6,
-        "amount": 6999,
-        "movementAmount": -201577
+        "count": 22,
+        "amount": 18823,
+        "movementAmount": -189753
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 452,
-        "amount": 453795,
-        "movementAmount": -1336217
+        "count": 468,
+        "amount": 465619,
+        "movementAmount": -1324393
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-16",
-      "quantity": 45,
-      "sum": 51344
+      "quantity": 26,
+      "sum": 28209
     },
     {
       "date": "2026-06-17",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-14",
-      "quantity": 3,
-      "sum": 5986
+      "quantity": 10,
+      "sum": 9775
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5035,
-    "totalValueRub": 1916991,
+    "totalValueRub": 1911848,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 103,
-      "sum": 35910,
-      "profit": 21951,
+      "quantity": 105,
+      "sum": 36610,
+      "profit": 22365,
       "margin": 61
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1199310,
-      "profit": 628678,
+      "sum": 1195579,
+      "profit": 626962,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18124,
-      "sum": 19272934,
-      "profit": 10071034,
-      "lastDemandDate": "2026-09-14 14:46:00.000"
+      "demandsCount": 18140,
+      "sum": 19284758,
+      "profit": 10077487,
+      "lastDemandDate": "2026-09-14 20:22:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
