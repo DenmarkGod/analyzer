@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T17:39:50.986Z",
+  "updatedAt": "2026-09-14T21:27:13.689Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 22,
-        "amount": 18823,
-        "movementAmount": -21523
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -23383
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 22,
-        "amount": 18823,
-        "movementAmount": -189753
+        "count": 30,
+        "amount": 23383,
+        "movementAmount": -185193
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 468,
-        "amount": 465619,
-        "movementAmount": -1324393
+        "count": 476,
+        "amount": 470179,
+        "movementAmount": -1319833
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-16",
-      "quantity": 26,
-      "sum": 28209
+      "quantity": 6,
+      "sum": 10520
     },
     {
       "date": "2026-06-17",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-14",
-      "quantity": 10,
-      "sum": 9775
+      "quantity": 24,
+      "sum": 19919
     }
   ],
   "ordersTrend": [
@@ -1531,8 +1531,14 @@
   },
   "stock": {
     "totalSkuCount": 5035,
-    "totalValueRub": 1911848,
+    "totalValueRub": 1896177,
     "lowStock": [
+      {
+        "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
+        "code": "05311",
+        "stock": 1,
+        "uom": "шт"
+      },
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
         "code": "04335",
@@ -1704,12 +1710,6 @@
       {
         "name": "(МТ) Black Burn 25гр Muesli - Мюсли",
         "code": "01821",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Overdose - Лимон-лайм",
-        "code": "01496",
         "stock": 1,
         "uom": "шт"
       }
@@ -1943,17 +1943,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 105,
-      "sum": 36610,
-      "profit": 22365,
+      "quantity": 104,
+      "sum": 36260,
+      "profit": 22125,
       "margin": 61
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 39,
-      "sum": 13615,
-      "profit": 8178,
+      "quantity": 41,
+      "sum": 14315,
+      "profit": 8588,
       "margin": 60
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1195579,
-      "profit": 626962,
-      "margin": 52
+      "sum": 1186636,
+      "profit": 622932,
+      "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18140,
-      "sum": 19284758,
-      "profit": 10077487,
-      "lastDemandDate": "2026-09-14 20:22:00.000"
+      "demandsCount": 18148,
+      "sum": 19289318,
+      "profit": 10080024,
+      "lastDemandDate": "2026-09-14 22:45:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
