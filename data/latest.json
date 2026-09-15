@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:20:58.997Z",
+  "updatedAt": "2026-09-15T11:02:37.001Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -23383
+        "count": 8,
+        "amount": 10653,
+        "movementAmount": -12730
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 30,
-        "amount": 23383,
-        "movementAmount": -185193
+        "count": 38,
+        "amount": 34036,
+        "movementAmount": -174540
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 476,
-        "amount": 470179,
-        "movementAmount": -1319833
+        "count": 484,
+        "amount": 480832,
+        "movementAmount": -1309180
       },
       "orders": {
         "count": 0,
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-15",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 2,
+      "sum": 2763
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5035,
-    "totalValueRub": 1896177,
+    "totalValueRub": 1891365,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 500
+        "stockDays": 501
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 495
+        "stockDays": 496
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 495
+        "stockDays": 496
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 495
+        "stockDays": 496
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 495
+        "stockDays": 496
       },
       {
         "name": "Набор уплотнителей д/кальяна HA-31",
         "code": "00490",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 495
+        "stockDays": 496
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 495
+        "stockDays": 496
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 490
+        "stockDays": 491
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 490
+        "stockDays": 491
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 490
+        "stockDays": 491
       }
     ],
     "outOfStock": [
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 106,
-      "sum": 36960,
-      "profit": 22528,
+      "quantity": 104,
+      "sum": 36260,
+      "profit": 22092,
       "margin": 61
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1175515,
-      "profit": 617118,
+      "sum": 1172114,
+      "profit": 615230,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18148,
-      "sum": 19289318,
-      "profit": 10080024,
-      "lastDemandDate": "2026-09-14 22:45:00.000"
+      "demandsCount": 18156,
+      "sum": 19299971,
+      "profit": 10085865,
+      "lastDemandDate": "2026-09-15 13:55:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
