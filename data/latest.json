@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T21:27:13.689Z",
+  "updatedAt": "2026-09-15T03:20:58.997Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -17,11 +17,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1254327,
+        "income": 1275225,
         "outcome": 0,
-        "balance": 3813308,
-        "todayMovement": 1254327,
-        "movement": 1254327
+        "balance": 3834205,
+        "todayMovement": 1275225,
+        "movement": 1275225
       }
     },
     "week": {
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1254327,
+        "income": 1275225,
         "outcome": 0,
-        "balance": 3813308,
-        "todayMovement": 1254327,
-        "movement": 1254327
+        "balance": 3834205,
+        "todayMovement": 1275225,
+        "movement": 1275225
       }
     },
     "month": {
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1254327,
+        "income": 1275225,
         "outcome": 0,
-        "balance": 3813308,
-        "todayMovement": 1254327,
-        "movement": 1254327
+        "balance": 3834205,
+        "todayMovement": 1275225,
+        "movement": 1275225
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-06-16",
-      "quantity": 6,
-      "sum": 10520
-    },
     {
       "date": "2026-06-17",
       "quantity": 41,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-09-14",
-      "quantity": 24,
-      "sum": 19919
+      "quantity": 30,
+      "sum": 23383
+    },
+    {
+      "date": "2026-09-15",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-06-16",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-06-17",
       "quantity": 0,
@@ -975,23 +970,22 @@
       "date": "2026-09-14",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-09-15",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13420099,
+    "creditTotal": 13440996,
     "debitTotal": 9606791,
     "series": [
       {
-        "date": "2026-06-16",
+        "date": "2026-06-17",
         "credit": 0,
         "debit": 0,
         "balance": 0
-      },
-      {
-        "date": "2026-06-17",
-        "credit": 41709,
-        "debit": 0,
-        "balance": 41709
       },
       {
         "date": "2026-06-18",
@@ -1526,6 +1520,12 @@
         "credit": 39337,
         "debit": 0,
         "balance": 39337
+      },
+      {
+        "date": "2026-09-15",
+        "credit": 20897,
+        "debit": 0,
+        "balance": 20897
       }
     ]
   },
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 104,
-      "sum": 36260,
-      "profit": 22125,
+      "quantity": 106,
+      "sum": 36960,
+      "profit": 22528,
       "margin": 61
     },
     {
@@ -1973,20 +1973,20 @@
       "margin": 54
     },
     {
+      "name": "БПК Картридж LOST MARY X-Link Classic Кислая Ежевика Лёд",
+      "code": "02056",
+      "quantity": 7,
+      "sum": 7770,
+      "profit": 4170,
+      "margin": 54
+    },
+    {
       "name": "LOST MARY AIR 22000 MOUNTAIN MINT",
       "code": "05852",
       "quantity": 4,
       "sum": 6960,
       "profit": 3920,
       "margin": 56
-    },
-    {
-      "name": "БПК Картридж LOST MARY X-Link Classic Кислая Ежевика Лёд",
-      "code": "02056",
-      "quantity": 6,
-      "sum": 6660,
-      "profit": 3585,
-      "margin": 54
     },
     {
       "name": "БПК Картридж LOST MARY X-Link Sweet Арбуз Мята",
@@ -2013,8 +2013,8 @@
       "margin": 56
     },
     {
-      "name": "ОС PAFOS 20.000 Голубика Облепиха Клюква 1 шт",
-      "code": "04619",
+      "name": "ОС PAFOS 20.000 Двойное Яблоко / Double apple",
+      "code": "02307",
       "quantity": 2,
       "sum": 5620,
       "profit": 3070,
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1186636,
-      "profit": 622932,
+      "sum": 1175515,
+      "profit": 617118,
       "margin": 53
     }
   ],
