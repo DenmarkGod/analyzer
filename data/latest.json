@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T16:13:23.620Z",
+  "updatedAt": "2026-09-15T20:51:18.184Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 22,
-        "amount": 30743,
-        "movementAmount": 7360
+        "count": 38,
+        "amount": 46965,
+        "movementAmount": 23582
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1275225,
+        "income": 1321015,
         "outcome": 0,
-        "balance": 3834205,
-        "todayMovement": 1275225,
-        "movement": 1275225
+        "balance": 3879996,
+        "todayMovement": 1321015,
+        "movement": 1321015
       }
     },
     "week": {
       "sales": {
-        "count": 52,
-        "amount": 54126,
-        "movementAmount": -154450
+        "count": 68,
+        "amount": 70348,
+        "movementAmount": -138228
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1275225,
+        "income": 1321015,
         "outcome": 0,
-        "balance": 3834205,
-        "todayMovement": 1275225,
-        "movement": 1275225
+        "balance": 3879996,
+        "todayMovement": 1321015,
+        "movement": 1321015
       }
     },
     "month": {
       "sales": {
-        "count": 498,
-        "amount": 500922,
-        "movementAmount": -1289090
+        "count": 514,
+        "amount": 517144,
+        "movementAmount": -1272868
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1275225,
+        "income": 1321015,
         "outcome": 0,
-        "balance": 3834205,
-        "todayMovement": 1275225,
-        "movement": 1275225
+        "balance": 3879996,
+        "todayMovement": 1321015,
+        "movement": 1321015
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-06-17",
-      "quantity": 31,
-      "sum": 29943
+      "quantity": 9,
+      "sum": 10641
     },
     {
       "date": "2026-06-18",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-15",
-      "quantity": 15,
-      "sum": 19173
+      "quantity": 33,
+      "sum": 43351
     }
   ],
   "ordersTrend": [
@@ -978,7 +978,7 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13440996,
+    "creditTotal": 13486787,
     "debitTotal": 9606791,
     "series": [
       {
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5038,
-    "totalValueRub": 1880535,
+    "totalValueRub": 1862598,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 103,
-      "sum": 35910,
-      "profit": 21874,
+      "quantity": 102,
+      "sum": 35560,
+      "profit": 21656,
       "margin": 61
     },
     {
@@ -1981,6 +1981,14 @@
       "margin": 54
     },
     {
+      "name": "LOST MARY AIR 22000 ICE AQUA",
+      "code": "05855",
+      "quantity": 4,
+      "sum": 6960,
+      "profit": 3870,
+      "margin": 56
+    },
+    {
       "name": "LOST MARY AIR 22000 MOUNTAIN MINT",
       "code": "05852",
       "quantity": 4,
@@ -2011,31 +2019,23 @@
       "sum": 5850,
       "profit": 3510,
       "margin": 60
-    },
-    {
-      "name": "ОС PAFOS 20.000 new Черная Смородина содовая / Blackcurrant soda",
-      "code": "03329",
-      "quantity": 2,
-      "sum": 5620,
-      "profit": 3120,
-      "margin": 56
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1169816,
-      "profit": 613906,
+      "sum": 1169752,
+      "profit": 614881,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18170,
-      "sum": 19320061,
-      "profit": 10096183,
-      "lastDemandDate": "2026-09-15 19:06:00.000"
+      "demandsCount": 18186,
+      "sum": 19336283,
+      "profit": 10105581,
+      "lastDemandDate": "2026-09-15 22:43:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
