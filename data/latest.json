@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T03:17:03.436Z",
+  "updatedAt": "2026-09-16T10:49:47.404Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -46965
+        "count": 4,
+        "amount": 3409,
+        "movementAmount": -43556
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 68,
-        "amount": 70348,
-        "movementAmount": -138228
+        "count": 72,
+        "amount": 73757,
+        "movementAmount": -134819
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 514,
-        "amount": 517144,
-        "movementAmount": -1272868
+        "count": 518,
+        "amount": 520553,
+        "movementAmount": -1269459
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-18",
-      "quantity": 41,
-      "sum": 36677
+      "quantity": 39,
+      "sum": 34747
     },
     {
       "date": "2026-06-19",
@@ -983,9 +983,9 @@
     "series": [
       {
         "date": "2026-06-18",
-        "credit": 66738,
+        "credit": 31536,
         "debit": 0,
-        "balance": 66738
+        "balance": 31536
       },
       {
         "date": "2026-06-19",
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5038,
-    "totalValueRub": 1862598,
+    "totalValueRub": 1852693,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 501
+        "stockDays": 502
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 496
+        "stockDays": 497
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 496
+        "stockDays": 497
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 496
+        "stockDays": 497
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 496
+        "stockDays": 497
       },
       {
         "name": "Набор уплотнителей д/кальяна HA-31",
         "code": "00490",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 496
+        "stockDays": 497
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 496
+        "stockDays": 497
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 491
+        "stockDays": 492
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 491
+        "stockDays": 492
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 491
+        "stockDays": 492
       }
     ],
     "outOfStock": [
@@ -1850,6 +1850,11 @@
       {
         "name": "Набор Geekvape Aegis Hero 5 Red and White - Красно-белый",
         "code": "05944",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape Aegis Hero 5 Steel Silver - Стальной",
+        "code": "04883",
         "stock": 0
       },
       {
@@ -1931,11 +1936,6 @@
         "name": "Набор Smoant Pasito 2 Sunset - Закат",
         "code": "04925",
         "stock": 0
-      },
-      {
-        "name": "Набор Smoant Pasito 3 Blue Azur - Голубой",
-        "code": "05150",
-        "stock": 0
       }
     ]
   },
@@ -1951,9 +1951,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 38,
-      "sum": 13300,
-      "profit": 7990,
+      "quantity": 37,
+      "sum": 12950,
+      "profit": 7779,
       "margin": 60
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1166636,
-      "profit": 613704,
+      "sum": 1165592,
+      "profit": 613119,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18186,
-      "sum": 19336283,
-      "profit": 10105581,
-      "lastDemandDate": "2026-09-15 22:43:00.000"
+      "demandsCount": 18190,
+      "sum": 19339692,
+      "profit": 10107322,
+      "lastDemandDate": "2026-09-16 13:44:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
