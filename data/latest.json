@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T16:06:23.422Z",
+  "updatedAt": "2026-09-16T20:51:23.995Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 23,
-        "amount": 19337,
-        "movementAmount": -27628
+        "count": 27,
+        "amount": 27837,
+        "movementAmount": -19128
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 91,
-        "amount": 89685,
-        "movementAmount": -118891
+        "count": 95,
+        "amount": 98185,
+        "movementAmount": -110391
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 537,
-        "amount": 536481,
-        "movementAmount": -1253531
+        "count": 541,
+        "amount": 544981,
+        "movementAmount": -1245031
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-18",
-      "quantity": 22,
-      "sum": 17687
+      "quantity": 10,
+      "sum": 5882
     },
     {
       "date": "2026-06-19",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-16",
-      "quantity": 13,
-      "sum": 8649
+      "quantity": 25,
+      "sum": 23337
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5038,
-    "totalValueRub": 1840291,
+    "totalValueRub": 1824970,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 99,
-      "sum": 34510,
-      "profit": 21002,
+      "quantity": 98,
+      "sum": 34160,
+      "profit": 20762,
       "margin": 61
     },
     {
@@ -1959,18 +1959,18 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 33,
-      "sum": 11550,
-      "profit": 7179,
+      "quantity": 30,
+      "sum": 10500,
+      "profit": 6525,
       "margin": 62
     },
     {
-      "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
-      "code": "02057",
-      "quantity": 7,
-      "sum": 7770,
-      "profit": 4170,
-      "margin": 54
+      "name": "LOST MARY AIR 22000 ICE AQUA",
+      "code": "05855",
+      "quantity": 5,
+      "sum": 8700,
+      "profit": 4860,
+      "margin": 56
     },
     {
       "name": "БПК Картридж LOST MARY X-Link Classic Кислая Ежевика Лёд",
@@ -1981,14 +1981,6 @@
       "margin": 54
     },
     {
-      "name": "LOST MARY AIR 22000 ICE AQUA",
-      "code": "05855",
-      "quantity": 4,
-      "sum": 6960,
-      "profit": 3870,
-      "margin": 56
-    },
-    {
       "name": "LOST MARY AIR 22000 MOUNTAIN MINT",
       "code": "05852",
       "quantity": 4,
@@ -1997,12 +1989,12 @@
       "margin": 56
     },
     {
-      "name": "БПК Картридж LOST MARY X-Link Sweet Арбуз Мята",
-      "code": "02054",
+      "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
+      "code": "02057",
       "quantity": 6,
       "sum": 6660,
-      "profit": 2925,
-      "margin": 53
+      "profit": 3610,
+      "margin": 54
     },
     {
       "name": "БПК Электронная Сигарета Lost Mary BM16000 Кислое Яблоко Арбуз",
@@ -2011,6 +2003,14 @@
       "sum": 6320,
       "profit": 3285,
       "margin": 52
+    },
+    {
+      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
+      "code": "01473",
+      "quantity": 17,
+      "sum": 5950,
+      "profit": 3640,
+      "margin": 61
     },
     {
       "name": "БПК POD-Система QWERTY Split 20000 Ананас Питахайя",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1156263,
-      "profit": 608105,
-      "margin": 53
+      "sum": 1132907,
+      "profit": 594425,
+      "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18209,
-      "sum": 19355620,
-      "profit": 10115366,
-      "lastDemandDate": "2026-09-16 19:01:00.000"
+      "demandsCount": 18213,
+      "sum": 19364120,
+      "profit": 10120031,
+      "lastDemandDate": "2026-09-16 22:29:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
