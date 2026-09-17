@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T10:56:19.804Z",
+  "updatedAt": "2026-09-17T16:13:11.904Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 5,
-        "amount": 7119,
-        "movementAmount": -20718
+        "count": 22,
+        "amount": 19304,
+        "movementAmount": -8533
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 100,
-        "amount": 105304,
-        "movementAmount": -103272
+        "count": 117,
+        "amount": 117489,
+        "movementAmount": -91087
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 546,
-        "amount": 552100,
-        "movementAmount": -1237912
+        "count": 563,
+        "amount": 564285,
+        "movementAmount": -1225727
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-19",
-      "quantity": 68,
-      "sum": 77462
+      "quantity": 46,
+      "sum": 49925
     },
     {
       "date": "2026-06-20",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-17",
-      "quantity": 1,
-      "sum": 1580
+      "quantity": 12,
+      "sum": 12484
     }
   ],
   "ordersTrend": [
@@ -983,9 +983,9 @@
     "series": [
       {
         "date": "2026-06-19",
-        "credit": 1309595,
-        "debit": 2048282,
-        "balance": -738687
+        "credit": 53935,
+        "debit": 0,
+        "balance": 53935
       },
       {
         "date": "2026-06-20",
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5038,
-    "totalValueRub": 1818016,
+    "totalValueRub": 1796972,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1554,6 +1554,12 @@
       {
         "name": "Ароматизатор пищевой PickMe со вкусом Манго — Малина",
         "code": "03824",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой PickMe со вкусом Синяя Малина",
+        "code": "03829",
         "stock": 1,
         "uom": "шт"
       },
@@ -1704,12 +1710,6 @@
       {
         "name": "(МТ) Black Burn 25гр Melon Halls - Дынный Холс",
         "code": "01494",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Mirinda - Миринда",
-        "code": "01495",
         "stock": 1,
         "uom": "шт"
       }
@@ -1945,7 +1945,7 @@
       "code": "03136",
       "quantity": 98,
       "sum": 34160,
-      "profit": 20762,
+      "profit": 20740,
       "margin": 61
     },
     {
@@ -1967,9 +1967,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 29,
-      "sum": 10150,
-      "profit": 6307,
+      "quantity": 28,
+      "sum": 9800,
+      "profit": 6089,
       "margin": 62
     },
     {
@@ -1987,6 +1987,14 @@
       "sum": 6960,
       "profit": 3920,
       "margin": 56
+    },
+    {
+      "name": "LOST MARY AIR 22000 SOUR GRAPE ICE",
+      "code": "05847",
+      "quantity": 4,
+      "sum": 6960,
+      "profit": 3970,
+      "margin": 57
     },
     {
       "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
@@ -2011,31 +2019,23 @@
       "sum": 6320,
       "profit": 3285,
       "margin": 52
-    },
-    {
-      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
-      "code": "01473",
-      "quantity": 17,
-      "sum": 5950,
-      "profit": 3640,
-      "margin": 61
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1130414,
-      "profit": 593119,
+      "sum": 1126156,
+      "profit": 590711,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18218,
-      "sum": 19371239,
-      "profit": 10123903,
-      "lastDemandDate": "2026-09-17 13:44:00.000"
+      "demandsCount": 18235,
+      "sum": 19383424,
+      "profit": 10130049,
+      "lastDemandDate": "2026-09-17 18:56:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
