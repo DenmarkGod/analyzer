@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T16:13:11.904Z",
+  "updatedAt": "2026-09-17T20:56:05.616Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 22,
-        "amount": 19304,
-        "movementAmount": -8533
+        "count": 26,
+        "amount": 22798,
+        "movementAmount": -5039
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 117,
-        "amount": 117489,
-        "movementAmount": -91087
+        "count": 121,
+        "amount": 120983,
+        "movementAmount": -87593
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 563,
-        "amount": 564285,
-        "movementAmount": -1225727
+        "count": 567,
+        "amount": 567779,
+        "movementAmount": -1222233
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-19",
-      "quantity": 46,
-      "sum": 49925
+      "quantity": 16,
+      "sum": 18672
     },
     {
       "date": "2026-06-20",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-17",
-      "quantity": 12,
-      "sum": 12484
+      "quantity": 25,
+      "sum": 22658
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5038,
-    "totalValueRub": 1796972,
+    "totalValueRub": 1816710,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1560,7 +1560,7 @@
       {
         "name": "Ароматизатор пищевой PickMe со вкусом Синяя Малина",
         "code": "03829",
-        "stock": 1,
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1923,18 +1923,18 @@
         "stock": 0
       },
       {
-        "name": "Набор Smoant Pasito 2 Nymph - Нимфа",
-        "code": "04924",
-        "stock": 0
-      },
-      {
         "name": "Набор Smoant Pasito 2 Pink Cyan - Розово-голубой",
         "code": "04857",
         "stock": 0
       },
       {
-        "name": "Набор Smoant Pasito 2 Sunset - Закат",
-        "code": "04925",
+        "name": "Набор Smoant Pasito 3 Blue Azur - Голубой",
+        "code": "05150",
+        "stock": 0
+      },
+      {
+        "name": "Набор Smoant Pasito 3 Blue Nuit - Синяя ночь",
+        "code": "04331",
         "stock": 0
       }
     ]
@@ -1945,15 +1945,15 @@
       "code": "03136",
       "quantity": 98,
       "sum": 34160,
-      "profit": 20740,
+      "profit": 20729,
       "margin": 61
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 36,
-      "sum": 12600,
-      "profit": 7568,
+      "quantity": 35,
+      "sum": 12250,
+      "profit": 7353,
       "margin": 60
     },
     {
@@ -1967,9 +1967,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 28,
-      "sum": 9800,
-      "profit": 6089,
+      "quantity": 29,
+      "sum": 10150,
+      "profit": 6302,
       "margin": 62
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1126156,
-      "profit": 590711,
+      "sum": 1120886,
+      "profit": 586703,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18235,
-      "sum": 19383424,
-      "profit": 10130049,
-      "lastDemandDate": "2026-09-17 18:56:00.000"
+      "demandsCount": 18239,
+      "sum": 19386918,
+      "profit": 10131155,
+      "lastDemandDate": "2026-09-17 22:03:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
