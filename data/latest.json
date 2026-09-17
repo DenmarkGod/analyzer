@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T03:22:50.678Z",
+  "updatedAt": "2026-09-17T10:56:19.804Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -27837
+        "count": 5,
+        "amount": 7119,
+        "movementAmount": -20718
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 95,
-        "amount": 98185,
-        "movementAmount": -110391
+        "count": 100,
+        "amount": 105304,
+        "movementAmount": -103272
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 541,
-        "amount": 544981,
-        "movementAmount": -1245031
+        "count": 546,
+        "amount": 552100,
+        "movementAmount": -1237912
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-19",
-      "quantity": 70,
-      "sum": 78841
+      "quantity": 68,
+      "sum": 77462
     },
     {
       "date": "2026-06-20",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-17",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 1,
+      "sum": 1580
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5038,
-    "totalValueRub": 1824970,
+    "totalValueRub": 1818016,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1549,6 +1549,12 @@
         "name": "Ароматизатор пищевой PickMe со вкусом Арбузный Рондо",
         "code": "03810",
         "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой PickMe со вкусом Манго — Малина",
+        "code": "03824",
+        "stock": 1,
         "uom": "шт"
       },
       {
@@ -1706,12 +1712,6 @@
         "code": "01495",
         "stock": 1,
         "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Muesli - Мюсли",
-        "code": "01821",
-        "stock": 1,
-        "uom": "шт"
       }
     ],
     "staleStock": [
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 502
+        "stockDays": 503
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 497
+        "stockDays": 498
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 497
+        "stockDays": 498
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 497
+        "stockDays": 498
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 497
+        "stockDays": 498
       },
       {
         "name": "Набор уплотнителей д/кальяна HA-31",
         "code": "00490",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 497
+        "stockDays": 498
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 497
+        "stockDays": 498
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 492
+        "stockDays": 493
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 492
+        "stockDays": 493
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 492
+        "stockDays": 493
       }
     ],
     "outOfStock": [
@@ -1997,6 +1997,14 @@
       "margin": 54
     },
     {
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Виноградный Лед",
+      "code": "01180",
+      "quantity": 4,
+      "sum": 6320,
+      "profit": 3265,
+      "margin": 52
+    },
+    {
       "name": "БПК Электронная Сигарета Lost Mary BM16000 Кислое Яблоко Арбуз",
       "code": "04631",
       "quantity": 4,
@@ -2011,31 +2019,23 @@
       "sum": 5950,
       "profit": 3640,
       "margin": 61
-    },
-    {
-      "name": "БПК POD-Система QWERTY Split 20000 Ананас Питахайя",
-      "code": "05909",
-      "quantity": 3,
-      "sum": 5850,
-      "profit": 3510,
-      "margin": 60
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1128834,
-      "profit": 592309,
+      "sum": 1130414,
+      "profit": 593119,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18213,
-      "sum": 19364120,
-      "profit": 10120031,
-      "lastDemandDate": "2026-09-16 22:29:00.000"
+      "demandsCount": 18218,
+      "sum": 19371239,
+      "profit": 10123903,
+      "lastDemandDate": "2026-09-17 13:44:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
