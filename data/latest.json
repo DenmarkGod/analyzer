@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T20:56:05.616Z",
+  "updatedAt": "2026-09-18T03:08:54.682Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 26,
-        "amount": 22798,
-        "movementAmount": -5039
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -22798
       },
       "orders": {
         "count": 0,
@@ -17,11 +17,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1197782,
+        "income": 1163373,
         "outcome": 0,
-        "balance": 3907137,
-        "todayMovement": 1197782,
-        "movement": 1197782
+        "balance": 3929365,
+        "todayMovement": 1163373,
+        "movement": 1163373
       }
     },
     "week": {
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1197782,
+        "income": 1163373,
         "outcome": 0,
-        "balance": 3907137,
-        "todayMovement": 1197782,
-        "movement": 1197782
+        "balance": 3929365,
+        "todayMovement": 1163373,
+        "movement": 1163373
       }
     },
     "month": {
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1197782,
+        "income": 1163373,
         "outcome": 0,
-        "balance": 3907137,
-        "todayMovement": 1197782,
-        "movement": 1197782
+        "balance": 3929365,
+        "todayMovement": 1163373,
+        "movement": 1163373
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-06-19",
-      "quantity": 16,
-      "sum": 18672
-    },
     {
       "date": "2026-06-20",
       "quantity": 44,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-09-17",
-      "quantity": 25,
-      "sum": 22658
+      "quantity": 26,
+      "sum": 22798
+    },
+    {
+      "date": "2026-09-18",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-06-19",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-06-20",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-09-17",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-09-18",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13513928,
+    "creditTotal": 13536156,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-06-19",
-        "credit": 53935,
-        "debit": 0,
-        "balance": 53935
-      },
       {
         "date": "2026-06-20",
         "credit": 26405,
@@ -1526,12 +1520,18 @@
         "credit": 27141,
         "debit": 0,
         "balance": 27141
+      },
+      {
+        "date": "2026-09-18",
+        "credit": 22228,
+        "debit": 0,
+        "balance": 22228
       }
     ]
   },
   "stock": {
     "totalSkuCount": 5038,
-    "totalValueRub": 1816710,
+    "totalValueRub": 1838490,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1120886,
-      "profit": 586703,
+      "sum": 1114156,
+      "profit": 584081,
       "margin": 52
     }
   ],
