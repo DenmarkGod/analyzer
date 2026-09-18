@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T10:33:00.043Z",
+  "updatedAt": "2026-09-18T15:48:14.121Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 13,
-        "amount": 14172,
-        "movementAmount": -8626
+        "count": 38,
+        "amount": 37713,
+        "movementAmount": 14915
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 134,
-        "amount": 135155,
-        "movementAmount": -73421
+        "count": 159,
+        "amount": 158696,
+        "movementAmount": -49880
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 580,
-        "amount": 581951,
-        "movementAmount": -1208061
+        "count": 605,
+        "amount": 605492,
+        "movementAmount": -1184521
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-20",
-      "quantity": 43,
-      "sum": 35176
+      "quantity": 38,
+      "sum": 32064
     },
     {
       "date": "2026-06-21",
@@ -492,7 +492,7 @@
     {
       "date": "2026-09-13",
       "quantity": 40,
-      "sum": 40346
+      "sum": 39686
     },
     {
       "date": "2026-09-14",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-18",
-      "quantity": 2,
-      "sum": 2886
+      "quantity": 20,
+      "sum": 19690
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5038,
-    "totalValueRub": 1832172,
+    "totalValueRub": 1820932,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1943,18 +1943,26 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 98,
-      "sum": 34160,
-      "profit": 20729,
+      "quantity": 99,
+      "sum": 34510,
+      "profit": 20936,
       "margin": 61
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 35,
-      "sum": 12250,
-      "profit": 7353,
+      "quantity": 33,
+      "sum": 11550,
+      "profit": 6931,
       "margin": 60
+    },
+    {
+      "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
+      "code": "03530",
+      "quantity": 31,
+      "sum": 10850,
+      "profit": 6728,
+      "margin": 62
     },
     {
       "name": "LOST MARY AIR 22000 ICE AQUA",
@@ -1963,14 +1971,6 @@
       "sum": 10440,
       "profit": 5850,
       "margin": 56
-    },
-    {
-      "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
-      "code": "03530",
-      "quantity": 29,
-      "sum": 10150,
-      "profit": 6302,
-      "margin": 62
     },
     {
       "name": "БПК Картридж LOST MARY X-Link Classic Кислая Ежевика Лёд",
@@ -2005,37 +2005,37 @@
       "margin": 54
     },
     {
-      "name": "БПК Электронная Сигарета LOST MARY BM16000 Виноградный Лед",
-      "code": "01180",
-      "quantity": 4,
-      "sum": 6320,
-      "profit": 3265,
-      "margin": 52
-    },
-    {
       "name": "БПК Электронная Сигарета Lost Mary BM16000 Кислое Яблоко Арбуз",
       "code": "04631",
       "quantity": 4,
       "sum": 6320,
       "profit": 3285,
       "margin": 52
+    },
+    {
+      "name": "(МТ) Табак жевательный Corvus Slim - Blast",
+      "code": "02806",
+      "quantity": 10,
+      "sum": 6070,
+      "profit": 2350,
+      "margin": 39
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1117042,
-      "profit": 585787,
+      "sum": 1119692,
+      "profit": 587008,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18252,
-      "sum": 19401090,
-      "profit": 10139009,
-      "lastDemandDate": "2026-09-18 13:20:00.000"
+      "demandsCount": 18277,
+      "sum": 19424631,
+      "profit": 10151310,
+      "lastDemandDate": "2026-09-18 18:38:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
