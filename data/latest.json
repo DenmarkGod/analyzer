@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T15:20:42.961Z",
+  "updatedAt": "2026-09-19T20:00:59.644Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 13,
-        "amount": 19424,
-        "movementAmount": -36931
+        "count": 23,
+        "amount": 27703,
+        "movementAmount": -28652
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 190,
-        "amount": 196762,
-        "movementAmount": -11814
+        "count": 200,
+        "amount": 205041,
+        "movementAmount": -3535
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 636,
-        "amount": 643558,
-        "movementAmount": -1146455
+        "count": 646,
+        "amount": 651837,
+        "movementAmount": -1138176
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-21",
-      "quantity": 47,
-      "sum": 49940
+      "quantity": 16,
+      "sum": 17998
     },
     {
       "date": "2026-06-22",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-19",
-      "quantity": 8,
-      "sum": 13910
+      "quantity": 19,
+      "sum": 25416
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5038,
-    "totalValueRub": 1769082,
+    "totalValueRub": 1757263,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1943,17 +1943,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 100,
-      "sum": 34860,
-      "profit": 21121,
-      "margin": 61
+      "quantity": 96,
+      "sum": 33460,
+      "profit": 20238,
+      "margin": 60
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 33,
-      "sum": 11550,
-      "profit": 6931,
+      "quantity": 31,
+      "sum": 10850,
+      "profit": 6509,
       "margin": 60
     },
     {
@@ -1967,9 +1967,9 @@
     {
       "name": "LOST MARY AIR 22000 ICE AQUA",
       "code": "05855",
-      "quantity": 6,
-      "sum": 10440,
-      "profit": 5850,
+      "quantity": 5,
+      "sum": 8700,
+      "profit": 4910,
       "margin": 56
     },
     {
@@ -1987,6 +1987,14 @@
       "sum": 8700,
       "profit": 3700,
       "margin": 43
+    },
+    {
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Ананас Драгонфрут Грейпфрут",
+      "code": "01182",
+      "quantity": 5,
+      "sum": 7900,
+      "profit": 4090,
+      "margin": 52
     },
     {
       "name": "LOST MARY AIR 22000 SOUR GRAPE ICE",
@@ -2011,31 +2019,23 @@
       "sum": 6660,
       "profit": 3610,
       "margin": 54
-    },
-    {
-      "name": "БПК Электронная Сигарета LOST MARY BM16000 Ананас Драгонфрут Грейпфрут",
-      "code": "01182",
-      "quantity": 4,
-      "sum": 6320,
-      "profit": 3280,
-      "margin": 52
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1135501,
-      "profit": 594201,
+      "sum": 1125088,
+      "profit": 588645,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18308,
-      "sum": 19462697,
-      "profit": 10170779,
-      "lastDemandDate": "2026-09-19 17:47:00.000"
+      "demandsCount": 18318,
+      "sum": 19470976,
+      "profit": 10175349,
+      "lastDemandDate": "2026-09-19 22:20:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
