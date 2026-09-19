@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T10:17:15.109Z",
+  "updatedAt": "2026-09-19T15:20:42.961Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 5,
-        "amount": 9310,
-        "movementAmount": -47045
+        "count": 13,
+        "amount": 19424,
+        "movementAmount": -36931
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 182,
-        "amount": 186648,
-        "movementAmount": -21928
+        "count": 190,
+        "amount": 196762,
+        "movementAmount": -11814
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 628,
-        "amount": 633444,
-        "movementAmount": -1156569
+        "count": 636,
+        "amount": 643558,
+        "movementAmount": -1146455
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-21",
-      "quantity": 68,
-      "sum": 72660
+      "quantity": 47,
+      "sum": 49940
     },
     {
       "date": "2026-06-22",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-19",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 8,
+      "sum": 13910
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5038,
-    "totalValueRub": 1779478,
+    "totalValueRub": 1769082,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 99,
-      "sum": 34510,
-      "profit": 20914,
+      "quantity": 100,
+      "sum": 34860,
+      "profit": 21121,
       "margin": 61
     },
     {
@@ -1981,6 +1981,14 @@
       "margin": 56
     },
     {
+      "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
+      "code": "05804",
+      "quantity": 2,
+      "sum": 8700,
+      "profit": 3700,
+      "margin": 43
+    },
+    {
       "name": "LOST MARY AIR 22000 SOUR GRAPE ICE",
       "code": "05847",
       "quantity": 4,
@@ -2011,31 +2019,23 @@
       "sum": 6320,
       "profit": 3280,
       "margin": 52
-    },
-    {
-      "name": "БПК Электронная Сигарета Lost Mary BM16000 Кислое Яблоко Арбуз",
-      "code": "04631",
-      "quantity": 4,
-      "sum": 6320,
-      "profit": 3285,
-      "margin": 52
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1125483,
-      "profit": 589238,
+      "sum": 1135501,
+      "profit": 594201,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18300,
-      "sum": 19452583,
-      "profit": 10165632,
-      "lastDemandDate": "2026-09-19 12:41:00.000"
+      "demandsCount": 18308,
+      "sum": 19462697,
+      "profit": 10170779,
+      "lastDemandDate": "2026-09-19 17:47:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
