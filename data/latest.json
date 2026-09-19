@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T03:04:56.947Z",
+  "updatedAt": "2026-09-19T10:17:15.109Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -56355
+        "count": 5,
+        "amount": 9310,
+        "movementAmount": -47045
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 177,
-        "amount": 177338,
-        "movementAmount": -31238
+        "count": 182,
+        "amount": 186648,
+        "movementAmount": -21928
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 623,
-        "amount": 624134,
-        "movementAmount": -1165879
+        "count": 628,
+        "amount": 633444,
+        "movementAmount": -1156569
       },
       "orders": {
         "count": 0,
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5038,
-    "totalValueRub": 1792736,
+    "totalValueRub": 1779478,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 504
+        "stockDays": 505
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 499
+        "stockDays": 500
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 499
+        "stockDays": 500
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 499
+        "stockDays": 500
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 499
+        "stockDays": 500
       },
       {
         "name": "Набор уплотнителей д/кальяна HA-31",
         "code": "00490",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 499
+        "stockDays": 500
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 499
+        "stockDays": 500
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 494
+        "stockDays": 495
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 494
+        "stockDays": 495
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 494
+        "stockDays": 495
       }
     ],
     "outOfStock": [
@@ -1893,6 +1893,11 @@
         "stock": 0
       },
       {
+        "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
+        "code": "05804",
+        "stock": 0
+      },
+      {
         "name": "Набор Smoant Charon Racer kit Blaze - Пламя",
         "code": "04219",
         "stock": 0
@@ -1930,11 +1935,6 @@
       {
         "name": "Набор Smoant Pasito 3 Blue Azur - Голубой",
         "code": "05150",
-        "stock": 0
-      },
-      {
-        "name": "Набор Smoant Pasito 3 Blue Nuit - Синяя ночь",
-        "code": "04331",
         "stock": 0
       }
     ]
@@ -2032,10 +2032,10 @@
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18295,
-      "sum": 19443273,
-      "profit": 10161246,
-      "lastDemandDate": "2026-09-18 22:31:00.000"
+      "demandsCount": 18300,
+      "sum": 19452583,
+      "profit": 10165632,
+      "lastDemandDate": "2026-09-19 12:41:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
