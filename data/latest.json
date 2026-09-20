@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T10:36:07.176Z",
+  "updatedAt": "2026-09-20T15:25:14.393Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 4,
-        "amount": 4142,
-        "movementAmount": -23561
+        "count": 14,
+        "amount": 16299,
+        "movementAmount": -11404
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 204,
-        "amount": 209183,
-        "movementAmount": 607
+        "count": 214,
+        "amount": 221340,
+        "movementAmount": 12764
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 650,
-        "amount": 655979,
-        "movementAmount": -1134034
+        "count": 660,
+        "amount": 668136,
+        "movementAmount": -1121876
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-22",
-      "quantity": 64,
-      "sum": 73246
+      "quantity": 43,
+      "sum": 48595
     },
     {
       "date": "2026-06-23",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-20",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 13,
+      "sum": 16196
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5038,
-    "totalValueRub": 1755639,
+    "totalValueRub": 1748912,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1943,17 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 96,
-      "sum": 33460,
-      "profit": 20238,
-      "margin": 60
-    },
-    {
-      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
-      "code": "04897",
-      "quantity": 31,
-      "sum": 10850,
-      "profit": 6509,
+      "quantity": 92,
+      "sum": 32060,
+      "profit": 19366,
       "margin": 60
     },
     {
@@ -1965,12 +1957,12 @@
       "margin": 62
     },
     {
-      "name": "LOST MARY AIR 22000 ICE AQUA",
-      "code": "05855",
-      "quantity": 5,
-      "sum": 8700,
-      "profit": 4910,
-      "margin": 56
+      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
+      "code": "04897",
+      "quantity": 26,
+      "sum": 9100,
+      "profit": 5454,
+      "margin": 60
     },
     {
       "name": "LOST MARY AIR 22000 MOUNTAIN MINT",
@@ -1995,6 +1987,14 @@
       "sum": 7000,
       "profit": 4232,
       "margin": 60
+    },
+    {
+      "name": "LOST MARY AIR 22000 ICE AQUA",
+      "code": "05855",
+      "quantity": 4,
+      "sum": 6960,
+      "profit": 3970,
+      "margin": 57
     },
     {
       "name": "LOST MARY AIR 22000 SOUR GRAPE ICE",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1115427,
-      "profit": 583707,
+      "sum": 1115400,
+      "profit": 583128,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18322,
-      "sum": 19475118,
-      "profit": 10178155,
-      "lastDemandDate": "2026-09-20 13:35:00.000"
+      "demandsCount": 18332,
+      "sum": 19487275,
+      "profit": 10183150,
+      "lastDemandDate": "2026-09-20 17:21:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
