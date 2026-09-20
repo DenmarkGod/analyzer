@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T20:00:59.644Z",
+  "updatedAt": "2026-09-20T03:21:11.862Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 23,
-        "amount": 27703,
-        "movementAmount": -28652
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -27703
       },
       "orders": {
         "count": 0,
@@ -17,11 +17,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1181439,
+        "income": 1163504,
         "outcome": 0,
-        "balance": 3983970,
-        "todayMovement": 1181439,
-        "movement": 1181439
+        "balance": 4010688,
+        "todayMovement": 1163504,
+        "movement": 1163504
       }
     },
     "week": {
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1181439,
+        "income": 1163504,
         "outcome": 0,
-        "balance": 3983970,
-        "todayMovement": 1181439,
-        "movement": 1181439
+        "balance": 4010688,
+        "todayMovement": 1163504,
+        "movement": 1163504
       }
     },
     "month": {
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1181439,
+        "income": 1163504,
         "outcome": 0,
-        "balance": 3983970,
-        "todayMovement": 1181439,
-        "movement": 1181439
+        "balance": 4010688,
+        "todayMovement": 1163504,
+        "movement": 1163504
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-06-21",
-      "quantity": 16,
-      "sum": 17998
-    },
     {
       "date": "2026-06-22",
       "quantity": 67,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-09-19",
-      "quantity": 19,
-      "sum": 25416
+      "quantity": 23,
+      "sum": 27703
+    },
+    {
+      "date": "2026-09-20",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-06-21",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-06-22",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-09-19",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-09-20",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13590761,
+    "creditTotal": 13617479,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-06-21",
-        "credit": 54197,
-        "debit": 0,
-        "balance": 54197
-      },
       {
         "date": "2026-06-22",
         "credit": 0,
@@ -1526,12 +1520,18 @@
         "credit": 54605,
         "debit": 0,
         "balance": 54605
+      },
+      {
+        "date": "2026-09-20",
+        "credit": 26718,
+        "debit": 0,
+        "balance": 26718
       }
     ]
   },
   "stock": {
     "totalSkuCount": 5038,
-    "totalValueRub": 1757263,
+    "totalValueRub": 1757734,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1989,12 +1989,12 @@
       "margin": 43
     },
     {
-      "name": "БПК Электронная Сигарета LOST MARY BM16000 Ананас Драгонфрут Грейпфрут",
-      "code": "01182",
-      "quantity": 5,
-      "sum": 7900,
-      "profit": 4090,
-      "margin": 52
+      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
+      "code": "01473",
+      "quantity": 20,
+      "sum": 7000,
+      "profit": 4232,
+      "margin": 60
     },
     {
       "name": "LOST MARY AIR 22000 SOUR GRAPE ICE",
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1125088,
-      "profit": 588645,
+      "sum": 1116057,
+      "profit": 583957,
       "margin": 52
     }
   ],
