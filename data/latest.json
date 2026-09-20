@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T15:25:14.393Z",
+  "updatedAt": "2026-09-20T20:18:30.474Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 14,
-        "amount": 16299,
-        "movementAmount": -11404
+        "count": 26,
+        "amount": 30043,
+        "movementAmount": 2340
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 214,
-        "amount": 221340,
-        "movementAmount": 12764
+        "count": 226,
+        "amount": 235084,
+        "movementAmount": 26508
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 660,
-        "amount": 668136,
-        "movementAmount": -1121876
+        "count": 672,
+        "amount": 681880,
+        "movementAmount": -1108132
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-22",
-      "quantity": 43,
-      "sum": 48595
+      "quantity": 11,
+      "sum": 8593
     },
     {
       "date": "2026-06-23",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-20",
-      "quantity": 13,
-      "sum": 16196
+      "quantity": 20,
+      "sum": 23528
     }
   ],
   "ordersTrend": [
@@ -1531,11 +1531,17 @@
   },
   "stock": {
     "totalSkuCount": 5038,
-    "totalValueRub": 1748912,
+    "totalValueRub": 1741753,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
         "code": "05311",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой OffLine со вкусом Сливочная дыня",
+        "code": "04339",
         "stock": 1,
         "uom": "шт"
       },
@@ -1608,7 +1614,7 @@
       {
         "name": "(МТ) Black Burn 25гр Brownie - Брауни",
         "code": "01848",
-        "stock": 1,
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1705,12 +1711,6 @@
         "name": "(МТ) Black Burn 25гр Lulo - Луло",
         "code": "01845",
         "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Malibu - Леденец малибу",
-        "code": "01856",
-        "stock": 1,
         "uom": "шт"
       }
     ],
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 92,
-      "sum": 32060,
-      "profit": 19366,
+      "quantity": 89,
+      "sum": 31010,
+      "profit": 18712,
       "margin": 60
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1115400,
-      "profit": 583128,
+      "sum": 1096512,
+      "profit": 573012,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18332,
-      "sum": 19487275,
-      "profit": 10183150,
-      "lastDemandDate": "2026-09-20 17:21:00.000"
+      "demandsCount": 18344,
+      "sum": 19501019,
+      "profit": 10189877,
+      "lastDemandDate": "2026-09-20 21:41:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
