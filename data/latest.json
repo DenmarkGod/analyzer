@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T20:18:30.474Z",
+  "updatedAt": "2026-09-21T03:16:23.954Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 26,
-        "amount": 30043,
-        "movementAmount": 2340
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -30043
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1163504,
+        "income": 1192796,
         "outcome": 0,
-        "balance": 4010688,
-        "todayMovement": 1163504,
-        "movement": 1163504
+        "balance": 4039980,
+        "todayMovement": 1192796,
+        "movement": 1192796
       }
     },
     "week": {
       "sales": {
-        "count": 226,
-        "amount": 235084,
-        "movementAmount": 26508
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -235084
       },
       "orders": {
         "count": 0,
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1163504,
+        "income": 1192796,
         "outcome": 0,
-        "balance": 4010688,
-        "todayMovement": 1163504,
-        "movement": 1163504
+        "balance": 4039980,
+        "todayMovement": 1192796,
+        "movement": 1192796
       }
     },
     "month": {
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1163504,
+        "income": 1192796,
         "outcome": 0,
-        "balance": 4010688,
-        "todayMovement": 1163504,
-        "movement": 1163504
+        "balance": 4039980,
+        "todayMovement": 1192796,
+        "movement": 1192796
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-06-22",
-      "quantity": 11,
-      "sum": 8593
-    },
     {
       "date": "2026-06-23",
       "quantity": 55,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-09-20",
-      "quantity": 20,
-      "sum": 23528
+      "quantity": 26,
+      "sum": 30043
+    },
+    {
+      "date": "2026-09-21",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-06-22",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-06-23",
       "quantity": 0,
@@ -975,23 +970,22 @@
       "date": "2026-09-20",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-09-21",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13617479,
+    "creditTotal": 13646771,
     "debitTotal": 9606791,
     "series": [
       {
-        "date": "2026-06-22",
-        "credit": 0,
-        "debit": 0,
-        "balance": 0
-      },
-      {
         "date": "2026-06-23",
-        "credit": 184401,
+        "credit": 49988,
         "debit": 210112,
-        "balance": -25711
+        "balance": -160124
       },
       {
         "date": "2026-06-24",
@@ -1523,9 +1517,15 @@
       },
       {
         "date": "2026-09-20",
-        "credit": 26718,
+        "credit": 56010,
         "debit": 0,
-        "balance": 26718
+        "balance": 56010
+      },
+      {
+        "date": "2026-09-21",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
       }
     ]
   },
@@ -1943,25 +1943,25 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 89,
-      "sum": 31010,
-      "profit": 18712,
+      "quantity": 88,
+      "sum": 30660,
+      "profit": 18494,
       "margin": 60
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 31,
-      "sum": 10850,
-      "profit": 6728,
+      "quantity": 30,
+      "sum": 10500,
+      "profit": 6510,
       "margin": 62
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 26,
-      "sum": 9100,
-      "profit": 5454,
+      "quantity": 25,
+      "sum": 8750,
+      "profit": 5243,
       "margin": 60
     },
     {
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1096512,
-      "profit": 573012,
+      "sum": 1096749,
+      "profit": 573111,
       "margin": 52
     }
   ],
