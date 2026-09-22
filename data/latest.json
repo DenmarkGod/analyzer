@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T18:04:59.857Z",
+  "updatedAt": "2026-09-22T03:16:01.068Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 35,
-        "amount": 37546,
-        "movementAmount": 7503
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -38516
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1192796,
+        "income": 1146519,
         "outcome": 0,
-        "balance": 4039980,
-        "todayMovement": 1192796,
-        "movement": 1192796
+        "balance": 4077533,
+        "todayMovement": 1146519,
+        "movement": 1146519
       }
     },
     "week": {
       "sales": {
-        "count": 35,
-        "amount": 37546,
-        "movementAmount": -197538
+        "count": 36,
+        "amount": 38516,
+        "movementAmount": -196568
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1192796,
+        "income": 1146519,
         "outcome": 0,
-        "balance": 4039980,
-        "todayMovement": 1192796,
-        "movement": 1192796
+        "balance": 4077533,
+        "todayMovement": 1146519,
+        "movement": 1146519
       }
     },
     "month": {
       "sales": {
-        "count": 707,
-        "amount": 719426,
-        "movementAmount": -1070586
+        "count": 708,
+        "amount": 720396,
+        "movementAmount": -1069616
       },
       "orders": {
         "count": 0,
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1192796,
+        "income": 1146519,
         "outcome": 0,
-        "balance": 4039980,
-        "todayMovement": 1192796,
-        "movement": 1192796
+        "balance": 4077533,
+        "todayMovement": 1146519,
+        "movement": 1146519
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-06-23",
-      "quantity": 36,
-      "sum": 36586
-    },
     {
       "date": "2026-06-24",
       "quantity": 62,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-09-21",
-      "quantity": 22,
-      "sum": 26297
+      "quantity": 36,
+      "sum": 38516
+    },
+    {
+      "date": "2026-09-22",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-06-23",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-06-24",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-09-21",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-09-22",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13646771,
+    "creditTotal": 13684324,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-06-23",
-        "credit": 49988,
-        "debit": 13845,
-        "balance": 36143
-      },
       {
         "date": "2026-06-24",
         "credit": 58955,
@@ -1523,6 +1517,12 @@
       },
       {
         "date": "2026-09-21",
+        "credit": 37553,
+        "debit": 0,
+        "balance": 37553
+      },
+      {
+        "date": "2026-09-22",
         "credit": 0,
         "debit": 0,
         "balance": 0
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5038,
-    "totalValueRub": 1724644,
+    "totalValueRub": 1684167,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1793,6 +1793,11 @@
         "stock": 0
       },
       {
+        "name": "Набор Geekvape Aegis Boost 3 Midnight Gold - Золотой",
+        "code": "05815",
+        "stock": 0
+      },
+      {
         "name": "Набор Geekvape Aegis Boost 3 Silver - Серый",
         "code": "04332",
         "stock": 0
@@ -1931,11 +1936,6 @@
         "name": "Набор Smoant Pasito 2 Pink Cyan - Розово-голубой",
         "code": "04857",
         "stock": 0
-      },
-      {
-        "name": "Набор Smoant Pasito 3 Blue Azur - Голубой",
-        "code": "05150",
-        "stock": 0
       }
     ]
   },
@@ -1945,7 +1945,7 @@
       "code": "03136",
       "quantity": 88,
       "sum": 30660,
-      "profit": 18494,
+      "profit": 18483,
       "margin": 60
     },
     {
@@ -1953,7 +1953,7 @@
       "code": "03530",
       "quantity": 25,
       "sum": 8750,
-      "profit": 5420,
+      "profit": 5415,
       "margin": 62
     },
     {
@@ -1977,15 +1977,7 @@
       "code": "04897",
       "quantity": 23,
       "sum": 8050,
-      "profit": 4821,
-      "margin": 60
-    },
-    {
-      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
-      "code": "01473",
-      "quantity": 23,
-      "sum": 8050,
-      "profit": 4825,
+      "profit": 4817,
       "margin": 60
     },
     {
@@ -1995,6 +1987,14 @@
       "sum": 7770,
       "profit": 4195,
       "margin": 54
+    },
+    {
+      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
+      "code": "01473",
+      "quantity": 22,
+      "sum": 7700,
+      "profit": 4604,
+      "margin": 60
     },
     {
       "name": "LOST MARY AIR 22000 ICE AQUA",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1094452,
-      "profit": 573582,
+      "sum": 1079030,
+      "profit": 566826,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18379,
-      "sum": 19538565,
-      "profit": 10210313,
-      "lastDemandDate": "2026-09-21 20:59:00.000"
+      "demandsCount": 18380,
+      "sum": 19539535,
+      "profit": 10210838,
+      "lastDemandDate": "2026-09-21 22:18:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
