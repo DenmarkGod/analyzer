@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T10:56:53.887Z",
+  "updatedAt": "2026-09-22T16:15:13.373Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 3,
-        "amount": 2396,
-        "movementAmount": -36120
+        "count": 14,
+        "amount": 13489,
+        "movementAmount": -25027
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 39,
-        "amount": 40912,
-        "movementAmount": -194172
+        "count": 50,
+        "amount": 52005,
+        "movementAmount": -183079
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 711,
-        "amount": 722792,
-        "movementAmount": -1067220
+        "count": 722,
+        "amount": 733885,
+        "movementAmount": -1056127
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-24",
-      "quantity": 61,
-      "sum": 67646
+      "quantity": 35,
+      "sum": 37129
     },
     {
       "date": "2026-06-25",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-22",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 6,
+      "sum": 4722
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5038,
-    "totalValueRub": 1680291,
+    "totalValueRub": 1667899,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1542,6 +1542,12 @@
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Сливочная дыня",
         "code": "04339",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой OffLine со вкусом Сырный раф",
+        "code": "04336",
         "stock": 1,
         "uom": "шт"
       },
@@ -1705,12 +1711,6 @@
         "name": "(МТ) Black Burn 25гр Lemon Shock - Кислый лимон",
         "code": "01493",
         "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Lulo - Луло",
-        "code": "01845",
-        "stock": 0,
         "uom": "шт"
       }
     ],
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 88,
-      "sum": 30660,
-      "profit": 18483,
+      "quantity": 87,
+      "sum": 30310,
+      "profit": 18265,
       "margin": 60
     },
     {
@@ -1973,20 +1973,20 @@
       "margin": 43
     },
     {
-      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
-      "code": "04897",
-      "quantity": 23,
-      "sum": 8050,
-      "profit": 4817,
-      "margin": 60
-    },
-    {
       "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
       "code": "02057",
       "quantity": 7,
       "sum": 7770,
       "profit": 4195,
       "margin": 54
+    },
+    {
+      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
+      "code": "04897",
+      "quantity": 22,
+      "sum": 7700,
+      "profit": 4606,
+      "margin": 60
     },
     {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1074906,
-      "profit": 564642,
+      "sum": 1063743,
+      "profit": 558157,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18383,
-      "sum": 19541931,
-      "profit": 10212015,
-      "lastDemandDate": "2026-09-22 13:30:00.000"
+      "demandsCount": 18394,
+      "sum": 19553024,
+      "profit": 10218040,
+      "lastDemandDate": "2026-09-22 19:02:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
