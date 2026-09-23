@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T10:45:00.648Z",
+  "updatedAt": "2026-09-23T16:04:41.947Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 5,
-        "amount": 6945,
-        "movementAmount": -8986
+        "count": 14,
+        "amount": 16781,
+        "movementAmount": 850
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 60,
-        "amount": 61392,
-        "movementAmount": -173692
+        "count": 69,
+        "amount": 71228,
+        "movementAmount": -163856
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 732,
-        "amount": 743272,
-        "movementAmount": -1046740
+        "count": 741,
+        "amount": 753108,
+        "movementAmount": -1036904
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-25",
-      "quantity": 69,
-      "sum": 77669
+      "quantity": 44,
+      "sum": 51149
     },
     {
       "date": "2026-06-26",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-23",
-      "quantity": 2,
-      "sum": 2950
+      "quantity": 8,
+      "sum": 10705
     }
   ],
   "ordersTrend": [
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 5038,
-    "totalValueRub": 1658870,
+    "totalSkuCount": 5049,
+    "totalValueRub": 1636871,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1833,6 +1833,11 @@
         "stock": 0
       },
       {
+        "name": "6 Набор Geekvape Aegis Hero 5 Fizzy Red - Красный градиент",
+        "code": "06223",
+        "stock": 0
+      },
+      {
         "name": "POD Система GEEKVAPE Aegis Hero 5 Blaze Red",
         "code": "04442",
         "stock": 0
@@ -1860,6 +1865,11 @@
       {
         "name": "Набор Geekvape Aegis Hero 5 Steel Silver - Стальной",
         "code": "04883",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape Aegis Hero 5 Vibe Green - Салатово-зеленый",
+        "code": "06224",
         "stock": 0
       },
       {
@@ -1926,16 +1936,6 @@
         "name": "Набор Smoant Pasito 2 Malachite - Малахит",
         "code": "05761",
         "stock": 0
-      },
-      {
-        "name": "Набор Smoant Pasito 2 Neon Purple - Неоново-фиолетовый",
-        "code": "04895",
-        "stock": 0
-      },
-      {
-        "name": "Набор Smoant Pasito 2 Pink Cyan - Розово-голубой",
-        "code": "04857",
-        "stock": 0
       }
     ]
   },
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 86,
-      "sum": 29960,
-      "profit": 18047,
+      "quantity": 85,
+      "sum": 29610,
+      "profit": 17829,
       "margin": 60
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1052218,
-      "profit": 553314,
+      "sum": 1043213,
+      "profit": 548935,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18404,
-      "sum": 19562411,
-      "profit": 10223236,
-      "lastDemandDate": "2026-09-23 13:24:00.000"
+      "demandsCount": 18413,
+      "sum": 19572247,
+      "profit": 10228259,
+      "lastDemandDate": "2026-09-23 19:04:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
