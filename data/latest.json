@@ -1,25 +1,2105 @@
 {
-  "updatedAt": "2026-09-24T03:06:09.725Z",
+  "updatedAt": "2026-09-24T11:05:40.306Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
   },
-  "dashboard": null,
-  "salesTrend": null,
-  "ordersTrend": null,
-  "moneyTrend": null,
-  "stock": null,
-  "topProducts": null,
-  "channels": null,
-  "topCounterparties": null,
-  "warnings": [
-    "Показатели: fetch failed",
-    "График продаж: fetch failed",
-    "График заказов: fetch failed",
-    "График денег: fetch failed",
-    "Остатки: fetch failed",
-    "Топ товаров: fetch failed",
-    "Каналы продаж: fetch failed",
-    "Топ клиентов (CRM): fetch failed"
-  ]
+  "dashboard": {
+    "day": {
+      "sales": {
+        "count": 10,
+        "amount": 12455,
+        "movementAmount": -7180
+      },
+      "orders": {
+        "count": 0,
+        "amount": 0,
+        "movementAmount": 0
+      },
+      "money": {
+        "income": 1126782,
+        "outcome": 0,
+        "balance": 4112210,
+        "todayMovement": 1126782,
+        "movement": 1126782
+      }
+    },
+    "week": {
+      "sales": {
+        "count": 82,
+        "amount": 86537,
+        "movementAmount": -148547
+      },
+      "orders": {
+        "count": 0,
+        "amount": 0,
+        "movementAmount": 0
+      },
+      "money": {
+        "income": 1126782,
+        "outcome": 0,
+        "balance": 4112210,
+        "todayMovement": 1126782,
+        "movement": 1126782
+      }
+    },
+    "month": {
+      "sales": {
+        "count": 754,
+        "amount": 768417,
+        "movementAmount": -1021595
+      },
+      "orders": {
+        "count": 0,
+        "amount": 0,
+        "movementAmount": 0
+      },
+      "money": {
+        "income": 1126782,
+        "outcome": 0,
+        "balance": 4112210,
+        "todayMovement": 1126782,
+        "movement": 1126782
+      }
+    }
+  },
+  "salesTrend": [
+    {
+      "date": "2026-06-26",
+      "quantity": 62,
+      "sum": 74626
+    },
+    {
+      "date": "2026-06-27",
+      "quantity": 68,
+      "sum": 70049
+    },
+    {
+      "date": "2026-06-28",
+      "quantity": 55,
+      "sum": 47520
+    },
+    {
+      "date": "2026-06-29",
+      "quantity": 57,
+      "sum": 62547
+    },
+    {
+      "date": "2026-06-30",
+      "quantity": 58,
+      "sum": 67887
+    },
+    {
+      "date": "2026-07-01",
+      "quantity": 60,
+      "sum": 62095
+    },
+    {
+      "date": "2026-07-02",
+      "quantity": 46,
+      "sum": 40239
+    },
+    {
+      "date": "2026-07-03",
+      "quantity": 68,
+      "sum": 90669
+    },
+    {
+      "date": "2026-07-04",
+      "quantity": 72,
+      "sum": 85293
+    },
+    {
+      "date": "2026-07-05",
+      "quantity": 69,
+      "sum": 72473
+    },
+    {
+      "date": "2026-07-06",
+      "quantity": 58,
+      "sum": 60720
+    },
+    {
+      "date": "2026-07-07",
+      "quantity": 80,
+      "sum": 71676
+    },
+    {
+      "date": "2026-07-08",
+      "quantity": 50,
+      "sum": 49575
+    },
+    {
+      "date": "2026-07-09",
+      "quantity": 61,
+      "sum": 57420
+    },
+    {
+      "date": "2026-07-10",
+      "quantity": 72,
+      "sum": 99789
+    },
+    {
+      "date": "2026-07-11",
+      "quantity": 75,
+      "sum": 84404
+    },
+    {
+      "date": "2026-07-12",
+      "quantity": 59,
+      "sum": 73501
+    },
+    {
+      "date": "2026-07-13",
+      "quantity": 69,
+      "sum": 70945
+    },
+    {
+      "date": "2026-07-14",
+      "quantity": 85,
+      "sum": 83054
+    },
+    {
+      "date": "2026-07-15",
+      "quantity": 64,
+      "sum": 67049
+    },
+    {
+      "date": "2026-07-16",
+      "quantity": 57,
+      "sum": 45539
+    },
+    {
+      "date": "2026-07-17",
+      "quantity": 74,
+      "sum": 78962
+    },
+    {
+      "date": "2026-07-18",
+      "quantity": 63,
+      "sum": 64634
+    },
+    {
+      "date": "2026-07-19",
+      "quantity": 61,
+      "sum": 59882
+    },
+    {
+      "date": "2026-07-20",
+      "quantity": 64,
+      "sum": 96642
+    },
+    {
+      "date": "2026-07-21",
+      "quantity": 61,
+      "sum": 77584
+    },
+    {
+      "date": "2026-07-22",
+      "quantity": 58,
+      "sum": 93758
+    },
+    {
+      "date": "2026-07-23",
+      "quantity": 68,
+      "sum": 72648
+    },
+    {
+      "date": "2026-07-24",
+      "quantity": 67,
+      "sum": 60473
+    },
+    {
+      "date": "2026-07-25",
+      "quantity": 63,
+      "sum": 73782
+    },
+    {
+      "date": "2026-07-26",
+      "quantity": 48,
+      "sum": 60344
+    },
+    {
+      "date": "2026-07-27",
+      "quantity": 66,
+      "sum": 71975
+    },
+    {
+      "date": "2026-07-28",
+      "quantity": 53,
+      "sum": 67838
+    },
+    {
+      "date": "2026-07-29",
+      "quantity": 61,
+      "sum": 66713
+    },
+    {
+      "date": "2026-07-30",
+      "quantity": 65,
+      "sum": 60357
+    },
+    {
+      "date": "2026-07-31",
+      "quantity": 91,
+      "sum": 89763
+    },
+    {
+      "date": "2026-08-01",
+      "quantity": 70,
+      "sum": 75221
+    },
+    {
+      "date": "2026-08-02",
+      "quantity": 65,
+      "sum": 65513
+    },
+    {
+      "date": "2026-08-03",
+      "quantity": 59,
+      "sum": 84982
+    },
+    {
+      "date": "2026-08-04",
+      "quantity": 64,
+      "sum": 65261
+    },
+    {
+      "date": "2026-08-05",
+      "quantity": 71,
+      "sum": 78462
+    },
+    {
+      "date": "2026-08-06",
+      "quantity": 71,
+      "sum": 101692
+    },
+    {
+      "date": "2026-08-07",
+      "quantity": 40,
+      "sum": 52132
+    },
+    {
+      "date": "2026-08-08",
+      "quantity": 56,
+      "sum": 47012
+    },
+    {
+      "date": "2026-08-09",
+      "quantity": 51,
+      "sum": 60670
+    },
+    {
+      "date": "2026-08-10",
+      "quantity": 103,
+      "sum": 152314
+    },
+    {
+      "date": "2026-08-11",
+      "quantity": 77,
+      "sum": 70678
+    },
+    {
+      "date": "2026-08-12",
+      "quantity": 82,
+      "sum": 79537
+    },
+    {
+      "date": "2026-08-13",
+      "quantity": 47,
+      "sum": 53061
+    },
+    {
+      "date": "2026-08-14",
+      "quantity": 47,
+      "sum": 58060
+    },
+    {
+      "date": "2026-08-15",
+      "quantity": 38,
+      "sum": 41192
+    },
+    {
+      "date": "2026-08-16",
+      "quantity": 59,
+      "sum": 55844
+    },
+    {
+      "date": "2026-08-17",
+      "quantity": 60,
+      "sum": 64529
+    },
+    {
+      "date": "2026-08-18",
+      "quantity": 40,
+      "sum": 37476
+    },
+    {
+      "date": "2026-08-19",
+      "quantity": 46,
+      "sum": 46598
+    },
+    {
+      "date": "2026-08-20",
+      "quantity": 42,
+      "sum": 37479
+    },
+    {
+      "date": "2026-08-21",
+      "quantity": 53,
+      "sum": 49351
+    },
+    {
+      "date": "2026-08-22",
+      "quantity": 50,
+      "sum": 56235
+    },
+    {
+      "date": "2026-08-23",
+      "quantity": 37,
+      "sum": 42753
+    },
+    {
+      "date": "2026-08-24",
+      "quantity": 51,
+      "sum": 59112
+    },
+    {
+      "date": "2026-08-25",
+      "quantity": 27,
+      "sum": 30243
+    },
+    {
+      "date": "2026-08-26",
+      "quantity": 32,
+      "sum": 34639
+    },
+    {
+      "date": "2026-08-27",
+      "quantity": 41,
+      "sum": 31676
+    },
+    {
+      "date": "2026-08-28",
+      "quantity": 43,
+      "sum": 56304
+    },
+    {
+      "date": "2026-08-29",
+      "quantity": 38,
+      "sum": 40563
+    },
+    {
+      "date": "2026-08-30",
+      "quantity": 36,
+      "sum": 39660
+    },
+    {
+      "date": "2026-08-31",
+      "quantity": 23,
+      "sum": 21764
+    },
+    {
+      "date": "2026-09-01",
+      "quantity": 57,
+      "sum": 59535
+    },
+    {
+      "date": "2026-09-02",
+      "quantity": 34,
+      "sum": 39886
+    },
+    {
+      "date": "2026-09-03",
+      "quantity": 31,
+      "sum": 29521
+    },
+    {
+      "date": "2026-09-04",
+      "quantity": 37,
+      "sum": 39492
+    },
+    {
+      "date": "2026-09-05",
+      "quantity": 30,
+      "sum": 28589
+    },
+    {
+      "date": "2026-09-06",
+      "quantity": 37,
+      "sum": 41197
+    },
+    {
+      "date": "2026-09-07",
+      "quantity": 23,
+      "sum": 21029
+    },
+    {
+      "date": "2026-09-08",
+      "quantity": 25,
+      "sum": 21498
+    },
+    {
+      "date": "2026-09-09",
+      "quantity": 27,
+      "sum": 20481
+    },
+    {
+      "date": "2026-09-10",
+      "quantity": 35,
+      "sum": 44506
+    },
+    {
+      "date": "2026-09-11",
+      "quantity": 31,
+      "sum": 27616
+    },
+    {
+      "date": "2026-09-12",
+      "quantity": 39,
+      "sum": 33100
+    },
+    {
+      "date": "2026-09-13",
+      "quantity": 40,
+      "sum": 39686
+    },
+    {
+      "date": "2026-09-14",
+      "quantity": 30,
+      "sum": 23383
+    },
+    {
+      "date": "2026-09-15",
+      "quantity": 38,
+      "sum": 46965
+    },
+    {
+      "date": "2026-09-16",
+      "quantity": 27,
+      "sum": 27837
+    },
+    {
+      "date": "2026-09-17",
+      "quantity": 26,
+      "sum": 22798
+    },
+    {
+      "date": "2026-09-18",
+      "quantity": 56,
+      "sum": 57015
+    },
+    {
+      "date": "2026-09-19",
+      "quantity": 23,
+      "sum": 27703
+    },
+    {
+      "date": "2026-09-20",
+      "quantity": 26,
+      "sum": 30043
+    },
+    {
+      "date": "2026-09-21",
+      "quantity": 36,
+      "sum": 38516
+    },
+    {
+      "date": "2026-09-22",
+      "quantity": 19,
+      "sum": 15931
+    },
+    {
+      "date": "2026-09-23",
+      "quantity": 17,
+      "sum": 19635
+    },
+    {
+      "date": "2026-09-24",
+      "quantity": 4,
+      "sum": 4590
+    }
+  ],
+  "ordersTrend": [
+    {
+      "date": "2026-06-26",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-06-27",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-06-28",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-06-29",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-06-30",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-01",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-02",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-03",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-04",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-05",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-06",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-07",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-08",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-09",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-10",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-11",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-12",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-13",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-14",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-15",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-16",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-17",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-18",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-19",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-20",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-21",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-22",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-23",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-24",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-25",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-26",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-27",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-28",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-29",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-30",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-07-31",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-01",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-02",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-03",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-04",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-05",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-06",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-07",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-08",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-09",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-10",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-11",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-12",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-13",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-14",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-15",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-16",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-17",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-18",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-19",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-20",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-21",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-22",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-23",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-24",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-25",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-26",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-27",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-28",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-29",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-30",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-08-31",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-01",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-02",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-03",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-04",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-05",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-06",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-07",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-08",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-09",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-10",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-11",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-12",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-13",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-14",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-15",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-16",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-17",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-18",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-19",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-20",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-21",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-22",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-23",
+      "quantity": 0,
+      "sum": 0
+    },
+    {
+      "date": "2026-09-24",
+      "quantity": 0,
+      "sum": 0
+    }
+  ],
+  "moneyTrend": {
+    "creditTotal": 13719001,
+    "debitTotal": 9606791,
+    "series": [
+      {
+        "date": "2026-06-26",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
+      },
+      {
+        "date": "2026-06-27",
+        "credit": 128934,
+        "debit": 78478,
+        "balance": 50456
+      },
+      {
+        "date": "2026-06-28",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
+      },
+      {
+        "date": "2026-06-29",
+        "credit": 35435,
+        "debit": 74360,
+        "balance": -38925
+      },
+      {
+        "date": "2026-06-30",
+        "credit": 52945,
+        "debit": 0,
+        "balance": 52945
+      },
+      {
+        "date": "2026-07-01",
+        "credit": 116796,
+        "debit": 79435,
+        "balance": 37361
+      },
+      {
+        "date": "2026-07-02",
+        "credit": 31989,
+        "debit": 0,
+        "balance": 31989
+      },
+      {
+        "date": "2026-07-03",
+        "credit": 74652,
+        "debit": 0,
+        "balance": 74652
+      },
+      {
+        "date": "2026-07-04",
+        "credit": 56160,
+        "debit": 0,
+        "balance": 56160
+      },
+      {
+        "date": "2026-07-05",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
+      },
+      {
+        "date": "2026-07-06",
+        "credit": 55456,
+        "debit": 0,
+        "balance": 55456
+      },
+      {
+        "date": "2026-07-07",
+        "credit": 104095,
+        "debit": 0,
+        "balance": 104095
+      },
+      {
+        "date": "2026-07-08",
+        "credit": 70065,
+        "debit": 30535,
+        "balance": 39530
+      },
+      {
+        "date": "2026-07-09",
+        "credit": 45249,
+        "debit": 58443,
+        "balance": -13194
+      },
+      {
+        "date": "2026-07-10",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
+      },
+      {
+        "date": "2026-07-11",
+        "credit": 79736,
+        "debit": 0,
+        "balance": 79736
+      },
+      {
+        "date": "2026-07-12",
+        "credit": 134613,
+        "debit": 0,
+        "balance": 134613
+      },
+      {
+        "date": "2026-07-13",
+        "credit": 54161,
+        "debit": 90700,
+        "balance": -36539
+      },
+      {
+        "date": "2026-07-14",
+        "credit": 67048,
+        "debit": 0,
+        "balance": 67048
+      },
+      {
+        "date": "2026-07-15",
+        "credit": 0,
+        "debit": 17550,
+        "balance": -17550
+      },
+      {
+        "date": "2026-07-16",
+        "credit": 55765,
+        "debit": 0,
+        "balance": 55765
+      },
+      {
+        "date": "2026-07-17",
+        "credit": 115437,
+        "debit": 0,
+        "balance": 115437
+      },
+      {
+        "date": "2026-07-18",
+        "credit": 51971,
+        "debit": 0,
+        "balance": 51971
+      },
+      {
+        "date": "2026-07-19",
+        "credit": 52478,
+        "debit": 15938,
+        "balance": 36540
+      },
+      {
+        "date": "2026-07-20",
+        "credit": 0,
+        "debit": 284607,
+        "balance": -284607
+      },
+      {
+        "date": "2026-07-21",
+        "credit": 63930,
+        "debit": 0,
+        "balance": 63930
+      },
+      {
+        "date": "2026-07-22",
+        "credit": 58182,
+        "debit": 0,
+        "balance": 58182
+      },
+      {
+        "date": "2026-07-23",
+        "credit": 146790,
+        "debit": 0,
+        "balance": 146790
+      },
+      {
+        "date": "2026-07-24",
+        "credit": 54891,
+        "debit": 0,
+        "balance": 54891
+      },
+      {
+        "date": "2026-07-25",
+        "credit": 63978,
+        "debit": 0,
+        "balance": 63978
+      },
+      {
+        "date": "2026-07-26",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
+      },
+      {
+        "date": "2026-07-27",
+        "credit": 52418,
+        "debit": 0,
+        "balance": 52418
+      },
+      {
+        "date": "2026-07-28",
+        "credit": 61938,
+        "debit": 0,
+        "balance": 61938
+      },
+      {
+        "date": "2026-07-29",
+        "credit": 154972,
+        "debit": 0,
+        "balance": 154972
+      },
+      {
+        "date": "2026-07-30",
+        "credit": 50696,
+        "debit": 0,
+        "balance": 50696
+      },
+      {
+        "date": "2026-07-31",
+        "credit": 0,
+        "debit": 6093443,
+        "balance": -6093443
+      },
+      {
+        "date": "2026-08-01",
+        "credit": 67521,
+        "debit": 0,
+        "balance": 67521
+      },
+      {
+        "date": "2026-08-02",
+        "credit": 105065,
+        "debit": 0,
+        "balance": 105065
+      },
+      {
+        "date": "2026-08-03",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
+      },
+      {
+        "date": "2026-08-04",
+        "credit": 130178,
+        "debit": 0,
+        "balance": 130178
+      },
+      {
+        "date": "2026-08-05",
+        "credit": 59608,
+        "debit": 15871,
+        "balance": 43737
+      },
+      {
+        "date": "2026-08-06",
+        "credit": 128076,
+        "debit": 0,
+        "balance": 128076
+      },
+      {
+        "date": "2026-08-07",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
+      },
+      {
+        "date": "2026-08-08",
+        "credit": 50829,
+        "debit": 0,
+        "balance": 50829
+      },
+      {
+        "date": "2026-08-09",
+        "credit": 45807,
+        "debit": 77090,
+        "balance": -31283
+      },
+      {
+        "date": "2026-08-10",
+        "credit": 203634,
+        "debit": 0,
+        "balance": 203634
+      },
+      {
+        "date": "2026-08-11",
+        "credit": 57357,
+        "debit": 92197,
+        "balance": -34840
+      },
+      {
+        "date": "2026-08-12",
+        "credit": 70545,
+        "debit": 0,
+        "balance": 70545
+      },
+      {
+        "date": "2026-08-13",
+        "credit": 47318,
+        "debit": 0,
+        "balance": 47318
+      },
+      {
+        "date": "2026-08-14",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
+      },
+      {
+        "date": "2026-08-15",
+        "credit": 56008,
+        "debit": 0,
+        "balance": 56008
+      },
+      {
+        "date": "2026-08-16",
+        "credit": 94366,
+        "debit": 0,
+        "balance": 94366
+      },
+      {
+        "date": "2026-08-17",
+        "credit": 56637,
+        "debit": 0,
+        "balance": 56637
+      },
+      {
+        "date": "2026-08-18",
+        "credit": 36539,
+        "debit": 0,
+        "balance": 36539
+      },
+      {
+        "date": "2026-08-19",
+        "credit": 44653,
+        "debit": 0,
+        "balance": 44653
+      },
+      {
+        "date": "2026-08-20",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
+      },
+      {
+        "date": "2026-08-21",
+        "credit": 83830,
+        "debit": 0,
+        "balance": 83830
+      },
+      {
+        "date": "2026-08-22",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
+      },
+      {
+        "date": "2026-08-23",
+        "credit": 54414,
+        "debit": 0,
+        "balance": 54414
+      },
+      {
+        "date": "2026-08-24",
+        "credit": 41684,
+        "debit": 0,
+        "balance": 41684
+      },
+      {
+        "date": "2026-08-25",
+        "credit": 57634,
+        "debit": 0,
+        "balance": 57634
+      },
+      {
+        "date": "2026-08-26",
+        "credit": 29487,
+        "debit": 0,
+        "balance": 29487
+      },
+      {
+        "date": "2026-08-27",
+        "credit": 64657,
+        "debit": 0,
+        "balance": 64657
+      },
+      {
+        "date": "2026-08-28",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
+      },
+      {
+        "date": "2026-08-29",
+        "credit": 54896,
+        "debit": 0,
+        "balance": 54896
+      },
+      {
+        "date": "2026-08-30",
+        "credit": 77964,
+        "debit": 0,
+        "balance": 77964
+      },
+      {
+        "date": "2026-08-31",
+        "credit": 20026,
+        "debit": 0,
+        "balance": 20026
+      },
+      {
+        "date": "2026-09-01",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
+      },
+      {
+        "date": "2026-09-02",
+        "credit": 57800,
+        "debit": 0,
+        "balance": 57800
+      },
+      {
+        "date": "2026-09-03",
+        "credit": 36939,
+        "debit": 0,
+        "balance": 36939
+      },
+      {
+        "date": "2026-09-04",
+        "credit": 65440,
+        "debit": 0,
+        "balance": 65440
+      },
+      {
+        "date": "2026-09-05",
+        "credit": 25651,
+        "debit": 0,
+        "balance": 25651
+      },
+      {
+        "date": "2026-09-06",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
+      },
+      {
+        "date": "2026-09-07",
+        "credit": 60547,
+        "debit": 0,
+        "balance": 60547
+      },
+      {
+        "date": "2026-09-08",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
+      },
+      {
+        "date": "2026-09-09",
+        "credit": 40930,
+        "debit": 0,
+        "balance": 40930
+      },
+      {
+        "date": "2026-09-10",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
+      },
+      {
+        "date": "2026-09-11",
+        "credit": 43393,
+        "debit": 0,
+        "balance": 43393
+      },
+      {
+        "date": "2026-09-12",
+        "credit": 79344,
+        "debit": 0,
+        "balance": 79344
+      },
+      {
+        "date": "2026-09-13",
+        "credit": 32150,
+        "debit": 0,
+        "balance": 32150
+      },
+      {
+        "date": "2026-09-14",
+        "credit": 39337,
+        "debit": 0,
+        "balance": 39337
+      },
+      {
+        "date": "2026-09-15",
+        "credit": 66688,
+        "debit": 0,
+        "balance": 66688
+      },
+      {
+        "date": "2026-09-16",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
+      },
+      {
+        "date": "2026-09-17",
+        "credit": 27141,
+        "debit": 0,
+        "balance": 27141
+      },
+      {
+        "date": "2026-09-18",
+        "credit": 22228,
+        "debit": 0,
+        "balance": 22228
+      },
+      {
+        "date": "2026-09-19",
+        "credit": 54605,
+        "debit": 0,
+        "balance": 54605
+      },
+      {
+        "date": "2026-09-20",
+        "credit": 56010,
+        "debit": 0,
+        "balance": 56010
+      },
+      {
+        "date": "2026-09-21",
+        "credit": 37553,
+        "debit": 0,
+        "balance": 37553
+      },
+      {
+        "date": "2026-09-22",
+        "credit": 15533,
+        "debit": 0,
+        "balance": 15533
+      },
+      {
+        "date": "2026-09-23",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
+      },
+      {
+        "date": "2026-09-24",
+        "credit": 19144,
+        "debit": 0,
+        "balance": 19144
+      }
+    ]
+  },
+  "stock": {
+    "totalSkuCount": 5055,
+    "totalValueRub": 1694921,
+    "lowStock": [
+      {
+        "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
+        "code": "05311",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой OffLine со вкусом Сливочная дыня",
+        "code": "04339",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой OffLine со вкусом Сырный раф",
+        "code": "04336",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
+        "code": "04335",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой PickMe со вкусом Арбузный Рондо",
+        "code": "03810",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой PickMe со вкусом Манго — Малина",
+        "code": "03824",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой PickMe со вкусом Синяя Малина",
+        "code": "03829",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой PickMe со вкусом Скандик — Лесные ягоды",
+        "code": "03830",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой PickMe со вкусом Скитлс",
+        "code": "03831",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
+        "code": "01852",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Almond Icecream - Миндальное мороженое",
+        "code": "01853",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Bananini - Банан",
+        "code": "04199",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр BlackBerry Lemonade - Ежевичный лимонад",
+        "code": "01477",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Black Honey - Мед",
+        "code": "01854",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Brownie - Брауни",
+        "code": "01848",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Bubble Gum - Фруктовая жвачка",
+        "code": "01479",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Cane Mint - Тросниковая мята",
+        "code": "01855",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Cheesecake - Чизкейк",
+        "code": "01480",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Cherry Garden - Вишнёво-черешневый сок",
+        "code": "01822",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Ekzo Mango - Сочное манго",
+        "code": "01482",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Elka - Ёлка",
+        "code": "01483",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Epic Yogurt - Черничный йогурт",
+        "code": "01484",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Etalon Melon - Медовая дыня",
+        "code": "01485",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Garnet - Гранат",
+        "code": "01487",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Grapefruit - Грейпфрут",
+        "code": "01488",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Green Tea - Зелёный чай",
+        "code": "01489",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Guf Ice Baby - Ягодный сорбет с грейпфрутом",
+        "code": "01490",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Irish Cream - Ирландский крем",
+        "code": "01846",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Kiwi Stoner - Смузи из киви",
+        "code": "01492",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Lemon Shock - Кислый лимон",
+        "code": "01493",
+        "stock": 1,
+        "uom": "шт"
+      }
+    ],
+    "staleStock": [
+      {
+        "name": "Трубка Шар \"Есть че?\" 15 см Тёмно-зеленая",
+        "code": "00006",
+        "stock": 3,
+        "uom": "шт",
+        "stockDays": 510
+      },
+      {
+        "name": "HA-122 Мундштук алюминий 30 см",
+        "code": "00897",
+        "stock": 2,
+        "uom": "шт",
+        "stockDays": 505
+      },
+      {
+        "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
+        "code": "00391",
+        "stock": 2,
+        "uom": "шт",
+        "stockDays": 505
+      },
+      {
+        "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
+        "code": "00403",
+        "stock": 1,
+        "uom": "шт",
+        "stockDays": 505
+      },
+      {
+        "name": "Мелассоуловитель Catcher Blade",
+        "code": "00136",
+        "stock": 1,
+        "uom": "шт",
+        "stockDays": 505
+      },
+      {
+        "name": "Набор уплотнителей д/кальяна HA-31",
+        "code": "00490",
+        "stock": 1,
+        "uom": "шт",
+        "stockDays": 505
+      },
+      {
+        "name": "Уголь ROCK CUBE 25mm 72 куб",
+        "code": "2",
+        "stock": 5,
+        "uom": "шт",
+        "stockDays": 505
+      },
+      {
+        "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
+        "code": "01129",
+        "stock": 2,
+        "uom": "шт",
+        "stockDays": 500
+      },
+      {
+        "name": "Табак DARKSIDE SHOT Альпийский 30g",
+        "code": "01088",
+        "stock": 1,
+        "uom": "шт",
+        "stockDays": 500
+      },
+      {
+        "name": "Табак DARKSIDE SHOT Балтийский 30g",
+        "code": "01097",
+        "stock": 1,
+        "uom": "шт",
+        "stockDays": 500
+      }
+    ],
+    "outOfStock": [
+      {
+        "name": "Набор Geekvape Aegis Boost 3 Black - Черный",
+        "code": "05391",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape Aegis Boost 3 Midnight Gold - Золотой",
+        "code": "05815",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape Aegis Boost 3 Silver - Серый",
+        "code": "04332",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape Aegis Boost 3 Sunset Red - Красный закат",
+        "code": "05816",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape Aegis Boost 3 Teal Blue - Синий",
+        "code": "05393",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape Aegis Boost 3 Teal Blue - Синий",
+        "code": "05392",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape H45 Classic (Aegis Hero 3) Black - Черный",
+        "code": "04220",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape H45 Classic (Aegis Hero 3) Grey - Серый",
+        "code": "05394",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape H45 Classic (Aegis Hero 3) World Edition Aurora Purple - Фиолетовый",
+        "code": "05760",
+        "stock": 0
+      },
+      {
+        "name": "POD Система GEEKVAPE Aegis Hero 5 Blaze Red",
+        "code": "04442",
+        "stock": 0
+      },
+      {
+        "name": "POD Система GEEKVAPE Aegis Hero 5 Turbo Blue",
+        "code": "04224",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape Aegis Hero 5 Iron Black - Черный",
+        "code": "05395",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape Aegis Hero 5 Racing Green - Зеленый",
+        "code": "04660",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape Aegis Hero 5 Red and White - Красно-белый",
+        "code": "05944",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape Aegis Hero 5 Steel Silver - Стальной",
+        "code": "04883",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape Aegis Hero Q Black - Черный",
+        "code": "03239",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape Aegis Hero Q Green - Зеленый (камуфляж)",
+        "code": "03240",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape Aegis Nano 2 Moon Gray - Серый",
+        "code": "03241",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape Aegis Nano 2 Polar Silver - Серебряный",
+        "code": "03242",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape Aegis Nano 2 Sunset Yellow - Желтый",
+        "code": "03243",
+        "stock": 0
+      },
+      {
+        "name": "ЭДО POD Система PLONQ Meta Lite Серебристый",
+        "code": "05237",
+        "stock": 0
+      },
+      {
+        "name": "ЭДО POD Система PLONQ Meta Lite Черный",
+        "code": "05803",
+        "stock": 0
+      },
+      {
+        "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
+        "code": "05804",
+        "stock": 0
+      },
+      {
+        "name": "Набор Smoant Charon Racer kit Blaze - Пламя",
+        "code": "04219",
+        "stock": 0
+      },
+      {
+        "name": "Набор Smoant Charon Racer kit Emerald Green - Изумрудно-зеленый",
+        "code": "04218",
+        "stock": 0
+      },
+      {
+        "name": "POD Система SMOANT PASITO 2 Black Red",
+        "code": "05460",
+        "stock": 0
+      },
+      {
+        "name": "Набор Smoant Pasito 2 Dreamy Pink - Розовый",
+        "code": "04923",
+        "stock": 0
+      },
+      {
+        "name": "Набор Smoant Pasito 2 Malachite - Малахит",
+        "code": "05761",
+        "stock": 0
+      },
+      {
+        "name": "Набор Smoant Pasito 2 Neon Purple - Неоново-фиолетовый",
+        "code": "04895",
+        "stock": 0
+      },
+      {
+        "name": "Набор Smoant Pasito 2 Pink Cyan - Розово-голубой",
+        "code": "04857",
+        "stock": 0
+      }
+    ]
+  },
+  "topProducts": [
+    {
+      "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
+      "code": "03136",
+      "quantity": 83,
+      "sum": 28910,
+      "profit": 17393,
+      "margin": 60
+    },
+    {
+      "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
+      "code": "03530",
+      "quantity": 27,
+      "sum": 9450,
+      "profit": 5841,
+      "margin": 62
+    },
+    {
+      "name": "LOST MARY AIR 22000 MOUNTAIN MINT",
+      "code": "05852",
+      "quantity": 5,
+      "sum": 8700,
+      "profit": 4910,
+      "margin": 56
+    },
+    {
+      "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
+      "code": "05804",
+      "quantity": 2,
+      "sum": 8700,
+      "profit": 3700,
+      "margin": 43
+    },
+    {
+      "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
+      "code": "02057",
+      "quantity": 7,
+      "sum": 7770,
+      "profit": 4195,
+      "margin": 54
+    },
+    {
+      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
+      "code": "04897",
+      "quantity": 21,
+      "sum": 7350,
+      "profit": 4395,
+      "margin": 60
+    },
+    {
+      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
+      "code": "01473",
+      "quantity": 21,
+      "sum": 7350,
+      "profit": 4383,
+      "margin": 60
+    },
+    {
+      "name": "LOST MARY AIR 22000 ICE AQUA",
+      "code": "05855",
+      "quantity": 4,
+      "sum": 6960,
+      "profit": 3970,
+      "margin": 57
+    },
+    {
+      "name": "LOST MARY AIR 22000 SOUR GRAPE ICE",
+      "code": "05847",
+      "quantity": 4,
+      "sum": 6960,
+      "profit": 3970,
+      "margin": 57
+    },
+    {
+      "name": "Табак жевательный ReVolt Go (Револьт Го) с ароматом Strike (Страйк)",
+      "code": "05529",
+      "quantity": 10,
+      "sum": 6098,
+      "profit": 2797,
+      "margin": 46
+    }
+  ],
+  "channels": [
+    {
+      "name": "Точка продаж",
+      "sum": 1017321,
+      "profit": 535703,
+      "margin": 53
+    }
+  ],
+  "topCounterparties": [
+    {
+      "name": "Розничный покупатель",
+      "demandsCount": 18426,
+      "sum": 19587556,
+      "profit": 10235848,
+      "lastDemandDate": "2026-09-24 13:55:00.000"
+    },
+    {
+      "name": "ИП Бикмухаметов",
+      "demandsCount": 0,
+      "sum": 0,
+      "profit": 0,
+      "lastDemandDate": null
+    },
+    {
+      "name": "BURN",
+      "demandsCount": 0,
+      "sum": 0,
+      "profit": 0,
+      "lastDemandDate": null
+    },
+    {
+      "name": "Prohookah",
+      "demandsCount": 0,
+      "sum": 0,
+      "profit": 0,
+      "lastDemandDate": null
+    },
+    {
+      "name": "ООО \"МИРАЖ\"",
+      "demandsCount": 0,
+      "sum": 0,
+      "profit": 0,
+      "lastDemandDate": null
+    },
+    {
+      "name": "ООО \"Пикми\"",
+      "demandsCount": 0,
+      "sum": 0,
+      "profit": 0,
+      "lastDemandDate": null
+    },
+    {
+      "name": "Gorilla",
+      "demandsCount": 0,
+      "sum": 0,
+      "profit": 0,
+      "lastDemandDate": null
+    },
+    {
+      "name": "ИП ШУЛЯТЬЕВА Ю.В.",
+      "demandsCount": 0,
+      "sum": 0,
+      "profit": 0,
+      "lastDemandDate": null
+    },
+    {
+      "name": "ООО \"ИКС\"",
+      "demandsCount": 0,
+      "sum": 0,
+      "profit": 0,
+      "lastDemandDate": null
+    },
+    {
+      "name": "OSHISHA",
+      "demandsCount": 0,
+      "sum": 0,
+      "profit": 0,
+      "lastDemandDate": null
+    }
+  ],
+  "warnings": []
 }
