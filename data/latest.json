@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T11:05:40.306Z",
+  "updatedAt": "2026-09-24T16:28:49.654Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 10,
-        "amount": 12455,
-        "movementAmount": -7180
+        "count": 31,
+        "amount": 28229,
+        "movementAmount": 8594
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 82,
-        "amount": 86537,
-        "movementAmount": -148547
+        "count": 103,
+        "amount": 102311,
+        "movementAmount": -132773
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 754,
-        "amount": 768417,
-        "movementAmount": -1021595
+        "count": 775,
+        "amount": 784191,
+        "movementAmount": -1005821
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-26",
-      "quantity": 62,
-      "sum": 74626
+      "quantity": 41,
+      "sum": 47161
     },
     {
       "date": "2026-06-27",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-24",
-      "quantity": 4,
-      "sum": 4590
+      "quantity": 20,
+      "sum": 18086
     }
   ],
   "ordersTrend": [
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 5055,
-    "totalValueRub": 1694921,
+    "totalSkuCount": 5051,
+    "totalValueRub": 1687447,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1888,6 +1888,16 @@
         "stock": 0
       },
       {
+        "name": "POD Система GEEK VAPE Sonder Q2 Fizzy Peach",
+        "code": "06179",
+        "stock": 0
+      },
+      {
+        "name": "POD Система GEEK VAPE Sonder Q2 Metallic Purple",
+        "code": "06180",
+        "stock": 0
+      },
+      {
         "name": "ЭДО POD Система PLONQ Meta Lite Серебристый",
         "code": "05237",
         "stock": 0
@@ -1926,16 +1936,6 @@
         "name": "Набор Smoant Pasito 2 Malachite - Малахит",
         "code": "05761",
         "stock": 0
-      },
-      {
-        "name": "Набор Smoant Pasito 2 Neon Purple - Неоново-фиолетовый",
-        "code": "04895",
-        "stock": 0
-      },
-      {
-        "name": "Набор Smoant Pasito 2 Pink Cyan - Розово-голубой",
-        "code": "04857",
-        "stock": 0
       }
     ]
   },
@@ -1951,9 +1951,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 27,
-      "sum": 9450,
-      "profit": 5841,
+      "quantity": 29,
+      "sum": 10150,
+      "profit": 6267,
       "margin": 62
     },
     {
@@ -1973,19 +1973,11 @@
       "margin": 43
     },
     {
-      "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
-      "code": "02057",
-      "quantity": 7,
-      "sum": 7770,
-      "profit": 4195,
-      "margin": 54
-    },
-    {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 21,
-      "sum": 7350,
-      "profit": 4395,
+      "quantity": 22,
+      "sum": 7700,
+      "profit": 4602,
       "margin": 60
     },
     {
@@ -2013,6 +2005,14 @@
       "margin": 57
     },
     {
+      "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
+      "code": "02057",
+      "quantity": 6,
+      "sum": 6660,
+      "profit": 3635,
+      "margin": 55
+    },
+    {
       "name": "Табак жевательный ReVolt Go (Револьт Го) с ароматом Strike (Страйк)",
       "code": "05529",
       "quantity": 10,
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1017321,
-      "profit": 535703,
+      "sum": 1020463,
+      "profit": 537748,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18426,
-      "sum": 19587556,
-      "profit": 10235848,
-      "lastDemandDate": "2026-09-24 13:55:00.000"
+      "demandsCount": 18447,
+      "sum": 19603330,
+      "profit": 10244613,
+      "lastDemandDate": "2026-09-24 19:10:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
