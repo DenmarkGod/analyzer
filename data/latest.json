@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T11:06:56.609Z",
+  "updatedAt": "2026-09-25T16:31:29.471Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 3,
-        "amount": 2522,
-        "movementAmount": -32290
+        "count": 18,
+        "amount": 12594,
+        "movementAmount": -22218
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 112,
-        "amount": 111416,
-        "movementAmount": -123668
+        "count": 127,
+        "amount": 121488,
+        "movementAmount": -113596
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 784,
-        "amount": 793296,
-        "movementAmount": -996716
+        "count": 799,
+        "amount": 803368,
+        "movementAmount": -986644
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-27",
-      "quantity": 64,
-      "sum": 66903
+      "quantity": 33,
+      "sum": 29237
     },
     {
       "date": "2026-06-28",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-25",
-      "quantity": 1,
-      "sum": 352
+      "quantity": 8,
+      "sum": 7728
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5051,
-    "totalValueRub": 1666959,
+    "totalValueRub": 1661990,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 83,
-      "sum": 28910,
-      "profit": 17393,
+      "quantity": 82,
+      "sum": 28560,
+      "profit": 17175,
       "margin": 60
     },
     {
@@ -1953,7 +1953,7 @@
       "code": "03530",
       "quantity": 32,
       "sum": 11200,
-      "profit": 6906,
+      "profit": 6901,
       "margin": 62
     },
     {
@@ -2005,37 +2005,37 @@
       "margin": 57
     },
     {
-      "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
-      "code": "02057",
-      "quantity": 6,
-      "sum": 6660,
-      "profit": 3635,
-      "margin": 55
-    },
-    {
       "name": "Табак жевательный ReVolt Go (Револьт Го) с ароматом Strike (Страйк)",
       "code": "05529",
       "quantity": 10,
       "sum": 6098,
       "profit": 2797,
       "margin": 46
+    },
+    {
+      "name": "ОС PAFOS 20.000 new Черная Смородина содовая / Blackcurrant soda",
+      "code": "03329",
+      "quantity": 2,
+      "sum": 5620,
+      "profit": 3120,
+      "margin": 56
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1016542,
-      "profit": 537046,
+      "sum": 1007459,
+      "profit": 532475,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18456,
-      "sum": 19612435,
-      "profit": 10249582,
-      "lastDemandDate": "2026-09-25 13:50:00.000"
+      "demandsCount": 18471,
+      "sum": 19622507,
+      "profit": 10254685,
+      "lastDemandDate": "2026-09-25 19:30:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
