@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T21:07:39.565Z",
+  "updatedAt": "2026-09-25T03:22:56.926Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -64,11 +64,6 @@
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-06-26",
-      "quantity": 8,
-      "sum": 9993
-    },
     {
       "date": "2026-06-27",
       "quantity": 68,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-09-24",
-      "quantity": 36,
-      "sum": 34462
+      "quantity": 37,
+      "sum": 34812
+    },
+    {
+      "date": "2026-09-25",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-06-26",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-06-27",
       "quantity": 0,
@@ -975,6 +970,11 @@
       "date": "2026-09-24",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-09-25",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
@@ -982,16 +982,10 @@
     "debitTotal": 9606791,
     "series": [
       {
-        "date": "2026-06-26",
-        "credit": 0,
-        "debit": 0,
-        "balance": 0
-      },
-      {
         "date": "2026-06-27",
-        "credit": 128934,
+        "credit": 61096,
         "debit": 78478,
-        "balance": 50456
+        "balance": -17382
       },
       {
         "date": "2026-06-28",
@@ -1523,9 +1517,15 @@
       },
       {
         "date": "2026-09-24",
-        "credit": 19144,
+        "credit": 51555,
         "debit": 0,
-        "balance": 19144
+        "balance": 51555
+      },
+      {
+        "date": "2026-09-25",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
       }
     ]
   },
@@ -1951,9 +1951,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 31,
-      "sum": 10850,
-      "profit": 6693,
+      "quantity": 32,
+      "sum": 11200,
+      "profit": 6906,
       "margin": 62
     },
     {
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1020217,
-      "profit": 538770,
+      "sum": 1017300,
+      "profit": 537496,
       "margin": 53
     }
   ],
