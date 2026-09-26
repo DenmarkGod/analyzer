@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T21:04:48.884Z",
+  "updatedAt": "2026-09-26T03:28:21.217Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -17,11 +17,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1059874,
+        "income": 1078929,
         "outcome": 0,
-        "balance": 4144621,
-        "todayMovement": 1059874,
-        "movement": 1059874
+        "balance": 4163675,
+        "todayMovement": 1078929,
+        "movement": 1078929
       }
     },
     "week": {
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1059874,
+        "income": 1078929,
         "outcome": 0,
-        "balance": 4144621,
-        "todayMovement": 1059874,
-        "movement": 1059874
+        "balance": 4163675,
+        "todayMovement": 1078929,
+        "movement": 1078929
       }
     },
     "month": {
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1059874,
+        "income": 1078929,
         "outcome": 0,
-        "balance": 4144621,
-        "todayMovement": 1059874,
-        "movement": 1059874
+        "balance": 4163675,
+        "todayMovement": 1078929,
+        "movement": 1078929
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-06-27",
-      "quantity": 10,
-      "sum": 7171
-    },
     {
       "date": "2026-06-28",
       "quantity": 55,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-09-25",
-      "quantity": 23,
-      "sum": 15958
+      "quantity": 25,
+      "sum": 19543
+    },
+    {
+      "date": "2026-09-26",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-06-27",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-06-28",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-09-25",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-09-26",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13751412,
+    "creditTotal": 13770466,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-06-27",
-        "credit": 61096,
-        "debit": 0,
-        "balance": 61096
-      },
       {
         "date": "2026-06-28",
         "credit": 0,
@@ -1526,16 +1520,28 @@
         "credit": 0,
         "debit": 0,
         "balance": 0
+      },
+      {
+        "date": "2026-09-26",
+        "credit": 19054,
+        "debit": 0,
+        "balance": 19054
       }
     ]
   },
   "stock": {
     "totalSkuCount": 5061,
-    "totalValueRub": 1684033,
+    "totalValueRub": 1665867,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
         "code": "05311",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой NUM Ням со вкусом Мандарин Кумкват",
+        "code": "05316",
         "stock": 1,
         "uom": "шт"
       },
@@ -1706,12 +1712,6 @@
         "code": "01492",
         "stock": 0,
         "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Lemon Shock - Кислый лимон",
-        "code": "01493",
-        "stock": 1,
-        "uom": "шт"
       }
     ],
     "staleStock": [
@@ -1787,6 +1787,16 @@
       }
     ],
     "outOfStock": [
+      {
+        "name": "POD Система GEEK VAPE Aegis Boost III Midnight Gold",
+        "code": "06176",
+        "stock": 0
+      },
+      {
+        "name": "POD Система GEEK VAPE Aegis Boost III Sunset Red",
+        "code": "06178",
+        "stock": 0
+      },
       {
         "name": "Набор Geekvape Aegis Boost 3 Black - Черный",
         "code": "05391",
@@ -1926,16 +1936,6 @@
         "name": "POD Система SMOANT PASITO 2 Black Red",
         "code": "05460",
         "stock": 0
-      },
-      {
-        "name": "Набор Smoant Pasito 2 Dreamy Pink - Розовый",
-        "code": "04923",
-        "stock": 0
-      },
-      {
-        "name": "Набор Smoant Pasito 2 Malachite - Малахит",
-        "code": "05761",
-        "stock": 0
       }
     ]
   },
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 998619,
-      "profit": 527190,
+      "sum": 1002204,
+      "profit": 528945,
       "margin": 53
     }
   ],
