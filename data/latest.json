@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T15:44:51.043Z",
+  "updatedAt": "2026-09-26T20:38:01.420Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 29,
-        "amount": 26592,
-        "movementAmount": 7049
+        "count": 39,
+        "amount": 39067,
+        "movementAmount": 19524
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 163,
-        "amount": 155029,
-        "movementAmount": -80055
+        "count": 173,
+        "amount": 167504,
+        "movementAmount": -67580
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 835,
-        "amount": 836909,
-        "movementAmount": -953103
+        "count": 845,
+        "amount": 849384,
+        "movementAmount": -940628
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-28",
-      "quantity": 41,
-      "sum": 32172
+      "quantity": 16,
+      "sum": 12168
     },
     {
       "date": "2026-06-29",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-26",
-      "quantity": 16,
-      "sum": 16026
+      "quantity": 35,
+      "sum": 35882
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5059,
-    "totalValueRub": 1646749,
+    "totalValueRub": 1624676,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1542,6 +1542,12 @@
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Мандарин Кумкват",
         "code": "05316",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой OffLine со вкусом Клубничный рондо",
+        "code": "04355",
         "stock": 1,
         "uom": "шт"
       },
@@ -1704,12 +1710,6 @@
       {
         "name": "(МТ) Black Burn 25гр Guf Ice Baby - Ягодный сорбет с грейпфрутом",
         "code": "01490",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Irish Cream - Ирландский крем",
-        "code": "01846",
         "stock": 0,
         "uom": "шт"
       }
@@ -1943,26 +1943,18 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 77,
-      "sum": 26810,
-      "profit": 16085,
+      "quantity": 76,
+      "sum": 26565,
+      "profit": 15972,
       "margin": 60
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 30,
-      "sum": 10500,
-      "profit": 6465,
+      "quantity": 33,
+      "sum": 11550,
+      "profit": 7104,
       "margin": 62
-    },
-    {
-      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
-      "code": "04897",
-      "quantity": 25,
-      "sum": 8750,
-      "profit": 5157,
-      "margin": 59
     },
     {
       "name": "LOST MARY AIR 22000 MOUNTAIN MINT",
@@ -1979,6 +1971,14 @@
       "sum": 8700,
       "profit": 3700,
       "margin": 43
+    },
+    {
+      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
+      "code": "04897",
+      "quantity": 23,
+      "sum": 8050,
+      "profit": 4735,
+      "margin": 59
     },
     {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
@@ -2007,35 +2007,35 @@
     {
       "name": "Табак жевательный ReVolt Go (Револьт Го) с ароматом Strike (Страйк)",
       "code": "05529",
-      "quantity": 10,
-      "sum": 6098,
-      "profit": 2797,
+      "quantity": 11,
+      "sum": 6714,
+      "profit": 3083,
       "margin": 46
     },
     {
-      "name": "ОС PAFOS 20.000 new Черная Смородина содовая / Blackcurrant soda",
-      "code": "03329",
-      "quantity": 2,
-      "sum": 5620,
-      "profit": 3120,
-      "margin": 56
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Грейпфрут Маракуйя",
+      "code": "02120",
+      "quantity": 4,
+      "sum": 6320,
+      "profit": 3265,
+      "margin": 52
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1002832,
-      "profit": 528879,
+      "sum": 1009210,
+      "profit": 532156,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18507,
-      "sum": 19656048,
-      "profit": 10271010,
-      "lastDemandDate": "2026-09-26 18:40:00.000"
+      "demandsCount": 18517,
+      "sum": 19668523,
+      "profit": 10277212,
+      "lastDemandDate": "2026-09-26 21:22:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
