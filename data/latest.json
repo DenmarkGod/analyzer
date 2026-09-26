@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T03:28:21.217Z",
+  "updatedAt": "2026-09-26T10:47:41.587Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -19543
+        "count": 6,
+        "amount": 6571,
+        "movementAmount": -12972
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 134,
-        "amount": 128437,
-        "movementAmount": -106647
+        "count": 140,
+        "amount": 135008,
+        "movementAmount": -100076
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 806,
-        "amount": 810317,
-        "movementAmount": -979695
+        "count": 812,
+        "amount": 816888,
+        "movementAmount": -973124
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-28",
-      "quantity": 55,
-      "sum": 47520
+      "quantity": 54,
+      "sum": 47160
     },
     {
       "date": "2026-06-29",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-26",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 1,
+      "sum": 1976
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5061,
-    "totalValueRub": 1665867,
+    "totalValueRub": 1662520,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 511
+        "stockDays": 512
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 506
+        "stockDays": 507
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 506
+        "stockDays": 507
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 506
+        "stockDays": 507
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 506
+        "stockDays": 507
       },
       {
         "name": "Набор уплотнителей д/кальяна HA-31",
         "code": "00490",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 506
+        "stockDays": 507
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 506
+        "stockDays": 507
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 501
+        "stockDays": 502
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 501
+        "stockDays": 502
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 501
+        "stockDays": 502
       }
     ],
     "outOfStock": [
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1002204,
-      "profit": 528945,
+      "sum": 1003070,
+      "profit": 529485,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18478,
-      "sum": 19629456,
-      "profit": 10257808,
-      "lastDemandDate": "2026-09-25 22:49:00.000"
+      "demandsCount": 18484,
+      "sum": 19636027,
+      "profit": 10261032,
+      "lastDemandDate": "2026-09-26 12:53:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
