@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T11:22:50.060Z",
+  "updatedAt": "2026-09-27T16:22:44.564Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 7,
-        "amount": 7307,
-        "movementAmount": -31760
+        "count": 15,
+        "amount": 16963,
+        "movementAmount": -22104
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 180,
-        "amount": 174811,
-        "movementAmount": -60273
+        "count": 188,
+        "amount": 184467,
+        "movementAmount": -50617
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 852,
-        "amount": 856691,
-        "movementAmount": -933321
+        "count": 860,
+        "amount": 866347,
+        "movementAmount": -923665
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-29",
-      "quantity": 55,
-      "sum": 60255
+      "quantity": 37,
+      "sum": 36910
     },
     {
       "date": "2026-06-30",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-27",
-      "quantity": 2,
-      "sum": 3562
+      "quantity": 9,
+      "sum": 8670
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5059,
-    "totalValueRub": 1621442,
+    "totalValueRub": 1616691,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1573,6 +1573,12 @@
         "name": "Ароматизатор пищевой PickMe со вкусом Арбузный Рондо",
         "code": "03810",
         "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой PickMe со вкусом Киви — Малина",
+        "code": "03817",
+        "stock": 1,
         "uom": "шт"
       },
       {
@@ -1704,12 +1710,6 @@
       {
         "name": "(МТ) Black Burn 25гр Green Tea - Зелёный чай",
         "code": "01489",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Guf Ice Baby - Ягодный сорбет с грейпфрутом",
-        "code": "01490",
         "stock": 0,
         "uom": "шт"
       }
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
       "code": "03136",
-      "quantity": 76,
-      "sum": 26565,
-      "profit": 15972,
+      "quantity": 75,
+      "sum": 26215,
+      "profit": 15754,
       "margin": 60
     },
     {
@@ -1953,8 +1953,8 @@
       "code": "03530",
       "quantity": 33,
       "sum": 11550,
-      "profit": 7104,
-      "margin": 62
+      "profit": 7099,
+      "margin": 61
     },
     {
       "name": "LOST MARY AIR 22000 MOUNTAIN MINT",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1006227,
-      "profit": 530476,
+      "sum": 997605,
+      "profit": 526014,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18524,
-      "sum": 19675830,
-      "profit": 10281285,
-      "lastDemandDate": "2026-09-27 13:39:00.000"
+      "demandsCount": 18532,
+      "sum": 19685486,
+      "profit": 10286189,
+      "lastDemandDate": "2026-09-27 19:08:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
