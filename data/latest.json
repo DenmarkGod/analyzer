@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T16:22:44.564Z",
+  "updatedAt": "2026-09-27T20:51:38.112Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 15,
-        "amount": 16963,
-        "movementAmount": -22104
+        "count": 26,
+        "amount": 23226,
+        "movementAmount": -15841
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 188,
-        "amount": 184467,
-        "movementAmount": -50617
+        "count": 199,
+        "amount": 190730,
+        "movementAmount": -44354
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 860,
-        "amount": 866347,
-        "movementAmount": -923665
+        "count": 871,
+        "amount": 872610,
+        "movementAmount": -917402
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-29",
-      "quantity": 37,
-      "sum": 36910
+      "quantity": 16,
+      "sum": 12065
     },
     {
       "date": "2026-06-30",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-27",
-      "quantity": 9,
-      "sum": 8670
+      "quantity": 18,
+      "sum": 19588
     }
   ],
   "ordersTrend": [
@@ -984,8 +984,8 @@
       {
         "date": "2026-06-29",
         "credit": 0,
-        "debit": 74360,
-        "balance": -74360
+        "debit": 0,
+        "balance": 0
       },
       {
         "date": "2026-06-30",
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 5059,
-    "totalValueRub": 1616691,
+    "totalSkuCount": 5074,
+    "totalValueRub": 1601179,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1630,6 +1630,12 @@
         "uom": "шт"
       },
       {
+        "name": "(МТ) Black Burn 25гр Blackcola - Кола",
+        "code": "01478",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
         "name": "(МТ) Black Burn 25гр Black Honey - Мед",
         "code": "01854",
         "stock": 1,
@@ -1705,12 +1711,6 @@
         "name": "(МТ) Black Burn 25гр Grapefruit - Грейпфрут",
         "code": "01488",
         "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Green Tea - Зелёный чай",
-        "code": "01489",
-        "stock": 0,
         "uom": "шт"
       }
     ],
@@ -1923,6 +1923,11 @@
         "stock": 0
       },
       {
+        "name": "ЭДО POD Система PLONQ Meta Smart Черный",
+        "code": "05805",
+        "stock": 0
+      },
+      {
         "name": "Набор Smoant Charon Racer kit Blaze - Пламя",
         "code": "04219",
         "stock": 0
@@ -1931,29 +1936,24 @@
         "name": "Набор Smoant Charon Racer kit Emerald Green - Изумрудно-зеленый",
         "code": "04218",
         "stock": 0
-      },
-      {
-        "name": "POD Система SMOANT PASITO 2 Black Red",
-        "code": "05460",
-        "stock": 0
       }
     ]
   },
   "topProducts": [
     {
-      "name": "Картридж Vaporesso XROS 0.6 Ом 3мл (Corex 2.0-B) - 1шт",
+      "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 75,
-      "sum": 26215,
-      "profit": 15754,
+      "quantity": 71,
+      "sum": 24815,
+      "profit": 14882,
       "margin": 60
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 33,
-      "sum": 11550,
-      "profit": 7099,
+      "quantity": 32,
+      "sum": 11200,
+      "profit": 6881,
       "margin": 61
     },
     {
@@ -1977,8 +1977,8 @@
       "code": "04897",
       "quantity": 24,
       "sum": 8400,
-      "profit": 4928,
-      "margin": 59
+      "profit": 4909,
+      "margin": 58
     },
     {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 997605,
-      "profit": 526014,
+      "sum": 984379,
+      "profit": 518238,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18532,
-      "sum": 19685486,
-      "profit": 10286189,
-      "lastDemandDate": "2026-09-27 19:08:00.000"
+      "demandsCount": 18543,
+      "sum": 19691749,
+      "profit": 10289185,
+      "lastDemandDate": "2026-09-27 22:43:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
