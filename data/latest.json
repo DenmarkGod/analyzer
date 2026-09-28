@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T03:35:14.933Z",
+  "updatedAt": "2026-09-28T12:53:01.750Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -23226
+        "count": 7,
+        "amount": 4612,
+        "movementAmount": -18614
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -190730
+        "count": 7,
+        "amount": 4612,
+        "movementAmount": -186118
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 871,
-        "amount": 872610,
-        "movementAmount": -917402
+        "count": 878,
+        "amount": 877222,
+        "movementAmount": -912790
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-06-30",
-      "quantity": 58,
-      "sum": 67887
+      "quantity": 52,
+      "sum": 59117
     },
     {
       "date": "2026-07-01",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-28",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 7,
+      "sum": 4612
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5074,
-    "totalValueRub": 1601179,
+    "totalValueRub": 1595910,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1573,6 +1573,12 @@
         "name": "Ароматизатор пищевой PickMe со вкусом Арбузный Рондо",
         "code": "03810",
         "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой PickMe со вкусом Дынный микс",
+        "code": "03815",
+        "stock": 1,
         "uom": "шт"
       },
       {
@@ -1706,12 +1712,6 @@
         "code": "01487",
         "stock": 1,
         "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Grapefruit - Грейпфрут",
-        "code": "01488",
-        "stock": 1,
-        "uom": "шт"
       }
     ],
     "staleStock": [
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 513
+        "stockDays": 514
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 508
+        "stockDays": 509
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 508
+        "stockDays": 509
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 508
+        "stockDays": 509
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 508
+        "stockDays": 509
       },
       {
         "name": "Набор уплотнителей д/кальяна HA-31",
         "code": "00490",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 508
+        "stockDays": 509
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 508
+        "stockDays": 509
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 503
+        "stockDays": 504
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 503
+        "stockDays": 504
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 503
+        "stockDays": 504
       }
     ],
     "outOfStock": [
@@ -1943,17 +1943,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 69,
-      "sum": 24115,
-      "profit": 14446,
+      "quantity": 68,
+      "sum": 23765,
+      "profit": 14228,
       "margin": 60
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 32,
-      "sum": 11200,
-      "profit": 6881,
+      "quantity": 33,
+      "sum": 11550,
+      "profit": 7094,
       "margin": 61
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 976517,
-      "profit": 513638,
+      "sum": 972156,
+      "profit": 511130,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18543,
-      "sum": 19691749,
-      "profit": 10289185,
-      "lastDemandDate": "2026-09-27 22:43:00.000"
+      "demandsCount": 18550,
+      "sum": 19696361,
+      "profit": 10291387,
+      "lastDemandDate": "2026-09-28 12:02:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
