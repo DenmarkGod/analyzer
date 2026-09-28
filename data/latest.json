@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T12:53:01.750Z",
+  "updatedAt": "2026-09-28T22:55:24.553Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 7,
-        "amount": 4612,
-        "movementAmount": -18614
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -28058
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1045520,
+        "income": 1072877,
         "outcome": 0,
-        "balance": 4224411,
-        "todayMovement": 1045520,
-        "movement": 1045520
+        "balance": 4251767,
+        "todayMovement": 1072877,
+        "movement": 1072877
       }
     },
     "week": {
       "sales": {
-        "count": 7,
-        "amount": 4612,
-        "movementAmount": -186118
+        "count": 31,
+        "amount": 28058,
+        "movementAmount": -162672
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1045520,
+        "income": 1072877,
         "outcome": 0,
-        "balance": 4224411,
-        "todayMovement": 1045520,
-        "movement": 1045520
+        "balance": 4251767,
+        "todayMovement": 1072877,
+        "movement": 1072877
       }
     },
     "month": {
       "sales": {
-        "count": 878,
-        "amount": 877222,
-        "movementAmount": -912790
+        "count": 902,
+        "amount": 900668,
+        "movementAmount": -889344
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1045520,
+        "income": 1072877,
         "outcome": 0,
-        "balance": 4224411,
-        "todayMovement": 1045520,
-        "movement": 1045520
+        "balance": 4251767,
+        "todayMovement": 1072877,
+        "movement": 1072877
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-06-30",
-      "quantity": 52,
-      "sum": 59117
+      "quantity": 3,
+      "sum": 2099
     },
     {
       "date": "2026-07-01",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-28",
-      "quantity": 7,
-      "sum": 4612
+      "quantity": 31,
+      "sum": 28058
     }
   ],
   "ordersTrend": [
@@ -978,7 +978,7 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13831202,
+    "creditTotal": 13858559,
     "debitTotal": 9606791,
     "series": [
       {
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5074,
-    "totalValueRub": 1595910,
+    "totalValueRub": 1816818,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1590,7 +1590,7 @@
       {
         "name": "Ароматизатор пищевой PickMe со вкусом Манго — Малина",
         "code": "03824",
-        "stock": 1,
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1908,21 +1908,6 @@
         "stock": 0
       },
       {
-        "name": "ЭДО POD Система PLONQ Meta Lite Серебристый",
-        "code": "05237",
-        "stock": 0
-      },
-      {
-        "name": "ЭДО POD Система PLONQ Meta Lite Черный",
-        "code": "05803",
-        "stock": 0
-      },
-      {
-        "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
-        "code": "05804",
-        "stock": 0
-      },
-      {
         "name": "ЭДО POD Система PLONQ Meta Smart Черный",
         "code": "05805",
         "stock": 0
@@ -1936,6 +1921,21 @@
         "name": "Набор Smoant Charon Racer kit Emerald Green - Изумрудно-зеленый",
         "code": "04218",
         "stock": 0
+      },
+      {
+        "name": "POD Система SMOANT PASITO 2 Black Red",
+        "code": "05460",
+        "stock": 0
+      },
+      {
+        "name": "Набор Smoant Pasito 2 Dreamy Pink - Розовый",
+        "code": "04923",
+        "stock": 0
+      },
+      {
+        "name": "Набор Smoant Pasito 2 Malachite - Малахит",
+        "code": "05761",
+        "stock": 0
       }
     ]
   },
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 68,
-      "sum": 23765,
-      "profit": 14228,
+      "quantity": 64,
+      "sum": 22365,
+      "profit": 13345,
       "margin": 60
     },
     {
@@ -1983,9 +1983,9 @@
     {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
       "code": "01473",
-      "quantity": 22,
-      "sum": 7700,
-      "profit": 4580,
+      "quantity": 20,
+      "sum": 7000,
+      "profit": 4138,
       "margin": 59
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 972156,
-      "profit": 511130,
+      "sum": 964012,
+      "profit": 505420,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18550,
-      "sum": 19696361,
-      "profit": 10291387,
-      "lastDemandDate": "2026-09-28 12:02:00.000"
+      "demandsCount": 18574,
+      "sum": 19719807,
+      "profit": 10303102,
+      "lastDemandDate": "2026-09-28 22:29:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
