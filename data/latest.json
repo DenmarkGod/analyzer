@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T12:06:24.916Z",
+  "updatedAt": "2026-09-29T21:50:33.295Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 4,
-        "amount": 4318,
-        "movementAmount": -23740
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -25672
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1072877,
+        "income": 1043011,
         "outcome": 0,
-        "balance": 4251767,
-        "todayMovement": 1072877,
-        "movement": 1072877
+        "balance": 4276798,
+        "todayMovement": 1043011,
+        "movement": 1043011
       }
     },
     "week": {
       "sales": {
-        "count": 35,
-        "amount": 32376,
-        "movementAmount": -158354
+        "count": 56,
+        "amount": 53730,
+        "movementAmount": -137000
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1072877,
+        "income": 1043011,
         "outcome": 0,
-        "balance": 4251767,
-        "todayMovement": 1072877,
-        "movement": 1072877
+        "balance": 4276798,
+        "todayMovement": 1043011,
+        "movement": 1043011
       }
     },
     "month": {
       "sales": {
-        "count": 906,
-        "amount": 904986,
-        "movementAmount": -885026
+        "count": 927,
+        "amount": 926340,
+        "movementAmount": -863672
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1072877,
+        "income": 1043011,
         "outcome": 0,
-        "balance": 4251767,
-        "todayMovement": 1072877,
-        "movement": 1072877
+        "balance": 4276798,
+        "todayMovement": 1043011,
+        "movement": 1043011
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-07-01",
-      "quantity": 56,
-      "sum": 55872
+      "quantity": 7,
+      "sum": 6058
     },
     {
       "date": "2026-07-02",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-29",
-      "quantity": 1,
-      "sum": 269
+      "quantity": 24,
+      "sum": 25312
     }
   ],
   "ordersTrend": [
@@ -978,14 +978,14 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13858559,
+    "creditTotal": 13883589,
     "debitTotal": 9606791,
     "series": [
       {
         "date": "2026-07-01",
         "credit": 69331,
-        "debit": 79435,
-        "balance": -10104
+        "debit": 0,
+        "balance": 69331
       },
       {
         "date": "2026-07-02",
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5074,
-    "totalValueRub": 1812953,
+    "totalValueRub": 1788481,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1943,10 +1943,10 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 64,
-      "sum": 22365,
-      "profit": 13345,
-      "margin": 60
+      "quantity": 63,
+      "sum": 22015,
+      "profit": 13094,
+      "margin": 59
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
@@ -1957,12 +1957,12 @@
       "margin": 61
     },
     {
-      "name": "LOST MARY AIR 22000 MOUNTAIN MINT",
-      "code": "05852",
+      "name": "LOST MARY AIR 22000 ICE AQUA",
+      "code": "05855",
       "quantity": 5,
       "sum": 8700,
-      "profit": 4910,
-      "margin": 56
+      "profit": 4960,
+      "margin": 57
     },
     {
       "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
@@ -1989,8 +1989,8 @@
       "margin": 59
     },
     {
-      "name": "LOST MARY AIR 22000 ICE AQUA",
-      "code": "05855",
+      "name": "LOST MARY AIR 22000 MOUNTAIN MINT",
+      "code": "05852",
       "quantity": 4,
       "sum": 6960,
       "profit": 3970,
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 962763,
-      "profit": 504719,
-      "margin": 53
+      "sum": 951614,
+      "profit": 498574,
+      "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18578,
-      "sum": 19724125,
-      "profit": 10305247,
-      "lastDemandDate": "2026-09-29 14:35:00.000"
+      "demandsCount": 18599,
+      "sum": 19745479,
+      "profit": 10315947,
+      "lastDemandDate": "2026-09-29 22:22:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
