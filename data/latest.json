@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T04:10:26.410Z",
+  "updatedAt": "2026-09-29T12:06:24.916Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -28058
+        "count": 4,
+        "amount": 4318,
+        "movementAmount": -23740
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 31,
-        "amount": 28058,
-        "movementAmount": -162672
+        "count": 35,
+        "amount": 32376,
+        "movementAmount": -158354
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 902,
-        "amount": 900668,
-        "movementAmount": -889344
+        "count": 906,
+        "amount": 904986,
+        "movementAmount": -885026
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-01",
-      "quantity": 60,
-      "sum": 62095
+      "quantity": 56,
+      "sum": 55872
     },
     {
       "date": "2026-07-02",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-29",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 1,
+      "sum": 269
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5074,
-    "totalValueRub": 1816818,
+    "totalValueRub": 1812953,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 514
+        "stockDays": 515
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 509
+        "stockDays": 510
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 509
+        "stockDays": 510
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 509
+        "stockDays": 510
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 509
+        "stockDays": 510
       },
       {
         "name": "Набор уплотнителей д/кальяна HA-31",
         "code": "00490",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 509
+        "stockDays": 510
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 509
+        "stockDays": 510
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 504
+        "stockDays": 505
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 504
+        "stockDays": 505
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 504
+        "stockDays": 505
       }
     ],
     "outOfStock": [
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 964012,
-      "profit": 505420,
+      "sum": 962763,
+      "profit": 504719,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18574,
-      "sum": 19719807,
-      "profit": 10303102,
-      "lastDemandDate": "2026-09-28 22:29:00.000"
+      "demandsCount": 18578,
+      "sum": 19724125,
+      "profit": 10305247,
+      "lastDemandDate": "2026-09-29 14:35:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
