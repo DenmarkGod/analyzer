@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T11:54:12.478Z",
+  "updatedAt": "2026-09-30T17:35:31.669Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 8,
-        "amount": 6989,
-        "movementAmount": -18683
+        "count": 27,
+        "amount": 20453,
+        "movementAmount": -5219
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 64,
-        "amount": 60719,
-        "movementAmount": -130011
+        "count": 83,
+        "amount": 74183,
+        "movementAmount": -116547
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 935,
-        "amount": 933329,
-        "movementAmount": -856683
+        "count": 954,
+        "amount": 946793,
+        "movementAmount": -843219
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-02",
-      "quantity": 44,
-      "sum": 39539
+      "quantity": 24,
+      "sum": 17865
     },
     {
       "date": "2026-07-03",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-30",
-      "quantity": 7,
-      "sum": 6629
+      "quantity": 10,
+      "sum": 8006
     }
   ],
   "ordersTrend": [
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 5075,
-    "totalValueRub": 1985759,
+    "totalSkuCount": 5083,
+    "totalValueRub": 2004770,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1554,7 +1554,7 @@
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Сливочная дыня",
         "code": "04339",
-        "stock": 1,
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1951,9 +1951,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 33,
-      "sum": 11550,
-      "profit": 7094,
+      "quantity": 32,
+      "sum": 11200,
+      "profit": 6876,
       "margin": 61
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 956653,
-      "profit": 500950,
-      "margin": 52
+      "sum": 946996,
+      "profit": 496196,
+      "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18607,
-      "sum": 19752468,
-      "profit": 10319113,
-      "lastDemandDate": "2026-09-30 13:10:00.000"
+      "demandsCount": 18626,
+      "sum": 19765932,
+      "profit": 10325851,
+      "lastDemandDate": "2026-09-30 20:30:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
