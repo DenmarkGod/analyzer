@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T03:56:06.070Z",
+  "updatedAt": "2026-09-30T11:54:12.478Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -25672
+        "count": 8,
+        "amount": 6989,
+        "movementAmount": -18683
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 56,
-        "amount": 53730,
-        "movementAmount": -137000
+        "count": 64,
+        "amount": 60719,
+        "movementAmount": -130011
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 927,
-        "amount": 926340,
-        "movementAmount": -863672
+        "count": 935,
+        "amount": 933329,
+        "movementAmount": -856683
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-02",
-      "quantity": 46,
-      "sum": 40239
+      "quantity": 44,
+      "sum": 39539
     },
     {
       "date": "2026-07-03",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-30",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 7,
+      "sum": 6629
     }
   ],
   "ordersTrend": [
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 5074,
-    "totalValueRub": 1788481,
+    "totalSkuCount": 5075,
+    "totalValueRub": 1985759,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1624,6 +1624,12 @@
         "uom": "шт"
       },
       {
+        "name": "(МТ) Black Burn 25гр Apple Shock - Кислое зелёное яблоко",
+        "code": "04200",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
         "name": "(МТ) Black Burn 25гр Bananini - Банан",
         "code": "04199",
         "stock": 0,
@@ -1706,12 +1712,6 @@
         "code": "01485",
         "stock": 1,
         "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Garnet - Гранат",
-        "code": "01487",
-        "stock": 1,
-        "uom": "шт"
       }
     ],
     "staleStock": [
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 515
+        "stockDays": 516
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 510
+        "stockDays": 511
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 510
+        "stockDays": 511
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 510
+        "stockDays": 511
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 510
+        "stockDays": 511
       },
       {
         "name": "Набор уплотнителей д/кальяна HA-31",
         "code": "00490",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 510
+        "stockDays": 511
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 510
+        "stockDays": 511
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 505
+        "stockDays": 506
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 505
+        "stockDays": 506
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 505
+        "stockDays": 506
       }
     ],
     "outOfStock": [
@@ -2013,29 +2013,29 @@
       "margin": 46
     },
     {
-      "name": "БПК Электронная Сигарета LOST MARY BM16000 Грейпфрут Маракуйя",
-      "code": "02120",
-      "quantity": 4,
-      "sum": 6320,
-      "profit": 3265,
-      "margin": 52
+      "name": "БПК Картридж LOST MARY X-Link Classic Жасмин Малина",
+      "code": "02281",
+      "quantity": 6,
+      "sum": 6660,
+      "profit": 3535,
+      "margin": 53
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 950024,
-      "profit": 497884,
-      "margin": 53
+      "sum": 956653,
+      "profit": 500950,
+      "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18599,
-      "sum": 19745479,
-      "profit": 10315947,
-      "lastDemandDate": "2026-09-29 22:22:00.000"
+      "demandsCount": 18607,
+      "sum": 19752468,
+      "profit": 10319113,
+      "lastDemandDate": "2026-09-30 13:10:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
