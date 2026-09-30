@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T17:35:31.669Z",
+  "updatedAt": "2026-09-30T21:51:29.198Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 27,
-        "amount": 20453,
-        "movementAmount": -5219
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -21963
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1043011,
+        "income": 945021,
         "outcome": 0,
         "balance": 4276798,
-        "todayMovement": 1043011,
-        "movement": 1043011
+        "todayMovement": 945021,
+        "movement": 945021
       }
     },
     "week": {
       "sales": {
-        "count": 83,
-        "amount": 74183,
-        "movementAmount": -116547
+        "count": 84,
+        "amount": 75693,
+        "movementAmount": -115037
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1043011,
+        "income": 945021,
         "outcome": 0,
         "balance": 4276798,
-        "todayMovement": 1043011,
-        "movement": 1043011
+        "todayMovement": 945021,
+        "movement": 945021
       }
     },
     "month": {
       "sales": {
-        "count": 954,
-        "amount": 946793,
-        "movementAmount": -843219
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -948303
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1043011,
+        "income": 945021,
         "outcome": 0,
         "balance": 4276798,
-        "todayMovement": 1043011,
-        "movement": 1043011
+        "todayMovement": 945021,
+        "movement": 945021
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-07-02",
-      "quantity": 24,
-      "sum": 17865
+      "quantity": 5,
+      "sum": 2736
     },
     {
       "date": "2026-07-03",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-09-30",
-      "quantity": 10,
-      "sum": 8006
+      "quantity": 28,
+      "sum": 21963
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5083,
-    "totalValueRub": 2004770,
+    "totalValueRub": 1998304,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1602,7 +1602,7 @@
       {
         "name": "Ароматизатор пищевой PickMe со вкусом Скандик — Лесные ягоды",
         "code": "03830",
-        "stock": 1,
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1945,7 +1945,7 @@
       "code": "03136",
       "quantity": 63,
       "sum": 22015,
-      "profit": 13094,
+      "profit": 13083,
       "margin": 59
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 946996,
-      "profit": 496196,
+      "sum": 950718,
+      "profit": 498170,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18626,
-      "sum": 19765932,
-      "profit": 10325851,
-      "lastDemandDate": "2026-09-30 20:30:00.000"
+      "demandsCount": 18627,
+      "sum": 19767442,
+      "profit": 10326776,
+      "lastDemandDate": "2026-09-30 20:50:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
