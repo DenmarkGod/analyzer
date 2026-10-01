@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T12:25:02.582Z",
+  "updatedAt": "2026-10-01T22:19:55.596Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 10,
-        "amount": 8093,
-        "movementAmount": -13870
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -29734
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 966435,
+        "income": 995426,
         "outcome": 0,
-        "balance": 4298212,
-        "todayMovement": 966435,
-        "movement": 966435
+        "balance": 4327202,
+        "todayMovement": 995426,
+        "movement": 995426
       }
     },
     "week": {
       "sales": {
-        "count": 94,
-        "amount": 83786,
-        "movementAmount": -106944
+        "count": 117,
+        "amount": 105427,
+        "movementAmount": -85303
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 966435,
+        "income": 995426,
         "outcome": 0,
-        "balance": 4298212,
-        "todayMovement": 966435,
-        "movement": 966435
+        "balance": 4327202,
+        "todayMovement": 995426,
+        "movement": 995426
       }
     },
     "month": {
       "sales": {
-        "count": 10,
-        "amount": 8093,
-        "movementAmount": -940210
+        "count": 33,
+        "amount": 29734,
+        "movementAmount": -918569
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 966435,
+        "income": 995426,
         "outcome": 0,
-        "balance": 4298212,
-        "todayMovement": 966435,
-        "movement": 966435
+        "balance": 4327202,
+        "todayMovement": 995426,
+        "movement": 995426
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-07-03",
-      "quantity": 63,
-      "sum": 80470
+      "quantity": 3,
+      "sum": 2574
     },
     {
       "date": "2026-07-04",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-01",
-      "quantity": 2,
-      "sum": 2378
+      "quantity": 33,
+      "sum": 29734
     }
   ],
   "ordersTrend": [
@@ -978,7 +978,7 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13905003,
+    "creditTotal": 13933993,
     "debitTotal": 9606791,
     "series": [
       {
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5083,
-    "totalValueRub": 1994594,
+    "totalValueRub": 1974020,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1943,17 +1943,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 61,
-      "sum": 21315,
-      "profit": 12647,
+      "quantity": 62,
+      "sum": 21665,
+      "profit": 12843,
       "margin": 59
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 32,
-      "sum": 11200,
-      "profit": 6876,
+      "quantity": 31,
+      "sum": 10850,
+      "profit": 6658,
       "margin": 61
     },
     {
@@ -1965,20 +1965,20 @@
       "margin": 57
     },
     {
+      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
+      "code": "04897",
+      "quantity": 25,
+      "sum": 8750,
+      "profit": 5102,
+      "margin": 58
+    },
+    {
       "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
       "code": "05804",
       "quantity": 2,
       "sum": 8700,
       "profit": 3700,
       "margin": 43
-    },
-    {
-      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
-      "code": "04897",
-      "quantity": 24,
-      "sum": 8400,
-      "profit": 4909,
-      "margin": 58
     },
     {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
@@ -1989,14 +1989,6 @@
       "margin": 59
     },
     {
-      "name": "LOST MARY AIR 22000 MOUNTAIN MINT",
-      "code": "05852",
-      "quantity": 4,
-      "sum": 6960,
-      "profit": 3970,
-      "margin": 57
-    },
-    {
       "name": "LOST MARY AIR 22000 SOUR GRAPE ICE",
       "code": "05847",
       "quantity": 4,
@@ -2005,37 +1997,45 @@
       "margin": 57
     },
     {
-      "name": "Табак жевательный ReVolt Go (Револьт Го) с ароматом Strike (Страйк)",
-      "code": "05529",
-      "quantity": 11,
-      "sum": 6714,
-      "profit": 3083,
-      "margin": 46
-    },
-    {
       "name": "БПК Картридж LOST MARY X-Link Classic Жасмин Малина",
       "code": "02281",
       "quantity": 6,
       "sum": 6660,
       "profit": 3535,
       "margin": 53
+    },
+    {
+      "name": "БПК Электронная Сигарета FUMMO Chiller Indic 10000 Лимонад Тархун с Клубникой",
+      "code": "03945",
+      "quantity": 7,
+      "sum": 6545,
+      "profit": 3647,
+      "margin": 56
+    },
+    {
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Грейпфрут Маракуйя",
+      "code": "02120",
+      "quantity": 4,
+      "sum": 6320,
+      "profit": 3265,
+      "margin": 52
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 944187,
-      "profit": 494584,
+      "sum": 921348,
+      "profit": 481736,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18637,
-      "sum": 19775535,
-      "profit": 10331159,
-      "lastDemandDate": "2026-10-01 15:17:00.000"
+      "demandsCount": 18660,
+      "sum": 19797176,
+      "profit": 10342563,
+      "lastDemandDate": "2026-10-01 22:10:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
