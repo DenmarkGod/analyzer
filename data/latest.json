@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T22:19:55.596Z",
+  "updatedAt": "2026-10-02T04:00:25.521Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -64,11 +64,6 @@
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-07-03",
-      "quantity": 3,
-      "sum": 2574
-    },
     {
       "date": "2026-07-04",
       "quantity": 72,
@@ -518,14 +513,14 @@
       "date": "2026-10-01",
       "quantity": 33,
       "sum": 29734
+    },
+    {
+      "date": "2026-10-02",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-07-03",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-07-04",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-10-01",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-10-02",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
     "creditTotal": 13933993,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-07-03",
-        "credit": 74652,
-        "debit": 0,
-        "balance": 74652
-      },
       {
         "date": "2026-07-04",
         "credit": 56160,
@@ -1523,9 +1517,15 @@
       },
       {
         "date": "2026-10-01",
-        "credit": 21414,
+        "credit": 50405,
         "debit": 0,
-        "balance": 21414
+        "balance": 50405
+      },
+      {
+        "date": "2026-10-02",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
       }
     ]
   },
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 62,
-      "sum": 21665,
-      "profit": 12843,
+      "quantity": 61,
+      "sum": 21315,
+      "profit": 12625,
       "margin": 59
     },
     {
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 921348,
-      "profit": 481736,
+      "sum": 920422,
+      "profit": 481288,
       "margin": 52
     }
   ],
