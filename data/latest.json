@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T11:51:43.176Z",
+  "updatedAt": "2026-10-02T17:26:15.045Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 10,
-        "amount": 9247,
-        "movementAmount": -20487
+        "count": 30,
+        "amount": 31269,
+        "movementAmount": 1535
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 127,
-        "amount": 114674,
-        "movementAmount": -76056
+        "count": 147,
+        "amount": 136696,
+        "movementAmount": -54034
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 43,
-        "amount": 38981,
-        "movementAmount": -909322
+        "count": 63,
+        "amount": 61003,
+        "movementAmount": -887300
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-04",
-      "quantity": 65,
-      "sum": 77434
+      "quantity": 36,
+      "sum": 39347
     },
     {
       "date": "2026-07-05",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-02",
-      "quantity": 4,
-      "sum": 3889
+      "quantity": 20,
+      "sum": 22334
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5083,
-    "totalValueRub": 1969569,
+    "totalValueRub": 1958112,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1548,6 +1548,12 @@
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Клубничный рондо",
         "code": "04355",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой OffLine со вкусом Малина Клубника",
+        "code": "04334",
         "stock": 1,
         "uom": "шт"
       },
@@ -1705,12 +1711,6 @@
         "name": "(МТ) Black Burn 25гр Epic Yogurt - Черничный йогурт",
         "code": "01484",
         "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Etalon Melon - Медовая дыня",
-        "code": "01485",
-        "stock": 1,
         "uom": "шт"
       }
     ],
@@ -1989,22 +1989,6 @@
       "margin": 59
     },
     {
-      "name": "LOST MARY AIR 22000 SOUR GRAPE ICE",
-      "code": "05847",
-      "quantity": 4,
-      "sum": 6960,
-      "profit": 3970,
-      "margin": 57
-    },
-    {
-      "name": "БПК Картридж LOST MARY X-Link Classic Жасмин Малина",
-      "code": "02281",
-      "quantity": 6,
-      "sum": 6660,
-      "profit": 3535,
-      "margin": 53
-    },
-    {
       "name": "БПК Электронная Сигарета FUMMO Chiller Indic 10000 Лимонад Тархун с Клубникой",
       "code": "03945",
       "quantity": 7,
@@ -2019,23 +2003,39 @@
       "sum": 6320,
       "profit": 3265,
       "margin": 52
+    },
+    {
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Персик Манго Арбуз",
+      "code": "01176",
+      "quantity": 4,
+      "sum": 6320,
+      "profit": 3240,
+      "margin": 51
+    },
+    {
+      "name": "Табак жевательный ReVolt Go (Револьт Го) с ароматом Strike (Страйк)",
+      "code": "05529",
+      "quantity": 10,
+      "sum": 6098,
+      "profit": 2797,
+      "margin": 46
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 918078,
-      "profit": 480146,
+      "sum": 917292,
+      "profit": 478273,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18670,
-      "sum": 19806423,
-      "profit": 10347360,
-      "lastDemandDate": "2026-10-02 13:57:00.000"
+      "demandsCount": 18690,
+      "sum": 19828445,
+      "profit": 10357924,
+      "lastDemandDate": "2026-10-02 19:38:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
