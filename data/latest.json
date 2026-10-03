@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T03:45:44.858Z",
+  "updatedAt": "2026-10-03T11:05:01.884Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -33652
+        "count": 16,
+        "amount": 18302,
+        "movementAmount": -15350
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 937626,
+        "income": 970437,
         "outcome": 0,
-        "balance": 4327202,
-        "todayMovement": 937626,
-        "movement": 937626
+        "balance": 4360013,
+        "todayMovement": 970437,
+        "movement": 970437
       }
     },
     "week": {
       "sales": {
-        "count": 154,
-        "amount": 139079,
-        "movementAmount": -51651
+        "count": 170,
+        "amount": 157381,
+        "movementAmount": -33349
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 937626,
+        "income": 970437,
         "outcome": 0,
-        "balance": 4327202,
-        "todayMovement": 937626,
-        "movement": 937626
+        "balance": 4360013,
+        "todayMovement": 970437,
+        "movement": 970437
       }
     },
     "month": {
       "sales": {
-        "count": 70,
-        "amount": 63386,
-        "movementAmount": -884917
+        "count": 86,
+        "amount": 81688,
+        "movementAmount": -866615
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 937626,
+        "income": 970437,
         "outcome": 0,
-        "balance": 4327202,
-        "todayMovement": 937626,
-        "movement": 937626
+        "balance": 4360013,
+        "todayMovement": 970437,
+        "movement": 970437
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-07-05",
-      "quantity": 69,
-      "sum": 72473
+      "quantity": 67,
+      "sum": 71142
     },
     {
       "date": "2026-07-06",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-03",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 3,
+      "sum": 3305
     }
   ],
   "ordersTrend": [
@@ -978,7 +978,7 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 13933993,
+    "creditTotal": 13966804,
     "debitTotal": 9606791,
     "series": [
       {
@@ -1523,15 +1523,15 @@
       },
       {
         "date": "2026-10-03",
-        "credit": 0,
+        "credit": 32811,
         "debit": 0,
-        "balance": 0
+        "balance": 32811
       }
     ]
   },
   "stock": {
     "totalSkuCount": 5083,
-    "totalValueRub": 1933086,
+    "totalValueRub": 1924122,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 518
+        "stockDays": 519
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 513
+        "stockDays": 514
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 513
+        "stockDays": 514
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 513
+        "stockDays": 514
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 513
+        "stockDays": 514
       },
       {
         "name": "Набор уплотнителей д/кальяна HA-31",
         "code": "00490",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 513
+        "stockDays": 514
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 513
+        "stockDays": 514
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 508
+        "stockDays": 509
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 508
+        "stockDays": 509
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 508
+        "stockDays": 509
       }
     ],
     "outOfStock": [
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 914188,
-      "profit": 475147,
+      "sum": 916877,
+      "profit": 476575,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18697,
-      "sum": 19830828,
-      "profit": 10358931,
-      "lastDemandDate": "2026-10-02 22:57:00.000"
+      "demandsCount": 18713,
+      "sum": 19849130,
+      "profit": 10368269,
+      "lastDemandDate": "2026-10-03 14:00:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
