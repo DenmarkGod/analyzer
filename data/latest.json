@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T11:05:01.884Z",
+  "updatedAt": "2026-10-03T15:41:54.553Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 16,
-        "amount": 18302,
-        "movementAmount": -15350
+        "count": 31,
+        "amount": 30082,
+        "movementAmount": -3570
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 170,
-        "amount": 157381,
-        "movementAmount": -33349
+        "count": 185,
+        "amount": 169161,
+        "movementAmount": -21569
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 86,
-        "amount": 81688,
-        "movementAmount": -866615
+        "count": 101,
+        "amount": 93468,
+        "movementAmount": -854835
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-05",
-      "quantity": 67,
-      "sum": 71142
+      "quantity": 40,
+      "sum": 43510
     },
     {
       "date": "2026-07-06",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-03",
-      "quantity": 3,
-      "sum": 3305
+      "quantity": 20,
+      "sum": 24972
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5083,
-    "totalValueRub": 1924122,
+    "totalValueRub": 1918417,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 61,
-      "sum": 21315,
-      "profit": 12625,
+      "quantity": 64,
+      "sum": 22365,
+      "profit": 13203,
       "margin": 59
     },
     {
@@ -1989,14 +1989,6 @@
       "margin": 56
     },
     {
-      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
-      "code": "01473",
-      "quantity": 20,
-      "sum": 7000,
-      "profit": 4138,
-      "margin": 59
-    },
-    {
       "name": "БПК Картридж LOST MARY X-Link Classic Гранатовый Всплеск",
       "code": "02710",
       "quantity": 6,
@@ -2005,37 +1997,45 @@
       "margin": 53
     },
     {
+      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
+      "code": "01473",
+      "quantity": 19,
+      "sum": 6650,
+      "profit": 3917,
+      "margin": 59
+    },
+    {
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
+      "code": "02695",
+      "quantity": 4,
+      "sum": 6320,
+      "profit": 3260,
+      "margin": 52
+    },
+    {
       "name": "БПК Электронная Сигарета LOST MARY BM16000 Грейпфрут Маракуйя",
       "code": "02120",
       "quantity": 4,
       "sum": 6320,
       "profit": 3265,
       "margin": 52
-    },
-    {
-      "name": "БПК Электронная Сигарета LOST MARY BM16000 Персик Манго Арбуз",
-      "code": "01176",
-      "quantity": 4,
-      "sum": 6320,
-      "profit": 3240,
-      "margin": 51
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 916877,
-      "profit": 476575,
+      "sum": 929740,
+      "profit": 483170,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18713,
-      "sum": 19849130,
-      "profit": 10368269,
-      "lastDemandDate": "2026-10-03 14:00:00.000"
+      "demandsCount": 18728,
+      "sum": 19860910,
+      "profit": 10374343,
+      "lastDemandDate": "2026-10-03 17:49:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
