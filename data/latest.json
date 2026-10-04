@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T04:15:46.047Z",
+  "updatedAt": "2026-10-04T11:46:06.168Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -50790
+        "count": 12,
+        "amount": 13150,
+        "movementAmount": -37640
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 203,
-        "amount": 189869,
-        "movementAmount": -861
+        "count": 215,
+        "amount": 203019,
+        "movementAmount": 12289
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 119,
-        "amount": 114176,
-        "movementAmount": -834127
+        "count": 131,
+        "amount": 127326,
+        "movementAmount": -820977
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-06",
-      "quantity": 57,
-      "sum": 60660
+      "quantity": 55,
+      "sum": 55270
     },
     {
       "date": "2026-07-07",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-04",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 4,
+      "sum": 2390
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5083,
-    "totalValueRub": 1907577,
+    "totalValueRub": 1901688,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 519
+        "stockDays": 520
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 514
+        "stockDays": 515
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 514
+        "stockDays": 515
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 514
+        "stockDays": 515
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 514
+        "stockDays": 515
       },
       {
         "name": "Набор уплотнителей д/кальяна HA-31",
         "code": "00490",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 514
+        "stockDays": 515
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 514
+        "stockDays": 515
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 509
+        "stockDays": 510
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 509
+        "stockDays": 510
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 509
+        "stockDays": 510
       }
     ],
     "outOfStock": [
@@ -1969,7 +1969,7 @@
       "code": "04897",
       "quantity": 25,
       "sum": 8750,
-      "profit": 5083,
+      "profit": 5065,
       "margin": 58
     },
     {
@@ -1989,20 +1989,20 @@
       "margin": 56
     },
     {
+      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
+      "code": "01473",
+      "quantity": 21,
+      "sum": 7350,
+      "profit": 4312,
+      "margin": 59
+    },
+    {
       "name": "БПК Картридж LOST MARY X-Link Classic Гранатовый Всплеск",
       "code": "02710",
       "quantity": 6,
       "sum": 6660,
       "profit": 3535,
       "margin": 53
-    },
-    {
-      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
-      "code": "01473",
-      "quantity": 19,
-      "sum": 6650,
-      "profit": 3917,
-      "margin": 59
     },
     {
       "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 935457,
-      "profit": 484583,
+      "sum": 937057,
+      "profit": 485659,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18746,
-      "sum": 19881618,
-      "profit": 10384211,
-      "lastDemandDate": "2026-10-03 22:53:00.000"
+      "demandsCount": 18758,
+      "sum": 19894768,
+      "profit": 10391472,
+      "lastDemandDate": "2026-10-04 14:27:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
