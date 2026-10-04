@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T20:34:50.826Z",
+  "updatedAt": "2026-10-04T04:15:46.047Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 49,
-        "amount": 50790,
-        "movementAmount": 17138
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -50790
       },
       "orders": {
         "count": 0,
@@ -17,11 +17,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1019957,
+        "income": 983018,
         "outcome": 0,
         "balance": 4409533,
-        "todayMovement": 1019957,
-        "movement": 1019957
+        "todayMovement": 983018,
+        "movement": 983018
       }
     },
     "week": {
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1019957,
+        "income": 983018,
         "outcome": 0,
         "balance": 4409533,
-        "todayMovement": 1019957,
-        "movement": 1019957
+        "todayMovement": 983018,
+        "movement": 983018
       }
     },
     "month": {
@@ -55,24 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1019957,
+        "income": 983018,
         "outcome": 0,
         "balance": 4409533,
-        "todayMovement": 1019957,
-        "movement": 1019957
+        "todayMovement": 983018,
+        "movement": 983018
       }
     }
   },
   "salesTrend": [
     {
-      "date": "2026-07-05",
-      "quantity": 12,
-      "sum": 13574
-    },
-    {
       "date": "2026-07-06",
-      "quantity": 58,
-      "sum": 60720
+      "quantity": 57,
+      "sum": 60660
     },
     {
       "date": "2026-07-07",
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-10-03",
-      "quantity": 43,
-      "sum": 45028
+      "quantity": 49,
+      "sum": 50790
+    },
+    {
+      "date": "2026-10-04",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-07-05",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-07-06",
       "quantity": 0,
@@ -975,6 +970,11 @@
       "date": "2026-10-03",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-10-04",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
@@ -982,16 +982,10 @@
     "debitTotal": 9606791,
     "series": [
       {
-        "date": "2026-07-05",
+        "date": "2026-07-06",
         "credit": 0,
         "debit": 0,
         "balance": 0
-      },
-      {
-        "date": "2026-07-06",
-        "credit": 55456,
-        "debit": 0,
-        "balance": 55456
       },
       {
         "date": "2026-07-07",
@@ -1523,9 +1517,15 @@
       },
       {
         "date": "2026-10-03",
-        "credit": 32811,
+        "credit": 82331,
         "debit": 0,
-        "balance": 32811
+        "balance": 82331
+      },
+      {
+        "date": "2026-10-04",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
       }
     ]
   },
@@ -1943,17 +1943,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 62,
-      "sum": 21665,
-      "profit": 12767,
+      "quantity": 59,
+      "sum": 20615,
+      "profit": 12135,
       "margin": 59
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 31,
-      "sum": 10850,
-      "profit": 6647,
+      "quantity": 30,
+      "sum": 10500,
+      "profit": 6429,
       "margin": 61
     },
     {
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 933154,
-      "profit": 483695,
+      "sum": 935457,
+      "profit": 484583,
       "margin": 52
     }
   ],
