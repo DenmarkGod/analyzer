@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T11:46:06.168Z",
+  "updatedAt": "2026-10-04T16:25:00.312Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 12,
-        "amount": 13150,
-        "movementAmount": -37640
+        "count": 25,
+        "amount": 26864,
+        "movementAmount": -23926
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 215,
-        "amount": 203019,
-        "movementAmount": 12289
+        "count": 228,
+        "amount": 216733,
+        "movementAmount": 26003
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 131,
-        "amount": 127326,
-        "movementAmount": -820977
+        "count": 144,
+        "amount": 141040,
+        "movementAmount": -807263
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-06",
-      "quantity": 55,
-      "sum": 55270
+      "quantity": 38,
+      "sum": 37116
     },
     {
       "date": "2026-07-07",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-04",
-      "quantity": 4,
-      "sum": 2390
+      "quantity": 13,
+      "sum": 13290
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5083,
-    "totalValueRub": 1901688,
+    "totalValueRub": 1895100,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 59,
-      "sum": 20615,
-      "profit": 12135,
+      "quantity": 61,
+      "sum": 21315,
+      "profit": 12520,
       "margin": 59
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 937057,
-      "profit": 485659,
+      "sum": 938205,
+      "profit": 485652,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18758,
-      "sum": 19894768,
-      "profit": 10391472,
-      "lastDemandDate": "2026-10-04 14:27:00.000"
+      "demandsCount": 18771,
+      "sum": 19908482,
+      "profit": 10398598,
+      "lastDemandDate": "2026-10-04 19:23:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
