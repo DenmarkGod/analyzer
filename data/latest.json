@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T04:49:09.319Z",
+  "updatedAt": "2026-10-06T12:44:00.237Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -55827
+        "count": 12,
+        "amount": 12903,
+        "movementAmount": -42924
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 48,
-        "amount": 55827,
-        "movementAmount": -169779
+        "count": 60,
+        "amount": 68730,
+        "movementAmount": -156876
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 203,
-        "amount": 205740,
-        "movementAmount": -742563
+        "count": 215,
+        "amount": 218643,
+        "movementAmount": -729660
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-08",
-      "quantity": 50,
-      "sum": 49575
+      "quantity": 43,
+      "sum": 40555
     },
     {
       "date": "2026-07-09",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-06",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 3,
+      "sum": 3690
     }
   ],
   "ordersTrend": [
@@ -1531,8 +1531,14 @@
   },
   "stock": {
     "totalSkuCount": 5113,
-    "totalValueRub": 1913850,
+    "totalValueRub": 1907148,
     "lowStock": [
+      {
+        "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
+        "code": "05319",
+        "stock": 1,
+        "uom": "шт"
+      },
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
         "code": "05311",
@@ -1706,12 +1712,6 @@
         "code": "01822",
         "stock": 0,
         "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Creme Brulee - Десерт Крем-Брюле",
-        "code": "01481",
-        "stock": 1,
-        "uom": "шт"
       }
     ],
     "staleStock": [
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 521
+        "stockDays": 522
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 516
+        "stockDays": 517
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 516
+        "stockDays": 517
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 516
+        "stockDays": 517
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 516
+        "stockDays": 517
       },
       {
         "name": "Набор уплотнителей д/кальяна HA-31",
         "code": "00490",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 516
+        "stockDays": 517
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 516
+        "stockDays": 517
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 511
+        "stockDays": 512
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 511
+        "stockDays": 512
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 511
+        "stockDays": 512
       }
     ],
     "outOfStock": [
@@ -1949,28 +1949,20 @@
       "margin": 59
     },
     {
-      "name": "LOST MARY AIR 22000 ICE AQUA",
-      "code": "05855",
-      "quantity": 6,
-      "sum": 10440,
-      "profit": 5950,
-      "margin": 57
-    },
-    {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 27,
-      "sum": 9450,
-      "profit": 5764,
+      "quantity": 28,
+      "sum": 9800,
+      "profit": 5971,
       "margin": 61
     },
     {
-      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
-      "code": "04897",
-      "quantity": 25,
-      "sum": 8750,
-      "profit": 5065,
-      "margin": 58
+      "name": "LOST MARY AIR 22000 ICE AQUA",
+      "code": "05855",
+      "quantity": 5,
+      "sum": 8700,
+      "profit": 4950,
+      "margin": 57
     },
     {
       "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
@@ -1979,6 +1971,14 @@
       "sum": 8700,
       "profit": 3700,
       "margin": 43
+    },
+    {
+      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
+      "code": "04897",
+      "quantity": 24,
+      "sum": 8400,
+      "profit": 4854,
+      "margin": 58
     },
     {
       "name": "БПК Электронная Сигарета FUMMO Chiller Indic 10000 Лимонад Тархун с Клубникой",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 958940,
-      "profit": 496712,
+      "sum": 956090,
+      "profit": 495068,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18830,
-      "sum": 19973182,
-      "profit": 10432245,
-      "lastDemandDate": "2026-10-05 22:48:00.000"
+      "demandsCount": 18842,
+      "sum": 19986085,
+      "profit": 10439383,
+      "lastDemandDate": "2026-10-06 15:39:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
