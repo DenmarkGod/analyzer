@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T12:44:00.237Z",
+  "updatedAt": "2026-10-06T22:19:26.772Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 12,
-        "amount": 12903,
-        "movementAmount": -42924
+        "count": 2,
+        "amount": 1135,
+        "movementAmount": -29616
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 60,
-        "amount": 68730,
-        "movementAmount": -156876
+        "count": 87,
+        "amount": 87713,
+        "movementAmount": -137893
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 215,
-        "amount": 218643,
-        "movementAmount": -729660
+        "count": 242,
+        "amount": 237626,
+        "movementAmount": -710677
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-08",
-      "quantity": 43,
-      "sum": 40555
+      "quantity": 3,
+      "sum": 1030
     },
     {
       "date": "2026-07-09",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-06",
-      "quantity": 3,
-      "sum": 3690
+      "quantity": 36,
+      "sum": 30033
     }
   ],
   "ordersTrend": [
@@ -984,8 +984,8 @@
       {
         "date": "2026-07-08",
         "credit": 70065,
-        "debit": 30535,
-        "balance": 39530
+        "debit": 0,
+        "balance": 70065
       },
       {
         "date": "2026-07-09",
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5113,
-    "totalValueRub": 1907148,
+    "totalValueRub": 1884686,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1751,13 +1751,6 @@
         "stockDays": 517
       },
       {
-        "name": "Набор уплотнителей д/кальяна HA-31",
-        "code": "00490",
-        "stock": 1,
-        "uom": "шт",
-        "stockDays": 517
-      },
-      {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
@@ -1781,6 +1774,13 @@
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
+        "stock": 1,
+        "uom": "шт",
+        "stockDays": 512
+      },
+      {
+        "name": "Табак DARKSIDE SHOT Волжский 30g",
+        "code": "01110",
         "stock": 1,
         "uom": "шт",
         "stockDays": 512
@@ -1943,17 +1943,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 59,
-      "sum": 20615,
-      "profit": 12077,
-      "margin": 59
+      "quantity": 61,
+      "sum": 21315,
+      "profit": 12462,
+      "margin": 58
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 28,
-      "sum": 9800,
-      "profit": 5971,
+      "quantity": 29,
+      "sum": 10150,
+      "profit": 6178,
       "margin": 61
     },
     {
@@ -1973,6 +1973,14 @@
       "margin": 43
     },
     {
+      "name": "БПК Электронная Сигарета FUMMO Chiller Indic 10000 Лимонад Тархун с Клубникой",
+      "code": "03945",
+      "quantity": 9,
+      "sum": 8415,
+      "profit": 4689,
+      "margin": 56
+    },
+    {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
       "quantity": 24,
@@ -1981,12 +1989,12 @@
       "margin": 58
     },
     {
-      "name": "БПК Электронная Сигарета FUMMO Chiller Indic 10000 Лимонад Тархун с Клубникой",
-      "code": "03945",
-      "quantity": 8,
-      "sum": 7480,
-      "profit": 4168,
-      "margin": 56
+      "name": "БПК Картридж LOST MARY X-Link Classic Ледяной Арбуз",
+      "code": "02278",
+      "quantity": 7,
+      "sum": 7770,
+      "profit": 4170,
+      "margin": 54
     },
     {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
@@ -2005,14 +2013,6 @@
       "margin": 53
     },
     {
-      "name": "БПК Картридж LOST MARY X-Link Classic Ледяной Арбуз",
-      "code": "02278",
-      "quantity": 6,
-      "sum": 6660,
-      "profit": 3585,
-      "margin": 54
-    },
-    {
       "name": "БПК Электронная Сигарета LOST MARY BM16000 Грейпфрут Маракуйя",
       "code": "02120",
       "quantity": 4,
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 956090,
-      "profit": 495068,
+      "sum": 947916,
+      "profit": 490862,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18842,
-      "sum": 19986085,
-      "profit": 10439383,
-      "lastDemandDate": "2026-10-06 15:39:00.000"
+      "demandsCount": 18869,
+      "sum": 20005068,
+      "profit": 10449265,
+      "lastDemandDate": "2026-10-07 00:39:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
