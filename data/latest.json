@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T12:37:46.804Z",
+  "updatedAt": "2026-10-07T22:40:50.174Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 12,
-        "amount": 7456,
-        "movementAmount": -23295
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -38389
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1009726,
+        "income": 985501,
         "outcome": 0,
-        "balance": 4527333,
-        "todayMovement": 1009726,
-        "movement": 1009726
+        "balance": 4563655,
+        "todayMovement": 985501,
+        "movement": 985501
       }
     },
     "week": {
       "sales": {
-        "count": 97,
-        "amount": 94034,
-        "movementAmount": -131572
+        "count": 125,
+        "amount": 124967,
+        "movementAmount": -100639
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1009726,
+        "income": 985501,
         "outcome": 0,
-        "balance": 4527333,
-        "todayMovement": 1009726,
-        "movement": 1009726
+        "balance": 4563655,
+        "todayMovement": 985501,
+        "movement": 985501
       }
     },
     "month": {
       "sales": {
-        "count": 252,
-        "amount": 243947,
-        "movementAmount": -704356
+        "count": 280,
+        "amount": 274880,
+        "movementAmount": -673423
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1009726,
+        "income": 985501,
         "outcome": 0,
-        "balance": 4527333,
-        "todayMovement": 1009726,
-        "movement": 1009726
+        "balance": 4563655,
+        "todayMovement": 985501,
+        "movement": 985501
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-07-09",
-      "quantity": 56,
-      "sum": 52569
+      "quantity": 1,
+      "sum": 1015
     },
     {
       "date": "2026-07-10",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-07",
-      "quantity": 3,
-      "sum": 2245
+      "quantity": 39,
+      "sum": 37699
     }
   ],
   "ordersTrend": [
@@ -978,14 +978,14 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 14134124,
+    "creditTotal": 14170446,
     "debitTotal": 9606791,
     "series": [
       {
         "date": "2026-07-09",
         "credit": 45249,
-        "debit": 1958,
-        "balance": 43291
+        "debit": 0,
+        "balance": 45249
       },
       {
         "date": "2026-07-10",
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5113,
-    "totalValueRub": 1881623,
+    "totalValueRub": 1855093,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1548,6 +1548,12 @@
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Мандарин Кумкват",
         "code": "05316",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой NUM Ням со вкусом Мятные Ягоды",
+        "code": "05320",
         "stock": 1,
         "uom": "шт"
       },
@@ -1596,7 +1602,7 @@
       {
         "name": "Ароматизатор пищевой PickMe со вкусом Дынный микс",
         "code": "03815",
-        "stock": 1,
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1609,6 +1615,12 @@
         "name": "Ароматизатор пищевой PickMe со вкусом Манго — Малина",
         "code": "03824",
         "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой PickMe со вкусом Персик — Ананас — Манго",
+        "code": "03828",
+        "stock": 1,
         "uom": "шт"
       },
       {
@@ -1699,18 +1711,6 @@
         "name": "(МТ) Black Burn 25гр Cane Mint - Тросниковая мята",
         "code": "01855",
         "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Cheesecake - Чизкейк",
-        "code": "01480",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Cherry Garden - Вишнёво-черешневый сок",
-        "code": "01822",
-        "stock": 0,
         "uom": "шт"
       }
     ],
@@ -1918,6 +1918,11 @@
         "stock": 0
       },
       {
+        "name": "ЭДО POD Система PLONQ Meta Lite Черный",
+        "code": "05803",
+        "stock": 0
+      },
+      {
         "name": "ЭДО POD Система PLONQ Meta Smart Черный",
         "code": "05805",
         "stock": 0
@@ -1931,11 +1936,6 @@
         "name": "Набор Smoant Charon Racer kit Emerald Green - Изумрудно-зеленый",
         "code": "04218",
         "stock": 0
-      },
-      {
-        "name": "POD Система SMOANT PASITO 2 Black Red",
-        "code": "05460",
-        "stock": 0
       }
     ]
   },
@@ -1943,17 +1943,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 61,
-      "sum": 21315,
-      "profit": 12462,
+      "quantity": 58,
+      "sum": 20265,
+      "profit": 11768,
       "margin": 58
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 29,
-      "sum": 10150,
-      "profit": 6178,
+      "quantity": 28,
+      "sum": 9800,
+      "profit": 5960,
       "margin": 61
     },
     {
@@ -1985,7 +1985,7 @@
       "code": "04897",
       "quantity": 24,
       "sum": 8400,
-      "profit": 4854,
+      "profit": 4835,
       "margin": 58
     },
     {
@@ -2001,8 +2001,8 @@
       "code": "01473",
       "quantity": 21,
       "sum": 7350,
-      "profit": 4312,
-      "margin": 59
+      "profit": 4289,
+      "margin": 58
     },
     {
       "name": "БПК Картридж LOST MARY X-Link Classic Гранатовый Всплеск",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 949503,
-      "profit": 491928,
+      "sum": 965164,
+      "profit": 500682,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18879,
-      "sum": 20011389,
-      "profit": 10452523,
-      "lastDemandDate": "2026-10-07 15:35:00.000"
+      "demandsCount": 18907,
+      "sum": 20042322,
+      "profit": 10469516,
+      "lastDemandDate": "2026-10-07 22:43:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
