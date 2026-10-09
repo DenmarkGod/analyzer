@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T12:33:00.578Z",
+  "updatedAt": "2026-10-09T22:13:47.883Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 14,
-        "amount": 19339,
-        "movementAmount": -12561
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -60828
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1016604,
+        "income": 1034982,
         "outcome": 0,
-        "balance": 4594758,
-        "todayMovement": 1016604,
-        "movement": 1016604
+        "balance": 4654065,
+        "todayMovement": 1034982,
+        "movement": 1034982
       }
     },
     "week": {
       "sales": {
-        "count": 169,
-        "amount": 176206,
-        "movementAmount": -49400
+        "count": 208,
+        "amount": 217695,
+        "movementAmount": -7911
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1016604,
+        "income": 1034982,
         "outcome": 0,
-        "balance": 4594758,
-        "todayMovement": 1016604,
-        "movement": 1016604
+        "balance": 4654065,
+        "todayMovement": 1034982,
+        "movement": 1034982
       }
     },
     "month": {
       "sales": {
-        "count": 324,
-        "amount": 326119,
-        "movementAmount": -622184
+        "count": 363,
+        "amount": 367608,
+        "movementAmount": -580695
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1016604,
+        "income": 1034982,
         "outcome": 0,
-        "balance": 4594758,
-        "todayMovement": 1016604,
-        "movement": 1016604
+        "balance": 4654065,
+        "todayMovement": 1034982,
+        "movement": 1034982
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-07-11",
-      "quantity": 64,
-      "sum": 73084
+      "quantity": 3,
+      "sum": 3244
     },
     {
       "date": "2026-07-12",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-09",
-      "quantity": 5,
-      "sum": 2652
+      "quantity": 50,
+      "sum": 58198
     }
   ],
   "ordersTrend": [
@@ -978,7 +978,7 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 14201549,
+    "creditTotal": 14260856,
     "debitTotal": 9606791,
     "series": [
       {
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5114,
-    "totalValueRub": 1906801,
+    "totalValueRub": 1875460,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1632,7 +1632,7 @@
       {
         "name": "Ароматизатор пищевой PickMe со вкусом Персик — Ананас — Манго",
         "code": "03828",
-        "stock": 1,
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1943,10 +1943,18 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 57,
-      "sum": 19915,
-      "profit": 11547,
+      "quantity": 63,
+      "sum": 22015,
+      "profit": 12702,
       "margin": 58
+    },
+    {
+      "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
+      "code": "03530",
+      "quantity": 30,
+      "sum": 10500,
+      "profit": 6341,
+      "margin": 60
     },
     {
       "name": "БПК Электронная Сигарета FUMMO Chiller Indic 10000 Лимонад Тархун с Клубникой",
@@ -1957,12 +1965,12 @@
       "margin": 56
     },
     {
-      "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
-      "code": "03530",
+      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
+      "code": "04897",
       "quantity": 27,
       "sum": 9450,
-      "profit": 5742,
-      "margin": 61
+      "profit": 5394,
+      "margin": 57
     },
     {
       "name": "LOST MARY AIR 22000 ICE AQUA",
@@ -1981,14 +1989,6 @@
       "margin": 43
     },
     {
-      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
-      "code": "04897",
-      "quantity": 24,
-      "sum": 8400,
-      "profit": 4817,
-      "margin": 57
-    },
-    {
       "name": "БПК Картридж LOST MARY X-Link Classic Ледяной Арбуз",
       "code": "02278",
       "quantity": 7,
@@ -2005,37 +2005,37 @@
       "margin": 58
     },
     {
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
+      "code": "02695",
+      "quantity": 4,
+      "sum": 6320,
+      "profit": 3280,
+      "margin": 52
+    },
+    {
       "name": "БПК Электронная Сигарета LOST MARY BM16000 Грейпфрут Маракуйя",
       "code": "02120",
       "quantity": 4,
       "sum": 6320,
       "profit": 3265,
       "margin": 52
-    },
-    {
-      "name": "БПК Электронная Сигарета Lost Mary BM16000 Ежевика Грейпфрут",
-      "code": "04630",
-      "quantity": 4,
-      "sum": 6320,
-      "profit": 3280,
-      "margin": 52
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 977658,
-      "profit": 506844,
+      "sum": 1013973,
+      "profit": 527050,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 18952,
-      "sum": 20093830,
-      "profit": 10496842,
-      "lastDemandDate": "2026-10-09 15:33:00.000"
+      "demandsCount": 18990,
+      "sum": 20135050,
+      "profit": 10518418,
+      "lastDemandDate": "2026-10-09 22:53:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
