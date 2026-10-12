@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T21:27:32.980Z",
+  "updatedAt": "2026-10-12T04:16:48.779Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -64,11 +64,6 @@
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-07-13",
-      "quantity": 9,
-      "sum": 7096
-    },
     {
       "date": "2026-07-14",
       "quantity": 85,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-10-11",
-      "quantity": 27,
-      "sum": 27043
+      "quantity": 32,
+      "sum": 33407
+    },
+    {
+      "date": "2026-10-12",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-07-13",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-07-14",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-10-11",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-10-12",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
     "creditTotal": 14328382,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-07-13",
-        "credit": 54161,
-        "debit": 0,
-        "balance": 54161
-      },
       {
         "date": "2026-07-14",
         "credit": 67048,
@@ -1523,9 +1517,15 @@
       },
       {
         "date": "2026-10-11",
-        "credit": 34954,
+        "credit": 67526,
         "debit": 0,
-        "balance": 34954
+        "balance": 67526
+      },
+      {
+        "date": "2026-10-12",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
       }
     ]
   },
@@ -1983,10 +1983,10 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 24,
-      "sum": 8400,
-      "profit": 4751,
-      "margin": 57
+      "quantity": 23,
+      "sum": 8050,
+      "profit": 4544,
+      "margin": 56
     },
     {
       "name": "БПК Картридж LOST MARY X-Link Classic Ледяной Арбуз",
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1008366,
-      "profit": 524298,
+      "sum": 1014238,
+      "profit": 528006,
       "margin": 52
     }
   ],
