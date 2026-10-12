@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T04:16:48.779Z",
+  "updatedAt": "2026-10-12T14:23:50.487Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -33407
+        "count": 23,
+        "amount": 30865,
+        "movementAmount": -2542
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -287452
+        "count": 23,
+        "amount": 30865,
+        "movementAmount": -256587
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 429,
-        "amount": 437365,
-        "movementAmount": -510938
+        "count": 452,
+        "amount": 468230,
+        "movementAmount": -480073
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-14",
-      "quantity": 85,
-      "sum": 83054
+      "quantity": 68,
+      "sum": 69014
     },
     {
       "date": "2026-07-15",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-12",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 10,
+      "sum": 9336
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5114,
-    "totalValueRub": 1821867,
+    "totalValueRub": 1807414,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 527
+        "stockDays": 528
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 522
+        "stockDays": 523
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 522
+        "stockDays": 523
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 522
+        "stockDays": 523
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 522
+        "stockDays": 523
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 522
+        "stockDays": 523
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 517
+        "stockDays": 518
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 517
+        "stockDays": 518
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 517
+        "stockDays": 518
       },
       {
         "name": "Табак DARKSIDE SHOT Волжский 30g",
         "code": "01110",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 517
+        "stockDays": 518
       }
     ],
     "outOfStock": [
@@ -1939,103 +1939,22 @@
       }
     ]
   },
-  "topProducts": [
-    {
-      "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
-      "code": "03136",
-      "quantity": 68,
-      "sum": 23765,
-      "profit": 13577,
-      "margin": 57
-    },
-    {
-      "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
-      "code": "03530",
-      "quantity": 29,
-      "sum": 10150,
-      "profit": 6123,
-      "margin": 60
-    },
-    {
-      "name": "БПК Электронная Сигарета FUMMO Chiller Indic 10000 Лимонад Тархун с Клубникой",
-      "code": "03945",
-      "quantity": 10,
-      "sum": 9350,
-      "profit": 5210,
-      "margin": 56
-    },
-    {
-      "name": "LOST MARY AIR 22000 ICE AQUA",
-      "code": "05855",
-      "quantity": 5,
-      "sum": 8700,
-      "profit": 4950,
-      "margin": 57
-    },
-    {
-      "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
-      "code": "05804",
-      "quantity": 2,
-      "sum": 8700,
-      "profit": 3700,
-      "margin": 43
-    },
-    {
-      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
-      "code": "04897",
-      "quantity": 23,
-      "sum": 8050,
-      "profit": 4544,
-      "margin": 56
-    },
-    {
-      "name": "БПК Картридж LOST MARY X-Link Classic Ледяной Арбуз",
-      "code": "02278",
-      "quantity": 7,
-      "sum": 7770,
-      "profit": 4170,
-      "margin": 54
-    },
-    {
-      "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
-      "code": "02057",
-      "quantity": 6,
-      "sum": 6660,
-      "profit": 3510,
-      "margin": 53
-    },
-    {
-      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
-      "code": "01473",
-      "quantity": 19,
-      "sum": 6650,
-      "profit": 3823,
-      "margin": 57
-    },
-    {
-      "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
-      "code": "02695",
-      "quantity": 4,
-      "sum": 6320,
-      "profit": 3280,
-      "margin": 52
-    }
-  ],
+  "topProducts": null,
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1014238,
-      "profit": 528006,
+      "sum": 1010863,
+      "profit": 526076,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19056,
-      "sum": 20204807,
-      "profit": 10556566,
-      "lastDemandDate": "2026-10-11 22:51:00.000"
+      "demandsCount": 19079,
+      "sum": 20235672,
+      "profit": 10572979,
+      "lastDemandDate": "2026-10-12 17:18:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
@@ -2101,5 +2020,7 @@
       "lastDemandDate": null
     }
   ],
-  "warnings": []
+  "warnings": [
+    "Топ товаров: HTTP 503"
+  ]
 }
