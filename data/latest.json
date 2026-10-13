@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T14:23:50.487Z",
+  "updatedAt": "2026-10-13T00:07:19.751Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 23,
-        "amount": 30865,
-        "movementAmount": -2542
+        "count": 1,
+        "amount": 22,
+        "movementAmount": -50189
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1059114,
+        "income": 1028726,
         "outcome": 0,
-        "balance": 4721591,
-        "todayMovement": 1059114,
-        "movement": 1059114
+        "balance": 4770546,
+        "todayMovement": 1028726,
+        "movement": 1028726
       }
     },
     "week": {
       "sales": {
-        "count": 23,
-        "amount": 30865,
-        "movementAmount": -256587
+        "count": 48,
+        "amount": 50233,
+        "movementAmount": -237219
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1059114,
+        "income": 1028726,
         "outcome": 0,
-        "balance": 4721591,
-        "todayMovement": 1059114,
-        "movement": 1059114
+        "balance": 4770546,
+        "todayMovement": 1028726,
+        "movement": 1028726
       }
     },
     "month": {
       "sales": {
-        "count": 452,
-        "amount": 468230,
-        "movementAmount": -480073
+        "count": 477,
+        "amount": 487598,
+        "movementAmount": -460705
       },
       "orders": {
         "count": 0,
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1059114,
+        "income": 1028726,
         "outcome": 0,
-        "balance": 4721591,
-        "todayMovement": 1059114,
-        "movement": 1059114
+        "balance": 4770546,
+        "todayMovement": 1028726,
+        "movement": 1028726
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-07-14",
-      "quantity": 68,
-      "sum": 69014
-    },
     {
       "date": "2026-07-15",
       "quantity": 64,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-10-12",
-      "quantity": 10,
-      "sum": 9336
+      "quantity": 47,
+      "sum": 50211
+    },
+    {
+      "date": "2026-10-13",
+      "quantity": 1,
+      "sum": 22
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-07-14",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-07-15",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-10-12",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-10-13",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 14328382,
+    "creditTotal": 14377337,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-07-14",
-        "credit": 67048,
-        "debit": 0,
-        "balance": 67048
-      },
       {
         "date": "2026-07-15",
         "credit": 0,
@@ -1526,12 +1520,18 @@
         "credit": 0,
         "debit": 0,
         "balance": 0
+      },
+      {
+        "date": "2026-10-13",
+        "credit": 48956,
+        "debit": 0,
+        "balance": 48956
       }
     ]
   },
   "stock": {
     "totalSkuCount": 5114,
-    "totalValueRub": 1807414,
+    "totalValueRub": 1781318,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1939,22 +1939,103 @@
       }
     ]
   },
-  "topProducts": null,
+  "topProducts": [
+    {
+      "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
+      "code": "03136",
+      "quantity": 68,
+      "sum": 23800,
+      "profit": 13554,
+      "margin": 57
+    },
+    {
+      "name": "LOST MARY AIR 22000 ICE AQUA",
+      "code": "05855",
+      "quantity": 6,
+      "sum": 10440,
+      "profit": 5940,
+      "margin": 57
+    },
+    {
+      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
+      "code": "04897",
+      "quantity": 27,
+      "sum": 9450,
+      "profit": 5314,
+      "margin": 56
+    },
+    {
+      "name": "БПК Электронная Сигарета FUMMO Chiller Indic 10000 Лимонад Тархун с Клубникой",
+      "code": "03945",
+      "quantity": 10,
+      "sum": 9350,
+      "profit": 5210,
+      "margin": 56
+    },
+    {
+      "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
+      "code": "03530",
+      "quantity": 26,
+      "sum": 9100,
+      "profit": 5484,
+      "margin": 60
+    },
+    {
+      "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
+      "code": "05804",
+      "quantity": 2,
+      "sum": 8700,
+      "profit": 3700,
+      "margin": 43
+    },
+    {
+      "name": "ОС PAFOS 20.000 new Гранат лайм содовая / Pomegranate lime soda",
+      "code": "03326",
+      "quantity": 3,
+      "sum": 8430,
+      "profit": 4530,
+      "margin": 54
+    },
+    {
+      "name": "БПК Картридж LOST MARY X-Link Classic Ледяной Арбуз",
+      "code": "02278",
+      "quantity": 7,
+      "sum": 7770,
+      "profit": 4170,
+      "margin": 54
+    },
+    {
+      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
+      "code": "01473",
+      "quantity": 20,
+      "sum": 7000,
+      "profit": 4021,
+      "margin": 57
+    },
+    {
+      "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
+      "code": "02057",
+      "quantity": 6,
+      "sum": 6660,
+      "profit": 3510,
+      "margin": 53
+    }
+  ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1010863,
-      "profit": 526076,
+      "sum": 1031371,
+      "profit": 537217,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19079,
-      "sum": 20235672,
-      "profit": 10572979,
-      "lastDemandDate": "2026-10-12 17:18:00.000"
+      "demandsCount": 19104,
+      "sum": 20255040,
+      "profit": 10582805,
+      "lastDemandDate": "2026-10-13 00:00:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
@@ -2020,7 +2101,5 @@
       "lastDemandDate": null
     }
   ],
-  "warnings": [
-    "Топ товаров: HTTP 503"
-  ]
+  "warnings": []
 }
