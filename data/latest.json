@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T13:32:37.109Z",
+  "updatedAt": "2026-10-13T22:16:42.134Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 13,
-        "amount": 12608,
-        "movementAmount": -37603
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -46034
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1028726,
+        "income": 1041438,
         "outcome": 0,
-        "balance": 4770546,
-        "todayMovement": 1028726,
-        "movement": 1028726
+        "balance": 4815408,
+        "todayMovement": 1041438,
+        "movement": 1041438
       }
     },
     "week": {
       "sales": {
-        "count": 60,
-        "amount": 62819,
-        "movementAmount": -224633
+        "count": 84,
+        "amount": 96245,
+        "movementAmount": -191207
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1028726,
+        "income": 1041438,
         "outcome": 0,
-        "balance": 4770546,
-        "todayMovement": 1028726,
-        "movement": 1028726
+        "balance": 4815408,
+        "todayMovement": 1041438,
+        "movement": 1041438
       }
     },
     "month": {
       "sales": {
-        "count": 489,
-        "amount": 500184,
-        "movementAmount": -448119
+        "count": 513,
+        "amount": 533610,
+        "movementAmount": -414693
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1028726,
+        "income": 1041438,
         "outcome": 0,
-        "balance": 4770546,
-        "todayMovement": 1028726,
-        "movement": 1028726
+        "balance": 4815408,
+        "todayMovement": 1041438,
+        "movement": 1041438
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-07-15",
-      "quantity": 50,
-      "sum": 49071
+      "quantity": 3,
+      "sum": 2480
     },
     {
       "date": "2026-07-16",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-13",
-      "quantity": 6,
-      "sum": 6707
+      "quantity": 35,
+      "sum": 45625
     }
   ],
   "ordersTrend": [
@@ -978,14 +978,14 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 14377337,
+    "creditTotal": 14422199,
     "debitTotal": 9606791,
     "series": [
       {
         "date": "2026-07-15",
         "credit": 0,
-        "debit": 17550,
-        "balance": -17550
+        "debit": 0,
+        "balance": 0
       },
       {
         "date": "2026-07-16",
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5114,
-    "totalValueRub": 1804161,
+    "totalValueRub": 1785022,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1725,7 +1725,7 @@
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
-        "stock": 2,
+        "stock": 1,
         "uom": "шт",
         "stockDays": 524
       },
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 65,
-      "sum": 22750,
-      "profit": 12933,
+      "quantity": 61,
+      "sum": 21350,
+      "profit": 12105,
       "margin": 57
     },
     {
@@ -1957,12 +1957,28 @@
       "margin": 57
     },
     {
+      "name": "Кальян TH-20 Embery Mono, 70см",
+      "code": "05169",
+      "quantity": 1,
+      "sum": 9800,
+      "profit": 5700,
+      "margin": 58
+    },
+    {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
+      "quantity": 28,
+      "sum": 9800,
+      "profit": 5492,
+      "margin": 56
+    },
+    {
+      "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
+      "code": "03530",
       "quantity": 27,
       "sum": 9450,
-      "profit": 5314,
-      "margin": 56
+      "profit": 5691,
+      "margin": 60
     },
     {
       "name": "БПК Электронная Сигарета FUMMO Chiller Indic 10000 Лимонад Тархун с Клубникой",
@@ -1973,20 +1989,20 @@
       "margin": 56
     },
     {
-      "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
-      "code": "03530",
-      "quantity": 26,
-      "sum": 9100,
-      "profit": 5484,
-      "margin": 60
-    },
-    {
       "name": "ОС PAFOS 20.000 new Гранат лайм содовая / Pomegranate lime soda",
       "code": "03326",
       "quantity": 3,
       "sum": 8430,
       "profit": 4530,
       "margin": 54
+    },
+    {
+      "name": "БПК Электронная Сигарета Lost Mary BM16000 Ежевика Грейпфрут",
+      "code": "04630",
+      "quantity": 5,
+      "sum": 7900,
+      "profit": 4110,
+      "margin": 52
     },
     {
       "name": "БПК Картридж LOST MARY X-Link Classic Ледяной Арбуз",
@@ -1999,43 +2015,27 @@
     {
       "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
       "code": "01473",
-      "quantity": 21,
-      "sum": 7350,
-      "profit": 4218,
+      "quantity": 20,
+      "sum": 7000,
+      "profit": 3997,
       "margin": 57
-    },
-    {
-      "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
-      "code": "02057",
-      "quantity": 6,
-      "sum": 6660,
-      "profit": 3510,
-      "margin": 53
-    },
-    {
-      "name": "БПК Электронная Сигарета LOST MARY BM16000 Горная Мята",
-      "code": "02695",
-      "quantity": 4,
-      "sum": 6320,
-      "profit": 3280,
-      "margin": 52
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1025579,
-      "profit": 534911,
+      "sum": 1037988,
+      "profit": 542299,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19116,
-      "sum": 20267626,
-      "profit": 10590202,
-      "lastDemandDate": "2026-10-13 16:31:00.000"
+      "demandsCount": 19140,
+      "sum": 20301052,
+      "profit": 10608473,
+      "lastDemandDate": "2026-10-13 23:25:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
