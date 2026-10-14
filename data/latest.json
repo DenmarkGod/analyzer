@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T11:09:25.764Z",
+  "updatedAt": "2026-10-14T16:30:18.450Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 7,
-        "amount": 6492,
-        "movementAmount": -39542
+        "count": 20,
+        "amount": 20306,
+        "movementAmount": -25728
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 91,
-        "amount": 102737,
-        "movementAmount": -184715
+        "count": 104,
+        "amount": 116551,
+        "movementAmount": -170901
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 520,
-        "amount": 540102,
-        "movementAmount": -408201
+        "count": 533,
+        "amount": 553916,
+        "movementAmount": -394387
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-16",
-      "quantity": 57,
-      "sum": 45539
+      "quantity": 39,
+      "sum": 29037
     },
     {
       "date": "2026-07-17",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-14",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 9,
+      "sum": 9386
     }
   ],
   "ordersTrend": [
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 5114,
-    "totalValueRub": 1781074,
+    "totalSkuCount": 5115,
+    "totalValueRub": 1792050,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 61,
-      "sum": 21350,
-      "profit": 12105,
+      "quantity": 60,
+      "sum": 21000,
+      "profit": 11884,
       "margin": 57
     },
     {
@@ -1957,28 +1957,28 @@
       "margin": 57
     },
     {
+      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
+      "code": "04897",
+      "quantity": 29,
+      "sum": 10150,
+      "profit": 5684,
+      "margin": 56
+    },
+    {
+      "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
+      "code": "03530",
+      "quantity": 29,
+      "sum": 10150,
+      "profit": 6105,
+      "margin": 60
+    },
+    {
       "name": "Кальян TH-20 Embery Mono, 70см",
       "code": "05169",
       "quantity": 1,
       "sum": 9800,
       "profit": 5700,
       "margin": 58
-    },
-    {
-      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
-      "code": "04897",
-      "quantity": 28,
-      "sum": 9800,
-      "profit": 5492,
-      "margin": 56
-    },
-    {
-      "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
-      "code": "03530",
-      "quantity": 27,
-      "sum": 9450,
-      "profit": 5691,
-      "margin": 60
     },
     {
       "name": "БПК Электронная Сигарета FUMMO Chiller Indic 10000 Лимонад Тархун с Клубникой",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1031884,
-      "profit": 538671,
+      "sum": 1038598,
+      "profit": 542346,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19147,
-      "sum": 20307544,
-      "profit": 10611928,
-      "lastDemandDate": "2026-10-14 14:00:00.000"
+      "demandsCount": 19160,
+      "sum": 20321358,
+      "profit": 10619070,
+      "lastDemandDate": "2026-10-14 18:46:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
