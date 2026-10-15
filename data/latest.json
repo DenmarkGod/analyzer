@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T21:16:27.584Z",
+  "updatedAt": "2026-10-15T03:09:01.913Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -17,11 +17,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1002100,
+        "income": 1034276,
         "outcome": 0,
-        "balance": 4815408,
-        "todayMovement": 1002100,
-        "movement": 1002100
+        "balance": 4847584,
+        "todayMovement": 1034276,
+        "movement": 1034276
       }
     },
     "week": {
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1002100,
+        "income": 1034276,
         "outcome": 0,
-        "balance": 4815408,
-        "todayMovement": 1002100,
-        "movement": 1002100
+        "balance": 4847584,
+        "todayMovement": 1034276,
+        "movement": 1034276
       }
     },
     "month": {
@@ -55,24 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1002100,
+        "income": 1034276,
         "outcome": 0,
-        "balance": 4815408,
-        "todayMovement": 1002100,
-        "movement": 1002100
+        "balance": 4847584,
+        "todayMovement": 1034276,
+        "movement": 1034276
       }
     }
   },
   "salesTrend": [
     {
-      "date": "2026-07-16",
-      "quantity": 9,
-      "sum": 5437
-    },
-    {
       "date": "2026-07-17",
-      "quantity": 74,
-      "sum": 78962
+      "quantity": 73,
+      "sum": 78912
     },
     {
       "date": "2026-07-18",
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-10-14",
-      "quantity": 25,
-      "sum": 24464
+      "quantity": 35,
+      "sum": 33171
+    },
+    {
+      "date": "2026-10-15",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-07-16",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-07-17",
       "quantity": 0,
@@ -975,23 +970,22 @@
       "date": "2026-10-14",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-10-15",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 14422199,
+    "creditTotal": 14454375,
     "debitTotal": 9606791,
     "series": [
       {
-        "date": "2026-07-16",
-        "credit": 0,
-        "debit": 0,
-        "balance": 0
-      },
-      {
         "date": "2026-07-17",
-        "credit": 115437,
+        "credit": 80600,
         "debit": 0,
-        "balance": 115437
+        "balance": 80600
       },
       {
         "date": "2026-07-18",
@@ -1526,12 +1520,18 @@
         "credit": 44862,
         "debit": 0,
         "balance": 44862
+      },
+      {
+        "date": "2026-10-15",
+        "credit": 32176,
+        "debit": 0,
+        "balance": 32176
       }
     ]
   },
   "stock": {
     "totalSkuCount": 5127,
-    "totalValueRub": 1784755,
+    "totalValueRub": 1804063,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 59,
-      "sum": 20650,
-      "profit": 11662,
+      "quantity": 56,
+      "sum": 19600,
+      "profit": 11041,
       "margin": 56
     },
     {
@@ -1973,19 +1973,19 @@
       "margin": 58
     },
     {
+      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
+      "code": "04897",
+      "quantity": 27,
+      "sum": 9450,
+      "profit": 5256,
+      "margin": 56
+    },
+    {
       "name": "БПК Электронная Сигарета FUMMO Chiller Indic 10000 Лимонад Тархун с Клубникой",
       "code": "03945",
       "quantity": 10,
       "sum": 9350,
       "profit": 5210,
-      "margin": 56
-    },
-    {
-      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
-      "code": "04897",
-      "quantity": 26,
-      "sum": 9100,
-      "profit": 5063,
       "margin": 56
     },
     {
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1041582,
-      "profit": 543068,
+      "sum": 1047935,
+      "profit": 545725,
       "margin": 52
     }
   ],
