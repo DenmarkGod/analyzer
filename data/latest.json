@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T10:50:33.562Z",
+  "updatedAt": "2026-10-15T16:17:12.768Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 6,
-        "amount": 5801,
-        "movementAmount": -27370
+        "count": 38,
+        "amount": 52752,
+        "movementAmount": 19581
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 125,
-        "amount": 135217,
-        "movementAmount": -152235
+        "count": 157,
+        "amount": 182168,
+        "movementAmount": -105284
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 554,
-        "amount": 572582,
-        "movementAmount": -375721
+        "count": 586,
+        "amount": 619533,
+        "movementAmount": -328770
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-17",
-      "quantity": 70,
-      "sum": 76614
+      "quantity": 45,
+      "sum": 48810
     },
     {
       "date": "2026-07-18",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-15",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 20,
+      "sum": 22443
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5127,
-    "totalValueRub": 1801031,
+    "totalValueRub": 1777641,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1678,6 +1678,12 @@
         "uom": "шт"
       },
       {
+        "name": "(МТ) Black Burn 25гр Asian Lychee - Личи",
+        "code": "01475",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
         "name": "(МТ) Black Burn 25гр Bananini - Банан",
         "code": "04199",
         "stock": 0,
@@ -1704,12 +1710,6 @@
       {
         "name": "(МТ) Black Burn 25гр Black Honey - Мед",
         "code": "01854",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Brownie - Брауни",
-        "code": "01848",
         "stock": 0,
         "uom": "шт"
       }
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 56,
-      "sum": 19600,
-      "profit": 11041,
+      "quantity": 60,
+      "sum": 21000,
+      "profit": 11811,
       "margin": 56
     },
     {
@@ -1989,6 +1989,14 @@
       "margin": 56
     },
     {
+      "name": "БПК Картридж LOST MARY X-Link Classic Ледяной Арбуз",
+      "code": "02278",
+      "quantity": 8,
+      "sum": 8880,
+      "profit": 4755,
+      "margin": 54
+    },
+    {
       "name": "ОС PAFOS 20.000 new Гранат лайм содовая / Pomegranate lime soda",
       "code": "03326",
       "quantity": 3,
@@ -2005,37 +2013,29 @@
       "margin": 52
     },
     {
-      "name": "БПК Картридж LOST MARY X-Link Classic Ледяной Арбуз",
-      "code": "02278",
+      "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
+      "code": "02057",
       "quantity": 7,
       "sum": 7770,
-      "profit": 4170,
-      "margin": 54
-    },
-    {
-      "name": "Картридж к многоразовой электронной системе, Модель VOOPOO VMATE V2, 0,7 Ом, 3 мл",
-      "code": "01473",
-      "quantity": 20,
-      "sum": 7000,
-      "profit": 3997,
-      "margin": 57
+      "profit": 4095,
+      "margin": 53
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1046015,
-      "profit": 544681,
+      "sum": 1051205,
+      "profit": 547387,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19182,
-      "sum": 20341134,
-      "profit": 10629627,
-      "lastDemandDate": "2026-10-15 13:44:00.000"
+      "demandsCount": 19213,
+      "sum": 20386975,
+      "profit": 10653379,
+      "lastDemandDate": "2026-10-15 19:12:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
