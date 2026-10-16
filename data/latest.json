@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T16:03:16.175Z",
+  "updatedAt": "2026-10-16T20:29:08.229Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 27,
-        "amount": 31606,
-        "movementAmount": -35387
+        "count": 46,
+        "amount": 52297,
+        "movementAmount": -14696
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 198,
-        "amount": 228015,
-        "movementAmount": -59437
+        "count": 217,
+        "amount": 248706,
+        "movementAmount": -38746
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 627,
-        "amount": 665380,
-        "movementAmount": -282923
+        "count": 646,
+        "amount": 686071,
+        "movementAmount": -262232
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-18",
-      "quantity": 30,
-      "sum": 36984
+      "quantity": 4,
+      "sum": 2620
     },
     {
       "date": "2026-07-19",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-16",
-      "quantity": 17,
-      "sum": 18672
+      "quantity": 34,
+      "sum": 37805
     }
   ],
   "ordersTrend": [
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 5127,
-    "totalValueRub": 1743591,
+    "totalSkuCount": 5128,
+    "totalValueRub": 1730590,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1945,7 +1945,15 @@
       "code": "03136",
       "quantity": 60,
       "sum": 21000,
-      "profit": 11811,
+      "profit": 11782,
+      "margin": 56
+    },
+    {
+      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
+      "code": "04897",
+      "quantity": 31,
+      "sum": 10850,
+      "profit": 6026,
       "margin": 56
     },
     {
@@ -1955,14 +1963,6 @@
       "sum": 10850,
       "profit": 6519,
       "margin": 60
-    },
-    {
-      "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
-      "code": "04897",
-      "quantity": 30,
-      "sum": 10500,
-      "profit": 5833,
-      "margin": 56
     },
     {
       "name": "Кальян TH-20 Embery Mono, 70см",
@@ -1979,14 +1979,6 @@
       "sum": 9350,
       "profit": 5210,
       "margin": 56
-    },
-    {
-      "name": "LOST MARY AIR 22000 ICE AQUA",
-      "code": "05855",
-      "quantity": 5,
-      "sum": 8700,
-      "profit": 4950,
-      "margin": 57
     },
     {
       "name": "ОС PAFOS 20.000 new Гранат лайм содовая / Pomegranate lime soda",
@@ -2019,23 +2011,31 @@
       "sum": 7770,
       "profit": 4145,
       "margin": 53
+    },
+    {
+      "name": "LOST MARY AIR 22000 ICE AQUA",
+      "code": "05855",
+      "quantity": 4,
+      "sum": 6960,
+      "profit": 3960,
+      "margin": 57
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1077986,
-      "profit": 561511,
+      "sum": 1082431,
+      "profit": 563556,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19254,
-      "sum": 20432822,
-      "profit": 10678057,
-      "lastDemandDate": "2026-10-16 18:51:00.000"
+      "demandsCount": 19273,
+      "sum": 20453513,
+      "profit": 10688506,
+      "lastDemandDate": "2026-10-16 22:47:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
