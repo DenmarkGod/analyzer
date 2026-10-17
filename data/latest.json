@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T20:29:08.229Z",
+  "updatedAt": "2026-10-17T02:57:13.438Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 46,
-        "amount": 52297,
-        "movementAmount": -14696
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -52297
       },
       "orders": {
         "count": 0,
@@ -17,11 +17,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1032906,
+        "income": 1083798,
         "outcome": 0,
-        "balance": 4912902,
-        "todayMovement": 1032906,
-        "movement": 1032906
+        "balance": 4963794,
+        "todayMovement": 1083798,
+        "movement": 1083798
       }
     },
     "week": {
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1032906,
+        "income": 1083798,
         "outcome": 0,
-        "balance": 4912902,
-        "todayMovement": 1032906,
-        "movement": 1032906
+        "balance": 4963794,
+        "todayMovement": 1083798,
+        "movement": 1083798
       }
     },
     "month": {
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1032906,
+        "income": 1083798,
         "outcome": 0,
-        "balance": 4912902,
-        "todayMovement": 1032906,
-        "movement": 1032906
+        "balance": 4963794,
+        "todayMovement": 1083798,
+        "movement": 1083798
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-07-18",
-      "quantity": 4,
-      "sum": 2620
-    },
     {
       "date": "2026-07-19",
       "quantity": 61,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-10-16",
-      "quantity": 34,
-      "sum": 37805
+      "quantity": 46,
+      "sum": 52297
+    },
+    {
+      "date": "2026-10-17",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-07-18",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-07-19",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-10-16",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-10-17",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 14519693,
+    "creditTotal": 14570585,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-07-18",
-        "credit": 51971,
-        "debit": 0,
-        "balance": 51971
-      },
       {
         "date": "2026-07-19",
         "credit": 52478,
@@ -1526,12 +1520,18 @@
         "credit": 0,
         "debit": 0,
         "balance": 0
+      },
+      {
+        "date": "2026-10-17",
+        "credit": 50892,
+        "debit": 0,
+        "balance": 50892
       }
     ]
   },
   "stock": {
     "totalSkuCount": 5128,
-    "totalValueRub": 1730590,
+    "totalValueRub": 1745132,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1951,9 +1951,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 31,
-      "sum": 10850,
-      "profit": 6026,
+      "quantity": 33,
+      "sum": 11550,
+      "profit": 6411,
       "margin": 56
     },
     {
@@ -2013,19 +2013,19 @@
       "margin": 53
     },
     {
-      "name": "LOST MARY AIR 22000 ICE AQUA",
-      "code": "05855",
+      "name": "БПК Электронная Сигарета Lost Mary BM16000 Кислое Манго Ананас",
+      "code": "04624",
       "quantity": 4,
-      "sum": 6960,
-      "profit": 3960,
-      "margin": 57
+      "sum": 6320,
+      "profit": 3300,
+      "margin": 52
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1082431,
-      "profit": 563556,
+      "sum": 1092423,
+      "profit": 568475,
       "margin": 52
     }
   ],
