@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T14:55:54.763Z",
+  "updatedAt": "2026-10-17T20:05:30.081Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 26,
-        "amount": 24115,
-        "movementAmount": -28182
+        "count": 53,
+        "amount": 56431,
+        "movementAmount": 4134
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 243,
-        "amount": 272821,
-        "movementAmount": -14631
+        "count": 270,
+        "amount": 305137,
+        "movementAmount": 17685
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 672,
-        "amount": 710186,
-        "movementAmount": -238117
+        "count": 699,
+        "amount": 742502,
+        "movementAmount": -205801
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-19",
-      "quantity": 47,
-      "sum": 43927
+      "quantity": 18,
+      "sum": 10857
     },
     {
       "date": "2026-07-20",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-17",
-      "quantity": 17,
-      "sum": 16520
+      "quantity": 38,
+      "sum": 37532
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5128,
-    "totalValueRub": 1733204,
+    "totalValueRub": 1718815,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1945,23 +1945,23 @@
       "code": "03136",
       "quantity": 60,
       "sum": 21000,
-      "profit": 11768,
+      "profit": 11739,
       "margin": 56
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 34,
-      "sum": 11900,
-      "profit": 6603,
+      "quantity": 36,
+      "sum": 12600,
+      "profit": 6974,
       "margin": 55
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 31,
-      "sum": 10850,
-      "profit": 6519,
+      "quantity": 30,
+      "sum": 10500,
+      "profit": 6306,
       "margin": 60
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1098059,
-      "profit": 570625,
+      "sum": 1107297,
+      "profit": 576998,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19299,
-      "sum": 20477628,
-      "profit": 10700694,
-      "lastDemandDate": "2026-10-17 17:43:00.000"
+      "demandsCount": 19326,
+      "sum": 20509944,
+      "profit": 10718621,
+      "lastDemandDate": "2026-10-17 22:27:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
