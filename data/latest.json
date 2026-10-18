@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T15:21:20.694Z",
+  "updatedAt": "2026-10-18T20:04:52.937Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 23,
-        "amount": 26318,
-        "movementAmount": -30113
+        "count": 35,
+        "amount": 40074,
+        "movementAmount": -16357
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 293,
-        "amount": 331455,
-        "movementAmount": 44003
+        "count": 305,
+        "amount": 345211,
+        "movementAmount": 57759
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 722,
-        "amount": 768820,
-        "movementAmount": -179483
+        "count": 734,
+        "amount": 782576,
+        "movementAmount": -165727
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-20",
-      "quantity": 45,
-      "sum": 60000
+      "quantity": 22,
+      "sum": 32150
     },
     {
       "date": "2026-07-21",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-18",
-      "quantity": 16,
-      "sum": 21132
+      "quantity": 28,
+      "sum": 31128
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5128,
-    "totalValueRub": 1705090,
+    "totalValueRub": 1687152,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 64,
-      "sum": 22400,
-      "profit": 12494,
+      "quantity": 63,
+      "sum": 22050,
+      "profit": 12287,
       "margin": 56
     },
     {
@@ -1999,43 +1999,43 @@
     {
       "name": "БПК Картридж LOST MARY X-Link Classic Ледяной Арбуз",
       "code": "02278",
-      "quantity": 7,
-      "sum": 7770,
-      "profit": 4145,
+      "quantity": 6,
+      "sum": 6660,
+      "profit": 3535,
       "margin": 53
     },
     {
       "name": "БПК Электронная Сигарета FUMMO Chiller Indic 10000 Лимонад Тархун с Клубникой",
       "code": "03945",
-      "quantity": 8,
-      "sum": 7480,
-      "profit": 4168,
+      "quantity": 7,
+      "sum": 6545,
+      "profit": 3647,
       "margin": 56
     },
     {
-      "name": "БПК Электронная Сигарета Lost Mary BM16000 Кислое Манго Ананас",
-      "code": "04624",
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Клубника Киви",
+      "code": "02380",
       "quantity": 4,
       "sum": 6320,
-      "profit": 3300,
+      "profit": 3260,
       "margin": 52
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1128113,
-      "profit": 587417,
+      "sum": 1113777,
+      "profit": 580137,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19349,
-      "sum": 20536262,
-      "profit": 10731214,
-      "lastDemandDate": "2026-10-18 18:08:00.000"
+      "demandsCount": 19361,
+      "sum": 20550018,
+      "profit": 10738214,
+      "lastDemandDate": "2026-10-18 22:14:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
