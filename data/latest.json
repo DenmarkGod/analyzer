@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T20:04:52.937Z",
+  "updatedAt": "2026-10-19T03:12:47.434Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 35,
-        "amount": 40074,
-        "movementAmount": -16357
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -41694
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1111678,
+        "income": 1130101,
         "outcome": 0,
-        "balance": 5018814,
-        "todayMovement": 1111678,
-        "movement": 1111678
+        "balance": 5059466,
+        "todayMovement": 1130101,
+        "movement": 1130101
       }
     },
     "week": {
       "sales": {
-        "count": 305,
-        "amount": 345211,
-        "movementAmount": 57759
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -346831
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1111678,
+        "income": 1130101,
         "outcome": 0,
-        "balance": 5018814,
-        "todayMovement": 1111678,
-        "movement": 1111678
+        "balance": 5059466,
+        "todayMovement": 1130101,
+        "movement": 1130101
       }
     },
     "month": {
       "sales": {
-        "count": 734,
-        "amount": 782576,
-        "movementAmount": -165727
+        "count": 735,
+        "amount": 784196,
+        "movementAmount": -164107
       },
       "orders": {
         "count": 0,
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1111678,
+        "income": 1130101,
         "outcome": 0,
-        "balance": 5018814,
-        "todayMovement": 1111678,
-        "movement": 1111678
+        "balance": 5059466,
+        "todayMovement": 1130101,
+        "movement": 1130101
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-07-20",
-      "quantity": 22,
-      "sum": 32150
-    },
     {
       "date": "2026-07-21",
       "quantity": 61,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-10-18",
-      "quantity": 28,
-      "sum": 31128
+      "quantity": 36,
+      "sum": 41694
+    },
+    {
+      "date": "2026-10-19",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-07-20",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-07-21",
       "quantity": 0,
@@ -975,23 +970,22 @@
       "date": "2026-10-18",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-10-19",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 14625606,
+    "creditTotal": 14666257,
     "debitTotal": 9606791,
     "series": [
       {
-        "date": "2026-07-20",
+        "date": "2026-07-21",
         "credit": 0,
         "debit": 0,
         "balance": 0
-      },
-      {
-        "date": "2026-07-21",
-        "credit": 63930,
-        "debit": 0,
-        "balance": 63930
       },
       {
         "date": "2026-07-22",
@@ -1523,6 +1517,12 @@
       },
       {
         "date": "2026-10-18",
+        "credit": 40652,
+        "debit": 0,
+        "balance": 40652
+      },
+      {
+        "date": "2026-10-19",
         "credit": 0,
         "debit": 0,
         "balance": 0
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5128,
-    "totalValueRub": 1687152,
+    "totalValueRub": 1686252,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1945,7 +1945,7 @@
       "code": "03136",
       "quantity": 63,
       "sum": 22050,
-      "profit": 12287,
+      "profit": 12273,
       "margin": 56
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1113777,
-      "profit": 580137,
+      "sum": 1109825,
+      "profit": 577689,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19361,
-      "sum": 20550018,
-      "profit": 10738214,
-      "lastDemandDate": "2026-10-18 22:14:00.000"
+      "demandsCount": 19362,
+      "sum": 20551638,
+      "profit": 10738934,
+      "lastDemandDate": "2026-10-18 23:16:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
