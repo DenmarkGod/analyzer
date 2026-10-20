@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T10:54:51.009Z",
+  "updatedAt": "2026-10-20T16:20:07.807Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 6,
-        "amount": 7771,
-        "movementAmount": -42171
+        "count": 22,
+        "amount": 18755,
+        "movementAmount": -31187
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 47,
-        "amount": 57713,
-        "movementAmount": -289118
+        "count": 63,
+        "amount": 68697,
+        "movementAmount": -278134
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 782,
-        "amount": 841909,
-        "movementAmount": -106394
+        "count": 798,
+        "amount": 852893,
+        "movementAmount": -95410
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-22",
-      "quantity": 57,
-      "sum": 93058
+      "quantity": 41,
+      "sum": 65254
     },
     {
       "date": "2026-07-23",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-20",
-      "quantity": 2,
-      "sum": 4322
+      "quantity": 12,
+      "sum": 10858
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5142,
-    "totalValueRub": 1653872,
+    "totalValueRub": 1643895,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1614,7 +1614,7 @@
       {
         "name": "Ароматизатор пищевой PickMe со вкусом Киви — Малина",
         "code": "03817",
-        "stock": 1,
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 67,
-      "sum": 23450,
-      "profit": 13014,
+      "quantity": 70,
+      "sum": 24500,
+      "profit": 13591,
       "margin": 55
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1136036,
-      "profit": 593341,
+      "sum": 1126376,
+      "profit": 588849,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19409,
-      "sum": 20609351,
-      "profit": 10770502,
-      "lastDemandDate": "2026-10-20 13:42:00.000"
+      "demandsCount": 19425,
+      "sum": 20620335,
+      "profit": 10776416,
+      "lastDemandDate": "2026-10-20 19:01:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
