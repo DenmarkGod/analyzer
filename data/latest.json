@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T21:58:46.921Z",
+  "updatedAt": "2026-10-20T03:21:31.134Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -64,11 +64,6 @@
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-07-21",
-      "quantity": 2,
-      "sum": 1280
-    },
     {
       "date": "2026-07-22",
       "quantity": 58,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-10-19",
-      "quantity": 40,
-      "sum": 48962
+      "quantity": 41,
+      "sum": 49942
+    },
+    {
+      "date": "2026-10-20",
+      "quantity": 1,
+      "sum": 2352
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-07-21",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-07-22",
       "quantity": 0,
@@ -975,6 +970,11 @@
       "date": "2026-10-19",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-10-20",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
@@ -982,16 +982,10 @@
     "debitTotal": 9606791,
     "series": [
       {
-        "date": "2026-07-21",
+        "date": "2026-07-22",
         "credit": 0,
         "debit": 0,
         "balance": 0
-      },
-      {
-        "date": "2026-07-22",
-        "credit": 58182,
-        "debit": 0,
-        "balance": 58182
       },
       {
         "date": "2026-07-23",
@@ -1526,6 +1520,12 @@
         "credit": 0,
         "debit": 0,
         "balance": 0
+      },
+      {
+        "date": "2026-10-20",
+        "credit": 50986,
+        "debit": 0,
+        "balance": 50986
       }
     ]
   },
@@ -1943,10 +1943,10 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 66,
-      "sum": 23100,
-      "profit": 12821,
-      "margin": 56
+      "quantity": 67,
+      "sum": 23450,
+      "profit": 13014,
+      "margin": 55
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1131104,
-      "profit": 590733,
+      "sum": 1134066,
+      "profit": 592321,
       "margin": 52
     }
   ],
