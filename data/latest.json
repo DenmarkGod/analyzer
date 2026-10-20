@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T16:20:07.807Z",
+  "updatedAt": "2026-10-20T21:13:38.124Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 22,
-        "amount": 18755,
-        "movementAmount": -31187
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -32227
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1126483,
+        "income": 1070473,
         "outcome": 0,
         "balance": 5110452,
-        "todayMovement": 1126483,
-        "movement": 1126483
+        "todayMovement": 1070473,
+        "movement": 1070473
       }
     },
     "week": {
       "sales": {
-        "count": 63,
-        "amount": 68697,
-        "movementAmount": -278134
+        "count": 79,
+        "amount": 82169,
+        "movementAmount": -264662
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1126483,
+        "income": 1070473,
         "outcome": 0,
         "balance": 5110452,
-        "todayMovement": 1126483,
-        "movement": 1126483
+        "todayMovement": 1070473,
+        "movement": 1070473
       }
     },
     "month": {
       "sales": {
-        "count": 798,
-        "amount": 852893,
-        "movementAmount": -95410
+        "count": 814,
+        "amount": 866365,
+        "movementAmount": -81938
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1126483,
+        "income": 1070473,
         "outcome": 0,
         "balance": 5110452,
-        "todayMovement": 1126483,
-        "movement": 1126483
+        "todayMovement": 1070473,
+        "movement": 1070473
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-07-22",
-      "quantity": 41,
-      "sum": 65254
+      "quantity": 5,
+      "sum": 3985
     },
     {
       "date": "2026-07-23",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-20",
-      "quantity": 12,
-      "sum": 10858
+      "quantity": 31,
+      "sum": 28448
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5142,
-    "totalValueRub": 1643895,
+    "totalValueRub": 1636833,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 70,
-      "sum": 24500,
-      "profit": 13591,
+      "quantity": 71,
+      "sum": 24850,
+      "profit": 13784,
       "margin": 55
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1126376,
-      "profit": 588849,
+      "sum": 1132734,
+      "profit": 593115,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19425,
-      "sum": 20620335,
-      "profit": 10776416,
-      "lastDemandDate": "2026-10-20 19:01:00.000"
+      "demandsCount": 19441,
+      "sum": 20633807,
+      "profit": 10783728,
+      "lastDemandDate": "2026-10-20 22:27:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
