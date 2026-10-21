@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T11:09:03.518Z",
+  "updatedAt": "2026-10-21T16:35:35.390Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 8,
-        "amount": 10659,
-        "movementAmount": -21568
+        "count": 32,
+        "amount": 35952,
+        "movementAmount": 3725
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 87,
-        "amount": 92828,
-        "movementAmount": -254003
+        "count": 111,
+        "amount": 118121,
+        "movementAmount": -228710
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 822,
-        "amount": 877024,
-        "movementAmount": -71279
+        "count": 846,
+        "amount": 902317,
+        "movementAmount": -45986
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-23",
-      "quantity": 60,
-      "sum": 63165
+      "quantity": 36,
+      "sum": 34058
     },
     {
       "date": "2026-07-24",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-21",
-      "quantity": 1,
-      "sum": 3730
+      "quantity": 12,
+      "sum": 15018
     }
   ],
   "ordersTrend": [
@@ -1523,15 +1523,15 @@
       },
       {
         "date": "2026-10-21",
-        "credit": 0,
+        "credit": 29128,
         "debit": 0,
-        "balance": 0
+        "balance": 29128
       }
     ]
   },
   "stock": {
     "totalSkuCount": 5142,
-    "totalValueRub": 1631306,
+    "totalValueRub": 1609543,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1999,10 +1999,18 @@
     {
       "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
       "code": "02057",
-      "quantity": 7,
-      "sum": 7770,
-      "profit": 4095,
+      "quantity": 6,
+      "sum": 6660,
+      "profit": 3510,
       "margin": 53
+    },
+    {
+      "name": "БПК Картридж LOST MARY X-Link Classic Кислая Клубника Питайя",
+      "code": "02691",
+      "quantity": 6,
+      "sum": 6660,
+      "profit": 3450,
+      "margin": 52
     },
     {
       "name": "БПК Электронная Сигарета FUMMO Chiller Indic 10000 Лимонад Тархун с Клубникой",
@@ -2011,31 +2019,23 @@
       "sum": 6545,
       "profit": 3647,
       "margin": 56
-    },
-    {
-      "name": "БПК Электронная Сигарета LOST MARY BM16000 Клубника Киви",
-      "code": "02380",
-      "quantity": 4,
-      "sum": 6320,
-      "profit": 3260,
-      "margin": 52
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1133626,
-      "profit": 593626,
+      "sum": 1128045,
+      "profit": 590821,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19449,
-      "sum": 20644466,
-      "profit": 10789398,
-      "lastDemandDate": "2026-10-21 14:02:00.000"
+      "demandsCount": 19473,
+      "sum": 20669759,
+      "profit": 10803273,
+      "lastDemandDate": "2026-10-21 19:00:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
