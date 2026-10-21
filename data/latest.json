@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T03:16:24.672Z",
+  "updatedAt": "2026-10-21T11:09:03.518Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -32227
+        "count": 8,
+        "amount": 10659,
+        "movementAmount": -21568
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1070473,
+        "income": 1099601,
         "outcome": 0,
-        "balance": 5110452,
-        "todayMovement": 1070473,
-        "movement": 1070473
+        "balance": 5139581,
+        "todayMovement": 1099601,
+        "movement": 1099601
       }
     },
     "week": {
       "sales": {
-        "count": 79,
-        "amount": 82169,
-        "movementAmount": -264662
+        "count": 87,
+        "amount": 92828,
+        "movementAmount": -254003
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1070473,
+        "income": 1099601,
         "outcome": 0,
-        "balance": 5110452,
-        "todayMovement": 1070473,
-        "movement": 1070473
+        "balance": 5139581,
+        "todayMovement": 1099601,
+        "movement": 1099601
       }
     },
     "month": {
       "sales": {
-        "count": 814,
-        "amount": 866365,
-        "movementAmount": -81938
+        "count": 822,
+        "amount": 877024,
+        "movementAmount": -71279
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1070473,
+        "income": 1099601,
         "outcome": 0,
-        "balance": 5110452,
-        "todayMovement": 1070473,
-        "movement": 1070473
+        "balance": 5139581,
+        "todayMovement": 1099601,
+        "movement": 1099601
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-07-23",
-      "quantity": 66,
-      "sum": 69608
+      "quantity": 60,
+      "sum": 63165
     },
     {
       "date": "2026-07-24",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-21",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 1,
+      "sum": 3730
     }
   ],
   "ordersTrend": [
@@ -978,14 +978,14 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 14717244,
+    "creditTotal": 14746372,
     "debitTotal": 9606791,
     "series": [
       {
         "date": "2026-07-23",
-        "credit": 146790,
+        "credit": 61380,
         "debit": 0,
-        "balance": 146790
+        "balance": 61380
       },
       {
         "date": "2026-07-24",
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5142,
-    "totalValueRub": 1636833,
+    "totalValueRub": 1631306,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1680,7 +1680,7 @@
       {
         "name": "(МТ) Black Burn 25гр Asian Lychee - Личи",
         "code": "01475",
-        "stock": 1,
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 536
+        "stockDays": 537
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 531
+        "stockDays": 532
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 531
+        "stockDays": 532
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 531
+        "stockDays": 532
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 531
+        "stockDays": 532
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 531
+        "stockDays": 532
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 526
+        "stockDays": 527
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 526
+        "stockDays": 527
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 526
+        "stockDays": 527
       },
       {
         "name": "Табак DARKSIDE SHOT Волжский 30g",
         "code": "01110",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 526
+        "stockDays": 527
       }
     ],
     "outOfStock": [
@@ -2005,37 +2005,37 @@
       "margin": 53
     },
     {
-      "name": "БПК Картридж LOST MARY X-Link Classic Ледяной Арбуз",
-      "code": "02278",
-      "quantity": 6,
-      "sum": 6660,
-      "profit": 3535,
-      "margin": 53
-    },
-    {
       "name": "БПК Электронная Сигарета FUMMO Chiller Indic 10000 Лимонад Тархун с Клубникой",
       "code": "03945",
       "quantity": 7,
       "sum": 6545,
       "profit": 3647,
       "margin": 56
+    },
+    {
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Клубника Киви",
+      "code": "02380",
+      "quantity": 4,
+      "sum": 6320,
+      "profit": 3260,
+      "margin": 52
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1133898,
-      "profit": 593851,
+      "sum": 1133626,
+      "profit": 593626,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19441,
-      "sum": 20633807,
-      "profit": 10783728,
-      "lastDemandDate": "2026-10-20 22:27:00.000"
+      "demandsCount": 19449,
+      "sum": 20644466,
+      "profit": 10789398,
+      "lastDemandDate": "2026-10-21 14:02:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
