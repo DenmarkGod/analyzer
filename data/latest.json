@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T03:14:43.242Z",
+  "updatedAt": "2026-10-22T11:08:30.012Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -47112
+        "count": 9,
+        "amount": 18202,
+        "movementAmount": -28910
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 125,
-        "amount": 129281,
-        "movementAmount": -217550
+        "count": 134,
+        "amount": 147483,
+        "movementAmount": -199348
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 860,
-        "amount": 913477,
-        "movementAmount": -34826
+        "count": 869,
+        "amount": 931679,
+        "movementAmount": -16624
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-24",
-      "quantity": 67,
-      "sum": 60473
+      "quantity": 64,
+      "sum": 55927
     },
     {
       "date": "2026-07-25",
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5142,
-    "totalValueRub": 1641026,
+    "totalValueRub": 1631752,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1690,6 +1690,12 @@
         "uom": "шт"
       },
       {
+        "name": "(МТ) Black Burn 25гр Barberry Shock - Кислый барбарис",
+        "code": "04202",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
         "name": "(МТ) Black Burn 25гр Berry Lemonade - Ягодный лимонад",
         "code": "01476",
         "stock": 1,
@@ -1706,12 +1712,6 @@
         "code": "01478",
         "stock": 1,
         "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Black Honey - Мед",
-        "code": "01854",
-        "stock": 0,
-        "uom": "шт"
       }
     ],
     "staleStock": [
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 537
+        "stockDays": 538
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 532
+        "stockDays": 533
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 532
+        "stockDays": 533
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 532
+        "stockDays": 533
       },
       {
         "name": "Мелассоуловитель Catcher Blade",
         "code": "00136",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 532
+        "stockDays": 533
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 532
+        "stockDays": 533
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 527
+        "stockDays": 528
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 527
+        "stockDays": 528
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 527
+        "stockDays": 528
       },
       {
         "name": "Табак DARKSIDE SHOT Волжский 30g",
         "code": "01110",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 527
+        "stockDays": 528
       }
     ],
     "outOfStock": [
@@ -2032,10 +2032,10 @@
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19487,
-      "sum": 20680919,
-      "profit": 10808224,
-      "lastDemandDate": "2026-10-21 22:38:00.000"
+      "demandsCount": 19496,
+      "sum": 20699121,
+      "profit": 10817151,
+      "lastDemandDate": "2026-10-22 14:02:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
