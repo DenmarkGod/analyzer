@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T11:08:30.012Z",
+  "updatedAt": "2026-10-22T16:36:46.552Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 9,
-        "amount": 18202,
-        "movementAmount": -28910
+        "count": 38,
+        "amount": 55594,
+        "movementAmount": 8482
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 134,
-        "amount": 147483,
-        "movementAmount": -199348
+        "count": 163,
+        "amount": 184875,
+        "movementAmount": -161956
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 869,
-        "amount": 931679,
-        "movementAmount": -16624
+        "count": 898,
+        "amount": 969071,
+        "movementAmount": 20768
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-24",
-      "quantity": 64,
-      "sum": 55927
+      "quantity": 42,
+      "sum": 34291
     },
     {
       "date": "2026-07-25",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-22",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 17,
+      "sum": 26677
     }
   ],
   "ordersTrend": [
@@ -1530,127 +1530,13 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 5142,
-    "totalValueRub": 1631752,
+    "totalSkuCount": 5146,
+    "totalValueRub": 1715130,
     "lowStock": [
-      {
-        "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
-        "code": "05317",
-        "stock": 0,
-        "uom": "шт"
-      },
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
         "code": "05319",
         "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой NUM Ням со вкусом Малина Лайм",
-        "code": "05311",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой NUM Ням со вкусом Мандарин Кумкват",
-        "code": "05316",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой NUM Ням со вкусом Мятные Ягоды",
-        "code": "05320",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой OffLine со вкусом Карамель Табак Шоколад",
-        "code": "04337",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой OffLine со вкусом Клубничный рондо",
-        "code": "04355",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой OffLine со вкусом Малина Клубника",
-        "code": "04334",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой OffLine со вкусом Сливочная дыня",
-        "code": "04339",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой OffLine со вкусом Сырный раф",
-        "code": "04336",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
-        "code": "04335",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой PickMe со вкусом Арбузный Рондо",
-        "code": "03810",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой PickMe со вкусом Дынный микс",
-        "code": "03815",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой PickMe со вкусом Киви — Малина",
-        "code": "03817",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой PickMe со вкусом Клубника — Маракуйя",
-        "code": "03818",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой PickMe со вкусом Манго — Малина",
-        "code": "03824",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой PickMe со вкусом Персик — Ананас — Манго",
-        "code": "03828",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой PickMe со вкусом Синяя Малина",
-        "code": "03829",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой PickMe со вкусом Скандик — Лесные ягоды",
-        "code": "03830",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой PickMe со вкусом Скитлс",
-        "code": "03831",
-        "stock": -1,
         "uom": "шт"
       },
       {
@@ -1711,6 +1597,120 @@
         "name": "(МТ) Black Burn 25гр Blackcola - Кола",
         "code": "01478",
         "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Black Honey - Мед",
+        "code": "01854",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Brownie - Брауни",
+        "code": "01848",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Bubble Gum - Фруктовая жвачка",
+        "code": "01479",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Cane Mint - Тросниковая мята",
+        "code": "01855",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Cheesecake - Чизкейк",
+        "code": "01480",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Cherry Garden - Вишнёво-черешневый сок",
+        "code": "01822",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Creme Brulee - Десерт Крем-Брюле",
+        "code": "01481",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Ekzo Mango - Сочное манго",
+        "code": "01482",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Elka - Ёлка",
+        "code": "01483",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Epic Yogurt - Черничный йогурт",
+        "code": "01484",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Etalon Melon - Медовая дыня",
+        "code": "01485",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Garnet - Гранат",
+        "code": "01487",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Grapefruit - Грейпфрут",
+        "code": "01488",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Green Tea - Зелёный чай",
+        "code": "01489",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Guf Ice Baby - Ягодный сорбет с грейпфрутом",
+        "code": "01490",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Irish Cream - Ирландский крем",
+        "code": "01846",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Kiwi Stoner - Смузи из киви",
+        "code": "01492",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Lemon Shock - Кислый лимон",
+        "code": "01493",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Lime Shock - Кислый лайм",
+        "code": "03663",
+        "stock": 0,
         "uom": "шт"
       }
     ],
@@ -1943,17 +1943,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 72,
-      "sum": 25200,
-      "profit": 13962,
+      "quantity": 73,
+      "sum": 25550,
+      "profit": 14154,
       "margin": 55
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 37,
-      "sum": 12950,
-      "profit": 7152,
+      "quantity": 38,
+      "sum": 13300,
+      "profit": 7344,
       "margin": 55
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1142494,
-      "profit": 597385,
+      "sum": 1164449,
+      "profit": 608579,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19496,
-      "sum": 20699121,
-      "profit": 10817151,
-      "lastDemandDate": "2026-10-22 14:02:00.000"
+      "demandsCount": 19526,
+      "sum": 20738883,
+      "profit": 10839776,
+      "lastDemandDate": "2026-10-22 19:36:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
