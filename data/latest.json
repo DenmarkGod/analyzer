@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T16:36:46.552Z",
+  "updatedAt": "2026-10-22T21:10:46.087Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 38,
-        "amount": 55594,
-        "movementAmount": 8482
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -68422
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1107982,
+        "income": 1159161,
         "outcome": 0,
-        "balance": 5185515,
-        "todayMovement": 1107982,
-        "movement": 1107982
+        "balance": 5252226,
+        "todayMovement": 1159161,
+        "movement": 1159161
       }
     },
     "week": {
       "sales": {
-        "count": 163,
-        "amount": 184875,
-        "movementAmount": -161956
+        "count": 176,
+        "amount": 197703,
+        "movementAmount": -149128
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1107982,
+        "income": 1159161,
         "outcome": 0,
-        "balance": 5185515,
-        "todayMovement": 1107982,
-        "movement": 1107982
+        "balance": 5252226,
+        "todayMovement": 1159161,
+        "movement": 1159161
       }
     },
     "month": {
       "sales": {
-        "count": 898,
-        "amount": 969071,
-        "movementAmount": 20768
+        "count": 911,
+        "amount": 981899,
+        "movementAmount": 33596
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1107982,
+        "income": 1159161,
         "outcome": 0,
-        "balance": 5185515,
-        "todayMovement": 1107982,
-        "movement": 1107982
+        "balance": 5252226,
+        "todayMovement": 1159161,
+        "movement": 1159161
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-07-24",
-      "quantity": 42,
-      "sum": 34291
+      "quantity": 14,
+      "sum": 10780
     },
     {
       "date": "2026-07-25",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-22",
-      "quantity": 17,
-      "sum": 26677
+      "quantity": 47,
+      "sum": 65339
     }
   ],
   "ordersTrend": [
@@ -978,7 +978,7 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 14792306,
+    "creditTotal": 14859017,
     "debitTotal": 9606791,
     "series": [
       {
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5146,
-    "totalValueRub": 1715130,
+    "totalValueRub": 1706595,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1943,17 +1943,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 73,
-      "sum": 25550,
-      "profit": 14154,
+      "quantity": 77,
+      "sum": 26950,
+      "profit": 14924,
       "margin": 55
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 38,
-      "sum": 13300,
-      "profit": 7344,
+      "quantity": 43,
+      "sum": 15050,
+      "profit": 8307,
       "margin": 55
     },
     {
@@ -1961,7 +1961,7 @@
       "code": "03530",
       "quantity": 35,
       "sum": 12250,
-      "profit": 7323,
+      "profit": 7311,
       "margin": 60
     },
     {
@@ -1999,9 +1999,9 @@
     {
       "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
       "code": "02057",
-      "quantity": 6,
-      "sum": 6660,
-      "profit": 3510,
+      "quantity": 7,
+      "sum": 7770,
+      "profit": 4095,
       "margin": 53
     },
     {
@@ -2013,29 +2013,29 @@
       "margin": 52
     },
     {
-      "name": "БПК Электронная Сигарета FUMMO Chiller Indic 10000 Лимонад Тархун с Клубникой",
-      "code": "03945",
-      "quantity": 7,
-      "sum": 6545,
-      "profit": 3647,
-      "margin": 56
+      "name": "БПК Картридж LOST MARY X-Link Classic Ледяной Арбуз",
+      "code": "02278",
+      "quantity": 6,
+      "sum": 6660,
+      "profit": 3510,
+      "margin": 53
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1164449,
-      "profit": 608579,
+      "sum": 1192509,
+      "profit": 623518,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19526,
-      "sum": 20738883,
-      "profit": 10839776,
-      "lastDemandDate": "2026-10-22 19:36:00.000"
+      "demandsCount": 19538,
+      "sum": 20749341,
+      "profit": 10844374,
+      "lastDemandDate": "2026-10-22 22:56:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
