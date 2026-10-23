@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T21:10:46.087Z",
+  "updatedAt": "2026-10-23T03:20:28.803Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -64,11 +64,6 @@
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-07-24",
-      "quantity": 14,
-      "sum": 10780
-    },
     {
       "date": "2026-07-25",
       "quantity": 63,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-10-22",
-      "quantity": 47,
-      "sum": 65339
+      "quantity": 51,
+      "sum": 68422
+    },
+    {
+      "date": "2026-10-23",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-07-24",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-07-25",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-10-22",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-10-23",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
     "creditTotal": 14859017,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-07-24",
-        "credit": 54891,
-        "debit": 0,
-        "balance": 54891
-      },
       {
         "date": "2026-07-25",
         "credit": 63978,
@@ -1523,9 +1517,15 @@
       },
       {
         "date": "2026-10-22",
-        "credit": 45934,
+        "credit": 112646,
         "debit": 0,
-        "balance": 45934
+        "balance": 112646
+      },
+      {
+        "date": "2026-10-23",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
       }
     ]
   },
@@ -1951,9 +1951,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 43,
-      "sum": 15050,
-      "profit": 8307,
+      "quantity": 44,
+      "sum": 15365,
+      "profit": 8464,
       "margin": 55
     },
     {
@@ -2005,27 +2005,27 @@
       "margin": 53
     },
     {
+      "name": "БПК Картридж LOST MARY X-Link Classic Киви Маракуйя Гуава",
+      "code": "02280",
+      "quantity": 6,
+      "sum": 6660,
+      "profit": 3535,
+      "margin": 53
+    },
+    {
       "name": "БПК Картридж LOST MARY X-Link Classic Кислая Клубника Питайя",
       "code": "02691",
       "quantity": 6,
       "sum": 6660,
       "profit": 3450,
       "margin": 52
-    },
-    {
-      "name": "БПК Картридж LOST MARY X-Link Classic Ледяной Арбуз",
-      "code": "02278",
-      "quantity": 6,
-      "sum": 6660,
-      "profit": 3510,
-      "margin": 53
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1192509,
-      "profit": 623518,
+      "sum": 1194985,
+      "profit": 624959,
       "margin": 52
     }
   ],
