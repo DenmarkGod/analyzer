@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T10:59:23.759Z",
+  "updatedAt": "2026-10-23T16:26:33.753Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 6,
-        "amount": 8618,
-        "movementAmount": -59804
+        "count": 30,
+        "amount": 31918,
+        "movementAmount": -36504
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 182,
-        "amount": 206321,
-        "movementAmount": -140510
+        "count": 206,
+        "amount": 229620,
+        "movementAmount": -117211
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 917,
-        "amount": 990517,
-        "movementAmount": 42214
+        "count": 941,
+        "amount": 1013816,
+        "movementAmount": 65513
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-25",
-      "quantity": 61,
-      "sum": 72488
+      "quantity": 36,
+      "sum": 45035
     },
     {
       "date": "2026-07-26",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-23",
-      "quantity": 1,
-      "sum": 140
+      "quantity": 15,
+      "sum": 16618
     }
   ],
   "ordersTrend": [
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 5146,
-    "totalValueRub": 1702793,
+    "totalSkuCount": 5152,
+    "totalValueRub": 1692318,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1943,17 +1943,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 77,
-      "sum": 26950,
-      "profit": 14924,
+      "quantity": 80,
+      "sum": 28000,
+      "profit": 15502,
       "margin": 55
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 44,
-      "sum": 15365,
-      "profit": 8464,
+      "quantity": 45,
+      "sum": 15715,
+      "profit": 8657,
       "margin": 55
     },
     {
@@ -2007,35 +2007,35 @@
     {
       "name": "БПК Картридж LOST MARY X-Link Classic Киви Маракуйя Гуава",
       "code": "02280",
-      "quantity": 6,
-      "sum": 6660,
-      "profit": 3535,
+      "quantity": 7,
+      "sum": 7770,
+      "profit": 4120,
       "margin": 53
     },
     {
-      "name": "БПК Картридж LOST MARY X-Link Classic Кислая Клубника Питайя",
-      "code": "02691",
-      "quantity": 6,
-      "sum": 6660,
-      "profit": 3450,
-      "margin": 52
+      "name": "БПК Картридж LOST MARY X-Link Classic Ледяной Арбуз",
+      "code": "02278",
+      "quantity": 7,
+      "sum": 7770,
+      "profit": 4095,
+      "margin": 53
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1192175,
-      "profit": 623494,
+      "sum": 1199528,
+      "profit": 627611,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19544,
-      "sum": 20757959,
-      "profit": 10849189,
-      "lastDemandDate": "2026-10-23 13:46:00.000"
+      "demandsCount": 19568,
+      "sum": 20781258,
+      "profit": 10862014,
+      "lastDemandDate": "2026-10-23 19:12:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
