@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T16:26:33.753Z",
+  "updatedAt": "2026-10-23T20:57:59.371Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 30,
-        "amount": 31918,
-        "movementAmount": -36504
+        "count": 49,
+        "amount": 50818,
+        "movementAmount": -17604
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1159161,
+        "income": 1208591,
         "outcome": 0,
-        "balance": 5252226,
-        "todayMovement": 1159161,
-        "movement": 1159161
+        "balance": 5301656,
+        "todayMovement": 1208591,
+        "movement": 1208591
       }
     },
     "week": {
       "sales": {
-        "count": 206,
-        "amount": 229620,
-        "movementAmount": -117211
+        "count": 225,
+        "amount": 248520,
+        "movementAmount": -98311
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1159161,
+        "income": 1208591,
         "outcome": 0,
-        "balance": 5252226,
-        "todayMovement": 1159161,
-        "movement": 1159161
+        "balance": 5301656,
+        "todayMovement": 1208591,
+        "movement": 1208591
       }
     },
     "month": {
       "sales": {
-        "count": 941,
-        "amount": 1013816,
-        "movementAmount": 65513
+        "count": 960,
+        "amount": 1032716,
+        "movementAmount": 84413
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1159161,
+        "income": 1208591,
         "outcome": 0,
-        "balance": 5252226,
-        "todayMovement": 1159161,
-        "movement": 1159161
+        "balance": 5301656,
+        "todayMovement": 1208591,
+        "movement": 1208591
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-07-25",
-      "quantity": 36,
-      "sum": 45035
+      "quantity": 8,
+      "sum": 7243
     },
     {
       "date": "2026-07-26",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-23",
-      "quantity": 15,
-      "sum": 16618
+      "quantity": 38,
+      "sum": 40327
     }
   ],
   "ordersTrend": [
@@ -978,7 +978,7 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 14859017,
+    "creditTotal": 14908447,
     "debitTotal": 9606791,
     "series": [
       {
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5152,
-    "totalValueRub": 1692318,
+    "totalValueRub": 1676927,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1951,9 +1951,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 45,
-      "sum": 15715,
-      "profit": 8657,
+      "quantity": 48,
+      "sum": 16765,
+      "profit": 9234,
       "margin": 55
     },
     {
@@ -1981,20 +1981,20 @@
       "margin": 58
     },
     {
+      "name": "БПК Картридж LOST MARY X-Link Classic Киви Маракуйя Гуава",
+      "code": "02280",
+      "quantity": 8,
+      "sum": 8880,
+      "profit": 4705,
+      "margin": 53
+    },
+    {
       "name": "ОС PAFOS 20.000 Кокосовое Мороженое / Coconut ice cream",
       "code": "02309",
       "quantity": 3,
       "sum": 8430,
       "profit": 4730,
       "margin": 56
-    },
-    {
-      "name": "БПК Электронная Сигарета Lost Mary BM16000 Ежевика Грейпфрут",
-      "code": "04630",
-      "quantity": 5,
-      "sum": 7900,
-      "profit": 4110,
-      "margin": 52
     },
     {
       "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
@@ -2005,37 +2005,37 @@
       "margin": 53
     },
     {
-      "name": "БПК Картридж LOST MARY X-Link Classic Киви Маракуйя Гуава",
-      "code": "02280",
-      "quantity": 7,
-      "sum": 7770,
-      "profit": 4120,
-      "margin": 53
-    },
-    {
       "name": "БПК Картридж LOST MARY X-Link Classic Ледяной Арбуз",
       "code": "02278",
       "quantity": 7,
       "sum": 7770,
       "profit": 4095,
       "margin": 53
+    },
+    {
+      "name": "БПК Картридж LOST MARY X-Link Classic Кислая Клубника Питайя",
+      "code": "02691",
+      "quantity": 6,
+      "sum": 6660,
+      "profit": 3450,
+      "margin": 52
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1199528,
-      "profit": 627611,
+      "sum": 1216396,
+      "profit": 636869,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19568,
-      "sum": 20781258,
-      "profit": 10862014,
-      "lastDemandDate": "2026-10-23 19:12:00.000"
+      "demandsCount": 19587,
+      "sum": 20800158,
+      "profit": 10871671,
+      "lastDemandDate": "2026-10-23 22:53:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
