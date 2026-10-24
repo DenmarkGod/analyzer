@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T03:14:08.751Z",
+  "updatedAt": "2026-10-24T10:16:04.039Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -50817
+        "count": 7,
+        "amount": 15502,
+        "movementAmount": -35315
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 225,
-        "amount": 248520,
-        "movementAmount": -98311
+        "count": 232,
+        "amount": 264022,
+        "movementAmount": -82809
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 960,
-        "amount": 1032716,
-        "movementAmount": 84413
+        "count": 967,
+        "amount": 1048218,
+        "movementAmount": 99915
       },
       "orders": {
         "count": 0,
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 5152,
-    "totalValueRub": 1676927,
+    "totalSkuCount": 5156,
+    "totalValueRub": 1736614,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 539
+        "stockDays": 540
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 534
+        "stockDays": 535
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 534
+        "stockDays": 535
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 534
-      },
-      {
-        "name": "Мелассоуловитель Catcher Blade",
-        "code": "00136",
-        "stock": 1,
-        "uom": "шт",
-        "stockDays": 534
+        "stockDays": 535
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 534
+        "stockDays": 535
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 529
+        "stockDays": 530
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 529
+        "stockDays": 530
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 529
+        "stockDays": 530
       },
       {
         "name": "Табак DARKSIDE SHOT Волжский 30g",
         "code": "01110",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 529
+        "stockDays": 530
+      },
+      {
+        "name": "Табак DARKSIDE SHOT Кубанский 30g",
+        "code": "01118",
+        "stock": 1,
+        "uom": "шт",
+        "stockDays": 530
       }
     ],
     "outOfStock": [
@@ -1918,6 +1918,11 @@
         "stock": 0
       },
       {
+        "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
+        "code": "05804",
+        "stock": 0
+      },
+      {
         "name": "ЭДО POD Система PLONQ Meta Smart Черный",
         "code": "05805",
         "stock": 0
@@ -1930,11 +1935,6 @@
       {
         "name": "Набор Smoant Charon Racer kit Emerald Green - Изумрудно-зеленый",
         "code": "04218",
-        "stock": 0
-      },
-      {
-        "name": "POD Система SMOANT PASITO 2 Black Red",
-        "code": "05460",
         "stock": 0
       }
     ]
@@ -2032,10 +2032,10 @@
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19587,
-      "sum": 20800158,
-      "profit": 10871671,
-      "lastDemandDate": "2026-10-23 22:53:00.000"
+      "demandsCount": 19594,
+      "sum": 20815660,
+      "profit": 10879785,
+      "lastDemandDate": "2026-10-24 13:00:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
