@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T20:57:59.371Z",
+  "updatedAt": "2026-10-24T03:14:08.751Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 49,
-        "amount": 50818,
-        "movementAmount": -17604
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -50817
       },
       "orders": {
         "count": 0,
@@ -64,11 +64,6 @@
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-07-25",
-      "quantity": 8,
-      "sum": 7243
-    },
     {
       "date": "2026-07-26",
       "quantity": 48,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-10-23",
-      "quantity": 38,
-      "sum": 40327
+      "quantity": 49,
+      "sum": 50818
+    },
+    {
+      "date": "2026-10-24",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-07-25",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-07-26",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-10-23",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-10-24",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
     "creditTotal": 14908447,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-07-25",
-        "credit": 63978,
-        "debit": 0,
-        "balance": 63978
-      },
       {
         "date": "2026-07-26",
         "credit": 0,
@@ -1523,6 +1517,12 @@
       },
       {
         "date": "2026-10-23",
+        "credit": 49430,
+        "debit": 0,
+        "balance": 49430
+      },
+      {
+        "date": "2026-10-24",
         "credit": 0,
         "debit": 0,
         "balance": 0
@@ -1951,9 +1951,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 48,
-      "sum": 16765,
-      "profit": 9234,
+      "quantity": 49,
+      "sum": 17115,
+      "profit": 9427,
       "margin": 55
     },
     {
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1216396,
-      "profit": 636869,
+      "sum": 1226167,
+      "profit": 642013,
       "margin": 52
     }
   ],
