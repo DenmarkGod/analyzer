@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T10:16:04.039Z",
+  "updatedAt": "2026-10-24T15:21:54.716Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 7,
-        "amount": 15502,
-        "movementAmount": -35315
+        "count": 28,
+        "amount": 31339,
+        "movementAmount": -19478
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 232,
-        "amount": 264022,
-        "movementAmount": -82809
+        "count": 253,
+        "amount": 279859,
+        "movementAmount": -66972
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 967,
-        "amount": 1048218,
-        "movementAmount": 99915
+        "count": 988,
+        "amount": 1064055,
+        "movementAmount": 115752
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-26",
-      "quantity": 48,
-      "sum": 60344
+      "quantity": 33,
+      "sum": 45844
     },
     {
       "date": "2026-07-27",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-24",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 16,
+      "sum": 22396
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5156,
-    "totalValueRub": 1736614,
+    "totalValueRub": 1729115,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1943,25 +1943,25 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 80,
-      "sum": 28000,
-      "profit": 15502,
+      "quantity": 82,
+      "sum": 28700,
+      "profit": 15887,
       "margin": 55
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 49,
-      "sum": 17115,
-      "profit": 9427,
+      "quantity": 48,
+      "sum": 16765,
+      "profit": 9220,
       "margin": 55
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 35,
-      "sum": 12250,
-      "profit": 7311,
+      "quantity": 34,
+      "sum": 11900,
+      "profit": 7098,
       "margin": 60
     },
     {
@@ -1973,6 +1973,14 @@
       "margin": 55
     },
     {
+      "name": "БПК Картридж LOST MARY X-Link Classic Киви Маракуйя Гуава",
+      "code": "02280",
+      "quantity": 9,
+      "sum": 9990,
+      "profit": 5290,
+      "margin": 53
+    },
+    {
       "name": "Кальян TH-20 Embery Mono, 70см",
       "code": "05169",
       "quantity": 1,
@@ -1981,12 +1989,12 @@
       "margin": 58
     },
     {
-      "name": "БПК Картридж LOST MARY X-Link Classic Киви Маракуйя Гуава",
-      "code": "02280",
-      "quantity": 8,
-      "sum": 8880,
-      "profit": 4705,
-      "margin": 53
+      "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
+      "code": "05804",
+      "quantity": 2,
+      "sum": 8700,
+      "profit": 3700,
+      "margin": 43
     },
     {
       "name": "ОС PAFOS 20.000 Кокосовое Мороженое / Coconut ice cream",
@@ -2011,31 +2019,23 @@
       "sum": 7770,
       "profit": 4095,
       "margin": 53
-    },
-    {
-      "name": "БПК Картридж LOST MARY X-Link Classic Кислая Клубника Питайя",
-      "code": "02691",
-      "quantity": 6,
-      "sum": 6660,
-      "profit": 3450,
-      "margin": 52
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1226167,
-      "profit": 642013,
+      "sum": 1233421,
+      "profit": 646289,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19594,
-      "sum": 20815660,
-      "profit": 10879785,
-      "lastDemandDate": "2026-10-24 13:00:00.000"
+      "demandsCount": 19615,
+      "sum": 20831497,
+      "profit": 10888123,
+      "lastDemandDate": "2026-10-24 18:05:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
