@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T20:11:55.397Z",
+  "updatedAt": "2026-10-25T03:09:11.536Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 44,
-        "amount": 45291,
-        "movementAmount": -5526
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -45291
       },
       "orders": {
         "count": 0,
@@ -17,11 +17,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1252710,
+        "income": 1201155,
         "outcome": 0,
         "balance": 5345776,
-        "todayMovement": 1252710,
-        "movement": 1252710
+        "todayMovement": 1201155,
+        "movement": 1201155
       }
     },
     "week": {
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1252710,
+        "income": 1201155,
         "outcome": 0,
         "balance": 5345776,
-        "todayMovement": 1252710,
-        "movement": 1252710
+        "todayMovement": 1201155,
+        "movement": 1201155
       }
     },
     "month": {
@@ -55,24 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1252710,
+        "income": 1201155,
         "outcome": 0,
         "balance": 5345776,
-        "todayMovement": 1252710,
-        "movement": 1252710
+        "todayMovement": 1201155,
+        "movement": 1201155
       }
     }
   },
   "salesTrend": [
     {
-      "date": "2026-07-26",
-      "quantity": 11,
-      "sum": 12837
-    },
-    {
       "date": "2026-07-27",
-      "quantity": 66,
-      "sum": 71975
+      "quantity": 64,
+      "sum": 70920
     },
     {
       "date": "2026-07-28",
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-10-24",
-      "quantity": 41,
-      "sum": 44072
+      "quantity": 44,
+      "sum": 45291
+    },
+    {
+      "date": "2026-10-25",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-07-26",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-07-27",
       "quantity": 0,
@@ -975,6 +970,11 @@
       "date": "2026-10-24",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-10-25",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
@@ -982,16 +982,10 @@
     "debitTotal": 9606791,
     "series": [
       {
-        "date": "2026-07-26",
+        "date": "2026-07-27",
         "credit": 0,
         "debit": 0,
         "balance": 0
-      },
-      {
-        "date": "2026-07-27",
-        "credit": 52418,
-        "debit": 0,
-        "balance": 52418
       },
       {
         "date": "2026-07-28",
@@ -1523,6 +1517,12 @@
       },
       {
         "date": "2026-10-24",
+        "credit": 44120,
+        "debit": 0,
+        "balance": 44120
+      },
+      {
+        "date": "2026-10-25",
         "credit": 0,
         "debit": 0,
         "balance": 0
@@ -1967,10 +1967,10 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 31,
-      "sum": 10850,
-      "profit": 6459,
-      "margin": 60
+      "quantity": 30,
+      "sum": 10500,
+      "profit": 6246,
+      "margin": 59
     },
     {
       "name": "БПК Картридж LOST MARY X-Link Classic Киви Маракуйя Гуава",
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1240271,
-      "profit": 649044,
+      "sum": 1236646,
+      "profit": 647050,
       "margin": 52
     }
   ],
