@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T15:31:46.363Z",
+  "updatedAt": "2026-10-25T20:21:44.071Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 27,
-        "amount": 33545,
-        "movementAmount": -11746
+        "count": 46,
+        "amount": 58045,
+        "movementAmount": 12754
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 296,
-        "amount": 327356,
-        "movementAmount": -19475
+        "count": 315,
+        "amount": 351856,
+        "movementAmount": 5025
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1031,
-        "amount": 1111552,
-        "movementAmount": 163249
+        "count": 1050,
+        "amount": 1136052,
+        "movementAmount": 187749
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-27",
-      "quantity": 45,
-      "sum": 52629
+      "quantity": 17,
+      "sum": 28271
     },
     {
       "date": "2026-07-28",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-25",
-      "quantity": 14,
-      "sum": 19486
+      "quantity": 37,
+      "sum": 42607
     }
   ],
   "ordersTrend": [
@@ -1531,11 +1531,17 @@
   },
   "stock": {
     "totalSkuCount": 5156,
-    "totalValueRub": 1696798,
+    "totalValueRub": 1683164,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
         "code": "05319",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
+        "code": "04335",
         "stock": 1,
         "uom": "шт"
       },
@@ -1704,12 +1710,6 @@
       {
         "name": "(МТ) Black Burn 25гр Lemon Shock - Кислый лимон",
         "code": "01493",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Lime Shock - Кислый лайм",
-        "code": "03663",
         "stock": 0,
         "uom": "шт"
       }
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1250130,
-      "profit": 653378,
+      "sum": 1264113,
+      "profit": 660975,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19658,
-      "sum": 20878994,
-      "profit": 10912012,
-      "lastDemandDate": "2026-10-25 18:28:00.000"
+      "demandsCount": 19677,
+      "sum": 20903494,
+      "profit": 10924895,
+      "lastDemandDate": "2026-10-25 22:42:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
