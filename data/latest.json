@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T10:41:50.248Z",
+  "updatedAt": "2026-10-25T15:31:46.363Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 9,
-        "amount": 8782,
-        "movementAmount": -36509
+        "count": 27,
+        "amount": 33545,
+        "movementAmount": -11746
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 278,
-        "amount": 302593,
-        "movementAmount": -44238
+        "count": 296,
+        "amount": 327356,
+        "movementAmount": -19475
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1013,
-        "amount": 1086789,
-        "movementAmount": 138486
+        "count": 1031,
+        "amount": 1111552,
+        "movementAmount": 163249
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-27",
-      "quantity": 64,
-      "sum": 70920
+      "quantity": 45,
+      "sum": 52629
     },
     {
       "date": "2026-07-28",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-25",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 14,
+      "sum": 19486
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5156,
-    "totalValueRub": 1714819,
+    "totalValueRub": 1696798,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1967,9 +1967,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 30,
-      "sum": 10500,
-      "profit": 6246,
+      "quantity": 29,
+      "sum": 10150,
+      "profit": 6033,
       "margin": 59
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1236294,
-      "profit": 646940,
+      "sum": 1250130,
+      "profit": 653378,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19640,
-      "sum": 20854231,
-      "profit": 10899294,
-      "lastDemandDate": "2026-10-25 13:31:00.000"
+      "demandsCount": 19658,
+      "sum": 20878994,
+      "profit": 10912012,
+      "lastDemandDate": "2026-10-25 18:28:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
