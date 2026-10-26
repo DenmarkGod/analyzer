@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T12:14:13.484Z",
+  "updatedAt": "2026-10-26T22:16:40.759Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 23,
-        "amount": 27135,
-        "movementAmount": -30910
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -40048
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1257749,
+        "income": 1239651,
         "outcome": 0,
-        "balance": 5402370,
-        "todayMovement": 1257749,
-        "movement": 1257749
+        "balance": 5441417,
+        "todayMovement": 1239651,
+        "movement": 1239651
       }
     },
     "week": {
       "sales": {
-        "count": 23,
-        "amount": 27135,
-        "movementAmount": -324721
+        "count": 42,
+        "amount": 40048,
+        "movementAmount": -311808
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1257749,
+        "income": 1239651,
         "outcome": 0,
-        "balance": 5402370,
-        "todayMovement": 1257749,
-        "movement": 1257749
+        "balance": 5441417,
+        "todayMovement": 1239651,
+        "movement": 1239651
       }
     },
     "month": {
       "sales": {
-        "count": 1073,
-        "amount": 1163187,
-        "movementAmount": 214884
+        "count": 1092,
+        "amount": 1176100,
+        "movementAmount": 227797
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1257749,
+        "income": 1239651,
         "outcome": 0,
-        "balance": 5402370,
-        "todayMovement": 1257749,
-        "movement": 1257749
+        "balance": 5441417,
+        "todayMovement": 1239651,
+        "movement": 1239651
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-07-28",
-      "quantity": 46,
-      "sum": 61502
+      "quantity": 1,
+      "sum": 13073
     },
     {
       "date": "2026-07-29",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-26",
-      "quantity": 9,
-      "sum": 9707
+      "quantity": 42,
+      "sum": 40048
     }
   ],
   "ordersTrend": [
@@ -978,7 +978,7 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 15009161,
+    "creditTotal": 15048208,
     "debitTotal": 9606791,
     "series": [
       {
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5156,
-    "totalValueRub": 1669046,
+    "totalValueRub": 1654537,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1590,7 +1590,7 @@
       {
         "name": "(МТ) Black Burn 25гр Berry Lemonade - Ягодный лимонад",
         "code": "01476",
-        "stock": 1,
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1943,34 +1943,18 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 83,
-      "sum": 29050,
-      "profit": 16079,
+      "quantity": 85,
+      "sum": 29750,
+      "profit": 16464,
       "margin": 55
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 49,
-      "sum": 17115,
-      "profit": 9407,
+      "quantity": 47,
+      "sum": 16415,
+      "profit": 9022,
       "margin": 55
-    },
-    {
-      "name": "ОС PAFOS 20.000 new Гранат лайм содовая / Pomegranate lime soda",
-      "code": "03326",
-      "quantity": 4,
-      "sum": 11240,
-      "profit": 6140,
-      "margin": 55
-    },
-    {
-      "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
-      "code": "03530",
-      "quantity": 29,
-      "sum": 10150,
-      "profit": 6033,
-      "margin": 59
     },
     {
       "name": "БПК Картридж LOST MARY X-Link Classic Киви Маракуйя Гуава",
@@ -1989,6 +1973,14 @@
       "margin": 58
     },
     {
+      "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
+      "code": "03530",
+      "quantity": 26,
+      "sum": 9100,
+      "profit": 5394,
+      "margin": 59
+    },
+    {
       "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
       "code": "05804",
       "quantity": 2,
@@ -1997,20 +1989,12 @@
       "margin": 43
     },
     {
-      "name": "ОС PAFOS 20.000 Кокосовое Мороженое / Coconut ice cream",
-      "code": "02309",
+      "name": "ОС PAFOS 20.000 new Гранат лайм содовая / Pomegranate lime soda",
+      "code": "03326",
       "quantity": 3,
       "sum": 8430,
-      "profit": 4730,
-      "margin": 56
-    },
-    {
-      "name": "БПК Картридж LOST MARY X-Link Classic Киви Ананас Персик",
-      "code": "02057",
-      "quantity": 7,
-      "sum": 7770,
-      "profit": 4095,
-      "margin": 53
+      "profit": 4630,
+      "margin": 55
     },
     {
       "name": "БПК Картридж LOST MARY X-Link Classic Ледяной Арбуз",
@@ -2019,23 +2003,39 @@
       "sum": 7770,
       "profit": 4095,
       "margin": 53
+    },
+    {
+      "name": "БПК Картридж LOST MARY X-Link Sweet Кислое Яблоко Лёд",
+      "code": "02692",
+      "quantity": 7,
+      "sum": 7770,
+      "profit": 4045,
+      "margin": 52
+    },
+    {
+      "name": "Табак жевательный ReVolt Go (Револьт Го) с ароматом Mint Shock (Минт Шок)",
+      "code": "05527",
+      "quantity": 11,
+      "sum": 6776,
+      "profit": 3144,
+      "margin": 46
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1280754,
-      "profit": 670210,
+      "sum": 1276759,
+      "profit": 668663,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19700,
-      "sum": 20930629,
-      "profit": 10939471,
-      "lastDemandDate": "2026-10-26 15:10:00.000"
+      "demandsCount": 19719,
+      "sum": 20943542,
+      "profit": 10945875,
+      "lastDemandDate": "2026-10-26 21:35:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
