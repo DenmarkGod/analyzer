@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T17:26:58.556Z",
+  "updatedAt": "2026-10-27T21:48:26.760Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 41,
-        "amount": 34630,
-        "movementAmount": -5418
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -45471
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1239651,
+        "income": 1283985,
         "outcome": 0,
-        "balance": 5441417,
-        "todayMovement": 1239651,
-        "movement": 1239651
+        "balance": 5485751,
+        "todayMovement": 1283985,
+        "movement": 1283985
       }
     },
     "week": {
       "sales": {
-        "count": 83,
-        "amount": 74678,
-        "movementAmount": -277178
+        "count": 92,
+        "amount": 85519,
+        "movementAmount": -266337
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1239651,
+        "income": 1283985,
         "outcome": 0,
-        "balance": 5441417,
-        "todayMovement": 1239651,
-        "movement": 1239651
+        "balance": 5485751,
+        "todayMovement": 1283985,
+        "movement": 1283985
       }
     },
     "month": {
       "sales": {
-        "count": 1133,
-        "amount": 1210730,
-        "movementAmount": 262427
+        "count": 1142,
+        "amount": 1221571,
+        "movementAmount": 273268
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1239651,
+        "income": 1283985,
         "outcome": 0,
-        "balance": 5441417,
-        "todayMovement": 1239651,
-        "movement": 1239651
+        "balance": 5485751,
+        "todayMovement": 1283985,
+        "movement": 1283985
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-07-29",
-      "quantity": 29,
-      "sum": 33232
+      "quantity": 3,
+      "sum": 2960
     },
     {
       "date": "2026-07-30",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-27",
-      "quantity": 28,
-      "sum": 21633
+      "quantity": 43,
+      "sum": 37639
     }
   ],
   "ordersTrend": [
@@ -978,7 +978,7 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 15048208,
+    "creditTotal": 15092542,
     "debitTotal": 9606791,
     "series": [
       {
@@ -1534,17 +1534,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 85,
-      "sum": 29750,
-      "profit": 16464,
+      "quantity": 88,
+      "sum": 30800,
+      "profit": 17042,
       "margin": 55
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 48,
-      "sum": 16765,
-      "profit": 9224,
+      "quantity": 50,
+      "sum": 17465,
+      "profit": 9638,
       "margin": 55
     },
     {
@@ -1615,18 +1615,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1289722,
-      "profit": 675010,
+      "sum": 1294168,
+      "profit": 677181,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19760,
-      "sum": 20978172,
-      "profit": 10963368,
-      "lastDemandDate": "2026-10-27 20:24:00.000"
+      "demandsCount": 19769,
+      "sum": 20989013,
+      "profit": 10969211,
+      "lastDemandDate": "2026-10-27 22:40:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
@@ -1693,6 +1693,6 @@
     }
   ],
   "warnings": [
-    "Остатки: HTTP 503"
+    "Остатки: terminated"
   ]
 }
