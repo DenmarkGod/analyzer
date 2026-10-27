@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T11:34:52.861Z",
+  "updatedAt": "2026-10-27T17:26:58.556Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 15,
-        "amount": 11075,
-        "movementAmount": -28973
+        "count": 41,
+        "amount": 34630,
+        "movementAmount": -5418
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 57,
-        "amount": 51123,
-        "movementAmount": -300733
+        "count": 83,
+        "amount": 74678,
+        "movementAmount": -277178
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1107,
-        "amount": 1187175,
-        "movementAmount": 238872
+        "count": 1133,
+        "amount": 1210730,
+        "movementAmount": 262427
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-07-29",
-      "quantity": 56,
-      "sum": 59070
+      "quantity": 29,
+      "sum": 33232
     },
     {
       "date": "2026-07-30",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-10-27",
-      "quantity": 3,
-      "sum": 2850
+      "quantity": 28,
+      "sum": 21633
     }
   ],
   "ordersTrend": [
@@ -1529,416 +1529,7 @@
       }
     ]
   },
-  "stock": {
-    "totalSkuCount": 5174,
-    "totalValueRub": 1710680,
-    "lowStock": [
-      {
-        "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
-        "code": "05319",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
-        "code": "04335",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр After8 - Шоколад мята",
-        "code": "01852",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Almond Icecream - Миндальное мороженое",
-        "code": "01853",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Ananas Shock - Кислый ананас",
-        "code": "01474",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Apple Shock - Кислое зелёное яблоко",
-        "code": "04200",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Asian Lychee - Личи",
-        "code": "01475",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Bananini - Банан",
-        "code": "04199",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Barberry Shock - Кислый барбарис",
-        "code": "04202",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Berry Lemonade - Ягодный лимонад",
-        "code": "01476",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр BlackBerry Lemonade - Ежевичный лимонад",
-        "code": "01477",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Blackcola - Кола",
-        "code": "01478",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Black Honey - Мед",
-        "code": "01854",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Brownie - Брауни",
-        "code": "01848",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Bubble Gum - Фруктовая жвачка",
-        "code": "01479",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Cane Mint - Тросниковая мята",
-        "code": "01855",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Cheesecake - Чизкейк",
-        "code": "01480",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Cherry Garden - Вишнёво-черешневый сок",
-        "code": "01822",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Creme Brulee - Десерт Крем-Брюле",
-        "code": "01481",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Ekzo Mango - Сочное манго",
-        "code": "01482",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Elka - Ёлка",
-        "code": "01483",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Epic Yogurt - Черничный йогурт",
-        "code": "01484",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Etalon Melon - Медовая дыня",
-        "code": "01485",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Garnet - Гранат",
-        "code": "01487",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Grapefruit - Грейпфрут",
-        "code": "01488",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Green Tea - Зелёный чай",
-        "code": "01489",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Guf Ice Baby - Ягодный сорбет с грейпфрутом",
-        "code": "01490",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Irish Cream - Ирландский крем",
-        "code": "01846",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Kiwi Stoner - Смузи из киви",
-        "code": "01492",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Lemon Shock - Кислый лимон",
-        "code": "01493",
-        "stock": 0,
-        "uom": "шт"
-      }
-    ],
-    "staleStock": [
-      {
-        "name": "Трубка Шар \"Есть че?\" 15 см Тёмно-зеленая",
-        "code": "00006",
-        "stock": 3,
-        "uom": "шт",
-        "stockDays": 543
-      },
-      {
-        "name": "HA-122 Мундштук алюминий 30 см",
-        "code": "00897",
-        "stock": 1,
-        "uom": "шт",
-        "stockDays": 538
-      },
-      {
-        "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
-        "code": "00391",
-        "stock": 2,
-        "uom": "шт",
-        "stockDays": 538
-      },
-      {
-        "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
-        "code": "00403",
-        "stock": 1,
-        "uom": "шт",
-        "stockDays": 538
-      },
-      {
-        "name": "Уголь ROCK CUBE 25mm 72 куб",
-        "code": "2",
-        "stock": 5,
-        "uom": "шт",
-        "stockDays": 538
-      },
-      {
-        "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
-        "code": "01129",
-        "stock": 2,
-        "uom": "шт",
-        "stockDays": 533
-      },
-      {
-        "name": "Табак DARKSIDE SHOT Альпийский 30g",
-        "code": "01088",
-        "stock": 1,
-        "uom": "шт",
-        "stockDays": 533
-      },
-      {
-        "name": "Табак DARKSIDE SHOT Балтийский 30g",
-        "code": "01097",
-        "stock": 1,
-        "uom": "шт",
-        "stockDays": 533
-      },
-      {
-        "name": "Табак DARKSIDE SHOT Волжский 30g",
-        "code": "01110",
-        "stock": 1,
-        "uom": "шт",
-        "stockDays": 533
-      },
-      {
-        "name": "Табак DARKSIDE SHOT Кубанский 30g",
-        "code": "01118",
-        "stock": 1,
-        "uom": "шт",
-        "stockDays": 533
-      }
-    ],
-    "outOfStock": [
-      {
-        "name": "POD Система GEEK VAPE Aegis Boost III Midnight Gold",
-        "code": "06176",
-        "stock": 0
-      },
-      {
-        "name": "POD Система GEEK VAPE Aegis Boost III Sunset Red",
-        "code": "06178",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape Aegis Boost 3 Black - Черный",
-        "code": "05391",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape Aegis Boost 3 Midnight Gold - Золотой",
-        "code": "05815",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape Aegis Boost 3 Silver - Серый",
-        "code": "04332",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape Aegis Boost 3 Sunset Red - Красный закат",
-        "code": "05816",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape Aegis Boost 3 Teal Blue - Синий",
-        "code": "05393",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape Aegis Boost 3 Teal Blue - Синий",
-        "code": "05392",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape H45 Classic (Aegis Hero 3) Grey - Серый",
-        "code": "05394",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape H45 Classic (Aegis Hero 3) World Edition Aurora Purple - Фиолетовый",
-        "code": "05760",
-        "stock": 0
-      },
-      {
-        "name": "6 Набор Geekvape Aegis Hero 5 Fizzy Red - Красный градиент",
-        "code": "06223",
-        "stock": 0
-      },
-      {
-        "name": "POD Система GEEKVAPE Aegis Hero 5 Blaze Red",
-        "code": "04442",
-        "stock": 0
-      },
-      {
-        "name": "POD Система GEEKVAPE Aegis Hero 5 Turbo Blue",
-        "code": "04224",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape Aegis Hero 5 Iron Black - Черный",
-        "code": "05395",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape Aegis Hero 5 Racing Green - Зеленый",
-        "code": "04660",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape Aegis Hero 5 Red and White - Красно-белый",
-        "code": "05944",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape Aegis Hero 5 Steel Silver - Стальной",
-        "code": "04883",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape Aegis Hero Q Black - Черный",
-        "code": "03239",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape Aegis Hero Q Green - Зеленый (камуфляж)",
-        "code": "03240",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape Aegis Nano 2 Moon Gray - Серый",
-        "code": "03241",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape Aegis Nano 2 Polar Silver - Серебряный",
-        "code": "03242",
-        "stock": 0
-      },
-      {
-        "name": "Набор Geekvape Aegis Nano 2 Sunset Yellow - Желтый",
-        "code": "03243",
-        "stock": 0
-      },
-      {
-        "name": "POD Система GEEK VAPE Sonder Q2 Fizzy Peach",
-        "code": "06179",
-        "stock": 0
-      },
-      {
-        "name": "POD Система GEEK VAPE Sonder Q2 Metallic Purple",
-        "code": "06180",
-        "stock": 0
-      },
-      {
-        "name": "ЭДО POD Система PLONQ Meta Lite Серебристый",
-        "code": "05237",
-        "stock": 0
-      },
-      {
-        "name": "ЭДО POD Система PLONQ Meta Lite Черный",
-        "code": "05803",
-        "stock": 0
-      },
-      {
-        "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
-        "code": "05804",
-        "stock": 0
-      },
-      {
-        "name": "ЭДО POD Система PLONQ Meta Smart Черный",
-        "code": "05805",
-        "stock": 0
-      },
-      {
-        "name": "Набор Smoant Charon Racer kit Blaze - Пламя",
-        "code": "04219",
-        "stock": 0
-      },
-      {
-        "name": "Набор Smoant Charon Racer kit Emerald Green - Изумрудно-зеленый",
-        "code": "04218",
-        "stock": 0
-      }
-    ]
-  },
+  "stock": null,
   "topProducts": [
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
@@ -1951,9 +1542,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 47,
-      "sum": 16415,
-      "profit": 9022,
+      "quantity": 48,
+      "sum": 16765,
+      "profit": 9224,
       "margin": 55
     },
     {
@@ -1977,7 +1568,7 @@
       "code": "03530",
       "quantity": 26,
       "sum": 9100,
-      "profit": 5394,
+      "profit": 5388,
       "margin": 59
     },
     {
@@ -1997,6 +1588,14 @@
       "margin": 55
     },
     {
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Лимон Лайм Грейпфрут",
+      "code": "03948",
+      "quantity": 5,
+      "sum": 7900,
+      "profit": 4110,
+      "margin": 52
+    },
+    {
       "name": "БПК Картридж LOST MARY X-Link Classic Ледяной Арбуз",
       "code": "02278",
       "quantity": 7,
@@ -2009,33 +1608,25 @@
       "code": "02692",
       "quantity": 7,
       "sum": 7770,
-      "profit": 4045,
+      "profit": 4070,
       "margin": 52
-    },
-    {
-      "name": "Табак жевательный ReVolt Go (Револьт Го) с ароматом Mint Shock (Минт Шок)",
-      "code": "05527",
-      "quantity": 11,
-      "sum": 6776,
-      "profit": 3144,
-      "margin": 46
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1276047,
-      "profit": 668384,
+      "sum": 1289722,
+      "profit": 675010,
       "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19734,
-      "sum": 20954617,
-      "profit": 10951545,
-      "lastDemandDate": "2026-10-27 14:27:00.000"
+      "demandsCount": 19760,
+      "sum": 20978172,
+      "profit": 10963368,
+      "lastDemandDate": "2026-10-27 20:24:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
@@ -2101,5 +1692,7 @@
       "lastDemandDate": null
     }
   ],
-  "warnings": []
+  "warnings": [
+    "Остатки: HTTP 503"
+  ]
 }
