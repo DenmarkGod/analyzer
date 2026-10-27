@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T22:16:40.759Z",
+  "updatedAt": "2026-10-27T03:40:10.500Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -64,11 +64,6 @@
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-07-28",
-      "quantity": 1,
-      "sum": 13073
-    },
     {
       "date": "2026-07-29",
       "quantity": 61,
@@ -518,14 +513,14 @@
       "date": "2026-10-26",
       "quantity": 42,
       "sum": 40048
+    },
+    {
+      "date": "2026-10-27",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-07-28",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-07-29",
       "quantity": 0,
@@ -975,6 +970,11 @@
       "date": "2026-10-26",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-10-27",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
@@ -982,16 +982,10 @@
     "debitTotal": 9606791,
     "series": [
       {
-        "date": "2026-07-28",
-        "credit": 0,
-        "debit": 0,
-        "balance": 0
-      },
-      {
         "date": "2026-07-29",
-        "credit": 154972,
+        "credit": 105007,
         "debit": 0,
-        "balance": 154972
+        "balance": 105007
       },
       {
         "date": "2026-07-30",
@@ -1523,6 +1517,12 @@
       },
       {
         "date": "2026-10-26",
+        "credit": 39047,
+        "debit": 0,
+        "balance": 39047
+      },
+      {
+        "date": "2026-10-27",
         "credit": 0,
         "debit": 0,
         "balance": 0
