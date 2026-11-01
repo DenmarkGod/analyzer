@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T20:57:54.567Z",
+  "updatedAt": "2026-11-01T04:20:02.688Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 45,
-        "amount": 47451,
-        "movementAmount": -17483
+        "count": 2,
+        "amount": 420,
+        "movementAmount": -47031
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1375909,
+        "income": 1422584,
         "outcome": 0,
-        "balance": 5652707,
-        "todayMovement": 1375909,
-        "movement": 1375909
+        "balance": 5699381,
+        "todayMovement": 1422584,
+        "movement": 1422584
       }
     },
     "week": {
       "sales": {
-        "count": 289,
-        "amount": 304247,
-        "movementAmount": -47609
+        "count": 291,
+        "amount": 304667,
+        "movementAmount": -47189
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1375909,
+        "income": 1422584,
         "outcome": 0,
-        "balance": 5652707,
-        "todayMovement": 1375909,
-        "movement": 1375909
+        "balance": 5699381,
+        "todayMovement": 1422584,
+        "movement": 1422584
       }
     },
     "month": {
       "sales": {
-        "count": 1339,
-        "amount": 1440299,
-        "movementAmount": 491996
+        "count": 2,
+        "amount": 420,
+        "movementAmount": -1439879
       },
       "orders": {
         "count": 0,
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1375909,
+        "income": 1422584,
         "outcome": 0,
-        "balance": 5652707,
-        "todayMovement": 1375909,
-        "movement": 1375909
+        "balance": 5699381,
+        "todayMovement": 1422584,
+        "movement": 1422584
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-08-02",
-      "quantity": 9,
-      "sum": 5812
-    },
     {
       "date": "2026-08-03",
       "quantity": 59,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-10-31",
-      "quantity": 37,
-      "sum": 38143
+      "quantity": 45,
+      "sum": 47451
+    },
+    {
+      "date": "2026-11-01",
+      "quantity": 2,
+      "sum": 420
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-08-02",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-08-03",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-10-31",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-11-01",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 15259498,
+    "creditTotal": 15306172,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-08-02",
-        "credit": 41618,
-        "debit": 0,
-        "balance": 41618
-      },
       {
         "date": "2026-08-03",
         "credit": 0,
@@ -1526,12 +1520,18 @@
         "credit": 0,
         "debit": 0,
         "balance": 0
+      },
+      {
+        "date": "2026-11-01",
+        "credit": 46674,
+        "debit": 0,
+        "balance": 46674
       }
     ]
   },
   "stock": {
     "totalSkuCount": 5203,
-    "totalValueRub": 1789059,
+    "totalValueRub": 1788759,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 85,
-      "sum": 29750,
-      "profit": 16363,
+      "quantity": 86,
+      "sum": 30100,
+      "profit": 16570,
       "margin": 55
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1406149,
-      "profit": 737419,
-      "margin": 53
+      "sum": 1412725,
+      "profit": 740422,
+      "margin": 52
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 19966,
-      "sum": 21207741,
-      "profit": 11082865,
-      "lastDemandDate": "2026-10-31 22:53:00.000"
+      "demandsCount": 19968,
+      "sum": 21208161,
+      "profit": 11082985,
+      "lastDemandDate": "2026-11-01 00:42:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
