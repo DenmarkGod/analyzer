@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T21:40:51.328Z",
+  "updatedAt": "2026-11-02T04:21:40.073Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -64,11 +64,6 @@
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-08-03",
-      "quantity": 9,
-      "sum": 5575
-    },
     {
       "date": "2026-08-04",
       "quantity": 64,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-11-01",
-      "quantity": 41,
-      "sum": 41035
+      "quantity": 44,
+      "sum": 42591
+    },
+    {
+      "date": "2026-11-02",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-08-03",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-08-04",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-11-01",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-11-02",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
     "creditTotal": 15347289,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-08-03",
-        "credit": 0,
-        "debit": 0,
-        "balance": 0
-      },
       {
         "date": "2026-08-04",
         "credit": 130178,
@@ -1523,9 +1517,15 @@
       },
       {
         "date": "2026-11-01",
-        "credit": 46674,
+        "credit": 87791,
         "debit": 0,
-        "balance": 46674
+        "balance": 87791
+      },
+      {
+        "date": "2026-11-02",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
       }
     ]
   },
@@ -1959,9 +1959,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 31,
-      "sum": 10850,
-      "profit": 6417,
+      "quantity": 30,
+      "sum": 10500,
+      "profit": 6210,
       "margin": 59
     },
     {
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1420917,
-      "profit": 746323,
+      "sum": 1421244,
+      "profit": 746238,
       "margin": 53
     }
   ],
