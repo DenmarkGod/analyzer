@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T04:21:40.073Z",
+  "updatedAt": "2026-11-02T14:44:17.882Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -42591
+        "count": 23,
+        "amount": 25260,
+        "movementAmount": -17331
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -346838
+        "count": 23,
+        "amount": 25260,
+        "movementAmount": -321578
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 44,
-        "amount": 42591,
-        "movementAmount": -1397708
+        "count": 67,
+        "amount": 67851,
+        "movementAmount": -1372448
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-08-04",
-      "quantity": 64,
-      "sum": 65261
+      "quantity": 54,
+      "sum": 50958
     },
     {
       "date": "2026-08-05",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-11-02",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 7,
+      "sum": 7585
     }
   ],
   "ordersTrend": [
@@ -983,9 +983,9 @@
     "series": [
       {
         "date": "2026-08-04",
-        "credit": 130178,
+        "credit": 51956,
         "debit": 0,
-        "balance": 130178
+        "balance": 51956
       },
       {
         "date": "2026-08-05",
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 5203,
-    "totalValueRub": 1760564,
+    "totalValueRub": 1749719,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 548
+        "stockDays": 549
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 543
+        "stockDays": 544
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 543
+        "stockDays": 544
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 543
+        "stockDays": 544
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 543
+        "stockDays": 544
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 538
+        "stockDays": 539
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 538
+        "stockDays": 539
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 538
+        "stockDays": 539
       },
       {
         "name": "Табак DARKSIDE SHOT Волжский 30g",
         "code": "01110",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 538
+        "stockDays": 539
       },
       {
         "name": "Табак DARKSIDE SHOT Кубанский 30g",
         "code": "01118",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 538
+        "stockDays": 539
       }
     ],
     "outOfStock": [
@@ -1850,6 +1850,11 @@
       {
         "name": "POD Система GEEKVAPE Aegis Hero 5 Turbo Blue",
         "code": "04224",
+        "stock": 0
+      },
+      {
+        "name": "Набор Geekvape Aegis Hero 5 Frost Mint - Мятный",
+        "code": "05149",
         "stock": 0
       },
       {
@@ -1931,11 +1936,6 @@
         "name": "ЭДО POD Система PLONQ Meta Smart Черный",
         "code": "05805",
         "stock": 0
-      },
-      {
-        "name": "Набор Smoant Charon Racer kit Blaze - Пламя",
-        "code": "04219",
-        "stock": 0
       }
     ]
   },
@@ -1943,17 +1943,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 88,
-      "sum": 30800,
-      "profit": 16984,
+      "quantity": 86,
+      "sum": 30100,
+      "profit": 16599,
       "margin": 55
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 58,
-      "sum": 20265,
-      "profit": 11273,
+      "quantity": 60,
+      "sum": 20965,
+      "profit": 11677,
       "margin": 56
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1421244,
-      "profit": 746238,
+      "sum": 1407367,
+      "profit": 739298,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 20010,
-      "sum": 21250332,
-      "profit": 11105168,
-      "lastDemandDate": "2026-11-01 22:45:00.000"
+      "demandsCount": 20033,
+      "sum": 21275592,
+      "profit": 11119584,
+      "lastDemandDate": "2026-11-02 17:31:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
