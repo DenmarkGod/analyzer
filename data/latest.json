@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T14:44:17.882Z",
+  "updatedAt": "2026-11-03T00:28:41.043Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 23,
-        "amount": 25260,
-        "movementAmount": -17331
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -48492
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1413296,
+        "income": 1460575,
         "outcome": 0,
-        "balance": 5740498,
-        "todayMovement": 1413296,
-        "movement": 1413296
+        "balance": 5787778,
+        "todayMovement": 1460575,
+        "movement": 1460575
       }
     },
     "week": {
       "sales": {
-        "count": 23,
-        "amount": 25260,
-        "movementAmount": -321578
+        "count": 42,
+        "amount": 48492,
+        "movementAmount": -298346
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1413296,
+        "income": 1460575,
         "outcome": 0,
-        "balance": 5740498,
-        "todayMovement": 1413296,
-        "movement": 1413296
+        "balance": 5787778,
+        "todayMovement": 1460575,
+        "movement": 1460575
       }
     },
     "month": {
       "sales": {
-        "count": 67,
-        "amount": 67851,
-        "movementAmount": -1372448
+        "count": 86,
+        "amount": 91083,
+        "movementAmount": -1349216
       },
       "orders": {
         "count": 0,
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1413296,
+        "income": 1460575,
         "outcome": 0,
-        "balance": 5740498,
-        "todayMovement": 1413296,
-        "movement": 1413296
+        "balance": 5787778,
+        "todayMovement": 1460575,
+        "movement": 1460575
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-08-04",
-      "quantity": 54,
-      "sum": 50958
-    },
     {
       "date": "2026-08-05",
       "quantity": 71,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-11-02",
-      "quantity": 7,
-      "sum": 7585
+      "quantity": 42,
+      "sum": 48492
+    },
+    {
+      "date": "2026-11-03",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-08-04",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-08-05",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-11-02",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-11-03",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 15347289,
+    "creditTotal": 15394569,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-08-04",
-        "credit": 51956,
-        "debit": 0,
-        "balance": 51956
-      },
       {
         "date": "2026-08-05",
         "credit": 59608,
@@ -1523,6 +1517,12 @@
       },
       {
         "date": "2026-11-02",
+        "credit": 47280,
+        "debit": 0,
+        "balance": 47280
+      },
+      {
+        "date": "2026-11-03",
         "credit": 0,
         "debit": 0,
         "balance": 0
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 5203,
-    "totalValueRub": 1749719,
+    "totalSkuCount": 4430,
+    "totalValueRub": 1725311,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1549,6 +1549,12 @@
         "name": "Ароматизатор пищевой PickMe со вкусом Ягодный Тик-Так",
         "code": "03836",
         "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(MT) Black Burn 25гр Limited Алматинская халва штрихкод",
+        "code": "06027",
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1572,7 +1578,7 @@
       {
         "name": "(МТ) Black Burn 25гр Apple Shock - Кислое зелёное яблоко",
         "code": "04200",
-        "stock": 1,
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1591,6 +1597,12 @@
         "name": "(МТ) Black Burn 25гр Barberry Shock - Кислый барбарис",
         "code": "04202",
         "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Berry Halls - Ягодный холлс",
+        "code": "06029",
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1618,6 +1630,12 @@
         "uom": "шт"
       },
       {
+        "name": "(МТ) Black Burn 25гр Blueberry - Голубика",
+        "code": "04320",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
         "name": "(МТ) Black Burn 25гр Brownie - Брауни",
         "code": "01848",
         "stock": 0,
@@ -1632,7 +1650,7 @@
       {
         "name": "(МТ) Black Burn 25гр Cane Mint - Тросниковая мята",
         "code": "01855",
-        "stock": 1,
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1644,6 +1662,18 @@
       {
         "name": "(МТ) Black Burn 25гр Cherry Garden - Вишнёво-черешневый сок",
         "code": "01822",
+        "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Cherry Shock - Кислая вишня",
+        "code": "04324",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Chupa Graper - Виноградный чупа-чупс",
+        "code": "04317",
         "stock": 0,
         "uom": "шт"
       },
@@ -1680,36 +1710,6 @@
       {
         "name": "(МТ) Black Burn 25гр Etalon Melon - Медовая дыня",
         "code": "01485",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Garnet - Гранат",
-        "code": "01487",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Grapefruit - Грейпфрут",
-        "code": "01488",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Green Tea - Зелёный чай",
-        "code": "01489",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Guf Ice Baby - Ягодный сорбет с грейпфрутом",
-        "code": "01490",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Irish Cream - Ирландский крем",
-        "code": "01846",
         "stock": 0,
         "uom": "шт"
       }
@@ -1793,6 +1793,11 @@
         "stock": 0
       },
       {
+        "name": "POD Система GEEK VAPE Aegis Boost III Rainbow Purple",
+        "code": "06177",
+        "stock": 0
+      },
+      {
         "name": "POD Система GEEK VAPE Aegis Boost III Sunset Red",
         "code": "06178",
         "stock": 0
@@ -1819,12 +1824,12 @@
       },
       {
         "name": "Набор Geekvape Aegis Boost 3 Teal Blue - Синий",
-        "code": "05393",
+        "code": "05392",
         "stock": 0
       },
       {
-        "name": "Набор Geekvape Aegis Boost 3 Teal Blue - Синий",
-        "code": "05392",
+        "name": "Набор Geekvape H45 Classic (Aegis Hero 3) Blue - Синий",
+        "code": "06024",
         "stock": 0
       },
       {
@@ -1918,6 +1923,11 @@
         "stock": 0
       },
       {
+        "name": "POD Система GEEK VAPE Sonder Q2 Rocket Silver",
+        "code": "06182",
+        "stock": 0
+      },
+      {
         "name": "ЭДО POD Система PLONQ Meta Lite Серебристый",
         "code": "05237",
         "stock": 0
@@ -1926,16 +1936,6 @@
         "name": "ЭДО POD Система PLONQ Meta Lite Черный",
         "code": "05803",
         "stock": 0
-      },
-      {
-        "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
-        "code": "05804",
-        "stock": 0
-      },
-      {
-        "name": "ЭДО POD Система PLONQ Meta Smart Черный",
-        "code": "05805",
-        "stock": 0
       }
     ]
   },
@@ -1943,25 +1943,25 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 86,
-      "sum": 30100,
-      "profit": 16599,
+      "quantity": 85,
+      "sum": 29750,
+      "profit": 16406,
       "margin": 55
     },
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 60,
-      "sum": 20965,
-      "profit": 11677,
+      "quantity": 63,
+      "sum": 22015,
+      "profit": 12283,
       "margin": 56
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 30,
-      "sum": 10500,
-      "profit": 6210,
+      "quantity": 31,
+      "sum": 10850,
+      "profit": 6417,
       "margin": 59
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1407367,
-      "profit": 739298,
+      "sum": 1418946,
+      "profit": 747084,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 20033,
-      "sum": 21275592,
-      "profit": 11119584,
-      "lastDemandDate": "2026-11-02 17:31:00.000"
+      "demandsCount": 20052,
+      "sum": 21298824,
+      "profit": 11131295,
+      "lastDemandDate": "2026-11-02 21:19:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
