@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T22:53:12.899Z",
+  "updatedAt": "2026-11-04T04:47:46.319Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -65,14 +65,9 @@
   },
   "salesTrend": [
     {
-      "date": "2026-08-05",
-      "quantity": 1,
-      "sum": 371
-    },
-    {
       "date": "2026-08-06",
-      "quantity": 71,
-      "sum": 101692
+      "quantity": 69,
+      "sum": 101196
     },
     {
       "date": "2026-08-07",
@@ -518,14 +513,14 @@
       "date": "2026-11-03",
       "quantity": 29,
       "sum": 34425
+    },
+    {
+      "date": "2026-11-04",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-08-05",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-08-06",
       "quantity": 0,
@@ -975,6 +970,11 @@
       "date": "2026-11-03",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-11-04",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
@@ -982,16 +982,10 @@
     "debitTotal": 9606791,
     "series": [
       {
-        "date": "2026-08-05",
-        "credit": 59608,
-        "debit": 0,
-        "balance": 59608
-      },
-      {
         "date": "2026-08-06",
-        "credit": 128076,
+        "credit": 79947,
         "debit": 0,
-        "balance": 128076
+        "balance": 79947
       },
       {
         "date": "2026-08-07",
@@ -1523,6 +1517,12 @@
       },
       {
         "date": "2026-11-03",
+        "credit": 33564,
+        "debit": 0,
+        "balance": 33564
+      },
+      {
+        "date": "2026-11-04",
         "credit": 0,
         "debit": 0,
         "balance": 0
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1417903,
-      "profit": 747598,
+      "sum": 1417634,
+      "profit": 747557,
       "margin": 53
     }
   ],
