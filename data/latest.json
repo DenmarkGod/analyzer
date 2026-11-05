@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T23:11:20.427Z",
+  "updatedAt": "2026-11-05T05:03:06.245Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -17,11 +17,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1377940,
+        "income": 1419214,
         "outcome": 0,
-        "balance": 5821342,
-        "todayMovement": 1377940,
-        "movement": 1377940
+        "balance": 5862616,
+        "todayMovement": 1419214,
+        "movement": 1419214
       }
     },
     "week": {
@@ -36,11 +36,11 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1377940,
+        "income": 1419214,
         "outcome": 0,
-        "balance": 5821342,
-        "todayMovement": 1377940,
-        "movement": 1377940
+        "balance": 5862616,
+        "todayMovement": 1419214,
+        "movement": 1419214
       }
     },
     "month": {
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1377940,
+        "income": 1419214,
         "outcome": 0,
-        "balance": 5821342,
-        "todayMovement": 1377940,
-        "movement": 1377940
+        "balance": 5862616,
+        "todayMovement": 1419214,
+        "movement": 1419214
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-08-06",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-08-07",
       "quantity": 40,
@@ -518,14 +513,14 @@
       "date": "2026-11-04",
       "quantity": 41,
       "sum": 43432
+    },
+    {
+      "date": "2026-11-05",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-08-06",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-08-07",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-11-04",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-11-05",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 15428133,
+    "creditTotal": 15469407,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-08-06",
-        "credit": 0,
-        "debit": 0,
-        "balance": 0
-      },
       {
         "date": "2026-08-07",
         "credit": 0,
@@ -1526,12 +1520,18 @@
         "credit": 0,
         "debit": 0,
         "balance": 0
+      },
+      {
+        "date": "2026-11-05",
+        "credit": 41274,
+        "debit": 0,
+        "balance": 41274
       }
     ]
   },
   "stock": {
     "totalSkuCount": 4437,
-    "totalValueRub": 1759681,
+    "totalValueRub": 1757034,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
