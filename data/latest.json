@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T05:03:06.245Z",
+  "updatedAt": "2026-11-05T13:57:51.777Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -43432
+        "count": 15,
+        "amount": 14120,
+        "movementAmount": -29312
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 112,
-        "amount": 126349,
-        "movementAmount": -220489
+        "count": 127,
+        "amount": 140469,
+        "movementAmount": -206369
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 156,
-        "amount": 168940,
-        "movementAmount": -1271359
+        "count": 171,
+        "amount": 183060,
+        "movementAmount": -1257239
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-08-07",
-      "quantity": 40,
-      "sum": 52132
+      "quantity": 30,
+      "sum": 39360
     },
     {
       "date": "2026-08-08",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-11-05",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 8,
+      "sum": 5481
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4437,
-    "totalValueRub": 1757034,
+    "totalValueRub": 1750289,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 551
+        "stockDays": 552
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 546
+        "stockDays": 547
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 546
+        "stockDays": 547
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 546
+        "stockDays": 547
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 546
+        "stockDays": 547
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 541
+        "stockDays": 542
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 541
+        "stockDays": 542
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 541
+        "stockDays": 542
       },
       {
         "name": "Табак DARKSIDE SHOT Волжский 30g",
         "code": "01110",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 541
+        "stockDays": 542
       },
       {
         "name": "Табак DARKSIDE SHOT Кубанский 30g",
         "code": "01118",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 541
+        "stockDays": 542
       }
     ],
     "outOfStock": [
@@ -1951,17 +1951,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 69,
-      "sum": 24115,
-      "profit": 13504,
+      "quantity": 71,
+      "sum": 24815,
+      "profit": 13908,
       "margin": 56
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 35,
-      "sum": 12075,
-      "profit": 6998,
+      "quantity": 33,
+      "sum": 11375,
+      "profit": 6584,
       "margin": 58
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1405239,
-      "profit": 740868,
+      "sum": 1403832,
+      "profit": 739691,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 20122,
-      "sum": 21376681,
-      "profit": 11173113,
-      "lastDemandDate": "2026-11-04 23:01:00.000"
+      "demandsCount": 20137,
+      "sum": 21390801,
+      "profit": 11180489,
+      "lastDemandDate": "2026-11-05 16:54:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
