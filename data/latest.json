@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T12:26:18.215Z",
+  "updatedAt": "2026-11-07T21:25:56.581Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 20,
-        "amount": 28599,
-        "movementAmount": -12383
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -49058
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1448929,
+        "income": 1381518,
         "outcome": 0,
         "balance": 5945173,
-        "todayMovement": 1448929,
-        "movement": 1448929
+        "todayMovement": 1381518,
+        "movement": 1381518
       }
     },
     "week": {
       "sales": {
-        "count": 210,
-        "amount": 240351,
-        "movementAmount": -106487
+        "count": 237,
+        "amount": 260810,
+        "movementAmount": -86028
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1448929,
+        "income": 1381518,
         "outcome": 0,
         "balance": 5945173,
-        "todayMovement": 1448929,
-        "movement": 1448929
+        "todayMovement": 1381518,
+        "movement": 1381518
       }
     },
     "month": {
       "sales": {
-        "count": 254,
-        "amount": 282942,
-        "movementAmount": -1157357
+        "count": 281,
+        "amount": 303401,
+        "movementAmount": -1136898
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1448929,
+        "income": 1381518,
         "outcome": 0,
         "balance": 5945173,
-        "todayMovement": 1448929,
-        "movement": 1448929
+        "todayMovement": 1381518,
+        "movement": 1381518
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-08-09",
-      "quantity": 48,
-      "sum": 57475
+      "quantity": 4,
+      "sum": 1738
     },
     {
       "date": "2026-08-10",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-11-07",
-      "quantity": 7,
-      "sum": 14391
+      "quantity": 41,
+      "sum": 43689
     }
   ],
   "ordersTrend": [
@@ -984,8 +984,8 @@
       {
         "date": "2026-08-09",
         "credit": 0,
-        "debit": 77090,
-        "balance": -77090
+        "debit": 0,
+        "balance": 0
       },
       {
         "date": "2026-08-10",
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4445,
-    "totalValueRub": 1769646,
+    "totalValueRub": 1747167,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1576,6 +1576,12 @@
         "uom": "шт"
       },
       {
+        "name": "(МТ) Black Burn 25гр Ananas Shock - Кислый ананас",
+        "code": "01474",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
         "name": "(МТ) Black Burn 25гр Barberry Shock - Кислый барбарис",
         "code": "04202",
         "stock": 1,
@@ -1602,7 +1608,7 @@
       {
         "name": "(МТ) Black Burn 25гр Famous Apple - Зелёное яблоко со льдом",
         "code": "01486",
-        "stock": 1,
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1895,25 +1901,25 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 83,
-      "sum": 29015,
-      "profit": 16342,
+      "quantity": 87,
+      "sum": 30415,
+      "profit": 17150,
       "margin": 56
     },
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 78,
-      "sum": 27300,
-      "profit": 15546,
+      "quantity": 77,
+      "sum": 26950,
+      "profit": 15353,
       "margin": 57
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 40,
-      "sum": 13825,
-      "profit": 7931,
+      "quantity": 46,
+      "sum": 15925,
+      "profit": 9086,
       "margin": 57
     },
     {
@@ -1976,18 +1982,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1430144,
-      "profit": 753870,
+      "sum": 1435133,
+      "profit": 756047,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 20220,
-      "sum": 21490683,
-      "profit": 11233901,
-      "lastDemandDate": "2026-11-07 15:24:00.000"
+      "demandsCount": 20247,
+      "sum": 21511142,
+      "profit": 11243839,
+      "lastDemandDate": "2026-11-07 22:14:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
