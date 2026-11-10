@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T14:18:23.755Z",
+  "updatedAt": "2026-11-10T22:49:35.370Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 24,
-        "amount": 37089,
-        "movementAmount": -1036
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -63047
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1462860,
+        "income": 1465024,
         "outcome": 0,
-        "balance": 6057618,
-        "todayMovement": 1462860,
-        "movement": 1462860
+        "balance": 6119089,
+        "todayMovement": 1465024,
+        "movement": 1465024
       }
     },
     "week": {
       "sales": {
-        "count": 58,
-        "amount": 75214,
-        "movementAmount": -219720
+        "count": 85,
+        "amount": 101172,
+        "movementAmount": -193762
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1462860,
+        "income": 1465024,
         "outcome": 0,
-        "balance": 6057618,
-        "todayMovement": 1462860,
-        "movement": 1462860
+        "balance": 6119089,
+        "todayMovement": 1465024,
+        "movement": 1465024
       }
     },
     "month": {
       "sales": {
-        "count": 369,
-        "amount": 412739,
-        "movementAmount": -1027560
+        "count": 396,
+        "amount": 438697,
+        "movementAmount": -1001602
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1462860,
+        "income": 1465024,
         "outcome": 0,
-        "balance": 6057618,
-        "todayMovement": 1462860,
-        "movement": 1462860
+        "balance": 6119089,
+        "todayMovement": 1465024,
+        "movement": 1465024
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-08-12",
-      "quantity": 62,
-      "sum": 62669
+      "quantity": 0,
+      "sum": 0
     },
     {
       "date": "2026-08-13",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-11-10",
-      "quantity": 8,
-      "sum": 13610
+      "quantity": 51,
+      "sum": 63047
     }
   ],
   "ordersTrend": [
@@ -978,7 +978,7 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 15664409,
+    "creditTotal": 15725880,
     "debitTotal": 9606791,
     "series": [
       {
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4445,
-    "totalValueRub": 1685193,
+    "totalValueRub": 1668950,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1913,25 +1913,25 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 92,
-      "sum": 32165,
-      "profit": 18207,
+      "quantity": 100,
+      "sum": 34965,
+      "profit": 19823,
       "margin": 57
     },
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 63,
-      "sum": 22050,
-      "profit": 12658,
-      "margin": 57
+      "quantity": 60,
+      "sum": 21000,
+      "profit": 12081,
+      "margin": 58
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 46,
-      "sum": 15925,
-      "profit": 9014,
+      "quantity": 48,
+      "sum": 16625,
+      "profit": 9399,
       "margin": 57
     },
     {
@@ -1959,6 +1959,14 @@
       "margin": 43
     },
     {
+      "name": "БПК Картридж QWERTY Split 20000 Киви Маракуйя Гуава",
+      "code": "05921",
+      "quantity": 7,
+      "sum": 8470,
+      "profit": 5165,
+      "margin": 61
+    },
+    {
       "name": "БПК Картридж QWERTY Split 20000 Клубника Киви",
       "code": "05912",
       "quantity": 7,
@@ -1981,31 +1989,23 @@
       "sum": 7900,
       "profit": 4065,
       "margin": 51
-    },
-    {
-      "name": "Картридж для LM X-Link Pod Ice (20000) Mountain Mint - Горная Мята",
-      "code": "02940",
-      "quantity": 7,
-      "sum": 7820,
-      "profit": 4070,
-      "margin": 52
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1418209,
-      "profit": 746912,
+      "sum": 1447271,
+      "profit": 762700,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 20335,
-      "sum": 21620480,
-      "profit": 11302974,
-      "lastDemandDate": "2026-11-10 17:13:00.000"
+      "demandsCount": 20362,
+      "sum": 21646438,
+      "profit": 11316846,
+      "lastDemandDate": "2026-11-10 22:27:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
