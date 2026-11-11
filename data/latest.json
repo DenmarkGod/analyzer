@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T04:40:07.806Z",
+  "updatedAt": "2026-11-11T13:31:47.571Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -63047
+        "count": 26,
+        "amount": 40539,
+        "movementAmount": -22508
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 85,
-        "amount": 101172,
-        "movementAmount": -193762
+        "count": 111,
+        "amount": 141711,
+        "movementAmount": -153223
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 396,
-        "amount": 438697,
-        "movementAmount": -1001602
+        "count": 422,
+        "amount": 479236,
+        "movementAmount": -961063
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-08-13",
-      "quantity": 47,
-      "sum": 53061
+      "quantity": 38,
+      "sum": 41589
     },
     {
       "date": "2026-08-14",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-11-11",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 17,
+      "sum": 31137
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4445,
-    "totalValueRub": 1668950,
+    "totalValueRub": 1651096,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1618,6 +1618,12 @@
         "uom": "шт"
       },
       {
+        "name": "(МТ) Black Burn 25гр Gooseberry Shock - Кислый крыжовник",
+        "code": "04322",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
         "name": "(МТ) Black Burn 25гр Irish Cream - Ирландский крем",
         "code": "01846",
         "stock": 0,
@@ -1690,70 +1696,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 557
+        "stockDays": 558
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 552
+        "stockDays": 553
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 552
+        "stockDays": 553
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 552
+        "stockDays": 553
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 552
+        "stockDays": 553
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 547
+        "stockDays": 548
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 547
+        "stockDays": 548
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 547
+        "stockDays": 548
       },
       {
         "name": "Табак DARKSIDE SHOT Волжский 30g",
         "code": "01110",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 547
+        "stockDays": 548
       },
       {
         "name": "Табак DARKSIDE SHOT Кубанский 30g",
         "code": "01118",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 547
+        "stockDays": 548
       }
     ],
     "outOfStock": [
@@ -1929,10 +1935,10 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 48,
-      "sum": 16625,
-      "profit": 9399,
-      "margin": 57
+      "quantity": 51,
+      "sum": 17675,
+      "profit": 9976,
+      "margin": 56
     },
     {
       "name": "Кальян TH-20 Embery Mono, 70см",
@@ -1994,18 +2000,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1443371,
-      "profit": 760280,
+      "sum": 1470555,
+      "profit": 776208,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 20362,
-      "sum": 21646438,
-      "profit": 11316846,
-      "lastDemandDate": "2026-11-10 22:27:00.000"
+      "demandsCount": 20388,
+      "sum": 21686977,
+      "profit": 11339531,
+      "lastDemandDate": "2026-11-11 16:25:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
