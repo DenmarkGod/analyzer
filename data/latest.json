@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T14:35:59.035Z",
+  "updatedAt": "2026-11-12T23:11:48.975Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 22,
-        "amount": 29737,
-        "movementAmount": -39719
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -58364
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1464307,
+        "income": 1521212,
         "outcome": 0,
-        "balance": 6185898,
-        "todayMovement": 1464307,
-        "movement": 1464307
+        "balance": 6242802,
+        "todayMovement": 1521212,
+        "movement": 1521212
       }
     },
     "week": {
       "sales": {
-        "count": 156,
-        "amount": 200365,
-        "movementAmount": -94569
+        "count": 178,
+        "amount": 228992,
+        "movementAmount": -65942
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1464307,
+        "income": 1521212,
         "outcome": 0,
-        "balance": 6185898,
-        "todayMovement": 1464307,
-        "movement": 1464307
+        "balance": 6242802,
+        "todayMovement": 1521212,
+        "movement": 1521212
       }
     },
     "month": {
       "sales": {
-        "count": 467,
-        "amount": 537890,
-        "movementAmount": -902409
+        "count": 489,
+        "amount": 566517,
+        "movementAmount": -873782
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1464307,
+        "income": 1521212,
         "outcome": 0,
-        "balance": 6185898,
-        "todayMovement": 1464307,
-        "movement": 1464307
+        "balance": 6242802,
+        "todayMovement": 1521212,
+        "movement": 1521212
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-08-14",
-      "quantity": 36,
-      "sum": 47490
+      "quantity": 0,
+      "sum": 0
     },
     {
       "date": "2026-08-15",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-11-12",
-      "quantity": 10,
-      "sum": 16837
+      "quantity": 44,
+      "sum": 58364
     }
   ],
   "ordersTrend": [
@@ -978,7 +978,7 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 15792689,
+    "creditTotal": 15849594,
     "debitTotal": 9606791,
     "series": [
       {
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4445,
-    "totalValueRub": 1622691,
+    "totalValueRub": 1606794,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1919,9 +1919,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 99,
-      "sum": 34615,
-      "profit": 19659,
+      "quantity": 100,
+      "sum": 34965,
+      "profit": 19880,
+      "margin": 57
+    },
+    {
+      "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
+      "code": "03530",
+      "quantity": 57,
+      "sum": 19775,
+      "profit": 11189,
       "margin": 57
     },
     {
@@ -1933,28 +1941,12 @@
       "margin": 58
     },
     {
-      "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
-      "code": "03530",
-      "quantity": 54,
-      "sum": 18725,
-      "profit": 10568,
-      "margin": 56
-    },
-    {
       "name": "ОС BJORN X 50000 - CHERRY COKE ( ВИШНЕВАЯ КОЛА )",
       "code": "03333",
       "quantity": 4,
       "sum": 9840,
       "profit": 5240,
       "margin": 53
-    },
-    {
-      "name": "Кальян TH-20 Embery Mono, 70см",
-      "code": "05169",
-      "quantity": 1,
-      "sum": 9800,
-      "profit": 5700,
-      "margin": 58
     },
     {
       "name": "БПК Картридж LOST MARY X-Link Classic Киви Маракуйя Гуава",
@@ -1995,23 +1987,31 @@
       "sum": 7920,
       "profit": 4200,
       "margin": 53
+    },
+    {
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Лимон Лайм Грейпфрут",
+      "code": "03948",
+      "quantity": 5,
+      "sum": 7900,
+      "profit": 4065,
+      "margin": 51
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1469416,
-      "profit": 775958,
+      "sum": 1475215,
+      "profit": 779257,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 20433,
-      "sum": 21745631,
-      "profit": 11372351,
-      "lastDemandDate": "2026-11-12 17:22:00.000"
+      "demandsCount": 20455,
+      "sum": 21774258,
+      "profit": 11387689,
+      "lastDemandDate": "2026-11-12 22:47:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
