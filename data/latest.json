@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T00:01:38.750Z",
+  "updatedAt": "2026-11-12T14:35:59.035Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -69456
+        "count": 22,
+        "amount": 29737,
+        "movementAmount": -39719
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 134,
-        "amount": 170628,
-        "movementAmount": -124306
+        "count": 156,
+        "amount": 200365,
+        "movementAmount": -94569
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 445,
-        "amount": 508153,
-        "movementAmount": -932146
+        "count": 467,
+        "amount": 537890,
+        "movementAmount": -902409
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-08-14",
-      "quantity": 47,
-      "sum": 58060
+      "quantity": 36,
+      "sum": 47490
     },
     {
       "date": "2026-08-15",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-11-12",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 10,
+      "sum": 16837
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4445,
-    "totalValueRub": 1631425,
+    "totalValueRub": 1622691,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1696,70 +1696,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 558
+        "stockDays": 559
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 553
+        "stockDays": 554
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 553
+        "stockDays": 554
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 553
+        "stockDays": 554
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 553
+        "stockDays": 554
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 548
+        "stockDays": 549
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 548
+        "stockDays": 549
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 548
+        "stockDays": 549
       },
       {
         "name": "Табак DARKSIDE SHOT Волжский 30g",
         "code": "01110",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 548
+        "stockDays": 549
       },
       {
         "name": "Табак DARKSIDE SHOT Кубанский 30g",
         "code": "01118",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 548
+        "stockDays": 549
       }
     ],
     "outOfStock": [
@@ -1935,10 +1935,18 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 53,
-      "sum": 18375,
-      "profit": 10361,
+      "quantity": 54,
+      "sum": 18725,
+      "profit": 10568,
       "margin": 56
+    },
+    {
+      "name": "ОС BJORN X 50000 - CHERRY COKE ( ВИШНЕВАЯ КОЛА )",
+      "code": "03333",
+      "quantity": 4,
+      "sum": 9840,
+      "profit": 5240,
+      "margin": 53
     },
     {
       "name": "Кальян TH-20 Embery Mono, 70см",
@@ -1987,31 +1995,23 @@
       "sum": 7920,
       "profit": 4200,
       "margin": 53
-    },
-    {
-      "name": "БПК Электронная Сигарета LOST MARY BM16000 Лимон Лайм Грейпфрут",
-      "code": "03948",
-      "quantity": 5,
-      "sum": 7900,
-      "profit": 4065,
-      "margin": 51
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1462594,
-      "profit": 772407,
+      "sum": 1469416,
+      "profit": 775958,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 20411,
-      "sum": 21715894,
-      "profit": 11355212,
-      "lastDemandDate": "2026-11-11 21:45:00.000"
+      "demandsCount": 20433,
+      "sum": 21745631,
+      "profit": 11372351,
+      "lastDemandDate": "2026-11-12 17:22:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
