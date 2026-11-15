@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T04:46:02.969Z",
+  "updatedAt": "2026-11-15T13:25:19.670Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -50269
+        "count": 11,
+        "amount": 17151,
+        "movementAmount": -33118
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 284,
-        "amount": 353588,
-        "movementAmount": 58654
+        "count": 295,
+        "amount": 370739,
+        "movementAmount": 75805
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 595,
-        "amount": 691113,
-        "movementAmount": -749186
+        "count": 606,
+        "amount": 708264,
+        "movementAmount": -732035
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-08-17",
-      "quantity": 60,
-      "sum": 64529
+      "quantity": 51,
+      "sum": 54992
     },
     {
       "date": "2026-08-18",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-11-15",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 5,
+      "sum": 7860
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4445,
-    "totalValueRub": 1540917,
+    "totalValueRub": 1532978,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1714,70 +1714,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 561
+        "stockDays": 562
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 556
+        "stockDays": 557
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 556
+        "stockDays": 557
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 556
+        "stockDays": 557
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 556
+        "stockDays": 557
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 551
+        "stockDays": 552
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 551
+        "stockDays": 552
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 551
+        "stockDays": 552
       },
       {
         "name": "Табак DARKSIDE SHOT Волжский 30g",
         "code": "01110",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 551
+        "stockDays": 552
       },
       {
         "name": "Табак DARKSIDE SHOT Кубанский 30g",
         "code": "01118",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 551
+        "stockDays": 552
       }
     ],
     "outOfStock": [
@@ -1937,9 +1937,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 110,
-      "sum": 38465,
-      "profit": 22077,
+      "quantity": 109,
+      "sum": 38115,
+      "profit": 21884,
       "margin": 57
     },
     {
@@ -1967,14 +1967,6 @@
       "margin": 61
     },
     {
-      "name": "БПК Картридж QWERTY Split 20000 Клубника Киви",
-      "code": "05912",
-      "quantity": 8,
-      "sum": 9438,
-      "profit": 8973,
-      "margin": 95
-    },
-    {
       "name": "БПК Картридж LOST MARY X-Link Classic Киви Маракуйя Гуава",
       "code": "02280",
       "quantity": 8,
@@ -1999,6 +1991,14 @@
       "margin": 57
     },
     {
+      "name": "БПК Картридж QWERTY Split 20000 Клубника Киви",
+      "code": "05912",
+      "quantity": 7,
+      "sum": 8228,
+      "profit": 8228,
+      "margin": 100
+    },
+    {
       "name": "БПК Картридж LOST MARY X-Link Sweet Лимон Лайм",
       "code": "02053",
       "quantity": 7,
@@ -2018,18 +2018,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1498618,
-      "profit": 794616,
+      "sum": 1498678,
+      "profit": 794612,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 20561,
-      "sum": 21898854,
-      "profit": 11456202,
-      "lastDemandDate": "2026-11-14 22:30:00.000"
+      "demandsCount": 20572,
+      "sum": 21916005,
+      "profit": 11465415,
+      "lastDemandDate": "2026-11-15 15:41:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
