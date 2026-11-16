@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T22:27:37.222Z",
+  "updatedAt": "2026-11-16T04:42:33.533Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -64,11 +64,6 @@
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-08-17",
-      "quantity": 1,
-      "sum": 140
-    },
     {
       "date": "2026-08-18",
       "quantity": 40,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-11-15",
-      "quantity": 44,
-      "sum": 50626
+      "quantity": 48,
+      "sum": 54418
+    },
+    {
+      "date": "2026-11-16",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-08-17",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-08-18",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-11-15",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-11-16",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
     "creditTotal": 16024132,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-08-17",
-        "credit": 56637,
-        "debit": 0,
-        "balance": 56637
-      },
       {
         "date": "2026-08-18",
         "credit": 36539,
@@ -1523,6 +1517,12 @@
       },
       {
         "date": "2026-11-15",
+        "credit": 53058,
+        "debit": 0,
+        "balance": 53058
+      },
+      {
+        "date": "2026-11-16",
         "credit": 0,
         "debit": 0,
         "balance": 0
@@ -1945,9 +1945,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 66,
-      "sum": 22925,
-      "profit": 13052,
+      "quantity": 68,
+      "sum": 23625,
+      "profit": 13466,
       "margin": 57
     },
     {
@@ -2018,8 +2018,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1499097,
-      "profit": 796347,
+      "sum": 1500739,
+      "profit": 797491,
       "margin": 53
     }
   ],
