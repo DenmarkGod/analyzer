@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T05:52:24.134Z",
+  "updatedAt": "2026-11-19T15:13:50.334Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -39662
+        "count": 19,
+        "amount": 20044,
+        "movementAmount": -19618
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 104,
-        "amount": 114383,
-        "movementAmount": -293623
+        "count": 123,
+        "amount": 134427,
+        "movementAmount": -273579
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 747,
-        "amount": 859914,
-        "movementAmount": -580385
+        "count": 766,
+        "amount": 879958,
+        "movementAmount": -560341
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-08-21",
-      "quantity": 53,
-      "sum": 49351
+      "quantity": 39,
+      "sum": 32498
     },
     {
       "date": "2026-08-22",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-11-19",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 6,
+      "sum": 6426
     }
   ],
   "ordersTrend": [
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 4493,
-    "totalValueRub": 1537576,
+    "totalSkuCount": 4508,
+    "totalValueRub": 1559180,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1755,35 +1755,35 @@
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 555
+        "stockDays": 556
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 555
+        "stockDays": 556
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 555
+        "stockDays": 556
       },
       {
         "name": "Табак DARKSIDE SHOT Волжский 30g",
         "code": "01110",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 555
+        "stockDays": 556
       },
       {
         "name": "Табак DARKSIDE SHOT Кубанский 30g",
         "code": "01118",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 555
+        "stockDays": 556
       }
     ],
     "outOfStock": [
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 106,
-      "sum": 37065,
-      "profit": 21946,
+      "quantity": 107,
+      "sum": 37415,
+      "profit": 22148,
       "margin": 59
     },
     {
@@ -1959,9 +1959,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 33,
-      "sum": 11550,
-      "profit": 6883,
+      "quantity": 31,
+      "sum": 10850,
+      "profit": 6498,
       "margin": 60
     },
     {
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1464704,
-      "profit": 778352,
+      "sum": 1463940,
+      "profit": 778106,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 20713,
-      "sum": 22067655,
-      "profit": 11546022,
-      "lastDemandDate": "2026-11-18 22:39:00.000"
+      "demandsCount": 20732,
+      "sum": 22087699,
+      "profit": 11557712,
+      "lastDemandDate": "2026-11-19 18:00:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
