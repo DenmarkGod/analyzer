@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T15:13:50.334Z",
+  "updatedAt": "2026-11-20T00:17:04.536Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 19,
-        "amount": 20044,
-        "movementAmount": -19618
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -36228
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1469028,
+        "income": 1504350,
         "outcome": 0,
-        "balance": 6528494,
-        "todayMovement": 1469028,
-        "movement": 1469028
+        "balance": 6563816,
+        "todayMovement": 1504350,
+        "movement": 1504350
       }
     },
     "week": {
       "sales": {
-        "count": 123,
-        "amount": 134427,
-        "movementAmount": -273579
+        "count": 140,
+        "amount": 150611,
+        "movementAmount": -257395
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1469028,
+        "income": 1504350,
         "outcome": 0,
-        "balance": 6528494,
-        "todayMovement": 1469028,
-        "movement": 1469028
+        "balance": 6563816,
+        "todayMovement": 1504350,
+        "movement": 1504350
       }
     },
     "month": {
       "sales": {
-        "count": 766,
-        "amount": 879958,
-        "movementAmount": -560341
+        "count": 783,
+        "amount": 896142,
+        "movementAmount": -544157
       },
       "orders": {
         "count": 0,
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1469028,
+        "income": 1504350,
         "outcome": 0,
-        "balance": 6528494,
-        "todayMovement": 1469028,
-        "movement": 1469028
+        "balance": 6563816,
+        "todayMovement": 1504350,
+        "movement": 1504350
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-08-21",
-      "quantity": 39,
-      "sum": 32498
-    },
     {
       "date": "2026-08-22",
       "quantity": 50,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-11-19",
-      "quantity": 6,
-      "sum": 6426
+      "quantity": 36,
+      "sum": 36228
+    },
+    {
+      "date": "2026-11-20",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-08-21",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-08-22",
       "quantity": 0,
@@ -975,18 +970,17 @@
       "date": "2026-11-19",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-11-20",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 16135285,
+    "creditTotal": 16170607,
     "debitTotal": 9606791,
     "series": [
-      {
-        "date": "2026-08-21",
-        "credit": 47288,
-        "debit": 0,
-        "balance": 47288
-      },
       {
         "date": "2026-08-22",
         "credit": 0,
@@ -1523,6 +1517,12 @@
       },
       {
         "date": "2026-11-19",
+        "credit": 35322,
+        "debit": 0,
+        "balance": 35322
+      },
+      {
+        "date": "2026-11-20",
         "credit": 0,
         "debit": 0,
         "balance": 0
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4508,
-    "totalValueRub": 1559180,
+    "totalValueRub": 1558863,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
@@ -1918,6 +1918,11 @@
         "stock": 0
       },
       {
+        "name": "POD Система GEEK VAPE Sonder Q2 Midnight Black",
+        "code": "06181",
+        "stock": 0
+      },
+      {
         "name": "POD Система GEEK VAPE Sonder Q2 Rocket Silver",
         "code": "06182",
         "stock": 0
@@ -1931,11 +1936,6 @@
         "name": "ЭДО POD Система PLONQ Meta Lite Черный",
         "code": "05803",
         "stock": 0
-      },
-      {
-        "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
-        "code": "05804",
-        "stock": 0
       }
     ]
   },
@@ -1945,24 +1945,32 @@
       "code": "04897",
       "quantity": 107,
       "sum": 37415,
-      "profit": 22148,
+      "profit": 22158,
       "margin": 59
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 74,
-      "sum": 25770,
-      "profit": 14753,
+      "quantity": 73,
+      "sum": 25420,
+      "profit": 14546,
       "margin": 57
     },
     {
       "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
       "code": "03136",
-      "quantity": 31,
-      "sum": 10850,
-      "profit": 6498,
+      "quantity": 29,
+      "sum": 10150,
+      "profit": 6113,
       "margin": 60
+    },
+    {
+      "name": "БПК Картридж QWERTY Split 20000 Клубника Киви",
+      "code": "05912",
+      "quantity": 8,
+      "sum": 9438,
+      "profit": 9438,
+      "margin": 100
     },
     {
       "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
@@ -1973,6 +1981,22 @@
       "margin": 43
     },
     {
+      "name": "БПК Картридж QWERTY Split 20000 Ежевика Питахайя",
+      "code": "05913",
+      "quantity": 7,
+      "sum": 8470,
+      "profit": 5165,
+      "margin": 61
+    },
+    {
+      "name": "БПК Картридж QWERTY Split 20000 Киви Маракуйя Гуава",
+      "code": "05921",
+      "quantity": 7,
+      "sum": 8470,
+      "profit": 5145,
+      "margin": 61
+    },
+    {
       "name": "ОС PAFOS 20.000 new Клубника киви лимон / Strawberry Kiwi lemon",
       "code": "03328",
       "quantity": 3,
@@ -1981,12 +2005,12 @@
       "margin": 57
     },
     {
-      "name": "БПК Картридж QWERTY Split 20000 Клубника Киви",
-      "code": "05912",
-      "quantity": 7,
-      "sum": 8228,
-      "profit": 8228,
-      "margin": 100
+      "name": "БПК Электронная Сигарета LOST MARY BM16000 Гранатовый Сок",
+      "code": "02694",
+      "quantity": 5,
+      "sum": 7900,
+      "profit": 4065,
+      "margin": 51
     },
     {
       "name": "БПК POD-Система QWERTY Split 20000 Алоэ Виноград",
@@ -1995,47 +2019,23 @@
       "sum": 7800,
       "profit": 4820,
       "margin": 62
-    },
-    {
-      "name": "БПК POD-Система QWERTY Split 20000 Черника Малина Лёд",
-      "code": "05903",
-      "quantity": 4,
-      "sum": 7800,
-      "profit": 4800,
-      "margin": 62
-    },
-    {
-      "name": "ОС BJORN X 50000 - PINEAPPLE CHERRY ( АНАНАС ВИШНЯ )",
-      "code": "03342",
-      "quantity": 3,
-      "sum": 7380,
-      "profit": 3930,
-      "margin": 53
-    },
-    {
-      "name": "БПК Картридж QWERTY Split 20000 Ежевика Питахайя",
-      "code": "05913",
-      "quantity": 6,
-      "sum": 7260,
-      "profit": 4430,
-      "margin": 61
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1463940,
-      "profit": 778106,
+      "sum": 1471057,
+      "profit": 782652,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 20732,
-      "sum": 22087699,
-      "profit": 11557712,
-      "lastDemandDate": "2026-11-19 18:00:00.000"
+      "demandsCount": 20749,
+      "sum": 22103883,
+      "profit": 11566380,
+      "lastDemandDate": "2026-11-19 22:28:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
