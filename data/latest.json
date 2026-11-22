@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T22:44:58.990Z",
+  "updatedAt": "2026-11-22T05:00:12.636Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -64,11 +64,6 @@
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-08-23",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-08-24",
       "quantity": 51,
@@ -518,14 +513,14 @@
       "date": "2026-11-21",
       "quantity": 45,
       "sum": 50394
+    },
+    {
+      "date": "2026-11-22",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-08-23",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-08-24",
       "quantity": 0,
@@ -975,6 +970,11 @@
       "date": "2026-11-21",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-11-22",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
@@ -982,16 +982,10 @@
     "debitTotal": 9606791,
     "series": [
       {
-        "date": "2026-08-23",
+        "date": "2026-08-24",
         "credit": 0,
         "debit": 0,
         "balance": 0
-      },
-      {
-        "date": "2026-08-24",
-        "credit": 41684,
-        "debit": 0,
-        "balance": 41684
       },
       {
         "date": "2026-08-25",
@@ -1523,9 +1517,15 @@
       },
       {
         "date": "2026-11-21",
-        "credit": 52359,
+        "credit": 101494,
         "debit": 0,
-        "balance": 52359
+        "balance": 101494
+      },
+      {
+        "date": "2026-11-22",
+        "credit": 0,
+        "debit": 0,
+        "balance": 0
       }
     ]
   },
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 109,
-      "sum": 38115,
-      "profit": 22628,
+      "quantity": 108,
+      "sum": 37800,
+      "profit": 22471,
       "margin": 59
     },
     {
@@ -2024,8 +2024,8 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1460204,
-      "profit": 777426,
+      "sum": 1459619,
+      "profit": 777206,
       "margin": 53
     }
   ],
