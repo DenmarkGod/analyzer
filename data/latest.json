@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T14:01:04.052Z",
+  "updatedAt": "2026-11-22T23:12:56.764Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 24,
-        "amount": 26124,
-        "movementAmount": -24270
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -54491
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1525730,
+        "income": 1466213,
         "outcome": 0,
-        "balance": 6665310,
-        "todayMovement": 1525730,
-        "movement": 1525730
+        "balance": 6718439,
+        "todayMovement": 1466213,
+        "movement": 1466213
       }
     },
     "week": {
       "sales": {
-        "count": 259,
-        "amount": 280831,
-        "movementAmount": -127175
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -309198
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1525730,
+        "income": 1466213,
         "outcome": 0,
-        "balance": 6665310,
-        "todayMovement": 1525730,
-        "movement": 1525730
+        "balance": 6718439,
+        "todayMovement": 1466213,
+        "movement": 1466213
       }
     },
     "month": {
       "sales": {
-        "count": 902,
-        "amount": 1026362,
-        "movementAmount": -413937
+        "count": 929,
+        "amount": 1054729,
+        "movementAmount": -385570
       },
       "orders": {
         "count": 0,
@@ -55,19 +55,19 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1525730,
+        "income": 1466213,
         "outcome": 0,
-        "balance": 6665310,
-        "todayMovement": 1525730,
-        "movement": 1525730
+        "balance": 6718439,
+        "todayMovement": 1466213,
+        "movement": 1466213
       }
     }
   },
   "salesTrend": [
     {
       "date": "2026-08-24",
-      "quantity": 42,
-      "sum": 51169
+      "quantity": 0,
+      "sum": 0
     },
     {
       "date": "2026-08-25",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-11-22",
-      "quantity": 10,
-      "sum": 10952
+      "quantity": 51,
+      "sum": 54491
     }
   ],
   "ordersTrend": [
@@ -978,7 +978,7 @@
     }
   ],
   "moneyTrend": {
-    "creditTotal": 16272101,
+    "creditTotal": 16325230,
     "debitTotal": 9606791,
     "series": [
       {
@@ -1531,8 +1531,14 @@
   },
   "stock": {
     "totalSkuCount": 4508,
-    "totalValueRub": 1490202,
+    "totalValueRub": 1477081,
     "lowStock": [
+      {
+        "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
+        "code": "05317",
+        "stock": 1,
+        "uom": "шт"
+      },
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Клубника Киви Гранат",
         "code": "05319",
@@ -1554,7 +1560,7 @@
       {
         "name": "Ароматизатор пищевой OffLine со вкусом Фруктовый чай",
         "code": "04335",
-        "stock": 1,
+        "stock": 0,
         "uom": "шт"
       },
       {
@@ -1704,12 +1710,6 @@
       {
         "name": "(МТ) Black Burn 25гр Pina Colada - Пина Колада",
         "code": "01498",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Pineapple - Ананас",
-        "code": "01499",
         "stock": 1,
         "uom": "шт"
       }
@@ -1943,17 +1943,17 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 108,
-      "sum": 37800,
-      "profit": 22480,
-      "margin": 59
+      "quantity": 105,
+      "sum": 36750,
+      "profit": 21912,
+      "margin": 60
     },
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 76,
-      "sum": 26470,
-      "profit": 15162,
+      "quantity": 83,
+      "sum": 28920,
+      "profit": 16604,
       "margin": 57
     },
     {
@@ -1963,6 +1963,14 @@
       "sum": 10648,
       "profit": 10648,
       "margin": 100
+    },
+    {
+      "name": "БПК Картридж QWERTY Split 20000 Ежевика Питахайя",
+      "code": "05913",
+      "quantity": 7,
+      "sum": 8470,
+      "profit": 5145,
+      "margin": 61
     },
     {
       "name": "БПК Картридж QWERTY Split 20000 Киви Маракуйя Гуава",
@@ -2005,14 +2013,6 @@
       "margin": 62
     },
     {
-      "name": "Картридж Vaporesso XROS 0.6 Ом 3мл - 1шт",
-      "code": "03136",
-      "quantity": 22,
-      "sum": 7700,
-      "profit": 4766,
-      "margin": 62
-    },
-    {
       "name": "БПК Картридж QWERTY Split 20000 Арбуз Лайм",
       "code": "05917",
       "quantity": 6,
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1461953,
-      "profit": 778497,
+      "sum": 1463292,
+      "profit": 780449,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 20868,
-      "sum": 22234103,
-      "profit": 11636874,
-      "lastDemandDate": "2026-11-22 16:27:00.000"
+      "demandsCount": 20895,
+      "sum": 22262470,
+      "profit": 11652120,
+      "lastDemandDate": "2026-11-22 23:08:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
