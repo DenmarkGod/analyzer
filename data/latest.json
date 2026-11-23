@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T23:12:56.764Z",
+  "updatedAt": "2026-11-23T05:42:54.753Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -64,11 +64,6 @@
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-08-24",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-08-25",
       "quantity": 27,
@@ -518,14 +513,14 @@
       "date": "2026-11-22",
       "quantity": 51,
       "sum": 54491
+    },
+    {
+      "date": "2026-11-23",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-08-24",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-08-25",
       "quantity": 0,
@@ -975,6 +970,11 @@
       "date": "2026-11-22",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-11-23",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
@@ -982,16 +982,10 @@
     "debitTotal": 9606791,
     "series": [
       {
-        "date": "2026-08-24",
+        "date": "2026-08-25",
         "credit": 0,
         "debit": 0,
         "balance": 0
-      },
-      {
-        "date": "2026-08-25",
-        "credit": 57634,
-        "debit": 0,
-        "balance": 57634
       },
       {
         "date": "2026-08-26",
@@ -1523,6 +1517,12 @@
       },
       {
         "date": "2026-11-22",
+        "credit": 53129,
+        "debit": 0,
+        "balance": 53129
+      },
+      {
+        "date": "2026-11-23",
         "credit": 0,
         "debit": 0,
         "balance": 0
@@ -1720,35 +1720,35 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 569
+        "stockDays": 570
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 564
+        "stockDays": 565
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 564
+        "stockDays": 565
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 564
+        "stockDays": 565
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 564
+        "stockDays": 565
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
