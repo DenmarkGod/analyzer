@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T05:42:54.753Z",
+  "updatedAt": "2026-11-23T17:21:36.669Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -54491
+        "count": 31,
+        "amount": 44670,
+        "movementAmount": -9821
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -309198
+        "count": 31,
+        "amount": 44670,
+        "movementAmount": -264528
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 929,
-        "amount": 1054729,
-        "movementAmount": -385570
+        "count": 960,
+        "amount": 1099399,
+        "movementAmount": -340900
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-08-25",
-      "quantity": 27,
-      "sum": 30243
+      "quantity": 14,
+      "sum": 15154
     },
     {
       "date": "2026-08-26",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-11-23",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 18,
+      "sum": 27867
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4508,
-    "totalValueRub": 1477081,
+    "totalValueRub": 1455939,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1642,6 +1642,12 @@
         "uom": "шт"
       },
       {
+        "name": "(МТ) Black Burn 25гр Blackcola - Кола",
+        "code": "01478",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
         "name": "(МТ) Black Burn 25гр Bubble Gum - Фруктовая жвачка",
         "code": "01479",
         "stock": 0,
@@ -1706,12 +1712,6 @@
         "code": "05545",
         "stock": 1,
         "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Pina Colada - Пина Колада",
-        "code": "01498",
-        "stock": 1,
-        "uom": "шт"
       }
     ],
     "staleStock": [
@@ -1755,35 +1755,35 @@
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 559
+        "stockDays": 560
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 559
+        "stockDays": 560
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 559
+        "stockDays": 560
       },
       {
         "name": "Табак DARKSIDE SHOT Волжский 30g",
         "code": "01110",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 559
+        "stockDays": 560
       },
       {
         "name": "Табак DARKSIDE SHOT Кубанский 30g",
         "code": "01118",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 559
+        "stockDays": 560
       }
     ],
     "outOfStock": [
@@ -1951,9 +1951,9 @@
     {
       "name": "Картридж VAPORESSO XROS Top Fill Corex 3.0 0.8  3ml",
       "code": "03530",
-      "quantity": 83,
-      "sum": 28920,
-      "profit": 16604,
+      "quantity": 84,
+      "sum": 29270,
+      "profit": 16810,
       "margin": 57
     },
     {
@@ -2013,29 +2013,29 @@
       "margin": 62
     },
     {
-      "name": "БПК Картридж QWERTY Split 20000 Арбуз Лайм",
-      "code": "05917",
-      "quantity": 6,
-      "sum": 7260,
-      "profit": 4410,
-      "margin": 61
+      "name": "БПК Электронная Сигарета Lost Mary BM16000 Черника Роза Лёд",
+      "code": "04627",
+      "quantity": 5,
+      "sum": 7742,
+      "profit": 3952,
+      "margin": 51
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1463292,
-      "profit": 780449,
+      "sum": 1464360,
+      "profit": 781453,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 20895,
-      "sum": 22262470,
-      "profit": 11652120,
-      "lastDemandDate": "2026-11-22 23:08:00.000"
+      "demandsCount": 20926,
+      "sum": 22307140,
+      "profit": 11675648,
+      "lastDemandDate": "2026-11-23 20:08:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
