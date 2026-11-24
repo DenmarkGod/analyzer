@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T17:21:36.669Z",
+  "updatedAt": "2026-11-24T03:47:35.929Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 31,
-        "amount": 44670,
-        "movementAmount": -9821
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -50399
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1466213,
+        "income": 1465922,
         "outcome": 0,
-        "balance": 6718439,
-        "todayMovement": 1466213,
-        "movement": 1466213
+        "balance": 6767578,
+        "todayMovement": 1465922,
+        "movement": 1465922
       }
     },
     "week": {
       "sales": {
-        "count": 31,
-        "amount": 44670,
-        "movementAmount": -264528
+        "count": 37,
+        "amount": 50399,
+        "movementAmount": -258799
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1466213,
+        "income": 1465922,
         "outcome": 0,
-        "balance": 6718439,
-        "todayMovement": 1466213,
-        "movement": 1466213
+        "balance": 6767578,
+        "todayMovement": 1465922,
+        "movement": 1465922
       }
     },
     "month": {
       "sales": {
-        "count": 960,
-        "amount": 1099399,
-        "movementAmount": -340900
+        "count": 966,
+        "amount": 1105128,
+        "movementAmount": -335171
       },
       "orders": {
         "count": 0,
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1466213,
+        "income": 1465922,
         "outcome": 0,
-        "balance": 6718439,
-        "todayMovement": 1466213,
-        "movement": 1466213
+        "balance": 6767578,
+        "todayMovement": 1465922,
+        "movement": 1465922
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-08-25",
-      "quantity": 14,
-      "sum": 15154
-    },
     {
       "date": "2026-08-26",
       "quantity": 32,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-11-23",
-      "quantity": 18,
-      "sum": 27867
+      "quantity": 37,
+      "sum": 50399
+    },
+    {
+      "date": "2026-11-24",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-08-25",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-08-26",
       "quantity": 0,
@@ -975,23 +970,22 @@
       "date": "2026-11-23",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-11-24",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 16325230,
+    "creditTotal": 16374369,
     "debitTotal": 9606791,
     "series": [
       {
-        "date": "2026-08-25",
+        "date": "2026-08-26",
         "credit": 0,
         "debit": 0,
         "balance": 0
-      },
-      {
-        "date": "2026-08-26",
-        "credit": 29487,
-        "debit": 0,
-        "balance": 29487
       },
       {
         "date": "2026-08-27",
@@ -1523,6 +1517,12 @@
       },
       {
         "date": "2026-11-23",
+        "credit": 49139,
+        "debit": 0,
+        "balance": 49139
+      },
+      {
+        "date": "2026-11-24",
         "credit": 0,
         "debit": 0,
         "balance": 0
@@ -1530,8 +1530,8 @@
     ]
   },
   "stock": {
-    "totalSkuCount": 4508,
-    "totalValueRub": 1455939,
+    "totalSkuCount": 4541,
+    "totalValueRub": 1450440,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 105,
-      "sum": 36750,
-      "profit": 21912,
+      "quantity": 109,
+      "sum": 38150,
+      "profit": 22720,
       "margin": 60
     },
     {
@@ -2013,29 +2013,29 @@
       "margin": 62
     },
     {
-      "name": "БПК Электронная Сигарета Lost Mary BM16000 Черника Роза Лёд",
-      "code": "04627",
-      "quantity": 5,
-      "sum": 7742,
-      "profit": 3952,
-      "margin": 51
+      "name": "Картридж Vaporesso XROS 0.6 Ом 2мл (Corex 3.0-B)",
+      "code": "05376",
+      "quantity": 22,
+      "sum": 7750,
+      "profit": 4990,
+      "margin": 64
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1464360,
-      "profit": 781453,
+      "sum": 1468400,
+      "profit": 783835,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 20926,
-      "sum": 22307140,
-      "profit": 11675648,
-      "lastDemandDate": "2026-11-23 20:08:00.000"
+      "demandsCount": 20932,
+      "sum": 22312869,
+      "profit": 11679104,
+      "lastDemandDate": "2026-11-23 22:50:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
