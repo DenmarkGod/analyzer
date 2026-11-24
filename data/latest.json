@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T03:47:35.929Z",
+  "updatedAt": "2026-11-24T16:56:49.670Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -50399
+        "count": 13,
+        "amount": 16021,
+        "movementAmount": -34378
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 37,
-        "amount": 50399,
-        "movementAmount": -258799
+        "count": 50,
+        "amount": 66420,
+        "movementAmount": -242778
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 966,
-        "amount": 1105128,
-        "movementAmount": -335171
+        "count": 979,
+        "amount": 1121149,
+        "movementAmount": -319150
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-08-26",
-      "quantity": 32,
-      "sum": 34639
+      "quantity": 15,
+      "sum": 14750
     },
     {
       "date": "2026-08-27",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-11-24",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 6,
+      "sum": 7247
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4541,
-    "totalValueRub": 1450440,
+    "totalValueRub": 1736486,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
@@ -1648,6 +1648,12 @@
         "uom": "шт"
       },
       {
+        "name": "(МТ) Black Burn 25гр Brownie - Брауни",
+        "code": "01848",
+        "stock": 1,
+        "uom": "шт"
+      },
+      {
         "name": "(МТ) Black Burn 25гр Bubble Gum - Фруктовая жвачка",
         "code": "01479",
         "stock": 0,
@@ -1669,6 +1675,12 @@
         "name": "(МТ) Black Burn 25гр Famous Apple - Зелёное яблоко со льдом",
         "code": "01486",
         "stock": 0,
+        "uom": "шт"
+      },
+      {
+        "name": "(МТ) Black Burn 25гр Garnet - Гранат",
+        "code": "01487",
+        "stock": 1,
         "uom": "шт"
       },
       {
@@ -1696,20 +1708,8 @@
         "uom": "шт"
       },
       {
-        "name": "(МТ) Black Burn 25гр Nutella - Шоколадно-ореховая паста штрихкод",
-        "code": "06031",
-        "stock": 0,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Overdose - Лимон-лайм",
-        "code": "01496",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Peachberry - Земляника и персик",
-        "code": "05545",
+        "name": "(МТ) Black Burn 25гр Mirinda - Миринда",
+        "code": "01495",
         "stock": 1,
         "uom": "шт"
       }
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 570
+        "stockDays": 571
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 565
+        "stockDays": 566
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 565
+        "stockDays": 566
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 565
+        "stockDays": 566
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 565
+        "stockDays": 566
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 560
+        "stockDays": 561
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 560
+        "stockDays": 561
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 560
+        "stockDays": 561
       },
       {
         "name": "Табак DARKSIDE SHOT Волжский 30g",
         "code": "01110",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 560
+        "stockDays": 561
       },
       {
         "name": "Табак DARKSIDE SHOT Кубанский 30g",
         "code": "01118",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 560
+        "stockDays": 561
       }
     ],
     "outOfStock": [
@@ -1928,13 +1928,13 @@
         "stock": 0
       },
       {
-        "name": "ЭДО POD Система PLONQ Meta Lite Серебристый",
-        "code": "05237",
+        "name": "ЭДО POD Система PLONQ Meta Smart Серебристый",
+        "code": "05804",
         "stock": 0
       },
       {
-        "name": "ЭДО POD Система PLONQ Meta Lite Черный",
-        "code": "05803",
+        "name": "Набор Smoant Charon Racer kit Blaze - Пламя",
+        "code": "04219",
         "stock": 0
       }
     ]
@@ -1989,6 +1989,14 @@
       "margin": 61
     },
     {
+      "name": "Картридж Vaporesso XROS 0.6 Ом 2мл (Corex 3.0-B)",
+      "code": "05376",
+      "quantity": 24,
+      "sum": 8450,
+      "profit": 5414,
+      "margin": 64
+    },
+    {
       "name": "ОС PAFOS 20.000 new Клубника киви лимон / Strawberry Kiwi lemon",
       "code": "03328",
       "quantity": 3,
@@ -2011,31 +2019,23 @@
       "sum": 7800,
       "profit": 4800,
       "margin": 62
-    },
-    {
-      "name": "Картридж Vaporesso XROS 0.6 Ом 2мл (Corex 3.0-B)",
-      "code": "05376",
-      "quantity": 22,
-      "sum": 7750,
-      "profit": 4990,
-      "margin": 64
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1468400,
-      "profit": 783835,
+      "sum": 1449998,
+      "profit": 774317,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 20932,
-      "sum": 22312869,
-      "profit": 11679104,
-      "lastDemandDate": "2026-11-23 22:50:00.000"
+      "demandsCount": 20945,
+      "sum": 22328890,
+      "profit": 11687080,
+      "lastDemandDate": "2026-11-24 19:44:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
