@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T16:56:49.670Z",
+  "updatedAt": "2026-11-25T01:53:49.951Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 13,
-        "amount": 16021,
-        "movementAmount": -34378
+        "count": 0,
+        "amount": 0,
+        "movementAmount": -25208
       },
       "orders": {
         "count": 0,
@@ -17,18 +17,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1465922,
+        "income": 1446380,
         "outcome": 0,
-        "balance": 6767578,
-        "todayMovement": 1465922,
-        "movement": 1465922
+        "balance": 6792156,
+        "todayMovement": 1446380,
+        "movement": 1446380
       }
     },
     "week": {
       "sales": {
-        "count": 50,
-        "amount": 66420,
-        "movementAmount": -242778
+        "count": 59,
+        "amount": 75607,
+        "movementAmount": -233591
       },
       "orders": {
         "count": 0,
@@ -36,18 +36,18 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1465922,
+        "income": 1446380,
         "outcome": 0,
-        "balance": 6767578,
-        "todayMovement": 1465922,
-        "movement": 1465922
+        "balance": 6792156,
+        "todayMovement": 1446380,
+        "movement": 1446380
       }
     },
     "month": {
       "sales": {
-        "count": 979,
-        "amount": 1121149,
-        "movementAmount": -319150
+        "count": 988,
+        "amount": 1130336,
+        "movementAmount": -309963
       },
       "orders": {
         "count": 0,
@@ -55,20 +55,15 @@
         "movementAmount": 0
       },
       "money": {
-        "income": 1465922,
+        "income": 1446380,
         "outcome": 0,
-        "balance": 6767578,
-        "todayMovement": 1465922,
-        "movement": 1465922
+        "balance": 6792156,
+        "todayMovement": 1446380,
+        "movement": 1446380
       }
     }
   },
   "salesTrend": [
-    {
-      "date": "2026-08-26",
-      "quantity": 15,
-      "sum": 14750
-    },
     {
       "date": "2026-08-27",
       "quantity": 41,
@@ -516,16 +511,16 @@
     },
     {
       "date": "2026-11-24",
-      "quantity": 6,
-      "sum": 7247
+      "quantity": 22,
+      "sum": 25208
+    },
+    {
+      "date": "2026-11-25",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "ordersTrend": [
-    {
-      "date": "2026-08-26",
-      "quantity": 0,
-      "sum": 0
-    },
     {
       "date": "2026-08-27",
       "quantity": 0,
@@ -975,23 +970,22 @@
       "date": "2026-11-24",
       "quantity": 0,
       "sum": 0
+    },
+    {
+      "date": "2026-11-25",
+      "quantity": 0,
+      "sum": 0
     }
   ],
   "moneyTrend": {
-    "creditTotal": 16374369,
+    "creditTotal": 16398947,
     "debitTotal": 9606791,
     "series": [
       {
-        "date": "2026-08-26",
-        "credit": 0,
-        "debit": 0,
-        "balance": 0
-      },
-      {
         "date": "2026-08-27",
-        "credit": 64657,
+        "credit": 30884,
         "debit": 0,
-        "balance": 64657
+        "balance": 30884
       },
       {
         "date": "2026-08-28",
@@ -1523,6 +1517,12 @@
       },
       {
         "date": "2026-11-24",
+        "credit": 24578,
+        "debit": 0,
+        "balance": 24578
+      },
+      {
+        "date": "2026-11-25",
         "credit": 0,
         "debit": 0,
         "balance": 0
@@ -1531,8 +1531,14 @@
   },
   "stock": {
     "totalSkuCount": 4541,
-    "totalValueRub": 1736486,
+    "totalValueRub": 1730536,
     "lowStock": [
+      {
+        "name": "Ароматизатор пищевой NUM Ням со вкусом Банан Черника",
+        "code": "05301",
+        "stock": 1,
+        "uom": "шт"
+      },
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Киви Маракуйя",
         "code": "05317",
@@ -1704,12 +1710,6 @@
       {
         "name": "(МТ) Black Burn 25гр Lemon Waffles - Лимонные вафли",
         "code": "06030",
-        "stock": 1,
-        "uom": "шт"
-      },
-      {
-        "name": "(МТ) Black Burn 25гр Mirinda - Миринда",
-        "code": "01495",
         "stock": 1,
         "uom": "шт"
       }
@@ -1943,9 +1943,9 @@
     {
       "name": "Картридж Vaporesso XROS 0.4 Ом 3мл",
       "code": "04897",
-      "quantity": 109,
-      "sum": 38150,
-      "profit": 22720,
+      "quantity": 107,
+      "sum": 37450,
+      "profit": 22345,
       "margin": 60
     },
     {
@@ -1965,6 +1965,22 @@
       "margin": 100
     },
     {
+      "name": "БПК Картридж QWERTY Split 20000 Мята",
+      "code": "05920",
+      "quantity": 8,
+      "sum": 9680,
+      "profit": 5880,
+      "margin": 61
+    },
+    {
+      "name": "Картридж Vaporesso XROS 0.6 Ом 2мл (Corex 3.0-B)",
+      "code": "05376",
+      "quantity": 27,
+      "sum": 9500,
+      "profit": 6050,
+      "margin": 64
+    },
+    {
       "name": "БПК Картридж QWERTY Split 20000 Ежевика Питахайя",
       "code": "05913",
       "quantity": 7,
@@ -1979,22 +1995,6 @@
       "sum": 8470,
       "profit": 5145,
       "margin": 61
-    },
-    {
-      "name": "БПК Картридж QWERTY Split 20000 Мята",
-      "code": "05920",
-      "quantity": 7,
-      "sum": 8470,
-      "profit": 5145,
-      "margin": 61
-    },
-    {
-      "name": "Картридж Vaporesso XROS 0.6 Ом 2мл (Corex 3.0-B)",
-      "code": "05376",
-      "quantity": 24,
-      "sum": 8450,
-      "profit": 5414,
-      "margin": 64
     },
     {
       "name": "ОС PAFOS 20.000 new Клубника киви лимон / Strawberry Kiwi lemon",
@@ -2024,18 +2024,18 @@
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1449998,
-      "profit": 774317,
+      "sum": 1435563,
+      "profit": 767439,
       "margin": 53
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 20945,
-      "sum": 22328890,
-      "profit": 11687080,
-      "lastDemandDate": "2026-11-24 19:44:00.000"
+      "demandsCount": 20954,
+      "sum": 22338077,
+      "profit": 11692335,
+      "lastDemandDate": "2026-11-24 21:37:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
