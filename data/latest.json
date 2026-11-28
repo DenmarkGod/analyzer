@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T01:03:39.184Z",
+  "updatedAt": "2026-11-28T15:00:53.082Z",
   "windowDays": {
     "trend": 90,
     "profit": 30
@@ -7,9 +7,9 @@
   "dashboard": {
     "day": {
       "sales": {
-        "count": 0,
-        "amount": 0,
-        "movementAmount": -68830
+        "count": 30,
+        "amount": 33515,
+        "movementAmount": -35315
       },
       "orders": {
         "count": 0,
@@ -26,9 +26,9 @@
     },
     "week": {
       "sales": {
-        "count": 188,
-        "amount": 244418,
-        "movementAmount": -64781
+        "count": 218,
+        "amount": 277933,
+        "movementAmount": -31266
       },
       "orders": {
         "count": 0,
@@ -45,9 +45,9 @@
     },
     "month": {
       "sales": {
-        "count": 1117,
-        "amount": 1299147,
-        "movementAmount": -141152
+        "count": 1147,
+        "amount": 1332662,
+        "movementAmount": -107637
       },
       "orders": {
         "count": 0,
@@ -66,8 +66,8 @@
   "salesTrend": [
     {
       "date": "2026-08-30",
-      "quantity": 36,
-      "sum": 39660
+      "quantity": 25,
+      "sum": 25710
     },
     {
       "date": "2026-08-31",
@@ -516,8 +516,8 @@
     },
     {
       "date": "2026-11-28",
-      "quantity": 0,
-      "sum": 0
+      "quantity": 17,
+      "sum": 18421
     }
   ],
   "ordersTrend": [
@@ -1531,7 +1531,7 @@
   },
   "stock": {
     "totalSkuCount": 4542,
-    "totalValueRub": 1635935,
+    "totalValueRub": 1619208,
     "lowStock": [
       {
         "name": "Ароматизатор пищевой NUM Ням со вкусом Банан Черника",
@@ -1720,70 +1720,70 @@
         "code": "00006",
         "stock": 3,
         "uom": "шт",
-        "stockDays": 574
+        "stockDays": 575
       },
       {
         "name": "HA-122 Мундштук алюминий 30 см",
         "code": "00897",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 569
+        "stockDays": 570
       },
       {
         "name": "HA-132 Мундштук д/кальяна метал. (black/silver)",
         "code": "00391",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 569
+        "stockDays": 570
       },
       {
         "name": "HA-84 Мундштук д/кальяна тонкий дл.40см",
         "code": "00403",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 569
+        "stockDays": 570
       },
       {
         "name": "Уголь ROCK CUBE 25mm 72 куб",
         "code": "2",
         "stock": 5,
         "uom": "шт",
-        "stockDays": 569
+        "stockDays": 570
       },
       {
         "name": "БПК Картридж SOAK Q Какао с Маршмеллоу",
         "code": "01129",
         "stock": 2,
         "uom": "шт",
-        "stockDays": 564
+        "stockDays": 565
       },
       {
         "name": "Табак DARKSIDE SHOT Альпийский 30g",
         "code": "01088",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 564
+        "stockDays": 565
       },
       {
         "name": "Табак DARKSIDE SHOT Балтийский 30g",
         "code": "01097",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 564
+        "stockDays": 565
       },
       {
         "name": "Табак DARKSIDE SHOT Волжский 30g",
         "code": "01110",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 564
+        "stockDays": 565
       },
       {
         "name": "Табак DARKSIDE SHOT Кубанский 30g",
         "code": "01118",
         "stock": 1,
         "uom": "шт",
-        "stockDays": 564
+        "stockDays": 565
       }
     ],
     "outOfStock": [
@@ -1965,6 +1965,14 @@
       "margin": 62
     },
     {
+      "name": "Картридж Vaporesso XROS 0.6 Ом 2мл (Corex 3.0-B)",
+      "code": "05376",
+      "quantity": 31,
+      "sum": 10900,
+      "profit": 6898,
+      "margin": 63
+    },
+    {
       "name": "БПК Картридж QWERTY Split 20000 Ежевика Питахайя",
       "code": "05913",
       "quantity": 9,
@@ -1973,20 +1981,20 @@
       "margin": 60
     },
     {
-      "name": "Картридж Vaporesso XROS 0.6 Ом 2мл (Corex 3.0-B)",
-      "code": "05376",
-      "quantity": 30,
-      "sum": 10550,
-      "profit": 6686,
-      "margin": 63
-    },
-    {
       "name": "БПК Картридж QWERTY Split 20000 Мята",
       "code": "05920",
       "quantity": 8,
       "sum": 9680,
       "profit": 5880,
       "margin": 61
+    },
+    {
+      "name": "БПК Картридж QWERTY Split 20000 Арбуз Лайм",
+      "code": "05917",
+      "quantity": 8,
+      "sum": 9559,
+      "profit": 5759,
+      "margin": 60
     },
     {
       "name": "БПК Картридж QWERTY Split 20000 Клубника Киви",
@@ -2011,31 +2019,23 @@
       "sum": 8430,
       "profit": 4830,
       "margin": 57
-    },
-    {
-      "name": "ОС PAFOS 20.000 Клюква Содовая/Cranberry Soda",
-      "code": "02672",
-      "quantity": 3,
-      "sum": 8430,
-      "profit": 4530,
-      "margin": 54
     }
   ],
   "channels": [
     {
       "name": "Точка продаж",
-      "sum": 1464982,
-      "profit": 786119,
+      "sum": 1460841,
+      "profit": 782007,
       "margin": 54
     }
   ],
   "topCounterparties": [
     {
       "name": "Розничный покупатель",
-      "demandsCount": 21083,
-      "sum": 22506888,
-      "profit": 11783058,
-      "lastDemandDate": "2026-11-27 22:44:00.000"
+      "demandsCount": 21113,
+      "sum": 22540403,
+      "profit": 11799846,
+      "lastDemandDate": "2026-11-28 17:54:00.000"
     },
     {
       "name": "ИП Бикмухаметов",
